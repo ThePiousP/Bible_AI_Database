@@ -1,0 +1,370 @@
+{
+ "LENGTH_MEASUREMENTS": {
+   "cable length": {
+     "default":"LENGTH",
+     "note":"Nautical span used to reckon distance at sea—seamanship in Scripture’s storms (Acts 27:28)."
+    },
+   "cubit": {
+     "default":"LENGTH",
+     "note":"Ancient unit based on the length of the forearm, roughly 18 inches."
+    },
+   "fathom": {
+     "default":"LENGTH",
+     "note":"Nautical measure approximately six feet; referenced in Acts regarding water depth."
+    },
+   "finger": {
+     "default":"LENGTH",
+     "note":"Measurement equivalent to the width of a finger; used in temple specifications."
+    },
+   "furlong": {
+     "default":"LENGTH",
+     "note":"Ancient distance (stadion) used in Scripture; measures the span of journeys and visions (John 6:19; Revelation 14:20)."
+    },
+   "handbreadth": {
+     "default":"LENGTH",
+     "note":"Width of four fingers; a small measure used in biblical descriptions."
+    },
+   "inch": {
+     "default":"LENGTH",
+     "note":"Small unit of length; not a common biblical measure but useful for conversions."
+    },
+   "measuring line": {
+     "default":"LENGTH",
+     "note":"Cord stretched to mark out judgment and restoration (Amos 7:7–8; Zechariah 2:1–2)."
+    },
+   "measuring rod": {
+     "default":"LENGTH",
+     "note":"Fixed-length staff for sacred measurements—God’s order made visible (Ezekiel 40:3–5; Revelation 11:1)."
+    },
+   "mile": {
+     "default":"LENGTH",
+     "note":"Roman measure behind the call to go the extra distance for love (Matthew 5:41)."
+    },
+   "milion": {
+     "default":"LENGTH",
+     "note":"Byzantine mile marker or unit of measure; not a standard biblical term."
+    },
+   "palm": {
+     "default":"LENGTH",
+     "note":"Roughly the width of the hand; used as a minor unit of measure."
+    },
+   "reed": {
+     "default":"LENGTH",
+     "note":"Long measuring stick, approximately six cubits, used in architectural measurements."
+    },
+   "sabbath's walk": {
+     "default":"LENGTH",
+     "note":"Customary travel limit on the holy day, setting merciful boundaries for rest (Acts 1:12)."
+    },
+   "span": {
+     "default":"LENGTH",
+     "note":"Distance from the tip of the thumb to the tip of the little finger, around half a cubit."
+    },
+   "stadia": {
+     "default":"LENGTH",
+     "note":"Plural of stadion; a measure of steps and sea, anchoring narratives in real space (John 6:19)."
+    },
+   "yoke-length": {
+     "default":"LENGTH",
+     "note":"Farmland span measured by a yoke of oxen; a peasant’s rule of field and furrow (1 Kings 19:19)."
+    }
+  },
+ "DRY_MEASURE": {
+   "bath": {
+     "default":"LIQUID_MEASURE",
+     "note":"Liquid measure equivalent to an ephah in volume."
+    },
+   "bushel": {
+     "default":"DRY_MEASURE",
+     "note":"Container measure behind the call not to hide the light (Matthew 5:15)."
+    },
+   "cup": {
+     "default":"LIQUID_MEASURE",
+     "note":"Measure that becomes a metaphor for destiny and covenant (Psalm 23:5; Luke 22:20)."
+    },
+   "ephah": {
+     "default":"DRY_MEASURE",
+     "note":"Major dry measure used for grain; about 22 liters."
+    },
+   "hin": {
+     "default":"LIQUID_MEASURE",
+     "note":"Liquid or dry measure, about 3.5 liters."
+    },
+   "homer": {
+     "default":"DRY_MEASURE",
+     "note":"Large dry measure (also called kor), grounding trade and offerings in fairness (Ezekiel 45:14)."
+    },
+   "issaron": {
+     "default":"DRY_MEASURE",
+     "note":"A tenth of an ephah used in grain offerings—a small measure with a big devotion (Exodus 29:40; Leviticus 14:10)."
+    },
+   "kab": {
+     "default":"DRY_MEASURE",
+     "note":"Small dry measure, about 1.2 liters."
+    },
+   "kor": {
+     "default":"DRY_MEASURE",
+     "note":"Large measure, roughly 220 liters; used for grain."
+    },
+   "lethech": {
+     "default":"DRY_MEASURE",
+     "note":"Half a homer—humble portion used to purchase and restore (Hosea 3:2)."
+    },
+   "log": {
+     "default":"LIQUID_MEASURE",
+     "note":"Smallest liquid measure, about 0.3 liters."
+    },
+   "measures": {
+     "default":"DRY_MEASURE",
+     "note":"General term for various dry measurement units used in biblical times."
+    },
+   "omer": {
+     "default":"DRY_MEASURE",
+     "note":"Tenth of an ephah; used in offerings and manna measurement."
+    },
+   "peck": {
+     "default":"DRY_MEASURE",
+     "note":"Approximate modern comparator for mid‑sized ancient measures; helpful bridge for readers."
+    },
+   "quart": {
+     "default":"LIQUID_MEASURE",
+     "note":"Approximate modern comparator to orient readers to scale."
+    },
+   "seah": {
+     "default":"DRY_MEASURE",
+     "note":"Ancient Hebrew dry measure equal to about 7 quarts."
+    },
+   "sextarius": {
+     "default":"LIQUID_MEASURE",
+     "note":"Roman liquid measure in daily markets—ordinary life under God’s eye."
+    }
+  },
+ "WEIGHT_MEASURE": {
+   "bekah": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Half-shekel atonement offering—shared burden, shared belonging (Exodus 38:26)."
+    },
+   "dram": {
+     "default":"WEIGHT_MEASURE",
+     "note":"KJV term for a Persian gold coin/weight (daric), gifts for God’s house (Ezra 8:27)."
+    },
+   "gerah": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Smallest standard weight in Israel, twenty to the shekel—precision in holiness (Exodus 30:13)."
+    },
+   "mina": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Weight equal to 60 shekels, used in trade and temple contributions."
+    },
+   "ounce": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Modern comparator for clarity in conversions."
+    },
+   "pim": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Ancient weight used for iron tools, a detail that grounds the story (1 Samuel 13:21)."
+    },
+   "pound": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Modern comparator, helpful for readers connecting ancient and modern weights."
+    },
+   "shekel": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Common biblical unit of weight; also used as currency."
+    },
+   "sanctuary shekel": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Holy standard for measures—justice and worship aligned (Leviticus 27:25)."
+    },
+   "talent": {
+     "default":"WEIGHT_MEASURE",
+     "note":"Large unit of weight used for precious metals; about 75 pounds."
+    }
+  },
+ "BIBLE_TOOLS": {
+   "adze": {
+     "default":"BIBLE_TOOLS",
+     "note":"Woodworker’s blade set crosswise—houses and boats shaped by patient strokes (Isaiah 44:13)."
+    },
+   "anvil": {
+     "default":"BIBLE_TOOLS",
+     "note":"Heavy iron block used in shaping metal by hammering."
+    },
+   "awl": {
+     "default":"BIBLE_TOOLS",
+     "note":"Small pointed tool for piercing; mentioned in bondservant rituals."
+    },
+   "axe": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool used for cutting wood or trees; sometimes symbolically used in judgment."
+    },
+   "balance scales": {
+     "default":"BIBLE_TOOLS",
+     "note":"Weights and scales that must be honest—righteousness at the marketplace (Leviticus 19:36; Revelation 6:5)."
+    },
+   "basket": {
+     "default":"BIBLE_TOOLS",
+     "note":"Measurement for trade and prophecy. What we carry reveals what we value (Zechariah 5:6–8)."
+    },
+   "chisel": {
+     "default":"BIBLE_TOOLS",
+     "note":"Stone shaper’s tool—altars and idols both yield to its edge (Exodus 34:1; Isaiah 44:12–13)."
+    },
+   "compass": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool for drawing circles or indicating direction; also symbolic of divine guidance."
+    },
+   "distaff": {
+     "default":"BIBLE_TOOLS",
+     "note":"Spinning tool in wise hands—industry and care at home (Proverbs 31:19)."
+    },
+   "ephah": {
+     "default":"BIBLE_TOOLS",
+     "note":"Dry measure container used in daily life and offerings. Measurement for trade and prophecy. What we carry reveals what we value (Zechariah 5:6–8)."
+    },
+   "file": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool used to smooth or shape materials by abrasion."
+    },
+   "fork (priest’s)": {
+     "default":"BIBLE_TOOLS",
+     "note":"Three‑pronged fork used by priests—warning against abusing holy portions (1 Samuel 2:13)."
+    },
+   "furnace": {
+     "default":"BIBLE_TOOLS",
+     "note":"Enclosed structure for heating materials, often used in metalwork or sacrifice."
+    },
+   "hammer": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool for pounding; mentioned in construction and warfare."
+    },
+   "handmill": {
+     "default":"BIBLE_TOOLS",
+     "note":"Household grinder for daily bread—steady labor at dawn (Matthew 24:41)."
+    },
+   "harrow": {
+     "default":"BIBLE_TOOLS",
+     "note":"Rake-like implement for breaking clods—fields prepared for seed (2 Samuel 12:31)."
+    },
+   "hatchet": {
+     "default":"BIBLE_TOOLS",
+     "note":"Small axe used for chopping, referenced in symbolic judgments."
+    },
+   "knife": {
+     "default":"BIBLE_TOOLS",
+     "note":"Sharp-edged blade used in sacrifices, rituals, and daily tasks."
+    },
+   "lamp": {
+     "default":"BIBLE_TOOLS",
+     "note":"Light for dark paths—stewardship of oil and watchfulness (Psalm 119:105; Matthew 25:4)."
+    },
+   "line": {
+     "default":"BIBLE_TOOLS",
+     "note":"String or cord used for marking straight paths or measuring distances."
+    },
+   "loom": {
+     "default":"BIBLE_TOOLS",
+     "note":"Frame for weaving—threads of life sped by the shuttle (Job 7:6)."
+    },
+   "mattock": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool with a long handle and a curved blade, used for digging and chopping."
+    },
+   "millstone": {
+     "default":"BIBLE_TOOLS",
+     "note":"Heavy stone for grinding—also a solemn warning in the mouth of mercy (Matthew 18:6)."
+    },
+   "needle": {
+     "default":"BIBLE_TOOLS",
+     "note":"Slender tool used for sewing or piercing fabric or skin."
+    },
+   "pitcher": {
+     "default":"BIBLE_TOOLS",
+     "note":"Everyday vessel carried to the well—ordinary faithfulness in daily tasks (Mark 14:13)."
+    },
+   "plane": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool used to smooth wood surfaces."
+    },
+   "plow": {
+     "default":"BIBLE_TOOLS",
+     "note":"Farming implement used to break and turn soil for planting."
+    },
+   "plowshare": {
+     "default":"BIBLE_TOOLS",
+     "note":"Blade of a plow, symbolically used in Scriptures to represent peace."
+    },
+   "plumb line": {
+     "default":"BIBLE_TOOLS",
+     "note":"Line with a weight for true vertical—God sets righteousness as the standard (Amos 7:7–8)."
+    },
+   "saw": {
+     "default":"BIBLE_TOOLS",
+     "note":"Cutting tool for timber and labor—builders shape a future (2 Samuel 12:31)."
+    },
+   "scythe": {
+     "default":"BIBLE_TOOLS",
+     "note":"Large curved blade used for cutting grain, mentioned in harvest imagery."
+    },
+   "shovel": {
+     "default":"BIBLE_TOOLS",
+     "note":"Fireplace and altar tool for clearing ashes—service that keeps worship clean (Leviticus 6:10)."
+    },
+   "shuttle": {
+     "default":"BIBLE_TOOLS",
+     "note":"Weaver’s tool that speeds the thread—our days fly like its pass (Job 7:6)."
+    },
+   "sickle": {
+     "default":"BIBLE_TOOLS",
+     "note":"Curved blade used for harvesting grain or grass."
+    },
+   "sling": {
+     "default":"BIBLE_TOOLS",
+     "note":"Simple weapon-tool of shepherds—small stones in faithful hands (1 Samuel 17:40)."
+    },
+   "spindle": {
+     "default":"BIBLE_TOOLS",
+     "note":"Companion to the distaff—thread drawn out with skill (Proverbs 31:19)."
+    },
+   "square": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tool used for measuring right angles in carpentry or construction."
+    },
+   "thread": {
+     "default":"BIBLE_TOOLS",
+     "note":"Thin strand used in sewing or weaving."
+    },
+   "threshing sledge": {
+     "default":"BIBLE_TOOLS",
+     "note":"Board studded with stones to break grain—God makes His people sharp to level mountains (Isaiah 41:15)."
+    },
+   "tongs": {
+     "default":"BIBLE_TOOLS",
+     "note":"Grasping tool used to hold hot objects, especially in metalworking."
+    },
+   "trowel": {
+     "default":"BIBLE_TOOLS",
+     "note":"Wall‑builder’s tool—work in one hand, resolve in the other (Nehemiah 4:17, applied)."
+    },
+   "mason trowel": {
+     "default":"BIBLE_TOOLS",
+     "note":"Finishing tool that smooths mortar—peace built one stroke at a time (Isaiah 58:12, applied)."
+    },
+   "weaver’s beam": {
+     "default":"BIBLE_TOOLS",
+     "note":"Massive shaft of the loom—size of Goliath’s spear and measure of strength (1 Samuel 17:7)."
+    },
+   "wedge": {
+     "default":"BIBLE_TOOLS",
+     "note":"Tapered tool used for splitting wood or securing objects."
+    },
+   "winnowing fork": {
+     "default":"BIBLE_TOOLS",
+     "note":"Threshing tool that separates grain from chaff—image of holy discernment (Matthew 3:12)."
+    },
+   "yoke": {
+     "default":"BIBLE_TOOLS",
+     "note":"Farmer’s harness for shared strength—also a metaphor of bondage and freedom (Jeremiah 28:10; Matthew 11:29–30)."
+    }
+  }
+}

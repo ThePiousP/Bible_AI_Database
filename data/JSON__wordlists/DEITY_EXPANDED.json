@@ -1,0 +1,532 @@
+{
+  "DEITY": {
+    "Adonai": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'Lord,' used reverently to address God."
+    },
+    "Advocate": {
+      "default": "DEITY",
+      "note": "Intercessor who pleads our cause before the Father (1 John 2:1)."
+    },
+    "Almighty": {
+      "default": "DEITY",
+      "note": "Attribute emphasizing God's unlimited power and authority."
+    },
+    "Alpha and Omega": {
+      "default": "DEITY",
+      "note": "The One who is first and last, beginning and end (Revelation 22:13)."
+    },
+    "Ancient of Days": {
+      "default": "DEITY",
+      "note": "Eternal Judge enthroned in holiness (Daniel 7:9)."
+    },
+    "Beloved Son": {
+      "default": "DEITY",
+      "note": "Title referring to Jesus, emphasizing His special relationship with God the Father."
+    },
+    "Bread of Life": {
+      "default": "DEITY",
+      "note": "Sustainer who feeds the soul unto eternal life (John 6:35)."
+    },
+    "Bridegroom": {
+      "default": "DEITY",
+      "note": "Loving Lord who comes for His bride with joy (Matthew 9:15)."
+    },
+    "Christ": {
+      "default": "DEITY",
+      "note": "Greek translation of 'Messiah,' meaning 'Anointed One,' referring to Jesus."
+    },
+    "Cornerstone": {
+      "default": "DEITY",
+      "note": "Foundation upon which God’s household is built (Ephesians 2:20)."
+    },
+    "Creator": {
+      "default": "DEITY",
+      "note": "Title emphasizing God as the origin and maker of all creation."
+    },
+    "Door": {
+      "default": "DEITY",
+      "note": "Only entry into salvation and safety for the flock (John 10:9)."
+    },
+    "El Elyon": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'God Most High,' emphasizing God's sovereignty."
+    },
+    "El Olam": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'Everlasting God,' emphasizing God's eternal nature."
+    },
+    "El Shaddai": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'God Almighty,' indicating God's power and sufficiency."
+    },
+    "Elohim": {
+      "default": "DEITY",
+      "note": "Hebrew term for God, used to denote His supreme power and authority."
+    },
+    "Emmanuel": {
+      "default": "DEITY",
+      "note": "God with us—Heaven come near (Matthew 1:23)."
+    },
+    "Everlasting Father": {
+      "default": "DEITY",
+      "note": "Fatherly care that spans ages without end (Isaiah 9:6)."
+    },
+    "Faithful and True": {
+      "default": "DEITY",
+      "note": "Rider who judges in righteousness, steadfast in all His words (Revelation 19:11)."
+    },
+    "Father": {
+      "default": "DEITY",
+      "note": "Reference to God's paternal relationship with His creation and believers."
+    },
+    "First and the Last": {
+      "default": "DEITY",
+      "note": "Title indicating God's eternal nature, encompassing all of time and existence."
+    },
+    "God": {
+      "default": "DEITY",
+      "note": "Supreme being and creator of the universe, central figure of worship in biblical religion."
+    },
+    "Good Shepherd": {
+      "default": "DEITY",
+      "note": "Guardian who knows His sheep and lays down His life for them (John 10:11)."
+    },
+    "Great High Priest": {
+      "default": "DEITY",
+      "note": "Mediator who sympathizes with our weakness and opens the way (Hebrews 4:14–16)."
+    },
+    "He ": {
+      "default": "DEITY",
+      "note": "Pronoun referring to God, indicating His divine nature and authority."
+    },
+    "His ": {
+      "default": "DEITY",
+      "note": "Pronoun referring to God, indicating possession or relationship."
+    },
+    "Holy One": {
+      "default": "DEITY",
+      "note": "Title highlighting God's absolute purity and holiness."
+    },
+    "Holy Spirit": {
+      "default": "DEITY",
+      "note": "Third person of the Trinity, representing God's active presence and power."
+    },
+    "I AM": {
+      "default": "DEITY",
+      "note": "Divine self-identification given to Moses, expressing God's eternal existence."
+    },
+    "I AM THAT I AM": {
+      "default": "DEITY",
+      "note": "Self-existent One who simply is, from everlasting to everlasting (Exodus 3:14)."
+    },
+    "Immanuel": {
+      "default": "DEITY",
+      "note": "Alternate spelling of Emmanuel: God with us (Matthew 1:23)."
+    },
+    "Jehovah": {
+      "default": "DEITY",
+      "note": "Traditional transliteration of YHWH, the personal and covenantal name of God in Hebrew."
+    },
+    "Jesus": {
+      "default": "DEITY",
+      "note": "Central figure of Christianity, believed to be the incarnate Son of God, Savior of humanity."
+    },
+    "Jesus Christ": {
+      "default": "DEITY",
+      "note": "Combination of 'Jesus' (Savior) and 'Christ' (Anointed One), emphasizing His divine mission."
+    },
+    "King of Kings": {
+      "default": "DEITY",
+      "note": "Supreme sovereign over all rulers and realms (Revelation 19:16)."
+    },
+    "Kyrios": {
+      "default": "DEITY",
+      "note": "Greek title meaning 'Lord,' used frequently in the New Testament referring to Jesus and God."
+    },
+    "Lamb of God": {
+      "default": "DEITY",
+      "note": "Pure sacrifice who takes away the sin of the world (John 1:29)."
+    },
+    "Light of the World": {
+      "default": "DEITY",
+      "note": "Radiance that dispels darkness and guides the way (John 8:12)."
+    },
+    "Lion of Judah": {
+      "default": "DEITY",
+      "note": "Royal strength and rightful heir who prevails (Revelation 5:5)."
+    },
+    "Living Water": {
+      "default": "DEITY",
+      "note": "Fountain that satisfies thirst forever (John 4:10,14)."
+    },
+    "Lord": {
+      "default": "DEITY",
+      "note": "Title denoting authority and divinity, commonly applied to God and Jesus."
+    },
+    "Lord of Lords": {
+      "default": "DEITY",
+      "note": "Highest Master before whom every knee will bow (1 Timothy 6:15)."
+    },
+    "Morning Star": {
+      "default": "DEITY",
+      "note": "Harbinger of dawn and hope unfailing (Revelation 22:16)."
+    },
+    "O Lord": {
+      "default": "DEITY",
+      "note": "Expression of reverence and supplication directed toward God."
+    },
+    "only Begotten Son": {
+      "default": "DEITY",
+      "note": "Phrase emphasizing the unique divine Sonship of Jesus."
+    },
+    "Prince of Peace": {
+      "default": "DEITY",
+      "note": "Ruler whose reign brings wholeness and rest (Isaiah 9:6)."
+    },
+    "Redeemer": {
+      "default": "DEITY",
+      "note": "Title emphasizing God’s role in liberating humanity from sin and spiritual bondage."
+    },
+    "Resurrection and the Life": {
+      "default": "DEITY",
+      "note": "Victor over death who grants life everlasting (John 11:25)."
+    },
+    "Righteous Judge": {
+      "default": "DEITY",
+      "note": "Upright arbiter who rewards the faithful (2 Timothy 4:8)."
+    },
+    "Rock of Ages": {
+      "default": "DEITY",
+      "note": "Unshakable refuge and everlasting strength (Isaiah 26:4)."
+    },
+    "Savior": {
+      "default": "DEITY",
+      "note": "Refers to Jesus Christ as the one who delivers humanity from sin and eternal death."
+    },
+    "Son": {
+      "default": "DEITY",
+      "note": "Refers specifically to Jesus Christ, highlighting His relationship as the Son of God."
+    },
+    "Son of the Living God": {
+      "default": "DEITY",
+      "note": "Title affirming Jesus’ divine nature and unique relationship to God the Father."
+    },
+    "Spirit of God": {
+      "default": "DEITY",
+      "note": "Refers to the Holy Spirit, indicating God’s active presence and influence."
+    },
+    "Spirit of Truth": {
+      "default": "DEITY",
+      "note": "Guide into all truth who glorifies the Son (John 16:13–14)."
+    },
+    "the Word": {
+      "default": "DEITY",
+      "note": "Refers to Jesus Christ as God’s communication and revelation to humanity."
+    },
+    "Trinity": {
+      "default": "DEITY",
+      "note": "Christian doctrine expressing God as three distinct persons in one divine essence."
+    },
+    "True Vine": {
+      "default": "DEITY",
+      "note": "Source of fruitfulness—apart from Him we can do nothing (John 15:1,5)."
+    },
+    "Us ": {
+      "default": "DEITY",
+      "note": "Pronoun indicating the plurality of God, often used in reference to the Trinity."
+    },
+    "Way, Truth, and Life": {
+      "default": "DEITY",
+      "note": "Only path to the Father and fullness of life (John 14:6)."
+    },
+    "Wonderful Counselor": {
+      "default": "DEITY",
+      "note": "Wisdom from heaven that guides with comfort and might (Isaiah 9:6)."
+    },
+    "Word of Life": {
+      "default": "DEITY",
+      "note": "Eternal message made flesh and declared to us (1 John 1:1)."
+    },
+    "Yahweh": {
+      "default": "DEITY",
+      "note": "The personal and sacred Hebrew name for God, expressing His eternal existence."
+    }
+  },
+  "SPIRITUAL_ENTITY": {
+    "angel": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Heavenly messenger who carries out God’s word (Hebrews 1:14)."
+    },
+    "angels": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Hosts that minister, protect, and worship before God (Psalm 103:20)."
+    },
+    "archangel": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "High-ranking messenger heard at the Lord’s return (1 Thessalonians 4:16)."
+    },
+    "archangels": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Chief messengers serving God’s purposes in battle and proclamation (Jude 9)."
+    },
+    "cast out devils": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "KJV phrasing for expelling unclean spirits by authority (Mark 16:17)."
+    },
+    "casting out devils": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Work of the Kingdom as unclean spirits are expelled (Matthew 12:28)."
+    },
+    "cherub": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Throne guardian depicted with wings and awe (Genesis 3:24)."
+    },
+    "cherubim": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Heavenly guardians attending God’s presence and holiness (Exodus 25:18–20)."
+    },
+    "demon": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Unclean spirit opposing God’s work, subject to Christ’s authority (Mark 1:34)."
+    },
+    "demons": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Unclean spirits cast out by Jesus and His followers (Luke 10:17)."
+    },
+    "devil": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Accuser and adversary; defeated by the Lamb (Revelation 12:10–11)."
+    },
+    "devils": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "KJV plural term for demonic spirits (Mark 16:17)."
+    },
+    "evil spirit": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Malignant spirit troubling or deceiving people (Acts 19:15–16)."
+    },
+    "evil spirits": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Malignant spirits subject to Christ’s name (Mark 1:27)."
+    },
+    "exorcism": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Deliverance ministry performed in Jesus’ name (Mark 16:17)."
+    },
+    "fallen angel": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Rebellious being who left proper place and faces judgment (Jude 6)."
+    },
+    "fallen angels": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Rebellious beings reserved for judgment (2 Peter 2:4)."
+    },
+    "familiar spirit": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Spirit consulted in occult practice—strictly forbidden (Leviticus 19:31)."
+    },
+    "familiar spirits": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Forbidden spirits sought by mediums (1 Samuel 28:7)."
+    },
+    "Gabriel": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Messenger who announces God’s saving plans (Luke 1:19,26)."
+    },
+    "legion": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Name given by many spirits possessing a man—driven out by Christ (Mark 5:9)."
+    },
+    "living creature": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "One of the visionary beings around God’s throne (Ezekiel 1:5)."
+    },
+    "living creatures": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Visionary beings full of eyes who worship without rest (Revelation 4:6–8)."
+    },
+    "messenger of satan": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Harasser allowed to buffet but not to triumph (2 Corinthians 12:7)."
+    },
+    "Michael": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Archangel who contends for God’s people (Daniel 10:13; Revelation 12:7)."
+    },
+    "oppression": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Heavy pressure of the enemy; the Anointed breaks yokes (Acts 10:38)."
+    },
+    "possessed with devils": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "KJV phrase for those under demonic control (Matthew 8:16)."
+    },
+    "possession": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "State of control by unclean spirits—overthrown by Christ (Mark 5:8)."
+    },
+    "powers": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Authorities in the heavenly realm, disarmed by the cross (Colossians 2:15)."
+    },
+    "principalities": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Ruling powers in the unseen realm, subject to Christ (Colossians 2:15)."
+    },
+    "principality": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Ruling spiritual power opposed to God’s people (Ephesians 6:12)."
+    },
+    "rulers of darkness": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Powers behind this world’s darkness (Ephesians 6:12)."
+    },
+    "satyr": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Creature named in desolation oracles; haunt of ruins (Isaiah 13:21, KJV)."
+    },
+    "satyrs": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Plurals in prophetic desolation scenes (Isaiah 34:14, KJV)."
+    },
+    "seraph": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Fiery attendant who cries holy and purifies lips (Isaiah 6:6–7)."
+    },
+    "seraphim": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Burning ones who proclaim God’s holiness without ceasing (Isaiah 6:2–3)."
+    },
+    "spirit forces": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Catch‑all for unseen hosts—either holy or hostile—at work (2 Kings 6:16–17)."
+    },
+    "divination": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Deceptive power that mimics revelation; silenced by the apostle (Acts 16:16–18)."
+    },
+    "wickedness": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Evil in high places opposed by prayer and armor of God (Ephesians 6:12)."
+    },
+    "unclean spirit": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Impure spirit that Jesus rebukes and expels (Mark 1:23–26)."
+    },
+    "unclean spirits": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Many impure spirits driven out by His authority (Matthew 8:16)."
+    },
+    "watcher": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Heavenly observer in Daniel’s visions, sign of divine oversight (Daniel 4:13)."
+    },
+    "watchers": {
+      "default": "SPIRITUAL_ENTITY",
+      "note": "Heavenly observers decreeing and reporting by God’s authority (Daniel 4:17)."
+    }
+  },
+  "FALSE_GOD": {
+    "Artemis": {
+      "default": "FALSE_GOD",
+      "note": "Greek goddess of Ephesus whose cult opposed the gospel (Acts 19:27–28)."
+    },
+    "Asherah": {
+      "default": "FALSE_GOD",
+      "note": "Canaanite goddess associated with groves and forbidden worship (2 Kings 23:7)."
+    },
+    "Ashtaroth": {
+      "default": "FALSE_GOD",
+      "note": "Plural/variant linked to fertility cults (1 Samuel 7:4)."
+    },
+    "Ashteroth": {
+      "default": "FALSE_GOD",
+      "note": "Variant rendering of Ashtoreth in some texts (Judges 2:13)."
+    },
+    "Ashtoreth": {
+      "default": "FALSE_GOD",
+      "note": "Phoenician goddess of fertility; Israel rebuked for serving her (1 Kings 11:5)."
+    },
+    "Baal": {
+      "default": "FALSE_GOD",
+      "note": "Canaanite storm god confronted by the Lord’s prophets (1 Kings 18:21)."
+    },
+    "Baal Zebub": {
+      "default": "FALSE_GOD",
+      "note": "Philistine god of Ekron consulted by a king—condemned (2 Kings 1:2)."
+    },
+    "Baalim": {
+      "default": "FALSE_GOD",
+      "note": "Plural reference to Baal idols across the land (Judges 2:11)."
+    },
+    "Bel": {
+      "default": "FALSE_GOD",
+      "note": "Babylonian deity brought low by the living God (Isaiah 46:1)."
+    },
+    "Chemosh": {
+      "default": "FALSE_GOD",
+      "note": "Moabite god whose worship ensnared Israel (1 Kings 11:7)."
+    },
+    "Dagon": {
+      "default": "FALSE_GOD",
+      "note": "Philistine god humbled before the Ark of God (1 Samuel 5:3–4)."
+    },
+    "Diana": {
+      "default": "FALSE_GOD",
+      "note": "Roman name used in Acts for Artemis of the Ephesians (Acts 19:27–28)."
+    },
+    "Golden Calf": {
+      "default": "FALSE_GOD",
+      "note": "Idol fashioned in impatience; a stark warning against apostasy (Exodus 32:4)."
+    },
+    "Hermes": {
+      "default": "FALSE_GOD",
+      "note": "Greek messenger god mistaken for Paul at Lystra (Acts 14:12)."
+    },
+    "Jupiter": {
+      "default": "FALSE_GOD",
+      "note": "Roman sky god (Zeus) whose temple stood in Lystra (Acts 14:13)."
+    },
+    "Mercurius": {
+      "default": "FALSE_GOD",
+      "note": "KJV form of Hermes, honored by the crowd (Acts 14:12)."
+    },
+    "Mercury": {
+      "default": "FALSE_GOD",
+      "note": "Latin form of Hermes; crowd confusion rebuked by the apostles (Acts 14:12–15)."
+    },
+    "Merodach": {
+      "default": "FALSE_GOD",
+      "note": "Babylonian god (Marduk) judged powerless before the Lord (Jeremiah 50:2)."
+    },
+    "Milcom": {
+      "default": "FALSE_GOD",
+      "note": "Ammonite deity leading to detestable practices (1 Kings 11:5)."
+    },
+    "Molech": {
+      "default": "FALSE_GOD",
+      "note": "Ammonite idol associated with child sacrifice—abomination (Leviticus 18:21)."
+    },
+    "Nebo": {
+      "default": "FALSE_GOD",
+      "note": "Babylonian deity carried into captivity, shown worthless (Isaiah 46:1–2)."
+    },
+    "Queen of heaven": {
+      "default": "FALSE_GOD",
+      "note": "Title invoked in idolatrous worship condemned by Jeremiah (Jeremiah 7:18)."
+    },
+    "Rimmon": {
+      "default": "FALSE_GOD",
+      "note": "Syrian deity whose house Naaman sought pardon to enter (2 Kings 5:18)."
+    },
+    "Tammuz": {
+      "default": "FALSE_GOD",
+      "note": "Deity mourned in visions—a grief God rejects (Ezekiel 8:14)."
+    },
+    "Zeus": {
+      "default": "FALSE_GOD",
+      "note": "Greek sky god whose honor the apostles refused (Acts 14:12–15)."
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "DEITY": {
+    "Adonai": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'Lord,' used reverently to address God."
+    },
+    "Almighty": {
+      "default": "DEITY",
+      "note": "Attribute emphasizing God's unlimited power and authority."
+    },
+    "Beloved Son": {
+      "default": "DEITY",
+      "note": "Title referring to Jesus, emphasizing His special relationship with God the Father."
+    },
+    "Christ": {
+      "default": "DEITY",
+      "note": "Greek translation of 'Messiah,' meaning 'Anointed One,' referring to Jesus."
+    },
+    "Creator": {
+      "default": "DEITY",
+      "note": "Title emphasizing God as the origin and maker of all creation."
+    },
+    "El Elyon": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'God Most High,' emphasizing God's sovereignty."
+    },
+    "El Olam": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'Everlasting God,' emphasizing God's eternal nature."
+    },
+    "El Shaddai": {
+      "default": "DEITY",
+      "note": "Hebrew title meaning 'God Almighty,' indicating God's power and sufficiency."
+    },
+    "Elohim": {
+      "default": "DEITY",
+      "note": "Hebrew term for God, used to denote His supreme power and authority."
+    },
+    "Father": {
+      "default": "DEITY",
+      "note": "Reference to God's paternal relationship with His creation and believers."
+    },
+    "First and the Last": {
+      "default": "DEITY",
+      "note": "Title indicating God's eternal nature, encompassing all of time and existence."
+    },
+    "God": {
+      "default": "DEITY",
+      "note": "Supreme being and creator of the universe, central figure of worship in biblical religion."
+    },
+    "He ": {
+      "default": "DEITY",
+      "note": "Pronoun referring to God, indicating His divine nature and authority."
+    },
+    "His ": {
+      "default": "DEITY",
+      "note": "Pronoun referring to God, indicating possession or relationship."
+    },
+    "Holy One": {
+      "default": "DEITY",
+      "note": "Title highlighting God's absolute purity and holiness."
+    },
+    "Holy Spirit": {
+      "default": "DEITY",
+      "note": "Third person of the Trinity, representing God's active presence and power."
+    },
+    "I AM": {
+      "default": "DEITY",
+      "note": "Divine self-identification given to Moses, expressing God's eternal existence."
+    },
+    "Jehovah": {
+      "default": "DEITY",
+      "note": "Traditional transliteration of YHWH, the personal and covenantal name of God in Hebrew."
+    },
+    "Jesus": {
+      "default": "DEITY",
+      "note": "Central figure of Christianity, believed to be the incarnate Son of God, Savior of humanity."
+    },
+    "Jesus Christ": {
+      "default": "DEITY",
+      "note": "Combination of 'Jesus' (Savior) and 'Christ' (Anointed One), emphasizing His divine mission."
+    },
+    "Kyrios": {
+      "default": "DEITY",
+      "note": "Greek title meaning 'Lord,' used frequently in the New Testament referring to Jesus and God."
+    },
+    "Lord": {
+      "default": "DEITY",
+      "note": "Title denoting authority and divinity, commonly applied to God and Jesus."
+    },
+    "O Lord": {
+      "default": "DEITY",
+      "note": "Expression of reverence and supplication directed toward God."
+    },
+    "Redeemer": {
+      "default": "DEITY",
+      "note": "Title emphasizing God’s role in liberating humanity from sin and spiritual bondage."
+    },
+    "Savior": {
+      "default": "DEITY",
+      "note": "Refers to Jesus Christ as the one who delivers humanity from sin and eternal death."
+    },
+    "Son": {
+      "default": "DEITY",
+      "note": "Refers specifically to Jesus Christ, highlighting His relationship as the Son of God."
+    },
+    "Son of the Living God": {
+      "default": "DEITY",
+      "note": "Title affirming Jesus’ divine nature and unique relationship to God the Father."
+    },
+    "Spirit of God": {
+      "default": "DEITY",
+      "note": "Refers to the Holy Spirit, indicating God’s active presence and influence."
+    },
+    "Trinity": {
+      "default": "DEITY",
+      "note": "Christian doctrine expressing God as three distinct persons in one divine essence."
+    },
+    "Us ": {
+      "default": "DEITY",
+      "note": "Pronoun indicating the plurality of God, often used in reference to the Trinity."
+    },
+    "Yahweh": {
+      "default": "DEITY",
+      "note": "The personal and sacred Hebrew name for God, expressing His eternal existence."
+    },
+    "only Begotten Son": {
+      "default": "DEITY",
+      "note": "Phrase emphasizing the unique divine Sonship of Jesus."
+    },
+    "the Word": {
+      "default": "DEITY",
+      "note": "Refers to Jesus Christ as God’s communication and revelation to humanity."
+    },
+    "El-elohe-Israel": {
+      "default": "DEITY",
+      "note": "‘God, the God of Israel’ (Gen 33:20).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Genesis.33.20"
+        ],
+        "text_contains_any": [
+          "altar",
+          "called it",
+          "El-elohe-Israel"
+        ]
+      }
+    },
+    "El-bethel": {
+      "default": "DEITY",
+      "note": "‘God of Bethel’; also the place name where God appeared (Gen 35:7).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Genesis.35.7"
+        ],
+        "text_contains_any": [
+          "called the place",
+          "Bethel",
+          "El-bethel"
+        ]
+      }
+    },
+    "Jehovah-jireh": {
+      "default": "DEITY",
+      "note": "Name given by Abraham; ‘In the mount of the LORD it shall be seen’ (Gen 22:14).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Genesis.22.14"
+        ],
+        "text_contains_any": [
+          "called the name of that place",
+          "Jehovah-jireh"
+        ]
+      }
+    },
+    "Jehovah-shalom": {
+      "default": "DEITY",
+      "note": "Name of Gideon’s altar; ‘The LORD is peace’ (Judg 6:24).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Judges.6.24"
+        ],
+        "text_contains_any": [
+          "built an altar",
+          "called it",
+          "Jehovah-shalom"
+        ]
+      }
+    },
+    "Jehovah-nissi": {
+      "default": "DEITY",
+      "note": "Name of Moses’ altar; commonly rendered ‘The LORD my banner’ (Ex 17:15).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Exodus.17.15"
+        ],
+        "text_contains_any": [
+          "built an altar",
+          "called the name of it",
+          "Jehovah-nissi"
+        ]
+      }
+    },
+    "The LORD is there": {
+      "default": "DEITY",
+      "note": "City name in Ezek 48:35 (KJV: ‘the name of the city … The LORD is there’).",
+      "also_labels": [
+        "LOCATION"
+      ],
+      "where": {
+        "verse_uid": [
+          "Ezekiel.48.35"
+        ],
+        "text_contains_any": [
+          "name of the city",
+          "The LORD is there"
+        ]
+      }
+    }
+  }
+}

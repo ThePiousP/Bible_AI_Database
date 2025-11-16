@@ -1,0 +1,17 @@
+{
+  "app_url": "file:///ABSOLUTE/PATH/TO/STEP/index.html",
+  "url_template": "{app_url}#ref={book}%20{chapter}",
+  "selectors": {
+    "verse": ".verse, [data-verse], .v",
+    "word": "span[data-strong], span[data-lemma], .w",
+    "verse_ref_attr": "data-verse",
+    "word_strongs_attr": "data-strong",
+    "word_lemma_attr": "data-lemma",
+    "word_morph_attr": "data-morph",
+    "word_lang_attr": "lang",
+    "ready_selector": ".verse, [data-verse], .w, span[data-strong]"
+  },
+  "wait_after_nav_ms": 350,
+  "nav_timeout_ms": 15000,
+  "query_timeout_ms": 15000
+}

@@ -1,0 +1,20 @@
+{
+  "output_folder": "output",
+  "overwrite_existing": "ask",
+  "database_path": "data/GoodBook.db",
+  "bible_version": "NKJV",
+  "last_scraper_used": "sermon",
+  "step_base_url": "http://localhost:8989",
+  "step_options": "NHVUG",
+  "step_include_italics": true,
+  "prodigy_port": "8001",
+  "prodigy_dataset": "bible_v1",
+  "prodigy_input_file": "output/silver_out/train.jsonl",
+  "label_rules_path": "label_rules.yml",
+  "prodigy_patterns_path": "output/prodigy_patterns.jsonl",
+  "sermon_speaker": "chuck_smith",
+  "sermon_output_dir": "output/sermons",
+  "sermon_log_dir": "output/logs",
+  "sermon_max_sermons": null,
+  "sermon_resume": true
+}

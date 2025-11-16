@@ -1,0 +1,1014 @@
+# =============================================================================
+# Notes:
+# - To boost recall for PERSON/PLACE/BIBLE_NATIONS/TITLE, generate flat gazetteers
+#   from your curated JSONs (see 'make_gazetteers_from_curated.py') and uncomment paths.
+# - Keep DEITY anchored by Strong’s to stay precise. You can add high-confidence surfaces
+#   (e.g., 'LORD', 'GOD', 'JESUS') later if needed.
+# - If you want to pilot ETHNIC/ORG/FALSE_GOD as extra labels, add them to 'labels.enabled'
+#   and create corresponding rule blocks.
+# =============================================================================
+labels:
+  enabled:
+    - ANGEL_CHORUS
+    - BIBLE_ANIMALS
+    - BIBLE_FLORA
+    - BIBLE_NATIONS
+    - BLESSING_FORMULA
+    - BODY_PART
+    - CHRISTOLOGY
+    - CONCEPT
+    - COVENANT_TERM
+    - CULTURAL_PRACTICE
+    - CURSE_FORMULA
+    - DEITY
+    - DEMON
+    - DIVINE_ACTION
+    - DIVINE_COMMAND
+    - DIVINE_PROMISE
+    - DIVINE_PRONOUN
+    - DIVINE_TITLE
+    - ECCLESIOLOGY
+    - ECONOMIC_TERM
+    - ESCHATOLOGY
+    - FALSE_GOD
+    - FOOD
+    - GENEALOGY_REF
+    - GENRE_MARKER
+    - GENERIC_PRONOUN
+    - HERMENEUTIC_KEY
+    - HUMAN_ACTION
+    - HUMAN_COLLECTIVE
+    - HUMAN_PRONOUN
+    - INTERTEXTUAL_REF
+    - LAW_COMMANDMENT
+    - LITURGICAL_TERM
+    - LOCATION
+    - METAPHORICAL
+    - METONYMY
+    - NUMBER
+    - NUMERIC_MEASURE
+    - NUMERIC_SYMBOLISM
+    - OBJECTS_MANMADE
+    - OBJECTS_NATURAL
+    - OTHER
+    - OATH_FORMULA
+    - PARABLE_IMAGE
+    - PERSON
+    - PNEUMATOLOGY
+    - PROPHECY_FORMULA
+    - PROPHET
+    - RITUAL_PRACTICE
+    - SATANIC_TITLE
+    - SIN
+    - SOTERIOLOGY
+    - SPIRITUAL_ENTITY
+    - THEMES
+    - TIME
+    - TITLE
+    - TOOLS_MEASUREMENT
+    - TOPICAL_NOUNS
+    - TRANSLATION_NOTE
+    - TYPOLOGY
+    - VERB
+
+    
+  disabled: []  # keep other experimental labels disabled for now
+
+conflicts:
+  priority:
+    # 1) Divine & adversarial identities (most specific)
+    - DEITY
+    - DIVINE_TITLE
+    - DIVINE_PRONOUN
+    - SATANIC_TITLE
+    - DEMON
+    - FALSE_GOD
+    - PNEUMATOLOGY
+    - SPIRITUAL_ENTITY
+    - ANGEL_CHORUS
+
+    # 2) Divine speech / declarations (keep below identities; phrases can override)
+    - DIVINE_ACTION
+    - DIVINE_COMMAND
+    - DIVINE_PROMISE
+    - OATH_FORMULA
+    - PROPHECY_FORMULA
+
+    # 3) People & roles (specific before generic)
+    - PROPHET
+    - PERSON
+    - TITLE
+    - GENEALOGY_REF
+    - HUMAN_COLLECTIVE
+    - HUMAN_PRONOUN
+    - GENERIC_PRONOUN
+    - HUMAN_ACTION
+    - VERB
+
+    # 4) Nations & places
+    - BIBLE_NATIONS
+    - LOCATION
+
+    # 5) Time, numbers & measures
+    - TIME
+    - NUMERIC_SYMBOLISM
+    - NUMERIC_MEASURE
+    - NUMBER
+    - TOOLS_MEASUREMENT
+
+    # 6) Concrete nouns
+    - BODY_PART
+    - FOOD
+    - BIBLE_ANIMALS
+    - BIBLE_FLORA
+    - OBJECTS_MANMADE
+    - OBJECTS_NATURAL
+    - ECONOMIC_TERM
+
+    # 7) Ritual / law / covenant / cultural & formulas
+    - RITUAL_PRACTICE
+    - LAW_COMMANDMENT
+    - LITURGICAL_TERM
+    - CULTURAL_PRACTICE
+    - COVENANT_TERM
+    - BLESSING_FORMULA
+    - CURSE_FORMULA
+    - SIN
+
+    # 8) Theology & literary/meta (keep these from swallowing specifics)
+    - CHRISTOLOGY
+    - SOTERIOLOGY
+    - ECCLESIOLOGY
+    - ESCHATOLOGY
+    - TYPOLOGY
+    - THEMES
+    - INTERTEXTUAL_REF
+    - HERMENEUTIC_KEY
+    - GENRE_MARKER
+    - PARABLE_IMAGE
+    - METAPHORICAL
+    - METONYMY
+    - CONCEPT
+    - TRANSLATION_NOTE
+
+    # 9) Catch-all last
+    - TOPICAL_NOUNS
+    - OTHER
+
+
+defaults:
+  label_on_miss: NULL
+    
+
+# =============================================================================
+# LABEL INDEX — All categories with descriptions
+# =============================================================================
+# ANGEL_CHORUS → Angelic hosts or heavenly armies. “the host of heaven”
+# BIBLE_ANIMALS → Named animals in Scripture. “the flocks and the herds”
+# BIBLE_FLORA → Plants/trees with biblical significance. “the cedar of Lebanon”
+# BIBLE_NATIONS → Nations or ethnic groups. “the Egyptians”
+# BLESSING_FORMULA → Formal blessing statements. “Blessed be Abram”
+# BODY_PART → Physical body parts. “his hand”
+# CHRISTOLOGY → Direct references to Christ/Messiah. “the Lamb of God”
+# CONCEPT → Abstract ideas. “truth, love, fear”
+# COVENANT_TERM → Words tied to covenant theology. “everlasting covenant”
+# CULTURAL_PRACTICE → Human customs. “rent their garments”
+# CURSE_FORMULA → Formal curses. “Cursed be Canaan”
+# DEITY → Father, Son, Holy Spirit. “God, LORD, Jesus”
+# DEMON → Evil spirits. “Legion”
+# DIVINE_ACTION → Actions performed by God. “God created”
+# DIVINE_COMMAND → Commands issued by God. “Thou shalt not eat”
+# DIVINE_PROMISE → Promises by God. “I will never leave thee”
+# DIVINE_PRONOUN → Pronouns for God. “I (when God speaks)”
+# DIVINE_TITLE → Names/titles for God. “Holy One of Israel”
+# ECCLESIOLOGY → References to the church. “the body of Christ”
+# ECONOMIC_TERM  Money, trade, commerce. “silver, wages”
+# ESCHATOLOGY → End-times references. “the last trumpet”
+# FALSE_GOD → Pagan gods/idols. “Baal, Ashtoreth”
+# FOOD → Edible items. “bread, milk, honey”
+# GENEALOGY_REF → Lineage terms. “thy seed, begat”
+# GENERIC_PRONOUN → Non-specific pronouns. “it, they, them”
+# GENRE_MARKER → Textual genre signals. “parable, psalm”
+# HERMENEUTIC_KEY → Keys to interpretation. “Therefore”
+# HUMAN_ACTION → Actions performed by humans. “he said, she went”
+# HUMAN_COLLECTIVE → Groups of people. “families, tribes”
+# HUMAN_PRONOUN → Pronouns for people. “he, she, they”
+# INTERTEXTUAL_REF → Explicit cross-scripture refs. “as it is written”
+# LAW_COMMANDMENT → Legal commands. “Thou shalt not kill”
+# LITURGICAL_TERM → Worship terms. “sabbath, sacrifice”
+# LOCATION → Named/geographic places. “Egypt, Jordan, Nazareth”
+# METAPHORICAL → Figurative imagery. “the Lord is my rock”
+# METONYMY → One thing standing for another. “the cup” (for suffering)
+# NUMBER → Literal numbers. “seven, twelve”
+# NUMERIC_MEASURE → Units of measure. “cubits, shekels”
+# NUMERIC_SYMBOLISM → Symbolic numbers/figures. “forty days”
+# OBJECTS_MANMADE → Human-made objects. “ark, altar, sword”
+# OBJECTS_NATURAL → Natural objects. “sea, mountains, dust”
+# OTHER → Generic catch-all (esp. neutral pronouns). “it, them”
+# OATH_FORMULA → Sworn vows. “As the LORD lives”
+# PARABLE_IMAGE → Imagery unique to parables. “sower, mustard seed”
+# PERSON → Individual human persons. “Moses, Mary”
+# PNEUMATOLOGY → References to the Spirit. “Holy Ghost, Comforter”
+# PROPHECY_FORMULA → Markers of prophecy. “Thus saith the LORD”
+# PROPHET → Prophetic figures. “Isaiah, Jeremiah”
+# RITUAL_PRACTICE → Religious rituals. “burnt offering, circumcision”
+# SATANIC_TITLE → Titles of Satan. “tempter, accuser”
+# SIN → Specific sins named. “idolatry, adultery”
+# SOTERIOLOGY → Salvation terms. “redeemed, justified”
+# SPIRITUAL_ENTITY → Angels/demons generically. “spirit, cherubim”
+# THEMES → Broad theological themes. “exile, covenant faithfulness”
+# TIME → Temporal markers. “in the morning, at that time”
+# TITLE → Honorifics/roles. “king, priest, brother”
+# TOOLS_MEASUREMENT → Instruments of measure. “scales, rod, plummet”
+# TOPICAL_NOUNS → Subject nouns of discourse. “famine, altar, war”
+# TRANSLATION_NOTE → Translator glosses/notes. “margin reads…”
+# TYPOLOGY → Types/foreshadows of Christ. “ark, Isaac, Joseph”
+# VERB → Generic verbs w/o clear subject type. “told, knew”
+# =============================================================================
+
+
+
+rules:
+
+  # ---------------------------------------------------------------------------
+  # ANGEL_CHORUS → Angelic hosts or heavenly armies. “the host of heaven”
+  # ---------------------------------------------------------------------------
+  ANGEL_CHORUS:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/ANGEL_CHORUS.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # BIBLE_ANIMALS → Named animals in Scripture. “the flocks and the herds”
+  # ---------------------------------------------------------------------------
+  BIBLE_ANIMALS:
+    strongs_ids: 
+      - H7214 
+    lemmas:
+      - רְאֵם,  
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/BIBLE_ANIMALS.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # BIBLE_FLORA → Plants/trees with biblical significance. “the cedar of Lebanon”
+  # ---------------------------------------------------------------------------
+  BIBLE_FLORA:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/BIBLE_FLORA.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # BIBLE_NATIONS — peoples/ethnonyms (Philistines, Moabites, etc.).
+  # Keep these out of PLACE to reduce false positives for geography.
+  # ---------------------------------------------------------------------------
+  
+  BIBLE_NATIONS:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/BIBLE_NATIONS.txt
+    case_sensitive: true
+  
+  # ---------------------------------------------------------------------------
+  # BLESSING_FORMULA — formal blessings (Blessed be Abram, etc.). 
+  # ---------------------------------------------------------------------------
+  BLESSING_FORMULA:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/BLESSING_FORMULA.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # BODY_PART — physical body parts (hand, eye, heart, etc.).
+  # ---------------------------------------------------------------------------
+  BODY_PART:
+    strongs_ids: 
+      - H3027 # hand, yad
+      - H3820 # heart, leb
+      - H5869 # eye, ayin
+      - H7272 # foot, regel
+      - H7218 # head, rosh
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/BODY_PART.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # CHRISTOLOGY — direct references to Christ/Messiah (Messiah, Lamb of God, etc.).
+  # ---------------------------------------------------------------------------
+  CHRISTOLOGY:
+    strongs_ids: 
+      - G386   # anastasis (resurrection)
+      - G4716  # stauros (cross)
+      - G4717  # stauroo (crucify)
+      - G3316  # mesites (mediator)
+      - G2434  # hilasmos (propitiation)
+      - G1783  # enteuxis (intercession)
+      - G1793  # entygchanō (to intercede)
+      - G3339  # metamorphoō (to transfigure)
+      - G3323  # Messias (John 1:41, 4:25)
+      - G1694  # Emmanouel (Emmanuel)
+      - H6005  # Immanuel (Isa 7:14)
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/CHRISTOLOGY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # CONCEPT — abstract ideas (truth, love, fear, etc.).
+  # ---------------------------------------------------------------------------
+  CONCEPT:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:    
+      - ./gazetteers/CONCEPT.txt
+    case_sensitive: false 
+
+  # ---------------------------------------------------------------------------
+  # COVENANT_TERM — words tied to covenant theology (covenant, testament, etc.).
+  # ---------------------------------------------------------------------------
+  COVENANT_TERM:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/COVENANT_TERM.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # CULTURAL_PRACTICE — human customs (greeting, mourning, feasting, etc.).
+  # ---------------------------------------------------------------------------
+  CULTURAL_PRACTICE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/CULTURAL_PRACTICE.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # CURSE_FORMULA — formal curses (Cursed be Canaan, etc.).
+  # ---------------------------------------------------------------------------
+  CURSE_FORMULA:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/CURSE_FORMULA.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # DEITY — God / LORD / Jesus / Christ / Spirit (divine)
+  # Use Strong’s anchors primarily for high precision.
+  # ---------------------------------------------------------------------------
+  DEITY:
+    strongs_ids:
+      - H0430    # Elohim (God)
+      - H03068   # YHWH (LORD)
+      - H0410    # El (God)
+      - G2316    # Theos (God)
+      - G2962    # Kyrios (Lord)  # NOTE: also human 'lord'; priority handles ambiguity
+      - G2424    # Iesous (Jesus)
+      - G5547    # Christos (Christ)
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/DEITY.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # DEMON — evil spirits (demons, unclean spirits, etc.).
+  # ---------------------------------------------------------------------------
+  DEMON:
+    strongs_ids: 
+      - G1140 # (demon/daimōn/daimonion)
+      - G1142 # (demon/daimōn/daimonion)
+      - H0178 # (familiar spirit)
+      - H7700 # (demon, šēd)
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/DEMON.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # DIVINE_ACTION — actions performed by God (He created, He spoke, etc.).
+  # ---------------------------------------------------------------------------
+  DIVINE_ACTION:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:  []
+
+  # ---------------------------------------------------------------------------
+  # DIVINE_COMMAND — commands issued by God (Thou shalt not, etc.).
+  # ---------------------------------------------------------------------------
+  DIVINE_COMMAND:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:  []
+
+  # ---------------------------------------------------------------------------
+  # DIVINE_PROMISE — promises made by God (I will never leave thee, etc.).
+  # ---------------------------------------------------------------------------
+  DIVINE_PROMISE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/DIVINE_PROMISE.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # DIVINE_PRONOUN — pronouns for God (I, me, my, etc. when God speaks).
+  # ---------------------------------------------------------------------------
+  DIVINE_PRONOUN:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/DIVINE_PRONOUN.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # DIVINE_TITLE — titles and epithets referring to the divine e.g., 'Holy One of Israel', 'Lord of Hosts', 'Most High', etc.
+  # ---------------------------------------------------------------------------
+  DIVINE_TITLE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/DIVINE_TITLE.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # ECCLESIOLOGY — references to the church (body of Christ, etc.).
+  # ---------------------------------------------------------------------------
+  ECCLESIOLOGY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/ECCLESIOLOGY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # ECONOMIC_TERM — money, trade, commerce (silver, wages, etc.).
+  # ---------------------------------------------------------------------------
+  ECONOMIC_TERM:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/ECONOMIC_TERM.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # ESCHATOLOGY — end-times references (last days, new heaven/earth, etc.).
+  # ---------------------------------------------------------------------------
+  ESCHATOLOGY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/ESCHATOLOGY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # FALSE_GOD — pagan gods/idols (Baal, Ashtoreth, etc.).
+  # ---------------------------------------------------------------------------
+  FALSE_GOD:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/FALSE_GOD.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # FOOD — edible items (bread, milk, honey, etc.).
+  # ---------------------------------------------------------------------------
+  FOOD:
+    strongs_ids: 
+      - H4682 #(unleavened bread, maṣṣāh)
+      - G106  #(unleavened, azumos)      
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/FOOD.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # GENEALOGY_REF — terms referring to lineage/descendants (seed, begat, etc.).
+  # ---------------------------------------------------------------------------
+  GENEALOGY_REF:
+    strongs_ids: 
+      - H3205 #(to beget/bear, yālad)
+      - G1080 #(to beget/bear, gennaō)      
+      - H2233 #(seed, zera‘)
+      - G4690 #(seed, sperma)
+      - H8435 #(generation/generations, dôr)  # broader “generation”
+      - G1074 #(generation, genea)
+      - G1085 #(race/stock/kindred, genos)
+      - G1076 #(genealogies, genealogia)
+      - H1060 #(firstborn, bĕkôr)
+      - G4416 #(firstborn, prōtotokos)
+      - H4940 #(family/tribe, mišpāḥāh)
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/GENEALOGY_REF.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # GENERIC_PRONOUN — non-specific pronouns (it, they, them, etc.).
+  # ---------------------------------------------------------------------------
+  GENERIC_PRONOUN:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/GENERIC_PRONOUN.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # GENRE_MARKER — words/phrases signaling literary genre (parable, psalm, etc.).
+  # --------------------------------------------------------------------------- 
+  GENRE_MARKER:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/GENRE_MARKER.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # HERMENEUTIC_KEY — words/phrases signaling interpretation (therefore, thus, etc.).
+  # ---------------------------------------------------------------------------
+  HERMENEUTIC_KEY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/HERMENEUTIC_KEY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # HUMAN_ACTION — actions performed by humans (he said, she went, etc.).
+  # ---------------------------------------------------------------------------
+  HUMAN_ACTION:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:  []  
+  
+  # ---------------------------------------------------------------------------
+  # HUMAN_COLLECTIVE — groups of people (families, tribes, crowds, etc.).
+  # ---------------------------------------------------------------------------
+  HUMAN_COLLECTIVE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/HUMAN_COLLECTIVE.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # HUMAN_PRONOUN — pronouns for people (he, she, they, etc.).
+  # ---------------------------------------------------------------------------
+  HUMAN_PRONOUN:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/HUMAN_PRONOUN.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # INTERTEXTUAL_REF — explicit citations or echoes of other Scripture.
+  # ---------------------------------------------------------------------------
+  INTERTEXTUAL_REF:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/INTERTEXTUAL_REF.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # LAW_COMMANDMENT — legal commands (Thou shalt not kill, etc.).
+  # ---------------------------------------------------------------------------
+  LAW_COMMANDMENT:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/LAW_COMMANDMENT.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # LITURGICAL_TERM — terms tied to worship practices (sabbath, sacrifice, etc.).
+  # ---------------------------------------------------------------------------
+  LITURGICAL_TERM:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/LITURGICAL_TERM.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # LOCATION — named places/toponyms (Egypt, Jordan, Nazareth, etc.).
+  # Keep these out of BIBLE_NATIONS to reduce false positives for peoples.
+  LOCATION:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/LOCATION.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # METAPHORICAL — figurative imagery (the Lord is my rock, etc.).
+  # ---------------------------------------------------------------------------
+  METAPHORICAL:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:  
+      - ./gazetteers/METAPHORICAL.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # METONYMY — one thing standing for another (e.g., "the cup" for suffering).
+  # ---------------------------------------------------------------------------
+  METONYMY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/METONYMY.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # NUMBER — literal numbers (one, two, three, etc.).
+  # ---------------------------------------------------------------------------
+  NUMBER:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/NUMBER.txt
+    case_sensitive: false 
+
+  # ---------------------------------------------------------------------------
+  # NUMERIC_MEASURE — units & implements (cubit, ephah, shekel, talent, plow, etc.).
+  # ---------------------------------------------------------------------------
+  NUMERIC_MEASURE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/NUMERIC_MEASURE.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # NUMERIC_SYMBOLISM — symbolic numbers/figures (seven, forty, etc.).
+  # ---------------------------------------------------------------------------
+  NUMERIC_SYMBOLISM:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/NUMERIC_SYMBOLISM.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # OATH_FORMULA — sworn vows (As the LORD lives, etc.).
+  # ---------------------------------------------------------------------------
+  OATH_FORMULA:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/OATH_FORMULA.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # OBJECTS_MANMADE — human-made objects (ark, altar, sword, etc.).
+  # ---------------------------------------------------------------------------
+  OBJECTS_MANMADE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/OBJECTS_MANMADE.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # OBJECTS_NATURAL — natural objects (sea, mountains, dust, etc.).
+  # ---------------------------------------------------------------------------
+  OBJECTS_NATURAL:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/OBJECTS_NATURAL.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # PARABLE_IMAGE — imagery unique to parables (sower, mustard seed, etc.).
+  # ---------------------------------------------------------------------------
+  PARABLE_IMAGE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/PARABLE_IMAGE.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # PERSON — proper names (people). Start with gazetteers + curated Strong’s as approved.
+  # ---------------------------------------------------------------------------
+  PERSON:
+    strongs_ids: 
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/PERSON.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # PNEUMATOLOGY — references to the Spirit (Holy Spirit, Comforter, etc.).
+  # ---------------------------------------------------------------------------
+  PNEUMATOLOGY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/PNEUMATOLOGY.txt
+    case_sensitive: True
+
+  # ---------------------------------------------------------------------------
+  # PROPHECY_FORMULA — markers of prophetic speech (Thus saith the LORD, etc.).
+  # ---------------------------------------------------------------------------
+  PROPHECY_FORMULA:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/PROPHECY_FORMULA.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # PROPHET — prophetic figures (Isaiah, Jeremiah, etc.). (Your curated PERSON → PROPHET)
+  # ---------------------------------------------------------------------------
+  PROPHET:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/PROPHET.txt
+    case_sensitive: true
+
+  # ---------------------------------------------------------------------------
+  # PLACE — geographic places/toponyms. (Your curated LOCATION → PLACE)
+  # ---------------------------------------------------------------------------
+  RITUAL_PRACTICE:
+    strongs_ids: 
+      - H5930 #(burnt offering, ʿōlāh)
+      - H8002 #(peace offerings, šĕlāmîm)
+      - H817  #(guilt/trespass offering, ʾāšām)
+      - H4503 #(grain/minchah offering, minḥāh)
+      - H5262 #(drink offering, nēseḵ)
+      - H8573 #(wave offering, tĕnûp̄āh)
+      - H8641 #(heave offering, tĕrûmāh)
+      - H7004 #(incense, qĕṭōret)
+      - H1061 #(firstfruits, bikkûrîm)
+      - H3725 #(atonement/“kippurim”)
+      - H5087 #(vow, nāḏar)
+      - H5088 #(vow, nede r)
+      - H4643 #(tithe, maʿăśēr)
+      - H3104 #(jubilee, yōbēl)
+      - H5799 #(Azazel/scapegoat)
+      - G3957 #(Passover, pascha)
+      - G4521 #(Sabbath, sabbaton)
+      - G4061 #(circumcision, peritomē)
+      - G907  #(baptize, baptizō)
+      - G908  #(baptism, baptisma)
+      - G1859 #(feast, heortē)
+      - G536  #(firstfruits, aparchē)
+      - G1936 #(laying on of hands, epíthesis)
+      - H6419 #(palal – to pray)
+      - H8605 #(tephillah – prayer)
+      - G4336 #(proseuchomai – to pray)
+      - G4335 #(proseuche – prayer)
+      - H6684 #(tsûm, to fast)
+      - H6685 #(tsôm, fast)
+      - G3522 #(nēsteuō, to fast)
+      - G3521 #(nēsteia, fasting)
+      - H6999 #(qāṭar, to burn incense)      
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/RITUAL_PRACTICE.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # SATANIC_TITLE — titles of Satan (tempter, accuser, etc.).
+  # ---------------------------------------------------------------------------
+  SATANIC_TITLE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/SATANIC_TITLE.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # SIN — specific sins named (idolatry, adultery, etc.).
+  # ---------------------------------------------------------------------------
+  SIN:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/SIN.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # SOTERIOLOGY — salvation terms (redeemed, justified, etc.).
+  # ---------------------------------------------------------------------------
+  SOTERIOLOGY:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/SOTERIOLOGY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # SPIRITUAL_ENTITY — generic spiritual beings (angels, demons, cherubim, etc.).
+  # ---------------------------------------------------------------------------
+  SPIRITUAL_ENTITY:
+    strongs_ids: 
+      - H3742 #(cherub)
+      - H5894 #(watcher, Aramaic in Daniel)
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/SPIRITUAL_ENTITY.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # THEMES — broad theological themes (exile, covenant faithfulness, etc.).
+  # ---------------------------------------------------------------------------
+  THEMES:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/THEMES.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # TIME — temporal markers (morning, evening, year, etc.).
+  # ---------------------------------------------------------------------------
+  TIME:
+    strongs_ids:
+      - H3117
+      - H6256
+      - G2250
+      - G2540
+      - H7676 #(Sabbath)
+      - H6453 #(Passover, pesaḥ)
+      
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/TIME.txt
+    case_sensitive: false
+  
+  # ---------------------------------------------------------------------------
+  # TITLE — human titles (often capitalized in context), e.g., King, Priest, Prophet
+  # ---------------------------------------------------------------------------
+  TITLE:
+    case_sensitive: false
+    strongs_ids: 
+      - H1121 #(son, ben)
+      - G5207 #(son, huios)
+      - H1323 #(daughter, bat)
+      - G2364 #(daughter, thygatēr)
+      - H1    #(father, ʾāb)
+      - G3962 #(father, patēr)
+    lemmas: []
+    surfaces: 
+      - son
+      - sons
+      - daughter
+      - daughters
+      - father
+      - fathers
+      - child
+      - children
+    gazetteer_files:
+      - ./gazetteers/TITLE.txt
+
+  # ---------------------------------------------------------------------------
+  # TOOLS_MEASUREMENTS — units & implements (cubit, ephah, shekel, talent, plow, etc.).
+  # ---------------------------------------------------------------------------
+  TOOLS_MEASUREMENT:
+    case_sensitive: false
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:
+      - ./gazetteers/TOOLS_MEASUREMENT.txt
+
+  # ---------------------------------------------------------------------------
+  # TOPICAL_NOUNS — Subject nouns of discourse. “famine, altar, war”
+  # ---------------------------------------------------------------------------
+  TOPICAL_NOUNS:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/TOPICAL_NOUNS.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # TRANSLATION_NOTE — Translator glosses/notes. “margin reads…”
+  # ---------------------------------------------------------------------------
+
+  TRANSLATION_NOTE:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files:   
+      - ./gazetteers/TRANSLATION_NOTE.txt
+    case_sensitive: false
+
+  # ---------------------------------------------------------------------------
+  # TYPOLOGY — Types/foreshadows of Christ. “ark, Isaac, Joseph (OT figures)”
+  # ---------------------------------------------------------------------------
+
+  TYPOLOGY:
+    strongs_ids: 
+      - H121 # Adam
+      - H5146 # Noah
+      - H4872 # Moses
+      - H4442 # Melchizedek
+      - H7716 # lamb
+      - G286 # lamb
+      - H727 # ark
+      - H8392 # ark of covenant
+      - H6453 # Passover
+      - G3957 # Passover
+      - H4908 # tabernacle (mishkan / tent of meeting)
+      - H1964 # temple (hekal)
+      - G3485 # temple (naos)
+      - H3130 # Joseph (OT)
+      - H1732 # David
+      - H3124 # Jonah
+      - H3290 # Jacob/Israel
+      - H1893 # Abel
+    lemmas: []
+    surfaces: []
+    gazetteer_files: 
+      - ./gazetteers/TYPOLOGY.txt
+    case_sensitive: True
+
+  # ---------------------------------------------------------------------------
+  # VERB — Generic verbs w/o clear subject type (told, knew, etc.).
+  # ---------------------------------------------------------------------------
+  VERB:
+    strongs_ids: []      
+    lemmas: []
+    surfaces: []
+    gazetteer_files:  []
+
+  # ---------------------------------------------------------------------------
+  # OTHER — Generic catch-all 
+  # ---------------------------------------------------------------------------
+  OTHER:
+    strongs_ids: []
+    lemmas: []
+    surfaces: []
+    gazetteer_files: []
+    case_sensitive: false
+

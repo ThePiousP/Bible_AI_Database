@@ -1,0 +1,178 @@
+{
+  "LENGTH_MEASUREMENTS": {
+    "inch": {
+      "default": "LENGTH",
+      "note": "Small unit of length; not a common biblical measure but useful for conversions."
+    },
+    "cubit": {
+      "default": "LENGTH",
+      "note": "Ancient unit based on the length of the forearm, roughly 18 inches."
+    },
+    "span": {
+      "default": "LENGTH",
+      "note": "Distance from the tip of the thumb to the tip of the little finger, around half a cubit."
+    },
+    "handbreadth": {
+      "default": "LENGTH",
+      "note": "Width of four fingers; a small measure used in biblical descriptions."
+    },
+    "palm": {
+      "default": "LENGTH",
+      "note": "Roughly the width of the hand; used as a minor unit of measure."
+    },
+    "finger": {
+      "default": "LENGTH",
+      "note": "Measurement equivalent to the width of a finger; used in temple specifications."
+    },
+    "reed": {
+      "default": "LENGTH",
+      "note": "Long measuring stick, approximately six cubits, used in architectural measurements."
+    },
+    "milion": {
+      "default": "LENGTH",
+      "note": "Byzantine mile marker or unit of measure; not a standard biblical term."
+    },
+    "fathom": {
+      "default": "LENGTH",
+      "note": "Nautical measure approximately six feet; referenced in Acts regarding water depth."
+    }
+  },
+  "DRY_MEASURE": {
+    "measures": {
+      "default": "DRY_MEASURE",
+      "note": "General term for various dry measurement units used in biblical times."
+    },
+    "seah": {
+      "default": "DRY_MEASURE",
+      "note": "Ancient Hebrew dry measure equal to about 7 quarts."
+    },
+    "ephah": {
+      "default": "DRY_MEASURE",
+      "note": "Major dry measure used for grain; about 22 liters."
+    },
+    "omer": {
+      "default": "DRY_MEASURE",
+      "note": "Tenth of an ephah; used in offerings and manna measurement."
+    },
+    "kab": {
+      "default": "DRY_MEASURE",
+      "note": "Small dry measure, about 1.2 liters."
+    },
+    "kor": {
+      "default": "DRY_MEASURE",
+      "note": "Large measure, roughly 220 liters; used for grain."
+    },
+    "hin": {
+      "default": "LIQUID_MEASURE",
+      "note": "Liquid or dry measure, about 3.5 liters."
+    },
+    "bath": {
+      "default": "LIQUID_MEASURE",
+      "note": "Liquid measure equivalent to an ephah in volume."
+    },
+    "log": {
+      "default": "LIQUID_MEASURE",
+      "note": "Smallest liquid measure, about 0.3 liters."
+    }
+  },
+  "WEIGHT_MEASURE": {
+    "talent": {
+      "default": "WEIGHT_MEASURE",
+      "note": "Large unit of weight used for precious metals; about 75 pounds."
+    },
+    "shekel": {
+      "default": "WEIGHT_MEASURE",
+      "note": "Common biblical unit of weight; also used as currency."
+    },
+    "mina": {
+      "default": "WEIGHT_MEASURE",
+      "note": "Weight equal to 60 shekels, used in trade and temple contributions."
+    }
+  },
+  "BIBLE_TOOLS": {
+    "axe": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool used for cutting wood or trees; sometimes symbolically used in judgment."
+    },
+    "hammer": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool for pounding; mentioned in construction and warfare."
+    },
+    "awl": {
+      "default": "BIBLE_TOOLS",
+      "note": "Small pointed tool for piercing; mentioned in bondservant rituals."
+    },
+    "plane": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool used to smooth wood surfaces."
+    },
+    "square": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool used for measuring right angles in carpentry or construction."
+    },
+    "wedge": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tapered tool used for splitting wood or securing objects."
+    },
+    "anvil": {
+      "default": "BIBLE_TOOLS",
+      "note": "Heavy iron block used in shaping metal by hammering."
+    },
+    "file": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool used to smooth or shape materials by abrasion."
+    },
+    "furnace": {
+      "default": "BIBLE_TOOLS",
+      "note": "Enclosed structure for heating materials, often used in metalwork or sacrifice."
+    },
+    "tongs": {
+      "default": "BIBLE_TOOLS",
+      "note": "Grasping tool used to hold hot objects, especially in metalworking."
+    },
+    "needle": {
+      "default": "BIBLE_TOOLS",
+      "note": "Slender tool used for sewing or piercing fabric or skin."
+    },
+    "thread": {
+      "default": "BIBLE_TOOLS",
+      "note": "Thin strand used in sewing or weaving."
+    },
+    "plow": {
+      "default": "BIBLE_TOOLS",
+      "note": "Farming implement used to break and turn soil for planting."
+    },
+    "plowshare": {
+      "default": "BIBLE_TOOLS",
+      "note": "Blade of a plow, symbolically used in Scriptures to represent peace."
+    },
+    "sickle": {
+      "default": "BIBLE_TOOLS",
+      "note": "Curved blade used for harvesting grain or grass."
+    },
+    "mattock": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool with a long handle and a curved blade, used for digging and chopping."
+    },
+    "compass": {
+      "default": "BIBLE_TOOLS",
+      "note": "Tool for drawing circles or indicating direction; also symbolic of divine guidance."
+    },
+    "line": {
+      "default": "BIBLE_TOOLS",
+      "note": "String or cord used for marking straight paths or measuring distances."
+    },
+    "knife": {
+      "default": "BIBLE_TOOLS",
+      "note": "Sharp-edged blade used in sacrifices, rituals, and daily tasks."
+    },
+    "hatchet": {
+      "default": "BIBLE_TOOLS",
+      "note": "Small axe used for chopping, referenced in symbolic judgments."
+    },
+    "scythe": {
+      "default": "BIBLE_TOOLS",
+      "note": "Large curved blade used for cutting grain, mentioned in harvest imagery."
+    }
+  }
+}

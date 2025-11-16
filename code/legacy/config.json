@@ -1,0 +1,21 @@
+{
+  "output_dir": "../../output/data",
+  "logging_dir": "../../output/LOGS",
+  "html_cache_dir": "../../cache/html",
+  "json_dir": "../../output/json",
+  "cleaned_dir": "../../output/cleaned",
+  "cache_dir": "../../cache",
+  "entity_dir": "../../bible_entities",
+  "db_path": "../../data/GoodBook.db",
+  "bible_version": "NKJV",
+  "save_html_copy": true,
+  "save_cleaned_text": true,
+  "print_passage_text": false,
+  "print_footnotes": false,
+  "cleanup_mode": true,
+  "debug_mode": true,
+  "version": "0.983",
+  "spacy_entity_ruler_config": {
+    "overwrite_ents": false
+  }
+}

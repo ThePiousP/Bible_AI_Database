@@ -1,0 +1,88 @@
+These are cut and paste instructions to start Prodigy.
+PRODIGY_PORT=8001
+
+SET PRODIGY_PORT=8001 && 
+
+REM ========================================
+REM PRODIGY ANNOTATION WORKFLOW
+REM ========================================
+
+REM 1. Generate silver data
+python code\silver_export.py --db data\concordance.db --rules label_rules.yml --outdir .\silver_out
+
+REM 2. Start annotation (opens browser)
+SET PRODIGY_PORT=8001 && python -m prodigy ner.manual bible_v1 blank:en .\silver_out\train.jsonl --label DEITY,DIVINE_TITLE,PERSON,LOCATION,NATION,HUMAN_PRONOUN,DIVINE_PRONOUN,HUMAN_ACTION --patterns prodigy_patterns.jsonl--label 
+
+REM 3. Annotate in browser at http://localhost:8080
+REM    (Press Ctrl+C when done)
+
+REM 4. Export gold annotations
+python -m prodigy db-out bible_v1 > gold_out\gold_v1.jsonl
+
+REM 5. Train model (optional)
+python -m prodigy train bible_v1 --ner --output .\models\bible_ner_v1
+
+REM ========================================
+REM HELPFUL COMMANDS
+REM ========================================
+
+REM List all datasets
+python -m prodigy stats
+
+REM Delete dataset
+python -m prodigy drop bible_v1
+
+REM View progress
+python -m prodigy stats bible_v1
+
+
+
+type C:\BIBLE\audit_latest.txt
+
+
+python -m prodigy spans.manual bible_v1 en_core_web_sm ^
+  ".\silver_out\train.jsonl" --label ".\labels.txt"
+
+
+python -m prodigy spans.manual bible_v1 blank:en ^
+  ".\silver_out\train.jsonl" --label ".\labels.txt"
+
+
+python -m prodigy db-out bible_v1 > ".\gold_out\gold_v1.jsonl"
+
+
+python -m prodigy train bible_v1 --spans 
+
+
+python -m spacy evaluate ^
+  ".\models\ner_bible_v1\model-best" ".\silver_out\dev.jsonl"
+
+
+7) Iterate versions
+
+Repeat Steps 3 → 6:
+Annotate more in Prodigy (bible_v2)
+db-out → gold_v2.jsonl
+prodigy train bible_v2 --spans
+Compare against prior results  
+
+
+8) Backups (recommended)
+
+REM Prodigy DB backup (SQLite); adjust the path to your prodigy.db if customized
+copy "%USERPROFILE%\.prodigy\prodigy.db" ".\backups\prodigy_backup_%DATE:~-4%-%DATE:~4,2%-%DATE:~7,2%.db"
+
+REM Gold exports
+copy ".\gold_out\gold_v1.jsonl" ".\backups\gold_v1_%DATE:~-4%-%DATE:~4,2%-%DATE:~7,2%.jsonl"
+
+
+Handy Prodigy admin commands
+
+List datasets:
+python -m prodigy stats
+
+Delete a dataset (careful):
+python -m prodigy drop bible_v1
+
+Import any old annotations into a new dataset:
+python -m prodigy db-in bible_v2 ".\gold_out\gold_v1.jsonl"

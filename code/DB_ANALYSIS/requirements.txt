@@ -1,0 +1,22 @@
+# Bible Database Analytics Suite - Python Dependencies
+# All scripts use only Python standard library modules
+
+# No external dependencies required!
+# The analytics suite uses only built-in Python modules:
+# - sqlite3 (database access)
+# - json (data serialization)
+# - collections (Counter, defaultdict)
+# - pathlib (path handling)
+# - datetime (timestamps)
+# - time (performance benchmarking)
+# - os (file operations)
+# - re (regular expressions)
+
+# To run the analytics suite:
+# 1. Ensure you have Python 3.7+ installed
+# 2. No pip install needed - all dependencies are built-in!
+# 3. Run: python analytics_controller.py
+
+# Optional: For development/testing
+# pytest>=7.0.0  # For unit testing (if you add tests)
+# black>=22.0.0  # For code formatting (if desired)
