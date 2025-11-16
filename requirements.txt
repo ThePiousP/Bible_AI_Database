@@ -1,0 +1,80 @@
+# Bible AI Database & NER Pipeline - Core Dependencies
+# Python 3.8+ required
+
+# ============================================================================
+# Core Dependencies
+# ============================================================================
+pyyaml>=6.0.0              # Configuration management (config.yaml, label_rules.yml)
+requests>=2.31.0           # HTTP requests for web scraping
+tqdm>=4.66.0               # Progress bars for long-running tasks
+
+# ============================================================================
+# Web Scraping
+# ============================================================================
+beautifulsoup4>=4.12.0     # HTML parsing (fallback parser)
+selectolax>=0.3.16         # Fast HTML parsing (3-5x faster than BS4)
+playwright>=1.40.0         # Browser automation for STEP Bible scraping
+lxml>=5.0.0                # XML/HTML parser backend
+
+# ============================================================================
+# NLP & Machine Learning
+# ============================================================================
+spacy>=3.7.0               # Core NLP library for NER
+# Note: After installing spacy, download the model:
+#   python -m spacy download en_core_web_lg
+
+# ============================================================================
+# Prodigy Annotation (Commercial License Required)
+# ============================================================================
+# prodigy>=1.14.0          # Uncomment if you have a Prodigy license
+#   Installation: pip install prodigy -f https://XXXX-XXXX-XXXX-XXXX@download.prodi.gy
+
+# ============================================================================
+# Data Processing (Optional but Recommended)
+# ============================================================================
+pandas>=2.1.0              # Optional: For data analysis and reporting
+numpy>=1.24.0              # Optional: Numerical operations
+
+# ============================================================================
+# Database
+# ============================================================================
+# sqlite3 is included in Python standard library (no installation needed)
+
+# ============================================================================
+# Development Tools (Optional)
+# ============================================================================
+# pytest>=7.4.0            # Testing framework
+# pytest-cov>=4.1.0        # Code coverage
+# black>=23.0.0            # Code formatter
+# ruff>=0.1.0              # Fast Python linter
+# mypy>=1.7.0              # Type checker
+# pre-commit>=3.5.0        # Git hooks
+
+# ============================================================================
+# Installation Instructions
+# ============================================================================
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#
+# 2. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 3. Download spaCy model:
+#    python -m spacy download en_core_web_lg
+#
+# 4. Install Playwright browsers (for STEP scraping):
+#    playwright install
+#
+# 5. (Optional) Install development tools:
+#    pip install -r requirements-test.txt
+#
+# 6. (Optional) Install Prodigy (requires license):
+#    pip install prodigy -f https://XXXX-XXXX-XXXX-XXXX@download.prodi.gy
+
+# ============================================================================
+# Version Information
+# ============================================================================
+# Project Version: 0.983
+# Python Version: >=3.8
+# Last Updated: 2025-11-16
