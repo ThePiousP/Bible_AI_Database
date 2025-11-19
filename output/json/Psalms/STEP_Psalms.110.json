@@ -1,0 +1,3421 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=Psa.110&options=NHVUG",
+  "verse_count": 7,
+  "verses": [
+    {
+      "ref": "Ps.110.1",
+      "verse_num": 1,
+      "text_plain": "The Lord said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"Ps.110.1\" class=\"verseLink\"></a><span strong=\"H3068G\">The <span class=\"small-caps\">Lord</span></span> <span morph=\"strongMorph:TH8803\" strong=\"H5002\">said</span> <span strong=\"H0113\">unto my Lord</span>, <span morph=\"strongMorph:TH8798\" strong=\"H3427\">Sit</span> <span strong=\"H3225G\">thou at my right hand</span>, <span morph=\"strongMorph:TH8799\" strong=\"H7896G\">until I make</span> <span morph=\"strongMorph:TH8802\" strong=\"H0341\">thine enemies</span> <span strong=\"H7272 H1916\">thy footstool</span>.</span>",
+      "tokens": [
+        {
+          "text": "The Lord",
+          "strong_norm": "H3068",
+          "strong_raw": "H3068G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25407,
+          "html_end": 25476,
+          "vhtml_start": 159,
+          "vhtml_end": 228,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יְהֹוָה",
+          "transliteration": "Yᵊhōvâ",
+          "pronunciation": "yeh-ho-vaw'",
+          "pos": "proper noun with reference to deity",
+          "definition": "יְהֹוָה Yᵉhôvâh, yeh-ho-vaw'; from H1961 ; (the) self-Existent or Eternal; Jeho-vah, Jewish national name of God:—Jehovah, the Lord. Compare H3050 , H3069 .",
+          "kjv_translation_count": "LORD (6,: 510x), GOD (4x), JEHOVAH (4x), variant (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 510
+            },
+            {
+              "gloss": "GOD",
+              "count": 4
+            },
+            {
+              "gloss": "JEHOVAH",
+              "count": 4
+            },
+            {
+              "gloss": "variant",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jehovah = \"the existing One\" the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "unpronounced except with the vowel pointings of H 136"
+          ],
+          "text_start": 0,
+          "text_end": 8,
+          "token_id": "Ps.110.1#t0000"
+        },
+        {
+          "text": "said",
+          "strong_norm": "H5002",
+          "strong_raw": "H5002",
+          "morph_norm": "TH8803",
+          "morph_raw": "strongMorph:TH8803",
+          "italics": false,
+          "html_start": 25477,
+          "html_end": 25536,
+          "vhtml_start": 229,
+          "vhtml_end": 288,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נְאֻם",
+          "transliteration": "nᵊ'um",
+          "pronunciation": "neh-oom'",
+          "pos": "masculine noun",
+          "definition": "נְאֻם nᵉʼum, neh-oom'; from H5001 ; an oracle:—(hath) said, saith.",
+          "kjv_translation_count": "saith (366x), said (9x), spake (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "saith",
+              "count": 366
+            },
+            {
+              "gloss": "said",
+              "count": 9
+            },
+            {
+              "gloss": "spake",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "(Qal) utterance, declaration (of prophet) utterance, declaration, revelation (of prophet in ecstatic state) utterance, declaration (elsewhere always preceding divine name)",
+            "utterance, declaration, revelation (of prophet in ecstatic state)",
+            "utterance, declaration (elsewhere always preceding divine name)"
+          ],
+          "text_start": 9,
+          "text_end": 13,
+          "token_id": "Ps.110.1#t0001"
+        },
+        {
+          "text": "unto my Lord",
+          "strong_norm": "H0113",
+          "strong_raw": "H0113",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25537,
+          "html_end": 25577,
+          "vhtml_start": 289,
+          "vhtml_end": 329,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אָדוֹן",
+          "transliteration": "'āḏôn",
+          "pronunciation": "aw-done'",
+          "pos": "masculine noun",
+          "definition": "אָדוֹן ʼâdôwn, aw-done'; or (shortened) אָדֹן ʼâdôn; from an unused root (meaning to rule); sovereign, i.e. controller (human or divine):—lord, master, owner. Compare also names beginning with 'Adoni-'.",
+          "kjv_translation_count": "lord (197x), master(s) (105x), Lord (31x), owner (1x), sir (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "lord",
+              "count": 197
+            },
+            {
+              "gloss": "master",
+              "count": 105
+            },
+            {
+              "gloss": "Lord",
+              "count": 31
+            },
+            {
+              "gloss": "owner",
+              "count": 1
+            },
+            {
+              "gloss": "sir",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "firm, strong, lord, master lord, master reference to men superintendent of household,: of affairs master king reference to God the Lord God Lord of the whole earth lords, kings reference to men proprietor of hill of Samaria master husband prophet governor prince king reference to God Lord of lords (probably = \"thy husband, Yahweh\") my lord, my master reference to men master husband prophet prince king father Moses priest theophanic angel captain general recognition of superiority reference to God my Lord,: my Lord and my God Adonai (parallel with Yahweh)",
+            "lord, master reference to men superintendent of household,: of affairs master king reference to God the Lord God Lord of the whole earth",
+            "reference to men superintendent of household,: of affairs master king",
+            "superintendent of household,: of affairs",
+            "master",
+            "king",
+            "reference to God the Lord God Lord of the whole earth",
+            "the Lord God",
+            "Lord of the whole earth",
+            "lords, kings reference to men proprietor of hill of Samaria master husband prophet governor prince king reference to God Lord of lords (probably = \"thy husband, Yahweh\")",
+            "reference to men proprietor of hill of Samaria master husband prophet governor prince king",
+            "proprietor of hill of Samaria",
+            "master",
+            "husband",
+            "prophet",
+            "governor",
+            "prince",
+            "king",
+            "reference to God Lord of lords (probably = \"thy husband, Yahweh\")",
+            "Lord of lords (probably = \"thy husband, Yahweh\")",
+            "my lord, my master reference to men master husband prophet prince king father Moses priest theophanic angel captain general recognition of superiority reference to God my Lord,: my Lord and my God Adonai (parallel with Yahweh)",
+            "reference to men master husband prophet prince king father Moses priest theophanic angel captain general recognition of superiority",
+            "master",
+            "husband",
+            "prophet",
+            "prince",
+            "king",
+            "father",
+            "Moses",
+            "priest",
+            "theophanic angel",
+            "captain",
+            "general recognition of superiority",
+            "reference to God my Lord,: my Lord and my God Adonai (parallel with Yahweh)",
+            "my Lord,: my Lord and my God",
+            "Adonai (parallel with Yahweh)"
+          ],
+          "text_start": 14,
+          "text_end": 26,
+          "token_id": "Ps.110.1#t0002"
+        },
+        {
+          "text": "Sit",
+          "strong_norm": "H3427",
+          "strong_raw": "H3427",
+          "morph_norm": "TH8798",
+          "morph_raw": "strongMorph:TH8798",
+          "italics": false,
+          "html_start": 25579,
+          "html_end": 25637,
+          "vhtml_start": 331,
+          "vhtml_end": 389,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָשַׁב",
+          "transliteration": "yāšaḇ",
+          "pronunciation": "yaw-shav'",
+          "pos": "verb",
+          "definition": "יָשַׁב yâshab, yaw-shab'; a primitive root; properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry:—(make to) abide(-ing), continue, (cause to, make to) dwell(-ing), ease self, endure, establish, × fail, habitation, haunt, (make to) inhabit(-ant), make to keep (house), lurking, × marry(-ing), (bring again to) place, remain, return, seat, set(-tle), (down-) sit(-down, still, -ting down, -ting (place) -uate), take, tarry.",
+          "kjv_translation_count": "dwell (437x), inhabitant (221x), sit (172x), abide (70x), inhabit (39x), down (26x), remain (23x), in (22x), tarry (19x), set (14x), continue (5x), place (7x), still (5x), taken (5x), miscellaneous (23x).",
+          "kjv_counts": [
+            {
+              "gloss": "dwell",
+              "count": 437
+            },
+            {
+              "gloss": "inhabitant",
+              "count": 221
+            },
+            {
+              "gloss": "sit",
+              "count": 172
+            },
+            {
+              "gloss": "abide",
+              "count": 70
+            },
+            {
+              "gloss": "inhabit",
+              "count": 39
+            },
+            {
+              "gloss": "down",
+              "count": 26
+            },
+            {
+              "gloss": "remain",
+              "count": 23
+            },
+            {
+              "gloss": "in",
+              "count": 22
+            },
+            {
+              "gloss": "tarry",
+              "count": 19
+            },
+            {
+              "gloss": "set",
+              "count": 14
+            },
+            {
+              "gloss": "continue",
+              "count": 5
+            },
+            {
+              "gloss": "place",
+              "count": 7
+            },
+            {
+              "gloss": "still",
+              "count": 5
+            },
+            {
+              "gloss": "taken",
+              "count": 5
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 23
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to dwell, remain, sit, abide (Qal) to sit, sit down to be set to remain, stay to dwell, have one's abode (Niphal) to be inhabited (Piel) to set, place (Hiphil) to cause to sit to cause to abide, set to cause to dwell to cause (cities) to be inhabited to marry (give an dwelling to) (Hophal) to be inhabited to make to dwell",
+            "(Qal) to sit, sit down to be set to remain, stay to dwell, have one's abode",
+            "to sit, sit down",
+            "to be set",
+            "to remain, stay",
+            "to dwell, have one's abode",
+            "(Niphal) to be inhabited",
+            "(Piel) to set, place",
+            "(Hiphil) to cause to sit to cause to abide, set to cause to dwell to cause (cities) to be inhabited to marry (give an dwelling to)",
+            "to cause to sit",
+            "to cause to abide, set",
+            "to cause to dwell",
+            "to cause (cities) to be inhabited",
+            "to marry (give an dwelling to)",
+            "(Hophal) to be inhabited to make to dwell",
+            "to be inhabited",
+            "to make to dwell"
+          ],
+          "text_start": 28,
+          "text_end": 31,
+          "token_id": "Ps.110.1#t0003"
+        },
+        {
+          "text": "thou at my right hand",
+          "strong_norm": "H3225",
+          "strong_raw": "H3225G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25638,
+          "html_end": 25688,
+          "vhtml_start": 390,
+          "vhtml_end": 440,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָמִין",
+          "transliteration": "yāmîn",
+          "pronunciation": "yaw-meen'",
+          "pos": "feminine noun",
+          "definition": "יָמִין yâmîyn, yaw-meen'; from H3231 ; the right hand or side (leg, eye) of a person or other object (as the stronger and more dexterous); locally, the south:— left-handed, right (hand, side), south.",
+          "kjv_translation_count": "hand (105x), right (24x), side (5x), south (3x), lefthanded (with H 334) (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "hand",
+              "count": 105
+            },
+            {
+              "gloss": "right",
+              "count": 24
+            },
+            {
+              "gloss": "side",
+              "count": 5
+            },
+            {
+              "gloss": "south",
+              "count": 3
+            },
+            {
+              "gloss": "lefthanded",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "right, right hand, right side right hand right (of direction) south (the direction of the right hand when facing East)",
+            "right hand",
+            "right (of direction)",
+            "south (the direction of the right hand when facing East)"
+          ],
+          "text_start": 32,
+          "text_end": 53,
+          "token_id": "Ps.110.1#t0004"
+        },
+        {
+          "text": "until I make",
+          "strong_norm": "H7896",
+          "strong_raw": "H7896G",
+          "morph_norm": "TH8799",
+          "morph_raw": "strongMorph:TH8799",
+          "italics": false,
+          "html_start": 25690,
+          "html_end": 25758,
+          "vhtml_start": 442,
+          "vhtml_end": 510,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שִׁית",
+          "transliteration": "šîṯ",
+          "pronunciation": "sheeth",
+          "pos": "verb",
+          "definition": "שִׁית shîyth, sheeth; a primitive root; to place (in a very wide application):—apply, appoint, array, bring, consider, lay (up), let alone, × look, make, mark, put (on), regard, set, shew, be stayed, × take.",
+          "kjv_translation_count": "set (23x), made (19x), lay (13x), put (11x), appoint (3x), regard (2x), miscellaneous (14x).",
+          "kjv_counts": [
+            {
+              "gloss": "set",
+              "count": 23
+            },
+            {
+              "gloss": "made",
+              "count": 19
+            },
+            {
+              "gloss": "lay",
+              "count": 13
+            },
+            {
+              "gloss": "put",
+              "count": 11
+            },
+            {
+              "gloss": "appoint",
+              "count": 3
+            },
+            {
+              "gloss": "regard",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 14
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to put, set (Qal) to put, lay (hand upon) to set, station, appoint, fix, set mind to to constitute, make (one something), make like, perform to take one's stand to lay waste (Hophal) to be imposed, be set upon",
+            "(Qal) to put, lay (hand upon) to set, station, appoint, fix, set mind to to constitute, make (one something), make like, perform to take one's stand to lay waste",
+            "to put, lay (hand upon)",
+            "to set, station, appoint, fix, set mind to",
+            "to constitute, make (one something), make like, perform",
+            "to take one's stand",
+            "to lay waste",
+            "(Hophal) to be imposed, be set upon"
+          ],
+          "text_start": 55,
+          "text_end": 67,
+          "token_id": "Ps.110.1#t0005"
+        },
+        {
+          "text": "thine enemies",
+          "strong_norm": "H0341",
+          "strong_raw": "H0341",
+          "morph_norm": "TH8802",
+          "morph_raw": "strongMorph:TH8802",
+          "italics": false,
+          "html_start": 25759,
+          "html_end": 25827,
+          "vhtml_start": 511,
+          "vhtml_end": 579,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אֹיֵב",
+          "transliteration": "'ōyēḇ",
+          "pronunciation": "o-yabe'",
+          "pos": "substantive",
+          "definition": "אֹיֵב ʼôyêb, o-yabe'; or (fully) אוֹיֵב ʼôwyêb; active participle of H340 ; hating; an adversary:—enemy, foe.",
+          "kjv_translation_count": "enemy(s) (280x), foes (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "enemy",
+              "count": 280
+            },
+            {
+              "gloss": "foes",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "(Qal) enemy personal national",
+            "personal",
+            "national"
+          ],
+          "text_start": 68,
+          "text_end": 81,
+          "token_id": "Ps.110.1#t0006"
+        },
+        {
+          "text": "thy footstool",
+          "strong_norm": "H7272",
+          "strong_raw": "H7272 H1916",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25828,
+          "html_end": 25875,
+          "vhtml_start": 580,
+          "vhtml_end": 627,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֶגֶל",
+          "transliteration": "reḡel",
+          "pronunciation": "reh'-gel",
+          "pos": "feminine noun",
+          "definition": "רֶגֶל regel, reh'-gel; from H7270 ; a foot (as used in walking); by implication, a step; by euphemistically the pudenda:— × be able to endure, × according as, × after, × coming, × follow, (broken-)foot(-ed, -stool), × great toe, × haunt, × journey, leg, piss, possession, time.",
+          "kjv_translation_count": "feet (216x), footstool (with H 1916) (6x), after (4x), times (4x), follow (4x), piss (with H 4325) (2x), toes (2x), journey (1x), legs (1x), miscellaneous (7x).",
+          "kjv_counts": [
+            {
+              "gloss": "feet",
+              "count": 216
+            },
+            {
+              "gloss": "footstool",
+              "count": 6
+            },
+            {
+              "gloss": "after",
+              "count": 4
+            },
+            {
+              "gloss": "times",
+              "count": 4
+            },
+            {
+              "gloss": "follow",
+              "count": 4
+            },
+            {
+              "gloss": "piss",
+              "count": 2
+            },
+            {
+              "gloss": "toes",
+              "count": 2
+            },
+            {
+              "gloss": "journey",
+              "count": 1
+            },
+            {
+              "gloss": "legs",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 7
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "foot foot, leg of God (anthropomorphic) of seraphim, cherubim, idols, animals, table according to the pace of (with prep) three times (feet, paces)",
+            "foot, leg",
+            "of God (anthropomorphic)",
+            "of seraphim, cherubim, idols, animals, table",
+            "according to the pace of (with prep)",
+            "three times (feet, paces)"
+          ],
+          "text_start": 82,
+          "text_end": 95,
+          "token_id": "Ps.110.1#t0007"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.110.2",
+      "verse_num": 2,
+      "text_plain": "The Lord shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.2\" class=\"verseLink\"><span class=\"verseNumber\">2</span></a><a name=\"Ps.110.2\" class=\"verseLink\"></a><span strong=\"H3068G\">The <span class=\"small-caps\">Lord</span></span> <span morph=\"strongMorph:TH8799\" strong=\"H7971G\">shall send</span> <span strong=\"H4294G\">the rod</span> <span strong=\"H5797\">of thy strength</span> <span strong=\"H6726\">out of Zion</span>: <span morph=\"strongMorph:TH8798\" strong=\"H7287A\">rule</span> <span strong=\"H7130G\">thou in the midst</span> <span morph=\"strongMorph:TH8802\" strong=\"H0341\">of thine enemies</span>.</span>",
+      "tokens": [
+        {
+          "text": "The Lord",
+          "strong_norm": "H3068",
+          "strong_raw": "H3068G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26043,
+          "html_end": 26112,
+          "vhtml_start": 159,
+          "vhtml_end": 228,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יְהֹוָה",
+          "transliteration": "Yᵊhōvâ",
+          "pronunciation": "yeh-ho-vaw'",
+          "pos": "proper noun with reference to deity",
+          "definition": "יְהֹוָה Yᵉhôvâh, yeh-ho-vaw'; from H1961 ; (the) self-Existent or Eternal; Jeho-vah, Jewish national name of God:—Jehovah, the Lord. Compare H3050 , H3069 .",
+          "kjv_translation_count": "LORD (6,: 510x), GOD (4x), JEHOVAH (4x), variant (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 510
+            },
+            {
+              "gloss": "GOD",
+              "count": 4
+            },
+            {
+              "gloss": "JEHOVAH",
+              "count": 4
+            },
+            {
+              "gloss": "variant",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jehovah = \"the existing One\" the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "unpronounced except with the vowel pointings of H 136"
+          ],
+          "text_start": 0,
+          "text_end": 8,
+          "token_id": "Ps.110.2#t0000"
+        },
+        {
+          "text": "shall send",
+          "strong_norm": "H7971",
+          "strong_raw": "H7971G",
+          "morph_norm": "TH8799",
+          "morph_raw": "strongMorph:TH8799",
+          "italics": false,
+          "html_start": 26113,
+          "html_end": 26179,
+          "vhtml_start": 229,
+          "vhtml_end": 295,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שָׁלַח",
+          "transliteration": "šālaḥ",
+          "pronunciation": "shaw-lakh'",
+          "pos": "verb",
+          "definition": "שָׁלַח shâlach, shaw-lakh'; a primitive root; to send away, for, or out (in a great variety of applications):— × any wise, appoint, bring (on the way), cast (away, out), conduct, × earnestly, forsake, give (up), grow long, lay, leave, let depart (down, go, loose), push away, put (away, forth, in, out), reach forth, send (away, forth, out), set, shoot (forth, out), sow, spread, stretch forth (out).",
+          "kjv_translation_count": "send (566x), go (73x), (send , put , ...) forth (54x), send away (48x), lay (14x), send out (12x), put (10x), put away (7x), cast out (7x), stretch out (5x), cast (5x), set (5x), put out (4x), depart (4x), soweth (3x), loose (3x), miscellaneous (22x).",
+          "kjv_counts": [
+            {
+              "gloss": "send",
+              "count": 566
+            },
+            {
+              "gloss": "go",
+              "count": 73
+            },
+            {
+              "gloss": null,
+              "count": 54
+            },
+            {
+              "gloss": "send away",
+              "count": 48
+            },
+            {
+              "gloss": "lay",
+              "count": 14
+            },
+            {
+              "gloss": "send out",
+              "count": 12
+            },
+            {
+              "gloss": "put",
+              "count": 10
+            },
+            {
+              "gloss": "put away",
+              "count": 7
+            },
+            {
+              "gloss": "cast out",
+              "count": 7
+            },
+            {
+              "gloss": "stretch out",
+              "count": 5
+            },
+            {
+              "gloss": "cast",
+              "count": 5
+            },
+            {
+              "gloss": "set",
+              "count": 5
+            },
+            {
+              "gloss": "put out",
+              "count": 4
+            },
+            {
+              "gloss": "depart",
+              "count": 4
+            },
+            {
+              "gloss": "soweth",
+              "count": 3
+            },
+            {
+              "gloss": "loose",
+              "count": 3
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 22
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to send, send away, let go, stretch out (Qal) to send to stretch out, extend, direct to send away to let loose (Niphal) to be sent (Piel) to send off or away or out or forth, dismiss, give over, cast out to let go, set free to shoot forth (of branches) to let down to shoot (Pual) to be sent off, be put away, be divorced, be impelled (Hiphil) to send",
+            "(Qal) to send to stretch out, extend, direct to send away to let loose",
+            "to send",
+            "to stretch out, extend, direct",
+            "to send away",
+            "to let loose",
+            "(Niphal) to be sent",
+            "(Piel) to send off or away or out or forth, dismiss, give over, cast out to let go, set free to shoot forth (of branches) to let down to shoot",
+            "to send off or away or out or forth, dismiss, give over, cast out",
+            "to let go, set free",
+            "to shoot forth (of branches)",
+            "to let down",
+            "to shoot",
+            "(Pual) to be sent off, be put away, be divorced, be impelled",
+            "(Hiphil) to send"
+          ],
+          "text_start": 9,
+          "text_end": 19,
+          "token_id": "Ps.110.2#t0001"
+        },
+        {
+          "text": "the rod",
+          "strong_norm": "H4294",
+          "strong_raw": "H4294G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26180,
+          "html_end": 26216,
+          "vhtml_start": 296,
+          "vhtml_end": 332,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מַטֶּה",
+          "transliteration": "maṭṭê",
+          "pronunciation": "mat-teh'",
+          "pos": "masculine noun",
+          "definition": "מַטֶּה maṭṭeh, mat-teh'; or (feminine) מַטָּה maṭṭâh; from H5186 ; a branch (as extending); figuratively, a tribe; also a rod, whether for chastising (figuratively, correction), ruling (a sceptre), throwing (a lance), or walking (a staff; figuratively, a support of life, e.g. bread):—rod, staff, tribe.",
+          "kjv_translation_count": "tribe (182x), rod (52x), staff (15x), staves (1x), tribe (with H 4294) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "tribe",
+              "count": 182
+            },
+            {
+              "gloss": "rod",
+              "count": 52
+            },
+            {
+              "gloss": "staff",
+              "count": 15
+            },
+            {
+              "gloss": "staves",
+              "count": 1
+            },
+            {
+              "gloss": "tribe",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "staff, branch, tribe staff, rod, shaft branch (of vine) tribe company led by chief with staff (originally)",
+            "staff, rod, shaft",
+            "branch (of vine)",
+            "tribe company led by chief with staff (originally)",
+            "company led by chief with staff (originally)"
+          ],
+          "text_start": 20,
+          "text_end": 27,
+          "token_id": "Ps.110.2#t0002"
+        },
+        {
+          "text": "of thy strength",
+          "strong_norm": "H5797",
+          "strong_raw": "H5797",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26217,
+          "html_end": 26260,
+          "vhtml_start": 333,
+          "vhtml_end": 376,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עֹז",
+          "transliteration": "ʿōz",
+          "pronunciation": "oze",
+          "pos": "masculine noun",
+          "definition": "עֹז ʻôz, oze; or (fully) עוֹז ʻôwz; from H5810 ; strength in various applications (force, security, majesty, praise):—boldness, loud, might, power, strength, strong.",
+          "kjv_translation_count": "strength (60x), strong (17x), power (11x), might (2x), boldness (1x), loud (1x), mighty (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "strength",
+              "count": 60
+            },
+            {
+              "gloss": "strong",
+              "count": 17
+            },
+            {
+              "gloss": "power",
+              "count": 11
+            },
+            {
+              "gloss": "might",
+              "count": 2
+            },
+            {
+              "gloss": "boldness",
+              "count": 1
+            },
+            {
+              "gloss": "loud",
+              "count": 1
+            },
+            {
+              "gloss": "mighty",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "might, strength material or physical personal or social or political",
+            "material or physical",
+            "personal or social or political"
+          ],
+          "text_start": 28,
+          "text_end": 43,
+          "token_id": "Ps.110.2#t0003"
+        },
+        {
+          "text": "out of Zion",
+          "strong_norm": "H6726",
+          "strong_raw": "H6726",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26261,
+          "html_end": 26300,
+          "vhtml_start": 377,
+          "vhtml_end": 416,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "צִיּוֹן",
+          "transliteration": "ṣîyôn",
+          "pronunciation": "tsee-yone'",
+          "pos": "proper locative noun",
+          "definition": "צִיּוֹן Tsîyôwn, tsee-yone'; the same (regularly) as H6725 ; Tsijon (as a permanent capital), a mountain of Jerusalem:—Zion.",
+          "kjv_translation_count": "Zion (153x), Sion (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Zion",
+              "count": 153
+            },
+            {
+              "gloss": "Sion",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Zion = \"parched place\" another name for Jerusalem especially in the prophetic books",
+            "another name for Jerusalem especially in the prophetic books"
+          ],
+          "text_start": 44,
+          "text_end": 55,
+          "token_id": "Ps.110.2#t0004"
+        },
+        {
+          "text": "rule",
+          "strong_norm": "H7287",
+          "strong_raw": "H7287A",
+          "morph_norm": "TH8798",
+          "morph_raw": "strongMorph:TH8798",
+          "italics": false,
+          "html_start": 26302,
+          "html_end": 26362,
+          "vhtml_start": 418,
+          "vhtml_end": 478,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רָדָה",
+          "transliteration": "rāḏâ",
+          "pronunciation": "raw-daw'",
+          "pos": "verb",
+          "definition": "רָדָה râdâh, raw-daw'; a primitive root; to tread down, i.e. subjugate; specifically, to crumble off:—(come to, make to) have dominion, prevail against, reign, (bear, make to) rule,(-r, over), take.",
+          "kjv_translation_count": "rule (13x), dominion (9x), take (2x), prevaileth (1x), reign (1x), ruler (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "rule",
+              "count": 13
+            },
+            {
+              "gloss": "dominion",
+              "count": 9
+            },
+            {
+              "gloss": "take",
+              "count": 2
+            },
+            {
+              "gloss": "prevaileth",
+              "count": 1
+            },
+            {
+              "gloss": "reign",
+              "count": 1
+            },
+            {
+              "gloss": "ruler",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to rule, have dominion, dominate, tread down (Qal) to have dominion, rule, subjugate (Hiphil) to cause to dominate",
+            "(Qal) to have dominion, rule, subjugate",
+            "(Hiphil) to cause to dominate",
+            "to scrape out (Qal) to scrape, scrape out",
+            "(Qal) to scrape, scrape out"
+          ],
+          "text_start": 57,
+          "text_end": 61,
+          "token_id": "Ps.110.2#t0005"
+        },
+        {
+          "text": "thou in the midst",
+          "strong_norm": "H7130",
+          "strong_raw": "H7130G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26363,
+          "html_end": 26409,
+          "vhtml_start": 479,
+          "vhtml_end": 525,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "קֶרֶב",
+          "transliteration": "qereḇ",
+          "pronunciation": "keh'-reb",
+          "pos": "masculine noun",
+          "definition": "קֶרֶב qereb, keh'-reb; from H7126 ; properly, the nearest part, i.e. the center, whether literal, figurative or adverbial (especially with preposition):— × among, × before, bowels, × unto charge, eat (up), × heart, × him, × in, inward ( × -ly, part, -s, thought), midst, out of, purtenance, × therein, × through, × within self.",
+          "kjv_translation_count": "among (76x), midst (73x), within (24x), inwards (22x), in (6x), miscellaneous (26x).",
+          "kjv_counts": [
+            {
+              "gloss": "among",
+              "count": 76
+            },
+            {
+              "gloss": "midst",
+              "count": 73
+            },
+            {
+              "gloss": "within",
+              "count": 24
+            },
+            {
+              "gloss": "inwards",
+              "count": 22
+            },
+            {
+              "gloss": "in",
+              "count": 6
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 26
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "midst, among, inner part, middle inward part physical sense as seat of thought and emotion as faculty of thought and emotion in the midst, among, from among (of a number of persons) entrails (of sacrificial animals)",
+            "inward part physical sense as seat of thought and emotion as faculty of thought and emotion",
+            "physical sense",
+            "as seat of thought and emotion",
+            "as faculty of thought and emotion",
+            "in the midst, among, from among (of a number of persons)",
+            "entrails (of sacrificial animals)"
+          ],
+          "text_start": 62,
+          "text_end": 79,
+          "token_id": "Ps.110.2#t0006"
+        },
+        {
+          "text": "of thine enemies",
+          "strong_norm": "H0341",
+          "strong_raw": "H0341",
+          "morph_norm": "TH8802",
+          "morph_raw": "strongMorph:TH8802",
+          "italics": false,
+          "html_start": 26410,
+          "html_end": 26481,
+          "vhtml_start": 526,
+          "vhtml_end": 597,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אֹיֵב",
+          "transliteration": "'ōyēḇ",
+          "pronunciation": "o-yabe'",
+          "pos": "substantive",
+          "definition": "אֹיֵב ʼôyêb, o-yabe'; or (fully) אוֹיֵב ʼôwyêb; active participle of H340 ; hating; an adversary:—enemy, foe.",
+          "kjv_translation_count": "enemy(s) (280x), foes (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "enemy",
+              "count": 280
+            },
+            {
+              "gloss": "foes",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "(Qal) enemy personal national",
+            "personal",
+            "national"
+          ],
+          "text_start": 80,
+          "text_end": 96,
+          "token_id": "Ps.110.2#t0007"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.110.3",
+      "verse_num": 3,
+      "text_plain": "Thy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.3\" class=\"verseLink\"><span class=\"verseNumber\">3</span></a><a name=\"Ps.110.3\" class=\"verseLink\"></a><span strong=\"H5971A\">Thy people</span> <span><em>shall be</em></span> <span strong=\"H5071\">willing</span> <span strong=\"H3117G\">in the day</span> <span strong=\"H2428G\">of thy power</span>, <span strong=\"H1926\">in the beauties</span> <span strong=\"H6944G\">of holiness</span> <span strong=\"H7358\">from the womb</span> <span strong=\"H4891\">of the morning</span>: <span strong=\"H2919\">thou hast the dew</span> <span strong=\"H3208\">of thy youth</span>. <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N100A3\"><strong>▼</strong></a><span class=\"bold\">&nbsp;from…</span>: or, more than the womb of the morning: thou shalt have, etc</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "Thy people",
+          "strong_norm": "H5971",
+          "strong_raw": "H5971A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26649,
+          "html_end": 26688,
+          "vhtml_start": 159,
+          "vhtml_end": 198,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עַם",
+          "transliteration": "ʿam",
+          "pronunciation": "am",
+          "pos": "masculine noun",
+          "definition": "עַם ʻam, am; from H6004 ; a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock:—folk, men, nation, people.",
+          "kjv_translation_count": "people (1,: 836x), nation (17x), people (with H 1121) (4x), folk (2x), Ammi (1x), men (1x), each (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "people",
+              "count": 836
+            },
+            {
+              "gloss": "nation",
+              "count": 17
+            },
+            {
+              "gloss": "people",
+              "count": 4
+            },
+            {
+              "gloss": "folk",
+              "count": 2
+            },
+            {
+              "gloss": "Ammi",
+              "count": 1
+            },
+            {
+              "gloss": "men",
+              "count": 1
+            },
+            {
+              "gloss": "each",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "nation, people people, nation persons, members of one's people, compatriots, country-men",
+            "people, nation",
+            "persons, members of one's people, compatriots, country-men",
+            "kinsman, kindred"
+          ],
+          "text_start": 0,
+          "text_end": 10,
+          "token_id": "Ps.110.3#t0000"
+        },
+        {
+          "text": "shall be",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 26695,
+          "html_end": 26712,
+          "vhtml_start": 205,
+          "vhtml_end": 222,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 11,
+          "text_end": 19,
+          "token_id": "Ps.110.3#t0010"
+        },
+        {
+          "text": "willing",
+          "strong_norm": "H5071",
+          "strong_raw": "H5071",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26720,
+          "html_end": 26755,
+          "vhtml_start": 230,
+          "vhtml_end": 265,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נְדָבָה",
+          "transliteration": "nᵊḏāḇâ",
+          "pronunciation": "ned-aw-baw'",
+          "pos": "feminine noun",
+          "definition": "נְדָבָה nᵉdâbâh, ned-aw-baw'; from H5068 ; properly (abstractly) spontaneity, or (adjectively) spontaneous; also (concretely) a spontaneous or (by inference, in plural) abundant gift:—free(-will) offering, freely, plentiful, voluntary(-ily, offering), willing(-ly), offering).",
+          "kjv_translation_count": "freewill offering (15x), offerings (9x), free offering (2x), freely (2x), willing offering (1x), voluntary offering (1x), plentiful (1x), voluntarily (1x), voluntary (1x), willing (1x), willingly (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "freewill offering",
+              "count": 15
+            },
+            {
+              "gloss": "offerings",
+              "count": 9
+            },
+            {
+              "gloss": "free offering",
+              "count": 2
+            },
+            {
+              "gloss": "freely",
+              "count": 2
+            },
+            {
+              "gloss": "willing offering",
+              "count": 1
+            },
+            {
+              "gloss": "voluntary offering",
+              "count": 1
+            },
+            {
+              "gloss": "plentiful",
+              "count": 1
+            },
+            {
+              "gloss": "voluntarily",
+              "count": 1
+            },
+            {
+              "gloss": "voluntary",
+              "count": 1
+            },
+            {
+              "gloss": "willing",
+              "count": 1
+            },
+            {
+              "gloss": "willingly",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "voluntariness, free-will offering voluntariness freewill, voluntary, offering",
+            "voluntariness",
+            "freewill, voluntary, offering"
+          ],
+          "text_start": 20,
+          "text_end": 27,
+          "token_id": "Ps.110.3#t0001"
+        },
+        {
+          "text": "in the day",
+          "strong_norm": "H3117",
+          "strong_raw": "H3117G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26756,
+          "html_end": 26795,
+          "vhtml_start": 266,
+          "vhtml_end": 305,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יוֹם",
+          "transliteration": "yôm",
+          "pronunciation": "yome",
+          "pos": "masculine noun",
+          "definition": "יוֹם yôwm, yome; from an unused root meaning to be hot; a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb):—age, always, chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), elder, × end, evening, (for) ever(-lasting, -more), × full, life, as (so) long as (... live), (even) now, old, outlived, perpetually, presently, remaineth, × required, season, × since, space, then, (process of) time, as at other times, in trouble, weather, (as) when, (a, the, within a) while (that), × whole ( age), (full) year(-ly), younger.",
+          "kjv_translation_count": "day (2,: 008x), time (64x), chronicles (with H 1697) (37x), daily (44x), ever (18x), year (14x), continually (10x), when (10x), as (10x), while (8x), full (8x), always (4x), whole (4x), alway (4x), miscellaneous (44x).",
+          "kjv_counts": [
+            {
+              "gloss": "day",
+              "count": 8
+            },
+            {
+              "gloss": "time",
+              "count": 64
+            },
+            {
+              "gloss": "chronicles",
+              "count": 37
+            },
+            {
+              "gloss": "daily",
+              "count": 44
+            },
+            {
+              "gloss": "ever",
+              "count": 18
+            },
+            {
+              "gloss": "year",
+              "count": 14
+            },
+            {
+              "gloss": "continually",
+              "count": 10
+            },
+            {
+              "gloss": "when",
+              "count": 10
+            },
+            {
+              "gloss": "as",
+              "count": 10
+            },
+            {
+              "gloss": "while",
+              "count": 8
+            },
+            {
+              "gloss": "full",
+              "count": 8
+            },
+            {
+              "gloss": "always",
+              "count": 4
+            },
+            {
+              "gloss": "whole",
+              "count": 4
+            },
+            {
+              "gloss": "alway",
+              "count": 4
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 44
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "day (as opposed to night)",
+            "as a division of time a working day, a day's journey",
+            "a working day, a day's journey",
+            "days, lifetime (pl.)",
+            "time, period (general)",
+            "year",
+            "temporal references today yesterday tomorrow",
+            "today",
+            "yesterday",
+            "tomorrow"
+          ],
+          "text_start": 28,
+          "text_end": 38,
+          "token_id": "Ps.110.3#t0002"
+        },
+        {
+          "text": "of thy power",
+          "strong_norm": "H2428",
+          "strong_raw": "H2428G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26796,
+          "html_end": 26837,
+          "vhtml_start": 306,
+          "vhtml_end": 347,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "חַיִל",
+          "transliteration": "ḥayil",
+          "pronunciation": "khah'-yil",
+          "pos": "masculine noun",
+          "definition": "חַיִל chayil, khah'-yil; from H2342 ; probably a force, whether of men, means or other resources; an army, wealth, virtue, valor, strength:—able, activity, ( ) army, band of men (soldiers), company, (great) forces, goods, host, might, power, riches, strength, strong, substance, train, ( ) valiant(-ly), valour, virtuous(-ly), war, worthy(-ily).",
+          "kjv_translation_count": "army (56x), man of valour (37x), host (29x), forces (14x), valiant (13x), strength (12x), riches (11x), wealth (10x), power (9x), substance (8x), might (6x), strong (5x), miscellaneous (33x).",
+          "kjv_counts": [
+            {
+              "gloss": "army",
+              "count": 56
+            },
+            {
+              "gloss": "man of valour",
+              "count": 37
+            },
+            {
+              "gloss": "host",
+              "count": 29
+            },
+            {
+              "gloss": "forces",
+              "count": 14
+            },
+            {
+              "gloss": "valiant",
+              "count": 13
+            },
+            {
+              "gloss": "strength",
+              "count": 12
+            },
+            {
+              "gloss": "riches",
+              "count": 11
+            },
+            {
+              "gloss": "wealth",
+              "count": 10
+            },
+            {
+              "gloss": "power",
+              "count": 9
+            },
+            {
+              "gloss": "substance",
+              "count": 8
+            },
+            {
+              "gloss": "might",
+              "count": 6
+            },
+            {
+              "gloss": "strong",
+              "count": 5
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 33
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "strength, might, efficiency, wealth, army strength ability, efficiency wealth force, army",
+            "strength",
+            "ability, efficiency",
+            "wealth",
+            "force, army"
+          ],
+          "text_start": 39,
+          "text_end": 51,
+          "token_id": "Ps.110.3#t0003"
+        },
+        {
+          "text": "in the beauties",
+          "strong_norm": "H1926",
+          "strong_raw": "H1926",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26839,
+          "html_end": 26882,
+          "vhtml_start": 349,
+          "vhtml_end": 392,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָדָר",
+          "transliteration": "hāḏār",
+          "pronunciation": "haw-dawr'",
+          "pos": "masculine noun",
+          "definition": "הָדָר hâdâr, haw-dawr'; from H1921 ; magnificence, i.e. ornament or splendor:—beauty, comeliness, excellency, glorious, glory, goodly, honour, majesty.",
+          "kjv_translation_count": "glory (7x), majesty (7x), honour (5x), beauty (4x), comeliness (3x), excellency (2x), glorious (1x), goodly (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "glory",
+              "count": 7
+            },
+            {
+              "gloss": "majesty",
+              "count": 7
+            },
+            {
+              "gloss": "honour",
+              "count": 5
+            },
+            {
+              "gloss": "beauty",
+              "count": 4
+            },
+            {
+              "gloss": "comeliness",
+              "count": 3
+            },
+            {
+              "gloss": "excellency",
+              "count": 2
+            },
+            {
+              "gloss": "glorious",
+              "count": 1
+            },
+            {
+              "gloss": "goodly",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "ornament, splendour, honour ornament splendour, majesty honour, glory",
+            "ornament",
+            "splendour, majesty",
+            "honour, glory"
+          ],
+          "text_start": 53,
+          "text_end": 68,
+          "token_id": "Ps.110.3#t0004"
+        },
+        {
+          "text": "of holiness",
+          "strong_norm": "H6944",
+          "strong_raw": "H6944G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26883,
+          "html_end": 26923,
+          "vhtml_start": 393,
+          "vhtml_end": 433,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "קֹדֶשׁ",
+          "transliteration": "qōḏeš",
+          "pronunciation": "ko'-desh",
+          "pos": "masculine noun",
+          "definition": "קֹדֶשׁ qôdesh, ko'-desh; from H6942 ; a sacred place or thing; rarely abstract, sanctity:—consecrated (thing), dedicated (thing), hallowed (thing), holiness, ( × most) holy ( × day, portion, thing), saint, sanctuary.",
+          "kjv_translation_count": "holy (262x), sanctuary (68x), (holy , hallowed , ...) things (52x), most (44x), holiness (30x), dedicated (5x), hallowed (3x), consecrated (1x), miscellaneous (3x).",
+          "kjv_counts": [
+            {
+              "gloss": "holy",
+              "count": 262
+            },
+            {
+              "gloss": "sanctuary",
+              "count": 68
+            },
+            {
+              "gloss": null,
+              "count": 52
+            },
+            {
+              "gloss": "most",
+              "count": 44
+            },
+            {
+              "gloss": "holiness",
+              "count": 30
+            },
+            {
+              "gloss": "dedicated",
+              "count": 5
+            },
+            {
+              "gloss": "hallowed",
+              "count": 3
+            },
+            {
+              "gloss": "consecrated",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 3
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "apartness, holiness, sacredness, separateness apartness, sacredness, holiness of God of places of things set-apartness, separateness",
+            "apartness, sacredness, holiness of God of places of things",
+            "of God",
+            "of places",
+            "of things",
+            "set-apartness, separateness"
+          ],
+          "text_start": 69,
+          "text_end": 80,
+          "token_id": "Ps.110.3#t0005"
+        },
+        {
+          "text": "from the womb",
+          "strong_norm": "H7358",
+          "strong_raw": "H7358",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26924,
+          "html_end": 26965,
+          "vhtml_start": 434,
+          "vhtml_end": 475,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֶחֶם",
+          "transliteration": "reḥem",
+          "pronunciation": "rekh'-em",
+          "pos": "masculine noun",
+          "definition": "רֶחֶם rechem, rekh'-em; from H7355 ; (compare H7356 ) the womb:—matrix, womb.",
+          "kjv_translation_count": "womb (21x), matrix (5x).",
+          "kjv_counts": [
+            {
+              "gloss": "womb",
+              "count": 21
+            },
+            {
+              "gloss": "matrix",
+              "count": 5
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "womb womb womb-man, woman-slave, woman, two women",
+            "womb",
+            "womb-man, woman-slave, woman, two women"
+          ],
+          "text_start": 81,
+          "text_end": 94,
+          "token_id": "Ps.110.3#t0006"
+        },
+        {
+          "text": "of the morning",
+          "strong_norm": "H4891",
+          "strong_raw": "H4891",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26966,
+          "html_end": 27008,
+          "vhtml_start": 476,
+          "vhtml_end": 518,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מִשְׁחָר",
+          "transliteration": "mišḥār",
+          "pronunciation": "mish-khawr'",
+          "pos": "masculine noun",
+          "definition": "מִשְׁחָר mishchâr, mish-khawr'; from H7836 in the sense of day breaking; dawn:—morning.",
+          "kjv_translation_count": "morning (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "morning",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "dawn"
+          ],
+          "text_start": 95,
+          "text_end": 109,
+          "token_id": "Ps.110.3#t0007"
+        },
+        {
+          "text": "thou hast the dew",
+          "strong_norm": "H2919",
+          "strong_raw": "H2919",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27010,
+          "html_end": 27055,
+          "vhtml_start": 520,
+          "vhtml_end": 565,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "טַל",
+          "transliteration": "ṭal",
+          "pronunciation": "tal",
+          "pos": "masculine noun",
+          "definition": "טַל ṭal, tal; from H2926 ; dew (as covering vegetation):—dew.",
+          "kjv_translation_count": "dew (31x).",
+          "kjv_counts": [
+            {
+              "gloss": "dew",
+              "count": 31
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "dew, night mist"
+          ],
+          "text_start": 111,
+          "text_end": 128,
+          "token_id": "Ps.110.3#t0008"
+        },
+        {
+          "text": "of thy youth",
+          "strong_norm": "H3208",
+          "strong_raw": "H3208",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27056,
+          "html_end": 27096,
+          "vhtml_start": 566,
+          "vhtml_end": 606,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יַלְדוּת",
+          "transliteration": "yalḏûṯ",
+          "pronunciation": "yal-dooth'",
+          "pos": "feminine noun",
+          "definition": "יַלְדוּת yaldûwth, yal-dooth'; abstractly from H3206 ; boyhood (or girlhood):—childhood, youth.",
+          "kjv_translation_count": "youth (2x), childhood (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "youth",
+              "count": 2
+            },
+            {
+              "gloss": "childhood",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "childhood, youth"
+          ],
+          "text_start": 129,
+          "text_end": 141,
+          "token_id": "Ps.110.3#t0009"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ from…: or, more than the womb of the morning: thou shalt have, etc",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N100A3\"><strong>▼</strong></a><span class=\"bold\">&nbsp;from…</span>: or, more than the womb of the morning: thou shalt have, etc</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.110.4",
+      "verse_num": 4,
+      "text_plain": "The Lord hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.4\" class=\"verseLink\"><span class=\"verseNumber\">4</span></a><a name=\"Ps.110.4\" class=\"verseLink\"></a><span strong=\"H3068G\">The <span class=\"small-caps\">Lord</span></span> <span morph=\"strongMorph:TH8738\" strong=\"H7650\">hath sworn</span>, <span morph=\"strongMorph:TH8735\" strong=\"H5162H\">and will not repent</span>, Thou <span><em>art</em></span> <span strong=\"H3548\">a priest</span> <span strong=\"H5769G\">for ever</span> <span strong=\"H1700\">after the order</span> <span strong=\"H4442\">of Melchizedek</span>.</span>",
+      "tokens": [
+        {
+          "text": "The Lord",
+          "strong_norm": "H3068",
+          "strong_raw": "H3068G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27531,
+          "html_end": 27600,
+          "vhtml_start": 159,
+          "vhtml_end": 228,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יְהֹוָה",
+          "transliteration": "Yᵊhōvâ",
+          "pronunciation": "yeh-ho-vaw'",
+          "pos": "proper noun with reference to deity",
+          "definition": "יְהֹוָה Yᵉhôvâh, yeh-ho-vaw'; from H1961 ; (the) self-Existent or Eternal; Jeho-vah, Jewish national name of God:—Jehovah, the Lord. Compare H3050 , H3069 .",
+          "kjv_translation_count": "LORD (6,: 510x), GOD (4x), JEHOVAH (4x), variant (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 510
+            },
+            {
+              "gloss": "GOD",
+              "count": 4
+            },
+            {
+              "gloss": "JEHOVAH",
+              "count": 4
+            },
+            {
+              "gloss": "variant",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jehovah = \"the existing One\" the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "unpronounced except with the vowel pointings of H 136"
+          ],
+          "text_start": 0,
+          "text_end": 8,
+          "token_id": "Ps.110.4#t0000"
+        },
+        {
+          "text": "hath sworn",
+          "strong_norm": "H7650",
+          "strong_raw": "H7650",
+          "morph_norm": "TH8738",
+          "morph_raw": "strongMorph:TH8738",
+          "italics": false,
+          "html_start": 27601,
+          "html_end": 27666,
+          "vhtml_start": 229,
+          "vhtml_end": 294,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שָׁבַע",
+          "transliteration": "šāḇaʿ",
+          "pronunciation": "shaw-bah'",
+          "pos": "verb",
+          "definition": "שָׁבַע shâbaʻ, shaw-bah'; a primitive root; properly to be complete, but used only as a denominative from H7651 ; to seven oneself, i.e. swear (as if by repeating a declaration seven times):—adjure, charge (by an oath, with an oath), feed to the full (by mistake for H7646 ), take an oath, × straitly, (cause to, make to) swear.",
+          "kjv_translation_count": "sware (167x), charge (8x), oath (7x), adjure (3x), straitly (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "sware",
+              "count": 167
+            },
+            {
+              "gloss": "charge",
+              "count": 8
+            },
+            {
+              "gloss": "oath",
+              "count": 7
+            },
+            {
+              "gloss": "adjure",
+              "count": 3
+            },
+            {
+              "gloss": "straitly",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to swear, adjure (Qal) sworn (participle) (Niphal) to swear, take an oath to swear (of Jehovah by Himself) to curse (Hiphil) to cause to take an oath to adjure",
+            "(Qal) sworn (participle)",
+            "(Niphal) to swear, take an oath to swear (of Jehovah by Himself) to curse",
+            "to swear, take an oath",
+            "to swear (of Jehovah by Himself)",
+            "to curse",
+            "(Hiphil) to cause to take an oath to adjure",
+            "to cause to take an oath",
+            "to adjure"
+          ],
+          "text_start": 9,
+          "text_end": 19,
+          "token_id": "Ps.110.4#t0001"
+        },
+        {
+          "text": "and will not repent",
+          "strong_norm": "H5162",
+          "strong_raw": "H5162H",
+          "morph_norm": "TH8735",
+          "morph_raw": "strongMorph:TH8735",
+          "italics": false,
+          "html_start": 27668,
+          "html_end": 27743,
+          "vhtml_start": 296,
+          "vhtml_end": 371,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נָחַם",
+          "transliteration": "nāḥam",
+          "pronunciation": "naw-kham'",
+          "pos": "verb",
+          "definition": "נָחַם nâcham, naw-kham'; a primitive root; properly, to sigh, i.e. breathe strongly; by implication, to be sorry, i.e. (in a favorable sense) to pity, console or (reflexively) rue; or (unfavorably) to avenge (oneself):—comfort (self), ease (one's self), repent(-er,-ing, self).",
+          "kjv_translation_count": "comfort (57x), repent (41x), comforter (9x), ease (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "comfort",
+              "count": 57
+            },
+            {
+              "gloss": "repent",
+              "count": 41
+            },
+            {
+              "gloss": "comforter",
+              "count": 9
+            },
+            {
+              "gloss": "ease",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to be sorry, console oneself, repent, regret, comfort, be comforted (Niphal) to be sorry, be moved to pity, have compassion to be sorry, rue, suffer grief, repent to comfort oneself, be comforted to comfort oneself, ease oneself (Piel) to comfort, console (Pual) to be comforted, be consoled (Hithpael) to be sorry, have compassion to rue, repent of to comfort oneself, be comforted to ease oneself",
+            "(Niphal) to be sorry, be moved to pity, have compassion to be sorry, rue, suffer grief, repent to comfort oneself, be comforted to comfort oneself, ease oneself",
+            "to be sorry, be moved to pity, have compassion",
+            "to be sorry, rue, suffer grief, repent",
+            "to comfort oneself, be comforted",
+            "to comfort oneself, ease oneself",
+            "(Piel) to comfort, console",
+            "(Pual) to be comforted, be consoled",
+            "(Hithpael) to be sorry, have compassion to rue, repent of to comfort oneself, be comforted to ease oneself",
+            "to be sorry, have compassion",
+            "to rue, repent of",
+            "to comfort oneself, be comforted",
+            "to ease oneself"
+          ],
+          "text_start": 21,
+          "text_end": 40,
+          "token_id": "Ps.110.4#t0002"
+        },
+        {
+          "text": "art",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 27756,
+          "html_end": 27768,
+          "vhtml_start": 384,
+          "vhtml_end": 396,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 47,
+          "text_end": 50,
+          "token_id": "Ps.110.4#t0007"
+        },
+        {
+          "text": "a priest",
+          "strong_norm": "H3548",
+          "strong_raw": "H3548",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27776,
+          "html_end": 27812,
+          "vhtml_start": 404,
+          "vhtml_end": 440,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "כֹּהֵן",
+          "transliteration": "kōhēn",
+          "pronunciation": "ko-hane'",
+          "pos": "masculine noun",
+          "definition": "כֹּהֵן kôhên, ko-hane'; active participle of H3547 ; literally one officiating, a priest; also (by courtesy) an acting priest (although a layman):—chief ruler, × own, priest, prince, principal officer.",
+          "kjv_translation_count": "priest (744x), own (2x), chief ruler (2x), officer (1x), princes (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "priest",
+              "count": 744
+            },
+            {
+              "gloss": "own",
+              "count": 2
+            },
+            {
+              "gloss": "chief ruler",
+              "count": 2
+            },
+            {
+              "gloss": "officer",
+              "count": 1
+            },
+            {
+              "gloss": "princes",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "priest, principal officer or chief ruler priest-king (Melchizedek, Messiah) pagan priests priests of Jehovah Levitical priests Zadokite priests Aaronic priests the high priest",
+            "priest-king (Melchizedek, Messiah)",
+            "pagan priests",
+            "priests of Jehovah",
+            "Levitical priests",
+            "Zadokite priests",
+            "Aaronic priests",
+            "the high priest"
+          ],
+          "text_start": 51,
+          "text_end": 59,
+          "token_id": "Ps.110.4#t0003"
+        },
+        {
+          "text": "for ever",
+          "strong_norm": "H5769",
+          "strong_raw": "H5769G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27813,
+          "html_end": 27850,
+          "vhtml_start": 441,
+          "vhtml_end": 478,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עוֹלָם",
+          "transliteration": "ʿôlām",
+          "pronunciation": "o-lawm'",
+          "pos": "masculine noun",
+          "definition": "עוֹלָם ʻôwlâm, o-lawm'; or עֹלָם ʻôlâm; from H5956 ; properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always:—alway(-s), ancient (time), any more, continuance, eternal, (for, (n-)) ever(-lasting, -more, of old), lasting, long (time), (of) old (time), perpetual, at any time, (beginning of the) world ( + without end). Compare H5331 , H5703 .",
+          "kjv_translation_count": "ever (272x), everlasting (63x), old (22x), perpetual (22x), evermore (15x), never (13x), time (6x), ancient (5x), world (4x), always (3x), alway (2x), long (2x), more (2x), never (with H 408) (2x), miscellaneous (6x).",
+          "kjv_counts": [
+            {
+              "gloss": "ever",
+              "count": 272
+            },
+            {
+              "gloss": "everlasting",
+              "count": 63
+            },
+            {
+              "gloss": "old",
+              "count": 22
+            },
+            {
+              "gloss": "perpetual",
+              "count": 22
+            },
+            {
+              "gloss": "evermore",
+              "count": 15
+            },
+            {
+              "gloss": "never",
+              "count": 13
+            },
+            {
+              "gloss": "time",
+              "count": 6
+            },
+            {
+              "gloss": "ancient",
+              "count": 5
+            },
+            {
+              "gloss": "world",
+              "count": 4
+            },
+            {
+              "gloss": "always",
+              "count": 3
+            },
+            {
+              "gloss": "alway",
+              "count": 2
+            },
+            {
+              "gloss": "long",
+              "count": 2
+            },
+            {
+              "gloss": "more",
+              "count": 2
+            },
+            {
+              "gloss": "never",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 6
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "long duration, antiquity, futurity, for ever, ever, everlasting, evermore, perpetual, old, ancient, world ancient time, long time (of past) (of future) for ever, always continuous existence, perpetual everlasting, indefinite or unending future, eternity",
+            "ancient time, long time (of past)",
+            "(of future) for ever, always continuous existence, perpetual everlasting, indefinite or unending future, eternity",
+            "for ever, always",
+            "continuous existence, perpetual",
+            "everlasting, indefinite or unending future, eternity"
+          ],
+          "text_start": 60,
+          "text_end": 68,
+          "token_id": "Ps.110.4#t0004"
+        },
+        {
+          "text": "after the order",
+          "strong_norm": "H1700",
+          "strong_raw": "H1700",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27851,
+          "html_end": 27894,
+          "vhtml_start": 479,
+          "vhtml_end": 522,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "דִּבְרָה",
+          "transliteration": "diḇrâ",
+          "pronunciation": "dib-raw'",
+          "pos": "masculine noun",
+          "definition": "דִּבְרָה dibrâh, dib-raw'; feminine of H1697 ; a reason, suit or style:—cause, end, estate, order, regard.",
+          "kjv_translation_count": "cause (1x), order (1x), estate (1x), end (1x), regard (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "cause",
+              "count": 1
+            },
+            {
+              "gloss": "order",
+              "count": 1
+            },
+            {
+              "gloss": "estate",
+              "count": 1
+            },
+            {
+              "gloss": "end",
+              "count": 1
+            },
+            {
+              "gloss": "regard",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "cause, manner, reason"
+          ],
+          "text_start": 69,
+          "text_end": 84,
+          "token_id": "Ps.110.4#t0005"
+        },
+        {
+          "text": "of Melchizedek",
+          "strong_norm": "H4442",
+          "strong_raw": "H4442",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27895,
+          "html_end": 27937,
+          "vhtml_start": 523,
+          "vhtml_end": 565,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מַלְכִּי־צֶדֶק",
+          "transliteration": "malkî-ṣeḏeq",
+          "pronunciation": "mal-kee-tseh'-dek",
+          "pos": "proper masculine noun",
+          "definition": "מַלְכִּי־צֶדֶק Malkîy-Tsedeq, mal-kee-tseh'-dek; from H4428 and H6664 ; king of right; Malki-Tsedek, an early king in Palestine:—Melchizedek.",
+          "kjv_translation_count": "Melchizedek (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "Melchizedek",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Melchizedek = \"my king is Sedek\" king of Salem and priest of the Most High God to whom Abram paid tithe after the battle he fought to free Lot; 'the order of Melchizedek' the order of the priesthood to which Christ belongs",
+            "king of Salem and priest of the Most High God to whom Abram paid tithe after the battle he fought to free Lot; 'the order of Melchizedek' the order of the priesthood to which Christ belongs"
+          ],
+          "text_start": 85,
+          "text_end": 99,
+          "token_id": "Ps.110.4#t0006"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.110.5",
+      "verse_num": 5,
+      "text_plain": "The Lord at thy right hand shall strike through kings in the day of his wrath.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.5\" class=\"verseLink\"><span class=\"verseNumber\">5</span></a><a name=\"Ps.110.5\" class=\"verseLink\"></a><span strong=\"H0136\">The Lord</span> <span strong=\"H3225G\">at thy right hand</span> <span morph=\"strongMorph:TH8804\" strong=\"H4272\">shall strike</span> <span strong=\"H4428G\">through kings</span> <span strong=\"H3117G\">in the day</span> <span strong=\"H0639G\">of his wrath</span>.</span>",
+      "tokens": [
+        {
+          "text": "The Lord",
+          "strong_norm": "H0136",
+          "strong_raw": "H0136",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28105,
+          "html_end": 28141,
+          "vhtml_start": 159,
+          "vhtml_end": 195,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אֲדֹנָי",
+          "transliteration": "'ăḏōnāy",
+          "pronunciation": "ad-o-noy'",
+          "pos": "masculine noun",
+          "definition": "אֲדֹנָי ʼĂdônây, ad-o-noy'; an emphatic form of H113 ; the Lord (used as a proper name of God only):—(my) Lord.",
+          "kjv_translation_count": "Lord (431x), lord (2x), God (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Lord",
+              "count": 431
+            },
+            {
+              "gloss": "lord",
+              "count": 2
+            },
+            {
+              "gloss": "God",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "my lord, lord of men of God",
+            "of men",
+            "of God",
+            "Lord - title, spoken in place of Yahweh in Jewish display of reverence"
+          ],
+          "text_start": 0,
+          "text_end": 8,
+          "token_id": "Ps.110.5#t0000"
+        },
+        {
+          "text": "at thy right hand",
+          "strong_norm": "H3225",
+          "strong_raw": "H3225G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28142,
+          "html_end": 28188,
+          "vhtml_start": 196,
+          "vhtml_end": 242,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָמִין",
+          "transliteration": "yāmîn",
+          "pronunciation": "yaw-meen'",
+          "pos": "feminine noun",
+          "definition": "יָמִין yâmîyn, yaw-meen'; from H3231 ; the right hand or side (leg, eye) of a person or other object (as the stronger and more dexterous); locally, the south:— left-handed, right (hand, side), south.",
+          "kjv_translation_count": "hand (105x), right (24x), side (5x), south (3x), lefthanded (with H 334) (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "hand",
+              "count": 105
+            },
+            {
+              "gloss": "right",
+              "count": 24
+            },
+            {
+              "gloss": "side",
+              "count": 5
+            },
+            {
+              "gloss": "south",
+              "count": 3
+            },
+            {
+              "gloss": "lefthanded",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "right, right hand, right side right hand right (of direction) south (the direction of the right hand when facing East)",
+            "right hand",
+            "right (of direction)",
+            "south (the direction of the right hand when facing East)"
+          ],
+          "text_start": 9,
+          "text_end": 26,
+          "token_id": "Ps.110.5#t0001"
+        },
+        {
+          "text": "shall strike",
+          "strong_norm": "H4272",
+          "strong_raw": "H4272",
+          "morph_norm": "TH8804",
+          "morph_raw": "strongMorph:TH8804",
+          "italics": false,
+          "html_start": 28189,
+          "html_end": 28256,
+          "vhtml_start": 243,
+          "vhtml_end": 310,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מָחַץ",
+          "transliteration": "māḥaṣ",
+          "pronunciation": "maw-khats'",
+          "pos": "verb",
+          "definition": "מָחַץ mâchats, maw-khats'; a primitive root; to dash asunder; by implication, to crush, smash or violently plunge; figuratively, to subdue or destroy:—dip, pierce (through), smite (through), strike through, wound.",
+          "kjv_translation_count": "wound (7x), smite through (2x), pierce (2x), strike through (1x), pierce through (1x), dipped (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "wound",
+              "count": 7
+            },
+            {
+              "gloss": "smite through",
+              "count": 2
+            },
+            {
+              "gloss": "pierce",
+              "count": 2
+            },
+            {
+              "gloss": "strike through",
+              "count": 1
+            },
+            {
+              "gloss": "pierce through",
+              "count": 1
+            },
+            {
+              "gloss": "dipped",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to smite through, shatter, wound severely (Qal) to shatter shattering (participle)",
+            "(Qal) to shatter shattering (participle)",
+            "to shatter",
+            "shattering (participle)"
+          ],
+          "text_start": 27,
+          "text_end": 39,
+          "token_id": "Ps.110.5#t0002"
+        },
+        {
+          "text": "through kings",
+          "strong_norm": "H4428",
+          "strong_raw": "H4428G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28257,
+          "html_end": 28299,
+          "vhtml_start": 311,
+          "vhtml_end": 353,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מֶלֶךְ",
+          "transliteration": "meleḵ",
+          "pronunciation": "meh'-lek",
+          "pos": "masculine noun",
+          "definition": "מֶלֶךְ melek, meh'-lek; from H4427 ; a king:—king, royal.",
+          "kjv_translation_count": "king (2,: 518x), royal (2x), Hammelech (1x), Malcham (1x), Moloch (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "king",
+              "count": 518
+            },
+            {
+              "gloss": "royal",
+              "count": 2
+            },
+            {
+              "gloss": "Hammelech",
+              "count": 1
+            },
+            {
+              "gloss": "Malcham",
+              "count": 1
+            },
+            {
+              "gloss": "Moloch",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "king"
+          ],
+          "text_start": 40,
+          "text_end": 53,
+          "token_id": "Ps.110.5#t0003"
+        },
+        {
+          "text": "in the day",
+          "strong_norm": "H3117",
+          "strong_raw": "H3117G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28300,
+          "html_end": 28339,
+          "vhtml_start": 354,
+          "vhtml_end": 393,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יוֹם",
+          "transliteration": "yôm",
+          "pronunciation": "yome",
+          "pos": "masculine noun",
+          "definition": "יוֹם yôwm, yome; from an unused root meaning to be hot; a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb):—age, always, chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), elder, × end, evening, (for) ever(-lasting, -more), × full, life, as (so) long as (... live), (even) now, old, outlived, perpetually, presently, remaineth, × required, season, × since, space, then, (process of) time, as at other times, in trouble, weather, (as) when, (a, the, within a) while (that), × whole ( age), (full) year(-ly), younger.",
+          "kjv_translation_count": "day (2,: 008x), time (64x), chronicles (with H 1697) (37x), daily (44x), ever (18x), year (14x), continually (10x), when (10x), as (10x), while (8x), full (8x), always (4x), whole (4x), alway (4x), miscellaneous (44x).",
+          "kjv_counts": [
+            {
+              "gloss": "day",
+              "count": 8
+            },
+            {
+              "gloss": "time",
+              "count": 64
+            },
+            {
+              "gloss": "chronicles",
+              "count": 37
+            },
+            {
+              "gloss": "daily",
+              "count": 44
+            },
+            {
+              "gloss": "ever",
+              "count": 18
+            },
+            {
+              "gloss": "year",
+              "count": 14
+            },
+            {
+              "gloss": "continually",
+              "count": 10
+            },
+            {
+              "gloss": "when",
+              "count": 10
+            },
+            {
+              "gloss": "as",
+              "count": 10
+            },
+            {
+              "gloss": "while",
+              "count": 8
+            },
+            {
+              "gloss": "full",
+              "count": 8
+            },
+            {
+              "gloss": "always",
+              "count": 4
+            },
+            {
+              "gloss": "whole",
+              "count": 4
+            },
+            {
+              "gloss": "alway",
+              "count": 4
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 44
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "day (as opposed to night)",
+            "as a division of time a working day, a day's journey",
+            "a working day, a day's journey",
+            "days, lifetime (pl.)",
+            "time, period (general)",
+            "year",
+            "temporal references today yesterday tomorrow",
+            "today",
+            "yesterday",
+            "tomorrow"
+          ],
+          "text_start": 54,
+          "text_end": 64,
+          "token_id": "Ps.110.5#t0004"
+        },
+        {
+          "text": "of his wrath",
+          "strong_norm": "H0639",
+          "strong_raw": "H0639G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28340,
+          "html_end": 28381,
+          "vhtml_start": 394,
+          "vhtml_end": 435,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אַף",
+          "transliteration": "'ap̄",
+          "pronunciation": "af",
+          "pos": "masculine noun",
+          "definition": "אַף ʼaph, af; from H599 ; properly, the nose or nostril; hence, the face, and occasionally a person; also (from the rapid breathing in passion) ire:—anger(-gry), before, countenance, face, forebearing, forehead, (long-) suffering, nose, nostril, snout, × worthy, wrath.",
+          "kjv_translation_count": "anger (172x), wrath (42x), face (22x), nostrils (13x), nose (12x), angry (4x), longsuffering (with H 750) (4x), before (2x), countenance (1x), forbearing (1x), forehead (1x), snout (1x), worthy (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "anger",
+              "count": 172
+            },
+            {
+              "gloss": "wrath",
+              "count": 42
+            },
+            {
+              "gloss": "face",
+              "count": 22
+            },
+            {
+              "gloss": "nostrils",
+              "count": 13
+            },
+            {
+              "gloss": "nose",
+              "count": 12
+            },
+            {
+              "gloss": "angry",
+              "count": 4
+            },
+            {
+              "gloss": "longsuffering",
+              "count": 4
+            },
+            {
+              "gloss": "before",
+              "count": 2
+            },
+            {
+              "gloss": "countenance",
+              "count": 1
+            },
+            {
+              "gloss": "forbearing",
+              "count": 1
+            },
+            {
+              "gloss": "forehead",
+              "count": 1
+            },
+            {
+              "gloss": "snout",
+              "count": 1
+            },
+            {
+              "gloss": "worthy",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "nostril, nose, face",
+            "anger"
+          ],
+          "text_start": 65,
+          "text_end": 77,
+          "token_id": "Ps.110.5#t0005"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.110.6",
+      "verse_num": 6,
+      "text_plain": "He shall judge among the heathen, he shall fill the places with the dead bodies; he shall wound the heads over many countries.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.6\" class=\"verseLink\"><span class=\"verseNumber\">6</span></a><a name=\"Ps.110.6\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8799\" strong=\"H1777\">He shall judge</span> <span strong=\"H1471A\">among the heathen</span>, <span morph=\"strongMorph:TH8804\" strong=\"H4390\">he shall fill</span> <span><em>the places</em></span> <span strong=\"H1472\">with the dead bodies</span>; <span morph=\"strongMorph:TH8804\" strong=\"H4272\">he shall wound</span> <span strong=\"H7218H\">the heads</span> <span strong=\"H7227A\">over many</span> <span strong=\"H0776G\">countries</span>. <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10116\"><strong>▼</strong></a><span class=\"bold\">&nbsp;many</span>: or, great</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "He shall judge",
+          "strong_norm": "H1777",
+          "strong_raw": "H1777",
+          "morph_norm": "TH8799",
+          "morph_raw": "strongMorph:TH8799",
+          "italics": false,
+          "html_start": 28549,
+          "html_end": 28618,
+          "vhtml_start": 159,
+          "vhtml_end": 228,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "דִּין",
+          "transliteration": "dîn",
+          "pronunciation": "deen",
+          "pos": "verb",
+          "definition": "דִּין dîyn, deen; or (Genesis 6:3) דּוּן dûwn; a primitive root; to rule; by implication to judge (as umpire); also to strive (as at law):—contend contend execute (judgment) judge minister judgment plead (the cause) at strife strive.",
+          "kjv_translation_count": "judge (18x), plead the cause (2x), contend (1x), execute (1x), plead (1x), strife (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "judge",
+              "count": 18
+            },
+            {
+              "gloss": "plead the cause",
+              "count": 2
+            },
+            {
+              "gloss": "contend",
+              "count": 1
+            },
+            {
+              "gloss": "execute",
+              "count": 1
+            },
+            {
+              "gloss": "plead",
+              "count": 1
+            },
+            {
+              "gloss": "strife",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to judge, contend, plead (Qal) to act as judge, minister judgment to plead a cause to execute judgment, requite, vindicate to govern to contend, strive (Niphal) to be at strife, quarrel",
+            "(Qal) to act as judge, minister judgment to plead a cause to execute judgment, requite, vindicate to govern to contend, strive",
+            "to act as judge, minister judgment",
+            "to plead a cause",
+            "to execute judgment, requite, vindicate",
+            "to govern",
+            "to contend, strive",
+            "(Niphal) to be at strife, quarrel"
+          ],
+          "text_start": 0,
+          "text_end": 14,
+          "token_id": "Ps.110.6#t0000"
+        },
+        {
+          "text": "among the heathen",
+          "strong_norm": "H1471",
+          "strong_raw": "H1471A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28619,
+          "html_end": 28665,
+          "vhtml_start": 229,
+          "vhtml_end": 275,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "גּוֹי",
+          "transliteration": "gôy",
+          "pronunciation": "go'-ee",
+          "pos": "masculine noun, proper masculine noun",
+          "definition": "גּוֹי gôwy, go'-ee; rarely (shortened) גֹּי gôy; apparently from the same root as H1465 (in the sense of massing); a foreign nation; hence, a Gentile; also (figuratively) a troop of animals, or a flight of locusts:—Gentile, heathen, nation, people.",
+          "kjv_translation_count": "nation (374x), heathen (143x), Gentiles (30x), people (11x).",
+          "kjv_counts": [
+            {
+              "gloss": "nation",
+              "count": 374
+            },
+            {
+              "gloss": "heathen",
+              "count": 143
+            },
+            {
+              "gloss": "Gentiles",
+              "count": 30
+            },
+            {
+              "gloss": "people",
+              "count": 11
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "nation, people nation, people usually of non-Hebrew people of descendants of Abraham of Israel of swarm of locusts, other animals (fig.) proper masculine noun Goyim? = \"nations\"",
+            "nation, people usually of non-Hebrew people of descendants of Abraham of Israel",
+            "usually of non-Hebrew people",
+            "of descendants of Abraham",
+            "of Israel",
+            "of swarm of locusts, other animals (fig.) proper masculine noun",
+            "Goyim? = \"nations\""
+          ],
+          "text_start": 15,
+          "text_end": 32,
+          "token_id": "Ps.110.6#t0001"
+        },
+        {
+          "text": "he shall fill",
+          "strong_norm": "H4390",
+          "strong_raw": "H4390",
+          "morph_norm": "TH8804",
+          "morph_raw": "strongMorph:TH8804",
+          "italics": false,
+          "html_start": 28667,
+          "html_end": 28735,
+          "vhtml_start": 277,
+          "vhtml_end": 345,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מָלָא",
+          "transliteration": "mālā'",
+          "pronunciation": "maw-lay'",
+          "pos": "verb",
+          "definition": "מָלֵא mâlêʼ, maw-lay'; or מָלָא mâlâʼ; (Esther 7:5), a primitive root; to fill or (intransitively) be full of, in a wide application (literally and figuratively):—accomplish, confirm, consecrate, be at an end, be expired, be fenced, fill, fulfil, (be, become, × draw, give in, go) full(-ly, -ly set, tale), (over-) flow, fulness, furnish, gather (selves, together), presume, replenish, satisfy, set, space, take a (hand-) full, have wholly.",
+          "kjv_translation_count": "fill (107x), full (48x), fulfil (28x), consecrate (15x), accomplish (7x), replenish (7x), wholly (6x), set (6x), expired (3x), fully (2x), gather (2x), overflow (2x), satisfy (2x), miscellaneous (14x).",
+          "kjv_counts": [
+            {
+              "gloss": "fill",
+              "count": 107
+            },
+            {
+              "gloss": "full",
+              "count": 48
+            },
+            {
+              "gloss": "fulfil",
+              "count": 28
+            },
+            {
+              "gloss": "consecrate",
+              "count": 15
+            },
+            {
+              "gloss": "accomplish",
+              "count": 7
+            },
+            {
+              "gloss": "replenish",
+              "count": 7
+            },
+            {
+              "gloss": "wholly",
+              "count": 6
+            },
+            {
+              "gloss": "set",
+              "count": 6
+            },
+            {
+              "gloss": "expired",
+              "count": 3
+            },
+            {
+              "gloss": "fully",
+              "count": 2
+            },
+            {
+              "gloss": "gather",
+              "count": 2
+            },
+            {
+              "gloss": "overflow",
+              "count": 2
+            },
+            {
+              "gloss": "satisfy",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 14
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to fill, be full (Qal) to be full fulness, abundance (participle) to be full, be accomplished, be ended to consecrate, fill the hand (Niphal) to be filled, be armed, be satisfied to be accomplished, be ended (Piel) to fill to satisfy to fulfil, accomplish, complete to confirm (Pual) to be filled (Hithpael) to mass themselves against",
+            "(Qal) to be full fulness, abundance (participle) to be full, be accomplished, be ended to consecrate, fill the hand",
+            "to be full fulness, abundance (participle) to be full, be accomplished, be ended",
+            "fulness, abundance (participle)",
+            "to be full, be accomplished, be ended",
+            "to consecrate, fill the hand",
+            "(Niphal) to be filled, be armed, be satisfied to be accomplished, be ended",
+            "to be filled, be armed, be satisfied",
+            "to be accomplished, be ended",
+            "(Piel) to fill to satisfy to fulfil, accomplish, complete to confirm",
+            "to fill",
+            "to satisfy",
+            "to fulfil, accomplish, complete",
+            "to confirm",
+            "(Pual) to be filled",
+            "(Hithpael) to mass themselves against"
+          ],
+          "text_start": 34,
+          "text_end": 47,
+          "token_id": "Ps.110.6#t0002"
+        },
+        {
+          "text": "the places",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 28742,
+          "html_end": 28761,
+          "vhtml_start": 352,
+          "vhtml_end": 371,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 48,
+          "text_end": 58,
+          "token_id": "Ps.110.6#t0008"
+        },
+        {
+          "text": "with the dead bodies",
+          "strong_norm": "H1472",
+          "strong_raw": "H1472",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28769,
+          "html_end": 28817,
+          "vhtml_start": 379,
+          "vhtml_end": 427,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "גְּוִיָּה",
+          "transliteration": "gᵊvîyâ",
+          "pronunciation": "ghev-ee-yaw'",
+          "pos": "feminine noun",
+          "definition": "גְּוִיָּה gᵉvîyâh, ghev-ee-yaw'; prolonged for H1465 ; a body, whether alive or dead:—(dead) body, carcase, corpse.",
+          "kjv_translation_count": "body (9x), corpse (2x), carcase (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "body",
+              "count": 9
+            },
+            {
+              "gloss": "corpse",
+              "count": 2
+            },
+            {
+              "gloss": "carcase",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a body (of living creatures)",
+            "a corpse, carcass, dead body"
+          ],
+          "text_start": 59,
+          "text_end": 79,
+          "token_id": "Ps.110.6#t0003"
+        },
+        {
+          "text": "he shall wound",
+          "strong_norm": "H4272",
+          "strong_raw": "H4272",
+          "morph_norm": "TH8804",
+          "morph_raw": "strongMorph:TH8804",
+          "italics": false,
+          "html_start": 28819,
+          "html_end": 28888,
+          "vhtml_start": 429,
+          "vhtml_end": 498,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מָחַץ",
+          "transliteration": "māḥaṣ",
+          "pronunciation": "maw-khats'",
+          "pos": "verb",
+          "definition": "מָחַץ mâchats, maw-khats'; a primitive root; to dash asunder; by implication, to crush, smash or violently plunge; figuratively, to subdue or destroy:—dip, pierce (through), smite (through), strike through, wound.",
+          "kjv_translation_count": "wound (7x), smite through (2x), pierce (2x), strike through (1x), pierce through (1x), dipped (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "wound",
+              "count": 7
+            },
+            {
+              "gloss": "smite through",
+              "count": 2
+            },
+            {
+              "gloss": "pierce",
+              "count": 2
+            },
+            {
+              "gloss": "strike through",
+              "count": 1
+            },
+            {
+              "gloss": "pierce through",
+              "count": 1
+            },
+            {
+              "gloss": "dipped",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to smite through, shatter, wound severely (Qal) to shatter shattering (participle)",
+            "(Qal) to shatter shattering (participle)",
+            "to shatter",
+            "shattering (participle)"
+          ],
+          "text_start": 81,
+          "text_end": 95,
+          "token_id": "Ps.110.6#t0004"
+        },
+        {
+          "text": "the heads",
+          "strong_norm": "H7218",
+          "strong_raw": "H7218H",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28889,
+          "html_end": 28927,
+          "vhtml_start": 499,
+          "vhtml_end": 537,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֹאשׁ",
+          "transliteration": "rō'š",
+          "pronunciation": "roshe",
+          "pos": "masculine noun",
+          "definition": "רֹאשׁ rôʼsh, roshe; from an unused root apparently meaning to shake; the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, etc.):—band, beginning, captain, chapiter, chief(-est place, man, things), company, end, × every (man), excellent, first, forefront, (be-)head, height, (on) high(-est part, (priest)), × lead, × poor, principal, ruler, sum, top.",
+          "kjv_translation_count": "head (349x), chief (91x), top (73x), beginning (14x), company (12x), captain (10x), sum (9x), first (6x), principal (5x), chapiters (4x), rulers (2x), miscellaneous (23x).",
+          "kjv_counts": [
+            {
+              "gloss": "head",
+              "count": 349
+            },
+            {
+              "gloss": "chief",
+              "count": 91
+            },
+            {
+              "gloss": "top",
+              "count": 73
+            },
+            {
+              "gloss": "beginning",
+              "count": 14
+            },
+            {
+              "gloss": "company",
+              "count": 12
+            },
+            {
+              "gloss": "captain",
+              "count": 10
+            },
+            {
+              "gloss": "sum",
+              "count": 9
+            },
+            {
+              "gloss": "first",
+              "count": 6
+            },
+            {
+              "gloss": "principal",
+              "count": 5
+            },
+            {
+              "gloss": "chapiters",
+              "count": 4
+            },
+            {
+              "gloss": "rulers",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 23
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "head, top, summit, upper part, chief, total, sum, height, front, beginning head (of man, animals) top, tip (of mountain) height (of stars) chief, head (of man, city, nation, place, family, priest) head, front, beginning chief, choicest, best head, division, company, band sum",
+            "head (of man, animals)",
+            "top, tip (of mountain)",
+            "height (of stars)",
+            "chief, head (of man, city, nation, place, family, priest)",
+            "head, front, beginning",
+            "chief, choicest, best",
+            "head, division, company, band",
+            "sum"
+          ],
+          "text_start": 96,
+          "text_end": 105,
+          "token_id": "Ps.110.6#t0005"
+        },
+        {
+          "text": "over many",
+          "strong_norm": "H7227",
+          "strong_raw": "H7227A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28928,
+          "html_end": 28966,
+          "vhtml_start": 538,
+          "vhtml_end": 576,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רַב",
+          "transliteration": "raḇ",
+          "pronunciation": "rab",
+          "pos": "adjective, adverb, masculine noun",
+          "definition": "רַב rab, rab; by contracted from H7231 ; abundant (in quantity, size, age, number, rank, quality):—(in) abound(-undance, -ant, -antly), captain, elder, enough, exceedingly, full, great(-ly, man, one), increase, long (enough, (time)), (do, have) many(-ifold, things, a time), (ship-)master, mighty, more, (too, very) much, multiply(-tude), officer, often(-times), plenteous, populous, prince, process (of time), suffice(-lent).",
+          "kjv_translation_count": "many (190x), great (118x), much (36x), captain (24x), more (12x), long (10x), enough (9x), multitude (7x), mighty (5x), greater (4x), greatly (3x), miscellaneous (40x).",
+          "kjv_counts": [
+            {
+              "gloss": "many",
+              "count": 190
+            },
+            {
+              "gloss": "great",
+              "count": 118
+            },
+            {
+              "gloss": "much",
+              "count": 36
+            },
+            {
+              "gloss": "captain",
+              "count": 24
+            },
+            {
+              "gloss": "more",
+              "count": 12
+            },
+            {
+              "gloss": "long",
+              "count": 10
+            },
+            {
+              "gloss": "enough",
+              "count": 9
+            },
+            {
+              "gloss": "multitude",
+              "count": 7
+            },
+            {
+              "gloss": "mighty",
+              "count": 5
+            },
+            {
+              "gloss": "greater",
+              "count": 4
+            },
+            {
+              "gloss": "greatly",
+              "count": 3
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 40
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "much, many, great much many abounding in more numerous than abundant, enough great strong greater than adverb much, exceedingly masculine noun",
+            "much",
+            "many",
+            "abounding in",
+            "more numerous than",
+            "abundant, enough",
+            "great",
+            "strong",
+            "greater than adverb",
+            "much, exceedingly masculine noun",
+            "captain, chief"
+          ],
+          "text_start": 106,
+          "text_end": 115,
+          "token_id": "Ps.110.6#t0006"
+        },
+        {
+          "text": "countries",
+          "strong_norm": "H0776",
+          "strong_raw": "H0776G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28967,
+          "html_end": 29005,
+          "vhtml_start": 577,
+          "vhtml_end": 615,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אֶרֶץ",
+          "transliteration": "'ereṣ",
+          "pronunciation": "eh'-rets",
+          "pos": "feminine noun",
+          "definition": "אֶרֶץ ʼerets, eh'-rets; from an unused root probably meaning to be firm; the earth (at large, or partitively a land):— × common, country, earth, field, ground, land, × nations, way, + wilderness, world.",
+          "kjv_translation_count": "land (1,: 543x), earth (712x), country (140x), ground (98x), world (4x), way (3x), common (1x), field (1x), nations (1x), wilderness (with H 4057) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "land",
+              "count": 543
+            },
+            {
+              "gloss": "earth",
+              "count": 712
+            },
+            {
+              "gloss": "country",
+              "count": 140
+            },
+            {
+              "gloss": "ground",
+              "count": 98
+            },
+            {
+              "gloss": "world",
+              "count": 4
+            },
+            {
+              "gloss": "way",
+              "count": 3
+            },
+            {
+              "gloss": "common",
+              "count": 1
+            },
+            {
+              "gloss": "field",
+              "count": 1
+            },
+            {
+              "gloss": "nations",
+              "count": 1
+            },
+            {
+              "gloss": "wilderness",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "land, earth earth whole earth (as opposed to a part) earth (as opposed to heaven) earth (inhabitants) land country, territory district, region tribal territory piece of ground land of Canaan, Israel inhabitants of land Sheol, land without return, (under) world city (-state) ground, surface of the earth ground soil (in phrases) people of the land space or distance of country (in measurements of distance) level or plain country land of the living end(s) of the earth (almost wholly late in usage) lands, countries often in contrast to Canaan",
+            "earth whole earth (as opposed to a part) earth (as opposed to heaven) earth (inhabitants)",
+            "whole earth (as opposed to a part)",
+            "earth (as opposed to heaven)",
+            "earth (inhabitants)",
+            "land country, territory district, region tribal territory piece of ground land of Canaan, Israel inhabitants of land Sheol, land without return, (under) world city (-state)",
+            "country, territory",
+            "district, region",
+            "tribal territory",
+            "piece of ground",
+            "land of Canaan, Israel",
+            "inhabitants of land",
+            "Sheol, land without return, (under) world",
+            "city (-state)",
+            "ground, surface of the earth ground soil",
+            "ground",
+            "soil",
+            "(in phrases) people of the land space or distance of country (in measurements of distance) level or plain country land of the living end(s) of the earth",
+            "people of the land",
+            "space or distance of country (in measurements of distance)",
+            "level or plain country",
+            "land of the living",
+            "end(s) of the earth",
+            "(almost wholly late in usage) lands, countries often in contrast to Canaan",
+            "lands, countries often in contrast to Canaan",
+            "often in contrast to Canaan"
+          ],
+          "text_start": 116,
+          "text_end": 125,
+          "token_id": "Ps.110.6#t0007"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ many: or, great",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10116\"><strong>▼</strong></a><span class=\"bold\">&nbsp;many</span>: or, great</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.110.7",
+      "verse_num": 7,
+      "text_plain": "He shall drink of the brook in the way: therefore shall he lift up the head.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.110.7\" class=\"verseLink\"><span class=\"verseNumber\">7</span></a><a name=\"Ps.110.7\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8799\" strong=\"H8354\">He shall drink</span> <span strong=\"H5158A\">of the brook</span> <span strong=\"H1870L\">in the way</span>: <span morph=\"strongMorph:TH8686\" strong=\"H7311A\">therefore shall he lift up</span> <span strong=\"H7218A\">the head</span>. </span>",
+      "tokens": [
+        {
+          "text": "He shall drink",
+          "strong_norm": "H8354",
+          "strong_raw": "H8354",
+          "morph_norm": "TH8799",
+          "morph_raw": "strongMorph:TH8799",
+          "italics": false,
+          "html_start": 29389,
+          "html_end": 29458,
+          "vhtml_start": 159,
+          "vhtml_end": 228,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שָׁתָה",
+          "transliteration": "šāṯâ",
+          "pronunciation": "shaw-thaw'",
+          "pos": "verb",
+          "definition": "שָׁתָה shâthâh, shaw-thaw'; a primitive root; to imbibe (literally or figuratively):— × assuredly, banquet, × certainly, drink(-er, -ing), drunk ( × -ard), surely. (Intensive proposition of H8248 .)",
+          "kjv_translation_count": "drink (208x), drinkers (1x), drunkards (1x), banquet (1x), miscellaneous (6x).",
+          "kjv_counts": [
+            {
+              "gloss": "drink",
+              "count": 208
+            },
+            {
+              "gloss": "drinkers",
+              "count": 1
+            },
+            {
+              "gloss": "drunkards",
+              "count": 1
+            },
+            {
+              "gloss": "banquet",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 6
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to drink (Qal) to drink of drinking cup of God's wrath, of slaughter, of wicked deeds (fig) to feast (Niphal) to be drunk",
+            "(Qal) to drink of drinking cup of God's wrath, of slaughter, of wicked deeds (fig) to feast",
+            "to drink of drinking cup of God's wrath, of slaughter, of wicked deeds (fig)",
+            "of drinking cup of God's wrath, of slaughter, of wicked deeds (fig)",
+            "to feast",
+            "(Niphal) to be drunk"
+          ],
+          "text_start": 0,
+          "text_end": 14,
+          "token_id": "Ps.110.7#t0000"
+        },
+        {
+          "text": "of the brook",
+          "strong_norm": "H5158",
+          "strong_raw": "H5158A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 29459,
+          "html_end": 29500,
+          "vhtml_start": 229,
+          "vhtml_end": 270,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נַחַל",
+          "transliteration": "naḥal",
+          "pronunciation": "nakh'-al",
+          "pos": "masculine noun",
+          "definition": "נַחַל nachal, nakh'-al; or (feminine) נַחְלָה nachlâh; (Psalm 124:4), or נַחֲלָה nachălâh; (Ezekiel 47:19; Ezekiel 48:28), from H5157 in its original sense; a stream, especially a winter torrent; (by implication) a (narrow) valley (in which a brook runs); also a shaft (of a mine):—brook, flood, river, stream, valley.",
+          "kjv_translation_count": "river (56x), brook (46x), valley (23x), stream (11x), flood (5x).",
+          "kjv_counts": [
+            {
+              "gloss": "river",
+              "count": 56
+            },
+            {
+              "gloss": "brook",
+              "count": 46
+            },
+            {
+              "gloss": "valley",
+              "count": 23
+            },
+            {
+              "gloss": "stream",
+              "count": 11
+            },
+            {
+              "gloss": "flood",
+              "count": 5
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "torrent, valley, wadi, torrent-valley torrent torrent-valley, wadi (as stream bed) shaft (of mine)",
+            "torrent",
+            "torrent-valley, wadi (as stream bed)",
+            "shaft (of mine)",
+            "palm-tree meaning dubious",
+            "meaning dubious"
+          ],
+          "text_start": 15,
+          "text_end": 27,
+          "token_id": "Ps.110.7#t0001"
+        },
+        {
+          "text": "in the way",
+          "strong_norm": "H1870",
+          "strong_raw": "H1870L",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 29501,
+          "html_end": 29540,
+          "vhtml_start": 271,
+          "vhtml_end": 310,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "דֶּרֶךְ",
+          "transliteration": "dereḵ",
+          "pronunciation": "deh'-rek",
+          "pos": "masculine noun",
+          "definition": "דֶּרֶךְ derek, deh'-rek; from H1869 ; a road (as trodden); figuratively, a course of life or mode of action, often adverb:—along, away, because of, by, conversation, custom, (east-) ward, journey, manner, passenger, through, toward, (high-) (path-) way(-side), whither(-soever).",
+          "kjv_translation_count": "way (590x), toward (31x), journey (23x), manner (8x), miscellaneous (53x).",
+          "kjv_counts": [
+            {
+              "gloss": "way",
+              "count": 590
+            },
+            {
+              "gloss": "toward",
+              "count": 31
+            },
+            {
+              "gloss": "journey",
+              "count": 23
+            },
+            {
+              "gloss": "manner",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 53
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "way, road, distance, journey, manner road, way, path journey direction manner, habit, way of course of life (fig.) of moral character (fig.)",
+            "road, way, path",
+            "journey",
+            "direction",
+            "manner, habit, way",
+            "of course of life (fig.)",
+            "of moral character (fig.)"
+          ],
+          "text_start": 28,
+          "text_end": 38,
+          "token_id": "Ps.110.7#t0002"
+        },
+        {
+          "text": "therefore shall he lift up",
+          "strong_norm": "H7311",
+          "strong_raw": "H7311A",
+          "morph_norm": "TH8686",
+          "morph_raw": "strongMorph:TH8686",
+          "italics": false,
+          "html_start": 29542,
+          "html_end": 29624,
+          "vhtml_start": 312,
+          "vhtml_end": 394,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רוּם",
+          "transliteration": "rûm",
+          "pronunciation": "room",
+          "pos": "verb",
+          "definition": "רוּם rûwm, room; a primitive root; to be high actively, to rise or raise (in various applications, literally or figuratively):—bring up, exalt (self), extol, give, go up, haughty, heave (up), (be, lift up on, make on, set up on, too) high(-er, one), hold up, levy, lift(-er) up, (be) lofty, ( × a-) loud, mount up, offer (up), presumptuously, (be) promote(-ion), proud, set up, tall(-er), take (away, off, up), breed worms.",
+          "kjv_translation_count": "(lift , hold , etc...) up (63x), exalt (47x), high (25x), offer (13x), give (5x), heave (3x), extol (3x), lofty (3x), take (3x), tall (3x), higher (2x), miscellaneous (24x).",
+          "kjv_counts": [
+            {
+              "gloss": null,
+              "count": 63
+            },
+            {
+              "gloss": "exalt",
+              "count": 47
+            },
+            {
+              "gloss": "high",
+              "count": 25
+            },
+            {
+              "gloss": "offer",
+              "count": 13
+            },
+            {
+              "gloss": "give",
+              "count": 5
+            },
+            {
+              "gloss": "heave",
+              "count": 3
+            },
+            {
+              "gloss": "extol",
+              "count": 3
+            },
+            {
+              "gloss": "lofty",
+              "count": 3
+            },
+            {
+              "gloss": "take",
+              "count": 3
+            },
+            {
+              "gloss": "tall",
+              "count": 3
+            },
+            {
+              "gloss": "higher",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 24
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to rise, rise up, be high, be lofty, be exalted (Qal) to be high, be set on high to be raised, be uplifted, be exalted to be lifted, rise (Polel) to raise or rear (children), cause to grow up to lift up, raise, exalt to exalt, extol (Polal) to be lifted up (Hiphil) to raise, lift, lift up, take up, set up, erect, exalt, set on high to lift up (and take away), remove to lift off and present, contribute, offer, contribute (Hophal) to be taken off, be abolished (Hithpolel) to exalt oneself, magnify oneself",
+            "(Qal) to be high, be set on high to be raised, be uplifted, be exalted to be lifted, rise",
+            "to be high, be set on high",
+            "to be raised, be uplifted, be exalted",
+            "to be lifted, rise",
+            "(Polel) to raise or rear (children), cause to grow up to lift up, raise, exalt to exalt, extol",
+            "to raise or rear (children), cause to grow up",
+            "to lift up, raise, exalt",
+            "to exalt, extol",
+            "(Polal) to be lifted up",
+            "(Hiphil) to raise, lift, lift up, take up, set up, erect, exalt, set on high to lift up (and take away), remove to lift off and present, contribute, offer, contribute",
+            "to raise, lift, lift up, take up, set up, erect, exalt, set on high",
+            "to lift up (and take away), remove",
+            "to lift off and present, contribute, offer, contribute",
+            "(Hophal) to be taken off, be abolished",
+            "(Hithpolel) to exalt oneself, magnify oneself",
+            "(Qal) to be rotten, be wormy"
+          ],
+          "text_start": 40,
+          "text_end": 66,
+          "token_id": "Ps.110.7#t0003"
+        },
+        {
+          "text": "the head",
+          "strong_norm": "H7218",
+          "strong_raw": "H7218A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 29625,
+          "html_end": 29662,
+          "vhtml_start": 395,
+          "vhtml_end": 432,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֹאשׁ",
+          "transliteration": "rō'š",
+          "pronunciation": "roshe",
+          "pos": "masculine noun",
+          "definition": "רֹאשׁ rôʼsh, roshe; from an unused root apparently meaning to shake; the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, etc.):—band, beginning, captain, chapiter, chief(-est place, man, things), company, end, × every (man), excellent, first, forefront, (be-)head, height, (on) high(-est part, (priest)), × lead, × poor, principal, ruler, sum, top.",
+          "kjv_translation_count": "head (349x), chief (91x), top (73x), beginning (14x), company (12x), captain (10x), sum (9x), first (6x), principal (5x), chapiters (4x), rulers (2x), miscellaneous (23x).",
+          "kjv_counts": [
+            {
+              "gloss": "head",
+              "count": 349
+            },
+            {
+              "gloss": "chief",
+              "count": 91
+            },
+            {
+              "gloss": "top",
+              "count": 73
+            },
+            {
+              "gloss": "beginning",
+              "count": 14
+            },
+            {
+              "gloss": "company",
+              "count": 12
+            },
+            {
+              "gloss": "captain",
+              "count": 10
+            },
+            {
+              "gloss": "sum",
+              "count": 9
+            },
+            {
+              "gloss": "first",
+              "count": 6
+            },
+            {
+              "gloss": "principal",
+              "count": 5
+            },
+            {
+              "gloss": "chapiters",
+              "count": 4
+            },
+            {
+              "gloss": "rulers",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 23
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "head, top, summit, upper part, chief, total, sum, height, front, beginning head (of man, animals) top, tip (of mountain) height (of stars) chief, head (of man, city, nation, place, family, priest) head, front, beginning chief, choicest, best head, division, company, band sum",
+            "head (of man, animals)",
+            "top, tip (of mountain)",
+            "height (of stars)",
+            "chief, head (of man, city, nation, place, family, priest)",
+            "head, front, beginning",
+            "chief, choicest, best",
+            "head, division, company, band",
+            "sum"
+          ],
+          "text_start": 67,
+          "text_end": 75,
+          "token_id": "Ps.110.7#t0004"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:39:19.718607",
+    "database": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db"
+  },
+  "summary": {
+    "total_cross_references": 614180,
+    "total_verses_with_references": 31049,
+    "average_connections_per_verse": 39.56,
+    "max_connections": 448,
+    "min_connections": 1
+  },
+  "connection_distribution": {
+    "112": 36,
+    "61": 204,
+    "48": 312,
+    "40": 434,
+    "46": 335,
+    "82": 97,
+    "62": 179,
+    "117": 26,
+    "22": 578,
+    "36": 479,
+    "72": 153,
+    "41": 436,
+    "84": 90,
+    "28": 551,
+    "27": 565,
+    "59": 199,
+    "90": 74,
+    "150": 12,
+    "98": 53,
+    "18": 616,
+    "80": 94,
+    "148": 17,
+    "75": 120,
+    "57": 230,
+    "51": 250,
+    "182": 6,
+    "39": 432,
+    "87": 64,
+    "24": 520,
+    "30": 548,
+    "23": 630,
+    "89": 68,
+    "69": 150,
+    "26": 584,
+    "95": 52,
+    "106": 47,
+    "37": 437,
+    "25": 594,
+    "52": 266,
+    "79": 115,
+    "33": 547,
+    "100": 44,
+    "49": 293,
+    "58": 224,
+    "38": 452,
+    "31": 542,
+    "56": 232,
+    "88": 81,
+    "54": 229,
+    "134": 20,
+    "91": 59,
+    "99": 52,
+    "68": 165,
+    "64": 159,
+    "94": 59,
+    "29": 551,
+    "60": 202,
+    "47": 335,
+    "71": 129,
+    "35": 470,
+    "63": 163,
+    "171": 8,
+    "42": 379,
+    "131": 13,
+    "78": 111,
+    "109": 29,
+    "83": 100,
+    "45": 328,
+    "85": 56,
+    "21": 617,
+    "20": 611,
+    "14": 620,
+    "32": 531,
+    "10": 523,
+    "8": 428,
+    "66": 155,
+    "44": 368,
+    "81": 111,
+    "128": 17,
+    "19": 601,
+    "43": 389,
+    "13": 605,
+    "34": 461,
+    "65": 136,
+    "120": 19,
+    "67": 167,
+    "118": 28,
+    "16": 618,
+    "15": 610,
+    "50": 268,
+    "70": 168,
+    "86": 78,
+    "76": 113,
+    "11": 544,
+    "17": 600,
+    "111": 34,
+    "123": 27,
+    "12": 534,
+    "3": 206,
+    "55": 248,
+    "107": 35,
+    "157": 11,
+    "9": 442,
+    "7": 380,
+    "93": 65,
+    "101": 50,
+    "73": 115,
+    "152": 7,
+    "53": 267,
+    "74": 127,
+    "105": 36,
+    "144": 7,
+    "102": 48,
+    "185": 5,
+    "96": 64,
+    "175": 4,
+    "6": 343,
+    "125": 17,
+    "97": 52,
+    "104": 45,
+    "110": 29,
+    "267": 1,
+    "230": 3,
+    "159": 8,
+    "108": 44,
+    "180": 7,
+    "121": 17,
+    "149": 10,
+    "190": 3,
+    "116": 24,
+    "103": 46,
+    "113": 23,
+    "138": 16,
+    "179": 3,
+    "187": 3,
+    "139": 11,
+    "263": 1,
+    "92": 57,
+    "126": 22,
+    "114": 27,
+    "151": 7,
+    "135": 12,
+    "213": 2,
+    "161": 6,
+    "166": 10,
+    "163": 6,
+    "77": 114,
+    "119": 34,
+    "129": 22,
+    "186": 3,
+    "165": 5,
+    "122": 27,
+    "154": 5,
+    "176": 5,
+    "195": 2,
+    "172": 6,
+    "177": 6,
+    "130": 16,
+    "215": 2,
+    "167": 7,
+    "127": 22,
+    "155": 12,
+    "141": 12,
+    "115": 20,
+    "225": 1,
+    "5": 278,
+    "4": 235,
+    "146": 9,
+    "188": 4,
+    "257": 1,
+    "156": 7,
+    "170": 5,
+    "201": 4,
+    "145": 7,
+    "142": 9,
+    "194": 3,
+    "212": 2,
+    "140": 10,
+    "2": 162,
+    "133": 17,
+    "1": 111,
+    "160": 7,
+    "238": 1,
+    "173": 3,
+    "164": 12,
+    "260": 1,
+    "124": 22,
+    "136": 17,
+    "235": 1,
+    "169": 3,
+    "153": 5,
+    "250": 2,
+    "168": 5,
+    "220": 2,
+    "203": 2,
+    "202": 2,
+    "229": 1,
+    "191": 5,
+    "162": 5,
+    "189": 2,
+    "274": 2,
+    "295": 1,
+    "448": 1,
+    "327": 1,
+    "143": 12,
+    "228": 1,
+    "147": 11,
+    "192": 4,
+    "226": 1,
+    "137": 6,
+    "158": 8,
+    "196": 3,
+    "132": 11,
+    "210": 3,
+    "178": 5,
+    "193": 2,
+    "211": 1,
+    "218": 2,
+    "219": 1,
+    "363": 1,
+    "248": 1,
+    "199": 2,
+    "282": 3,
+    "198": 1,
+    "174": 5,
+    "206": 2,
+    "181": 3,
+    "184": 5,
+    "183": 1,
+    "237": 1,
+    "224": 3,
+    "231": 2,
+    "236": 2,
+    "234": 1,
+    "208": 1,
+    "239": 2,
+    "204": 1,
+    "318": 1,
+    "258": 1,
+    "242": 2,
+    "221": 1,
+    "291": 1,
+    "243": 1,
+    "246": 1,
+    "209": 1,
+    "430": 1,
+    "276": 1,
+    "344": 1,
+    "261": 1,
+    "254": 1,
+    "200": 1
+  },
+  "most_connected_verses": [
+    {
+      "verse_id": 1034,
+      "reference": "Genesis 35:22",
+      "connection_count": 448,
+      "text_preview": "And it happened, when Israel dwelt in that land, that Reuben went and lay with Bilhah his father’s c"
+    },
+    {
+      "verse_id": 26095,
+      "reference": "Luke 24:44",
+      "connection_count": 430,
+      "text_preview": "Then He said to them, “These are the words which I spoke to you while I was still with you, that all"
+    },
+    {
+      "verse_id": 27109,
+      "reference": "Acts 4:27",
+      "connection_count": 363,
+      "text_preview": "“For truly against Your holy Servant Jesus, whom You anointed, both Herod and Pontius Pilate, with t"
+    },
+    {
+      "verse_id": 17710,
+      "reference": "Isaiah 1:1",
+      "connection_count": 344,
+      "text_preview": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzz"
+    },
+    {
+      "verse_id": 27212,
+      "reference": "Acts 7:36",
+      "connection_count": 327,
+      "text_preview": "He brought them out, after he had shown wonders and signs in the land of Egypt, and in the Red Sea, "
+    },
+    {
+      "verse_id": 27075,
+      "reference": "Acts 3:19",
+      "connection_count": 318,
+      "text_preview": "Repent therefore and be converted, that your sins may be blotted out, so that times of refreshing ma"
+    },
+    {
+      "verse_id": 12571,
+      "reference": "Nehemiah 9:10",
+      "connection_count": 295,
+      "text_preview": "You showed signs and wonders against Pharaoh, Against all his servants, And against all the people o"
+    },
+    {
+      "verse_id": 12060,
+      "reference": "2 Chronicles 36:17",
+      "connection_count": 291,
+      "text_preview": "Therefore He brought against them the king of the Chaldeans, who killed their young men with the swo"
+    },
+    {
+      "verse_id": 24275,
+      "reference": "Matthew 28:20",
+      "connection_count": 282,
+      "text_preview": "teaching them to observe all things that I have commanded you; and lo, I am with you always, even to"
+    },
+    {
+      "verse_id": 17890,
+      "reference": "Isaiah 9:6",
+      "connection_count": 282,
+      "text_preview": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. A"
+    },
+    {
+      "verse_id": 22072,
+      "reference": "Daniel 9:27",
+      "connection_count": 282,
+      "text_preview": "Then he shall confirm a covenant with many for one week; But in the middle of the week He shall brin"
+    },
+    {
+      "verse_id": 19703,
+      "reference": "Jeremiah 29:11",
+      "connection_count": 276,
+      "text_preview": "For I know the thoughts that I think toward you, says the Lord , thoughts of peace and not of evil, "
+    },
+    {
+      "verse_id": 18598,
+      "reference": "Isaiah 44:8",
+      "connection_count": 274,
+      "text_preview": "Do not fear, nor be afraid; Have I not told you from that time, and declared it? You are My witnesse"
+    },
+    {
+      "verse_id": 1266,
+      "reference": "Genesis 42:13",
+      "connection_count": 274,
+      "text_preview": "And they said, “Your servants are twelve brothers, the sons of one man in the land of Canaan; and in"
+    },
+    {
+      "verse_id": 17950,
+      "reference": "Isaiah 11:11",
+      "connection_count": 267,
+      "text_preview": "It shall come to pass in that day That the Lord shall set His hand again the second time To recover "
+    },
+    {
+      "verse_id": 27907,
+      "reference": "Acts 26:18",
+      "connection_count": 263,
+      "text_preview": "to open their eyes, in order to turn them from darkness to light, and from the power of Satan to God"
+    },
+    {
+      "verse_id": 20552,
+      "reference": "Ezekiel 2:3",
+      "connection_count": 261,
+      "text_preview": "And He said to me: “Son of man, I am sending you to the children of Israel, to a rebellious nation t"
+    },
+    {
+      "verse_id": 29576,
+      "reference": "Colossians 2:16",
+      "connection_count": 260,
+      "text_preview": "So let no one judge you in food or in drink, or regarding a festival or a new moon or sabbaths,"
+    },
+    {
+      "verse_id": 30303,
+      "reference": "Hebrews 12:2",
+      "connection_count": 258,
+      "text_preview": "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him en"
+    },
+    {
+      "verse_id": 29250,
+      "reference": "Galatians 5:22",
+      "connection_count": 257,
+      "text_preview": "But the fruit of the Spirit is love, joy, peace, longsuffering, kindness, goodness, faithfulness,"
+    },
+    {
+      "verse_id": 19739,
+      "reference": "Jeremiah 30:15",
+      "connection_count": 254,
+      "text_preview": "Why do you cry about your affliction? Your sorrow is incurable. Because of the multitude of your ini"
+    },
+    {
+      "verse_id": 17964,
+      "reference": "Isaiah 13:1",
+      "connection_count": 250,
+      "text_preview": "The burden against Babylon which Isaiah the son of Amoz saw."
+    },
+    {
+      "verse_id": 19683,
+      "reference": "Jeremiah 28:8",
+      "connection_count": 250,
+      "text_preview": "The prophets who have been before me and before you of old prophesied against many countries and gre"
+    },
+    {
+      "verse_id": 17891,
+      "reference": "Isaiah 9:7",
+      "connection_count": 248,
+      "text_preview": "Of the increase of His government and peace There will be no end, Upon the throne of David and over "
+    },
+    {
+      "verse_id": 27860,
+      "reference": "Acts 24:25",
+      "connection_count": 246,
+      "text_preview": "Now as he reasoned about righteousness, self-control, and the judgment to come, Felix was afraid and"
+    },
+    {
+      "verse_id": 15358,
+      "reference": "Psalms 87:3",
+      "connection_count": 243,
+      "text_preview": "Glorious things are spoken of you, O city of God! Selah"
+    },
+    {
+      "verse_id": 16285,
+      "reference": "Psalms 137:8",
+      "connection_count": 242,
+      "text_preview": "O daughter of Babylon, who are to be destroyed, Happy the one who repays you as you have served us!"
+    },
+    {
+      "verse_id": 19499,
+      "reference": "Jeremiah 21:2",
+      "connection_count": 242,
+      "text_preview": "“Please inquire of the Lord for us, for Nebuchadnezzar king of Babylon makes war against us. Perhaps"
+    },
+    {
+      "verse_id": 27909,
+      "reference": "Acts 26:20",
+      "connection_count": 239,
+      "text_preview": "but declared first to those in Damascus and in Jerusalem, and throughout all the region of Judea, an"
+    },
+    {
+      "verse_id": 19603,
+      "reference": "Jeremiah 25:12",
+      "connection_count": 239,
+      "text_preview": "‘Then it will come to pass, when seventy years are completed, that I will punish the king of Babylon"
+    },
+    {
+      "verse_id": 30497,
+      "reference": "1 Peter 2:9",
+      "connection_count": 238,
+      "text_preview": "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you"
+    },
+    {
+      "verse_id": 30011,
+      "reference": "Titus 2:14",
+      "connection_count": 237,
+      "text_preview": "who gave Himself for us, that He might redeem us from every lawless deed and purify for Himself His "
+    },
+    {
+      "verse_id": 30590,
+      "reference": "2 Peter 2:1",
+      "connection_count": 236,
+      "text_preview": "But there were also false prophets among the people, even as there will be false teachers among you,"
+    },
+    {
+      "verse_id": 15179,
+      "reference": "Psalms 78:12",
+      "connection_count": 236,
+      "text_preview": "Marvelous things He did in the sight of their fathers, In the land of Egypt, in the field of Zoan."
+    },
+    {
+      "verse_id": 22176,
+      "reference": "Hosea 2:14",
+      "connection_count": 235,
+      "text_preview": "“Therefore, behold, I will allure her, Will bring her into the wilderness, And speak comfort to her."
+    },
+    {
+      "verse_id": 22056,
+      "reference": "Daniel 9:11",
+      "connection_count": 234,
+      "text_preview": "Yes, all Israel has transgressed Your law, and has departed so as not to obey Your voice; therefore "
+    },
+    {
+      "verse_id": 31126,
+      "reference": "Revelation 19:20",
+      "connection_count": 231,
+      "text_preview": "Then the beast was captured, and with him the false prophet who worked signs in his presence, by whi"
+    },
+    {
+      "verse_id": 20988,
+      "reference": "Ezekiel 20:36",
+      "connection_count": 231,
+      "text_preview": "Just as I pleaded My case with your fathers in the wilderness of the land of Egypt, so I will plead "
+    },
+    {
+      "verse_id": 379,
+      "reference": "Genesis 15:18",
+      "connection_count": 230,
+      "text_preview": "On the same day the Lord made a covenant with Abram, saying: “To your descendants I have given this "
+    },
+    {
+      "verse_id": 18933,
+      "reference": "Isaiah 63:10",
+      "connection_count": 230,
+      "text_preview": "But they rebelled and grieved His Holy Spirit; So He turned Himself against them as an enemy, And He"
+    },
+    {
+      "verse_id": 18930,
+      "reference": "Isaiah 63:7",
+      "connection_count": 230,
+      "text_preview": "I will mention the lovingkindnesses of the Lord And the praises of the Lord , According to all that "
+    },
+    {
+      "verse_id": 1402,
+      "reference": "Genesis 46:15",
+      "connection_count": 229,
+      "text_preview": "These were the sons of Leah, whom she bore to Jacob in Padan Aram, with his daughter Dinah. All the "
+    },
+    {
+      "verse_id": 3652,
+      "reference": "Numbers 1:47",
+      "connection_count": 228,
+      "text_preview": "But the Levites were not numbered among them by their fathers’ tribe;"
+    },
+    {
+      "verse_id": 30459,
+      "reference": "James 5:16",
+      "connection_count": 226,
+      "text_preview": "Confess your trespasses to one another, and pray for one another, that you may be healed. The effect"
+    },
+    {
+      "verse_id": 24109,
+      "reference": "Matthew 25:41",
+      "connection_count": 225,
+      "text_preview": "“Then He will also say to those on the left hand, ‘Depart from Me, you cursed, into the everlasting "
+    },
+    {
+      "verse_id": 23123,
+      "reference": "Zechariah 13:7",
+      "connection_count": 224,
+      "text_preview": "“Awake, O sword, against My Shepherd, Against the Man who is My Companion,” Says the Lord of hosts. "
+    },
+    {
+      "verse_id": 18804,
+      "reference": "Isaiah 55:7",
+      "connection_count": 224,
+      "text_preview": "Let the wicked forsake his way, And the unrighteous man his thoughts; Let him return to the Lord , A"
+    },
+    {
+      "verse_id": 19006,
+      "reference": "Jeremiah 1:3",
+      "connection_count": 224,
+      "text_preview": "It came also in the days of Jehoiakim the son of Josiah, king of Judah, until the end of the elevent"
+    },
+    {
+      "verse_id": 12587,
+      "reference": "Nehemiah 9:26",
+      "connection_count": 221,
+      "text_preview": "“Nevertheless they were disobedient And rebelled against You, Cast Your law behind their backs And k"
+    },
+    {
+      "verse_id": 20240,
+      "reference": "Jeremiah 50:17",
+      "connection_count": 220,
+      "text_preview": "“Israel is like scattered sheep; The lions have driven him away. First the king of Assyria devoured "
+    }
+  ],
+  "isolated_verses_sample": [
+    {
+      "verse_id": 504,
+      "reference": "Genesis 20:8"
+    },
+    {
+      "verse_id": 1308,
+      "reference": "Genesis 43:17"
+    },
+    {
+      "verse_id": 1384,
+      "reference": "Genesis 45:25"
+    },
+    {
+      "verse_id": 2986,
+      "reference": "Leviticus 10:8"
+    },
+    {
+      "verse_id": 3145,
+      "reference": "Leviticus 14:33"
+    },
+    {
+      "verse_id": 3237,
+      "reference": "Leviticus 17:1"
+    },
+    {
+      "verse_id": 3253,
+      "reference": "Leviticus 18:1"
+    },
+    {
+      "verse_id": 3283,
+      "reference": "Leviticus 19:1"
+    },
+    {
+      "verse_id": 3798,
+      "reference": "Numbers 5:5"
+    },
+    {
+      "verse_id": 4292,
+      "reference": "Numbers 19:1"
+    },
+    {
+      "verse_id": 4691,
+      "reference": "Numbers 31:25"
+    },
+    {
+      "verse_id": 5438,
+      "reference": "Deuteronomy 20:9"
+    },
+    {
+      "verse_id": 5487,
+      "reference": "Deuteronomy 22:15"
+    },
+    {
+      "verse_id": 5488,
+      "reference": "Deuteronomy 22:16"
+    },
+    {
+      "verse_id": 5492,
+      "reference": "Deuteronomy 22:20"
+    },
+    {
+      "verse_id": 5514,
+      "reference": "Deuteronomy 23:12"
+    },
+    {
+      "verse_id": 5731,
+      "reference": "Deuteronomy 31:1"
+    },
+    {
+      "verse_id": 6297,
+      "reference": "Joshua 18:2"
+    },
+    {
+      "verse_id": 6882,
+      "reference": "Judges 12:11"
+    },
+    {
+      "verse_id": 6941,
+      "reference": "Judges 15:10"
+    },
+    {
+      "verse_id": 6991,
+      "reference": "Judges 17:9"
+    },
+    {
+      "verse_id": 7182,
+      "reference": "Ruth 3:8"
+    },
+    {
+      "verse_id": 7190,
+      "reference": "Ruth 3:16"
+    },
+    {
+      "verse_id": 7191,
+      "reference": "Ruth 3:17"
+    },
+    {
+      "verse_id": 7407,
+      "reference": "1 Samuel 9:14"
+    },
+    {
+      "verse_id": 7411,
+      "reference": "1 Samuel 9:18"
+    },
+    {
+      "verse_id": 7736,
+      "reference": "1 Samuel 20:4"
+    },
+    {
+      "verse_id": 9668,
+      "reference": "2 Kings 4:15"
+    },
+    {
+      "verse_id": 10441,
+      "reference": "1 Chronicles 4:6"
+    },
+    {
+      "verse_id": 10442,
+      "reference": "1 Chronicles 4:7"
+    },
+    {
+      "verse_id": 10443,
+      "reference": "1 Chronicles 4:8"
+    },
+    {
+      "verse_id": 10446,
+      "reference": "1 Chronicles 4:11"
+    },
+    {
+      "verse_id": 10447,
+      "reference": "1 Chronicles 4:12"
+    },
+    {
+      "verse_id": 10451,
+      "reference": "1 Chronicles 4:16"
+    },
+    {
+      "verse_id": 10455,
+      "reference": "1 Chronicles 4:20"
+    },
+    {
+      "verse_id": 10457,
+      "reference": "1 Chronicles 4:22"
+    },
+    {
+      "verse_id": 12836,
+      "reference": "Esther 5:7"
+    },
+    {
+      "verse_id": 13102,
+      "reference": "Job 9:1"
+    },
+    {
+      "verse_id": 13289,
+      "reference": "Job 16:1"
+    },
+    {
+      "verse_id": 13348,
+      "reference": "Job 19:1"
+    },
+    {
+      "verse_id": 13406,
+      "reference": "Job 21:1"
+    },
+    {
+      "verse_id": 13470,
+      "reference": "Job 23:1"
+    },
+    {
+      "verse_id": 13734,
+      "reference": "Job 34:1"
+    },
+    {
+      "verse_id": 13771,
+      "reference": "Job 35:1"
+    },
+    {
+      "verse_id": 13787,
+      "reference": "Job 36:1"
+    },
+    {
+      "verse_id": 17334,
+      "reference": "Proverbs 30:28"
+    },
+    {
+      "verse_id": 19728,
+      "reference": "Jeremiah 30:4"
+    },
+    {
+      "verse_id": 20726,
+      "reference": "Ezekiel 11:14"
+    },
+    {
+      "verse_id": 20883,
+      "reference": "Ezekiel 17:1"
+    },
+    {
+      "verse_id": 20907,
+      "reference": "Ezekiel 18:1"
+    },
+    {
+      "verse_id": 21338,
+      "reference": "Ezekiel 33:1"
+    },
+    {
+      "verse_id": 23781,
+      "reference": "Matthew 17:21"
+    },
+    {
+      "verse_id": 24726,
+      "reference": "Mark 11:26"
+    },
+    {
+      "verse_id": 28426,
+      "reference": "Romans 16:24"
+    },
+    {
+      "verse_id": 31191,
+      "reference": "Psalms 47:1"
+    },
+    {
+      "verse_id": 31193,
+      "reference": "Isaiah 12:1"
+    },
+    {
+      "verse_id": 31194,
+      "reference": "Malachi 4:2"
+    },
+    {
+      "verse_id": 31195,
+      "reference": "Acts 11:4"
+    }
+  ],
+  "testament_connections": {
+    "old_to_old": {
+      "count": 0,
+      "percentage": 0
+    },
+    "new_to_new": {
+      "count": 0,
+      "percentage": 0
+    },
+    "old_to_new": {
+      "count": 0,
+      "percentage": 0
+    },
+    "new_to_old": {
+      "count": 0,
+      "percentage": 0
+    },
+    "unknown": 614180
+  },
+  "network_density": {
+    "network_density": 0.001274,
+    "total_possible_connections": 482004676,
+    "actual_connections": 614180,
+    "sparsity": 0.998726
+  }
+}

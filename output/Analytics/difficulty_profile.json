@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:39:03.142292",
+    "databases_analyzed": {
+      "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+      "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+    }
+  },
+  "word_frequency_classification": {
+    "common": {
+      "count": 2660,
+      "percentage": 20.4,
+      "examples": [
+        {
+          "word": "the",
+          "frequency": 62656
+        },
+        {
+          "word": "and",
+          "frequency": 38398
+        },
+        {
+          "word": "of",
+          "frequency": 31957
+        },
+        {
+          "word": "to",
+          "frequency": 20865
+        },
+        {
+          "word": "you",
+          "frequency": 14482
+        },
+        {
+          "word": "in",
+          "frequency": 12415
+        },
+        {
+          "word": "he",
+          "frequency": 10421
+        },
+        {
+          "word": "for",
+          "frequency": 8955
+        },
+        {
+          "word": "i",
+          "frequency": 8697
+        },
+        {
+          "word": "a",
+          "frequency": 8682
+        },
+        {
+          "word": "his",
+          "frequency": 7993
+        },
+        {
+          "word": "lord",
+          "frequency": 7943
+        },
+        {
+          "word": "that",
+          "frequency": 7383
+        },
+        {
+          "word": "shall",
+          "frequency": 7231
+        },
+        {
+          "word": "your",
+          "frequency": 7205
+        },
+        {
+          "word": "is",
+          "frequency": 6994
+        },
+        {
+          "word": "they",
+          "frequency": 6961
+        },
+        {
+          "word": "not",
+          "frequency": 6488
+        },
+        {
+          "word": "will",
+          "frequency": 6421
+        },
+        {
+          "word": "him",
+          "frequency": 6284
+        }
+      ]
+    },
+    "uncommon": {
+      "count": 4612,
+      "percentage": 35.37,
+      "examples": [
+        {
+          "word": "bone",
+          "frequency": 16
+        },
+        {
+          "word": "ham",
+          "frequency": 16
+        },
+        {
+          "word": "upward",
+          "frequency": 16
+        },
+        {
+          "word": "resting",
+          "frequency": 16
+        },
+        {
+          "word": "jebusite",
+          "frequency": 16
+        },
+        {
+          "word": "eber",
+          "frequency": 16
+        },
+        {
+          "word": "aram",
+          "frequency": 16
+        },
+        {
+          "word": "baked",
+          "frequency": 16
+        },
+        {
+          "word": "wander",
+          "frequency": 16
+        },
+        {
+          "word": "clear",
+          "frequency": 16
+        },
+        {
+          "word": "kindly",
+          "frequency": 16
+        },
+        {
+          "word": "pleaded",
+          "frequency": 16
+        },
+        {
+          "word": "previously",
+          "frequency": 16
+        },
+        {
+          "word": "handed",
+          "frequency": 16
+        },
+        {
+          "word": "preserved",
+          "frequency": 16
+        },
+        {
+          "word": "below",
+          "frequency": 16
+        },
+        {
+          "word": "explain",
+          "frequency": 16
+        },
+        {
+          "word": "spies",
+          "frequency": 16
+        },
+        {
+          "word": "steward",
+          "frequency": 16
+        },
+        {
+          "word": "goshen",
+          "frequency": 16
+        }
+      ]
+    },
+    "rare": {
+      "count": 5768,
+      "percentage": 44.23,
+      "examples": [
+        {
+          "word": "hovering",
+          "frequency": 1
+        },
+        {
+          "word": "riverheads",
+          "frequency": 1
+        },
+        {
+          "word": "pishon",
+          "frequency": 1
+        },
+        {
+          "word": "hiddekel",
+          "frequency": 1
+        },
+        {
+          "word": "sewed",
+          "frequency": 1
+        },
+        {
+          "word": "tiller",
+          "frequency": 1
+        },
+        {
+          "word": "nod",
+          "frequency": 1
+        },
+        {
+          "word": "jabal",
+          "frequency": 1
+        },
+        {
+          "word": "jubal",
+          "frequency": 1
+        },
+        {
+          "word": "wounding",
+          "frequency": 1
+        },
+        {
+          "word": "gopherwood",
+          "frequency": 1
+        },
+        {
+          "word": "species",
+          "frequency": 1
+        },
+        {
+          "word": "freshly",
+          "frequency": 1
+        },
+        {
+          "word": "soothing",
+          "frequency": 1
+        },
+        {
+          "word": "seedtime",
+          "frequency": 1
+        },
+        {
+          "word": "lifeblood",
+          "frequency": 1
+        },
+        {
+          "word": "populated",
+          "frequency": 1
+        },
+        {
+          "word": "riphath",
+          "frequency": 1
+        },
+        {
+          "word": "dodanim",
+          "frequency": 1
+        },
+        {
+          "word": "sabtah",
+          "frequency": 1
+        }
+      ]
+    }
+  },
+  "reading_level": {
+    "estimated_grade_level": 4.8,
+    "average_words_per_sentence": 11.0,
+    "average_syllables_per_word": 1.37,
+    "sample_size": 1000
+  },
+  "greek_hebrew_terms": {
+    "hebrew_terms": 8611,
+    "greek_terms": 4959,
+    "total_original_language_terms": 13570,
+    "sample_transliterations": []
+  },
+  "seminary_terminology": {
+    "total_seminary_terms_found": 6,
+    "terms_by_frequency": [
+      [
+        "atonement",
+        88
+      ],
+      [
+        "sanctification",
+        5
+      ],
+      [
+        "election",
+        5
+      ],
+      [
+        "propitiation",
+        4
+      ],
+      [
+        "justification",
+        3
+      ],
+      [
+        "regeneration",
+        2
+      ]
+    ],
+    "all_terms_searched": [
+      "atonement",
+      "propitiation",
+      "justification",
+      "sanctification",
+      "regeneration",
+      "glorification",
+      "eschatology",
+      "christology",
+      "soteriology",
+      "pneumatology",
+      "ecclesiology",
+      "anthropology",
+      "predestination",
+      "election",
+      "reprobation",
+      "imputation",
+      "transubstantiation",
+      "consubstantiation",
+      "incarnation",
+      "theophany",
+      "epiphany",
+      "exegesis",
+      "hermeneutics",
+      "typology",
+      "allegory",
+      "apocalyptic",
+      "messianic"
+    ]
+  },
+  "difficulty_distribution": {
+    "easy_percentage": 20.4,
+    "medium_percentage": 35.37,
+    "hard_percentage": 44.23,
+    "overall_difficulty": "Hard"
+  }
+}

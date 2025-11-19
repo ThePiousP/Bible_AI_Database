@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:38:58.440385",
+    "databases_analyzed": {
+      "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+      "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+    }
+  },
+  "book_distribution": {
+    "1 Chronicles": {
+      "verses": 942,
+      "words": 9355,
+      "chapters": 29
+    },
+    "1 Corinthians": {
+      "verses": 437,
+      "words": 6749,
+      "chapters": 16
+    },
+    "1 John": {
+      "verses": 105,
+      "words": 1937,
+      "chapters": 5
+    },
+    "1 Kings": {
+      "verses": 816,
+      "words": 10196,
+      "chapters": 22
+    },
+    "1 Peter": {
+      "verses": 105,
+      "words": 1711,
+      "chapters": 5
+    },
+    "1 Samuel": {
+      "verses": 810,
+      "words": 10150,
+      "chapters": 31
+    },
+    "1 Thessalonians": {
+      "verses": 89,
+      "words": 1434,
+      "chapters": 5
+    },
+    "1 Timothy": {
+      "verses": 113,
+      "words": 1619,
+      "chapters": 6
+    },
+    "2 Chronicles": {
+      "verses": 822,
+      "words": 10754,
+      "chapters": 36
+    },
+    "2 Corinthians": {
+      "verses": 257,
+      "words": 4410,
+      "chapters": 13
+    },
+    "2 John": {
+      "verses": 13,
+      "words": 22,
+      "chapters": 1
+    },
+    "2 Kings": {
+      "verses": 719,
+      "words": 9524,
+      "chapters": 25
+    },
+    "2 Peter": {
+      "verses": 61,
+      "words": 1093,
+      "chapters": 3
+    },
+    "2 Samuel": {
+      "verses": 695,
+      "words": 8490,
+      "chapters": 24
+    },
+    "2 Thessalonians": {
+      "verses": 47,
+      "words": 792,
+      "chapters": 3
+    },
+    "2 Timothy": {
+      "verses": 83,
+      "words": 1226,
+      "chapters": 4
+    },
+    "3 John": {
+      "verses": 14,
+      "words": 10,
+      "chapters": 1
+    },
+    "Acts": {
+      "verses": 1007,
+      "words": 17412,
+      "chapters": 28
+    },
+    "Amos": {
+      "verses": 146,
+      "words": 1625,
+      "chapters": 9
+    },
+    "Colossians": {
+      "verses": 95,
+      "words": 1493,
+      "chapters": 4
+    },
+    "Daniel": {
+      "verses": 357,
+      "words": 5253,
+      "chapters": 12
+    },
+    "Deuteronomy": {
+      "verses": 959,
+      "words": 10460,
+      "chapters": 34
+    },
+    "Ecclesiastes": {
+      "verses": 222,
+      "words": 2269,
+      "chapters": 12
+    },
+    "Ephesians": {
+      "verses": 155,
+      "words": 2227,
+      "chapters": 6
+    },
+    "Esther": {
+      "verses": 167,
+      "words": 2390,
+      "chapters": 10
+    },
+    "Exodus": {
+      "verses": 1213,
+      "words": 12966,
+      "chapters": 40
+    },
+    "Ezekiel": {
+      "verses": 1273,
+      "words": 14759,
+      "chapters": 48
+    },
+    "Ezra": {
+      "verses": 280,
+      "words": 3403,
+      "chapters": 10
+    },
+    "Galatians": {
+      "verses": 149,
+      "words": 2208,
+      "chapters": 6
+    },
+    "Genesis": {
+      "verses": 1533,
+      "words": 15896,
+      "chapters": 50
+    },
+    "Habakkuk": {
+      "verses": 56,
+      "words": 581,
+      "chapters": 3
+    },
+    "Haggai": {
+      "verses": 38,
+      "words": 473,
+      "chapters": 2
+    },
+    "Hebrews": {
+      "verses": 303,
+      "words": 4873,
+      "chapters": 13
+    },
+    "Hosea": {
+      "verses": 197,
+      "words": 1933,
+      "chapters": 14
+    },
+    "Isaiah": {
+      "verses": 1292,
+      "words": 14066,
+      "chapters": 66
+    },
+    "James": {
+      "verses": 108,
+      "words": 1669,
+      "chapters": 5
+    },
+    "Jeremiah": {
+      "verses": 1364,
+      "words": 16198,
+      "chapters": 52
+    },
+    "Job": {
+      "verses": 1070,
+      "words": 6983,
+      "chapters": 42
+    },
+    "Joel": {
+      "verses": 73,
+      "words": 789,
+      "chapters": 3
+    },
+    "John": {
+      "verses": 879,
+      "words": 14653,
+      "chapters": 21
+    },
+    "Jonah": {
+      "verses": 48,
+      "words": 516,
+      "chapters": 4
+    },
+    "Joshua": {
+      "verses": 658,
+      "words": 7628,
+      "chapters": 24
+    },
+    "Jude": {
+      "verses": 25,
+      "words": 18,
+      "chapters": 1
+    },
+    "Judges": {
+      "verses": 618,
+      "words": 7556,
+      "chapters": 21
+    },
+    "Lamentations": {
+      "verses": 154,
+      "words": 1348,
+      "chapters": 5
+    },
+    "Leviticus": {
+      "verses": 859,
+      "words": 9054,
+      "chapters": 27
+    },
+    "Luke": {
+      "verses": 1151,
+      "words": 18776,
+      "chapters": 24
+    },
+    "Malachi": {
+      "verses": 55,
+      "words": 670,
+      "chapters": 4
+    },
+    "Mark": {
+      "verses": 678,
+      "words": 10837,
+      "chapters": 16
+    },
+    "Matthew": {
+      "verses": 1071,
+      "words": 17478,
+      "chapters": 28
+    },
+    "Micah": {
+      "verses": 105,
+      "words": 1149,
+      "chapters": 7
+    },
+    "Nahum": {
+      "verses": 47,
+      "words": 498,
+      "chapters": 3
+    },
+    "Nehemiah": {
+      "verses": 406,
+      "words": 4465,
+      "chapters": 13
+    },
+    "Numbers": {
+      "verses": 1288,
+      "words": 13319,
+      "chapters": 36
+    },
+    "Obadiah": {
+      "verses": 21,
+      "words": 15,
+      "chapters": 1
+    },
+    "Philemon": {
+      "verses": 25,
+      "words": 14,
+      "chapters": 1
+    },
+    "Philippians": {
+      "verses": 104,
+      "words": 1620,
+      "chapters": 4
+    },
+    "Proverbs": {
+      "verses": 915,
+      "words": 6630,
+      "chapters": 31
+    },
+    "Psalms": {
+      "verses": 2461,
+      "words": 17069,
+      "chapters": 150
+    },
+    "Revelation": {
+      "verses": 404,
+      "words": 8695,
+      "chapters": 22
+    },
+    "Romans": {
+      "verses": 433,
+      "words": 6850,
+      "chapters": 16
+    },
+    "Ruth": {
+      "verses": 85,
+      "words": 962,
+      "chapters": 4
+    },
+    "Song of Solomon": {
+      "verses": 117,
+      "words": 1137,
+      "chapters": 8
+    },
+    "Titus": {
+      "verses": 46,
+      "words": 675,
+      "chapters": 3
+    },
+    "Zechariah": {
+      "verses": 211,
+      "words": 2422,
+      "chapters": 14
+    },
+    "Zephaniah": {
+      "verses": 53,
+      "words": 627,
+      "chapters": 3
+    }
+  },
+  "testament_balance": {
+    "old_testament": {
+      "books": 39,
+      "verses": 23145,
+      "words": 243578,
+      "chapters": 929,
+      "verse_percentage": 74.42,
+      "word_percentage": 65.11
+    },
+    "new_testament": {
+      "books": 27,
+      "verses": 7957,
+      "words": 130501,
+      "chapters": 260,
+      "verse_percentage": 25.58,
+      "word_percentage": 34.89
+    },
+    "unknown": null
+  },
+  "strongs_coverage": {
+    "total_strongs_numbers": 13570,
+    "hebrew": {
+      "count": 8611,
+      "expected": 8674,
+      "coverage_percentage": 99.27,
+      "gaps_count": 63,
+      "sample_gaps": [
+        "H0015",
+        "H0071",
+        "H0156",
+        "H0334",
+        "H0417",
+        "H0516",
+        "H0704",
+        "H0760",
+        "H0798",
+        "H0799",
+        "H0800",
+        "H1056",
+        "H1128",
+        "H1136",
+        "H1169",
+        "H1208",
+        "H1223",
+        "H1665",
+        "H1686",
+        "H1729"
+      ]
+    },
+    "greek": {
+      "count": 4959,
+      "expected": 5624,
+      "coverage_percentage": 88.18,
+      "gaps_count": 665,
+      "sample_gaps": [
+        "G0009",
+        "G0012",
+        "G0031",
+        "G0033",
+        "G0039",
+        "G0041",
+        "G0043",
+        "G0049",
+        "G0072",
+        "G0078",
+        "G0099",
+        "G0100",
+        "G0145",
+        "G0149",
+        "G0155",
+        "G0158",
+        "G0196",
+        "G0197",
+        "G0201",
+        "G0205"
+      ]
+    }
+  },
+  "entity_types": {
+    "BIBLE_FLORA": {
+      "count": 1,
+      "file": "BIBLE_FLORA.json"
+    },
+    "BIBLE_NATIONS": {
+      "count": 1,
+      "file": "BIBLE_NATIONS.json"
+    },
+    "DEITY": {
+      "count": 1,
+      "file": "DEITY.json"
+    },
+    "DEITY_with_multilabel_context": {
+      "count": 1,
+      "file": "DEITY_with_multilabel_context.json"
+    },
+    "DIVINE_TITLE": {
+      "count": 1,
+      "file": "DIVINE_TITLE.json"
+    },
+    "LOCATION": {
+      "count": 1,
+      "file": "LOCATION.json"
+    },
+    "PERSON": {
+      "count": 1,
+      "file": "PERSON.json"
+    },
+    "TIME": {
+      "count": 1,
+      "file": "TIME.json"
+    },
+    "TITLE": {
+      "count": 1,
+      "file": "TITLE.json"
+    },
+    "TOOLS_MEASUREMENTS": {
+      "count": 4,
+      "file": "TOOLS_MEASUREMENTS.json"
+    }
+  },
+  "theological_concepts": {
+    "concepts": {
+      "grace": 161,
+      "mercy": 274,
+      "love": 612,
+      "faith": 405,
+      "hope": 147,
+      "redemption": 25,
+      "salvation": 157,
+      "covenant": 307,
+      "righteousness": 313,
+      "sin": 1504,
+      "forgiveness": 9,
+      "sacrifice": 308,
+      "prayer": 152,
+      "worship": 193,
+      "holy": 576,
+      "spirit": 613,
+      "law": 586,
+      "gospel": 100
+    },
+    "most_frequent": [
+      [
+        "sin",
+        1504
+      ],
+      [
+        "spirit",
+        613
+      ],
+      [
+        "love",
+        612
+      ],
+      [
+        "law",
+        586
+      ],
+      [
+        "holy",
+        576
+      ],
+      [
+        "faith",
+        405
+      ],
+      [
+        "righteousness",
+        313
+      ],
+      [
+        "sacrifice",
+        308
+      ],
+      [
+        "covenant",
+        307
+      ],
+      [
+        "mercy",
+        274
+      ]
+    ],
+    "least_frequent": [
+      [
+        "covenant",
+        307
+      ],
+      [
+        "mercy",
+        274
+      ],
+      [
+        "worship",
+        193
+      ],
+      [
+        "grace",
+        161
+      ],
+      [
+        "salvation",
+        157
+      ],
+      [
+        "prayer",
+        152
+      ],
+      [
+        "hope",
+        147
+      ],
+      [
+        "gospel",
+        100
+      ],
+      [
+        "redemption",
+        25
+      ],
+      [
+        "forgiveness",
+        9
+      ]
+    ]
+  }
+}

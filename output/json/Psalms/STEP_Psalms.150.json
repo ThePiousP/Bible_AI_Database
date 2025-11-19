@@ -1,0 +1,2448 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=Psa.150&options=NHVUG",
+  "verse_count": 6,
+  "verses": [
+    {
+      "ref": "Ps.150.1",
+      "verse_num": 1,
+      "text_plain": "Praise ye the Lord. Praise God in his sanctuary: praise him in the firmament of his power.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"Ps.150.1\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H3050\">ye the <span class=\"small-caps\">Lord</span></span>. <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H0410G\">God</span> <span strong=\"H6944G\">in his sanctuary</span>: <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">praise</span> <span strong=\"H7549\">him in the firmament</span> <span strong=\"H5797\">of his power</span>. <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10039\"><strong>▼</strong></a><span class=\"bold\">&nbsp;Praise ye…</span>: Heb. Hallelujah</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 25299,
+          "html_end": 25361,
+          "vhtml_start": 159,
+          "vhtml_end": 221,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 0,
+          "text_end": 6,
+          "token_id": "Ps.150.1#t0000"
+        },
+        {
+          "text": "ye the Lord",
+          "strong_norm": "H3050",
+          "strong_raw": "H3050",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25362,
+          "html_end": 25433,
+          "vhtml_start": 222,
+          "vhtml_end": 293,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָהּ",
+          "transliteration": "yâ",
+          "pronunciation": "yaw",
+          "pos": "proper noun with reference to deity",
+          "definition": "יָהּ Yâhh, yaw; contraction for H3068 , and meaning the same; Jah, the sacred name:—Jah, the Lord, most vehement. Compare names in '-iah,' '-jah.'",
+          "kjv_translation_count": "LORD (48x), JAH (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 48
+            },
+            {
+              "gloss": "JAH",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jah (Jehovah in the shortened form) the proper name of the one true God used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "the proper name of the one true God",
+            "used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "names beginning with the letters 'Je'",
+            "names ending with 'iah' or 'jah'"
+          ],
+          "text_start": 7,
+          "text_end": 18,
+          "token_id": "Ps.150.1#t0001"
+        },
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 25435,
+          "html_end": 25497,
+          "vhtml_start": 295,
+          "vhtml_end": 357,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 20,
+          "text_end": 26,
+          "token_id": "Ps.150.1#t0002"
+        },
+        {
+          "text": "God",
+          "strong_norm": "H0410",
+          "strong_raw": "H0410G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25498,
+          "html_end": 25530,
+          "vhtml_start": 358,
+          "vhtml_end": 390,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אֵל",
+          "transliteration": "'ēl",
+          "pronunciation": "ale",
+          "pos": "masculine noun",
+          "definition": "אֵל ʼêl, ale; shortened from H352 ; strength; as adjective, mighty; especially the Almighty (but used also of any deity):—God (god), × goodly, × great, idol, might(-y one), power, strong. Compare names in '-el.'",
+          "kjv_translation_count": "God (213x), god (16x), power (4x), mighty (5x), goodly (1x), great (1x), idols (1x), Immanuel (with H 6005) (2x), might (1x), strong (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "God",
+              "count": 213
+            },
+            {
+              "gloss": "god",
+              "count": 16
+            },
+            {
+              "gloss": "power",
+              "count": 4
+            },
+            {
+              "gloss": "mighty",
+              "count": 5
+            },
+            {
+              "gloss": "goodly",
+              "count": 1
+            },
+            {
+              "gloss": "great",
+              "count": 1
+            },
+            {
+              "gloss": "idols",
+              "count": 1
+            },
+            {
+              "gloss": "Immanuel",
+              "count": 2
+            },
+            {
+              "gloss": "might",
+              "count": 1
+            },
+            {
+              "gloss": "strong",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "god, god-like one, mighty one mighty men, men of rank, mighty heroes angels god, false god, (demons, imaginations) God, the one true God, Jehovah",
+            "mighty men, men of rank, mighty heroes",
+            "angels",
+            "god, false god, (demons, imaginations)",
+            "God, the one true God, Jehovah",
+            "mighty things in nature",
+            "strength, power"
+          ],
+          "text_start": 27,
+          "text_end": 30,
+          "token_id": "Ps.150.1#t0003"
+        },
+        {
+          "text": "in his sanctuary",
+          "strong_norm": "H6944",
+          "strong_raw": "H6944G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25531,
+          "html_end": 25576,
+          "vhtml_start": 391,
+          "vhtml_end": 436,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "קֹדֶשׁ",
+          "transliteration": "qōḏeš",
+          "pronunciation": "ko'-desh",
+          "pos": "masculine noun",
+          "definition": "קֹדֶשׁ qôdesh, ko'-desh; from H6942 ; a sacred place or thing; rarely abstract, sanctity:—consecrated (thing), dedicated (thing), hallowed (thing), holiness, ( × most) holy ( × day, portion, thing), saint, sanctuary.",
+          "kjv_translation_count": "holy (262x), sanctuary (68x), (holy , hallowed , ...) things (52x), most (44x), holiness (30x), dedicated (5x), hallowed (3x), consecrated (1x), miscellaneous (3x).",
+          "kjv_counts": [
+            {
+              "gloss": "holy",
+              "count": 262
+            },
+            {
+              "gloss": "sanctuary",
+              "count": 68
+            },
+            {
+              "gloss": null,
+              "count": 52
+            },
+            {
+              "gloss": "most",
+              "count": 44
+            },
+            {
+              "gloss": "holiness",
+              "count": 30
+            },
+            {
+              "gloss": "dedicated",
+              "count": 5
+            },
+            {
+              "gloss": "hallowed",
+              "count": 3
+            },
+            {
+              "gloss": "consecrated",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 3
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "apartness, holiness, sacredness, separateness apartness, sacredness, holiness of God of places of things set-apartness, separateness",
+            "apartness, sacredness, holiness of God of places of things",
+            "of God",
+            "of places",
+            "of things",
+            "set-apartness, separateness"
+          ],
+          "text_start": 31,
+          "text_end": 47,
+          "token_id": "Ps.150.1#t0004"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 25578,
+          "html_end": 25640,
+          "vhtml_start": 438,
+          "vhtml_end": 500,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 49,
+          "text_end": 55,
+          "token_id": "Ps.150.1#t0005"
+        },
+        {
+          "text": "him in the firmament",
+          "strong_norm": "H7549",
+          "strong_raw": "H7549",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25641,
+          "html_end": 25689,
+          "vhtml_start": 501,
+          "vhtml_end": 549,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רָקִיעַ",
+          "transliteration": "rāqîaʿ",
+          "pronunciation": "raw-kee'-ah",
+          "pos": "masculine noun",
+          "definition": "רָקִיעַ râqîyaʻ, raw-kee'-ah; from H7554 ; properly, an expanse, i.e. the firmament or (apparently) visible arch of the sky:—firmament.",
+          "kjv_translation_count": "firmament (17x).",
+          "kjv_counts": [
+            {
+              "gloss": "firmament",
+              "count": 17
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "extended surface (solid), expanse, firmament expanse (flat as base, support) firmament (of vault of heaven supporting waters above) considered by Hebrews as solid and supporting 'waters' above",
+            "expanse (flat as base, support)",
+            "firmament (of vault of heaven supporting waters above) considered by Hebrews as solid and supporting 'waters' above",
+            "considered by Hebrews as solid and supporting 'waters' above"
+          ],
+          "text_start": 56,
+          "text_end": 76,
+          "token_id": "Ps.150.1#t0006"
+        },
+        {
+          "text": "of his power",
+          "strong_norm": "H5797",
+          "strong_raw": "H5797",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25690,
+          "html_end": 25730,
+          "vhtml_start": 550,
+          "vhtml_end": 590,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עֹז",
+          "transliteration": "ʿōz",
+          "pronunciation": "oze",
+          "pos": "masculine noun",
+          "definition": "עֹז ʻôz, oze; or (fully) עוֹז ʻôwz; from H5810 ; strength in various applications (force, security, majesty, praise):—boldness, loud, might, power, strength, strong.",
+          "kjv_translation_count": "strength (60x), strong (17x), power (11x), might (2x), boldness (1x), loud (1x), mighty (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "strength",
+              "count": 60
+            },
+            {
+              "gloss": "strong",
+              "count": 17
+            },
+            {
+              "gloss": "power",
+              "count": 11
+            },
+            {
+              "gloss": "might",
+              "count": 2
+            },
+            {
+              "gloss": "boldness",
+              "count": 1
+            },
+            {
+              "gloss": "loud",
+              "count": 1
+            },
+            {
+              "gloss": "mighty",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "might, strength material or physical personal or social or political",
+            "material or physical",
+            "personal or social or political"
+          ],
+          "text_start": 77,
+          "text_end": 89,
+          "token_id": "Ps.150.1#t0007"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ Praise ye…: Heb. Hallelujah",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10039\"><strong>▼</strong></a><span class=\"bold\">&nbsp;Praise ye…</span>: Heb. Hallelujah</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.150.2",
+      "verse_num": 2,
+      "text_plain": "Praise him for his mighty acts: praise him according to his excellent greatness.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.2\" class=\"verseLink\"><span class=\"verseNumber\">2</span></a><a name=\"Ps.150.2\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H1369\">him for his mighty acts</span>: <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">praise</span> <span strong=\"H7230\">him according to his excellent</span> <span strong=\"H1433\">greatness</span>.</span>",
+      "tokens": [
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 26126,
+          "html_end": 26188,
+          "vhtml_start": 159,
+          "vhtml_end": 221,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 0,
+          "text_end": 6,
+          "token_id": "Ps.150.2#t0000"
+        },
+        {
+          "text": "him for his mighty acts",
+          "strong_norm": "H1369",
+          "strong_raw": "H1369",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26189,
+          "html_end": 26240,
+          "vhtml_start": 222,
+          "vhtml_end": 273,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "גְּבוּרָה",
+          "transliteration": "gᵊḇûrâ",
+          "pronunciation": "gheb-oo-raw'",
+          "pos": "feminine noun",
+          "definition": "גְּבוּרָה gᵉbûwrâh, gheb-oo-raw'; feminine passive participle from the same as H1368 ; force (literally or figuratively); by implication, valor, victory:—force, mastery, might, mighty (act, power), power, strength.",
+          "kjv_translation_count": "might (27x), strength (17x), power (9x), mighty acts (4x), mighty (2x), force (1x), mastery (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "might",
+              "count": 27
+            },
+            {
+              "gloss": "strength",
+              "count": 17
+            },
+            {
+              "gloss": "power",
+              "count": 9
+            },
+            {
+              "gloss": "mighty acts",
+              "count": 4
+            },
+            {
+              "gloss": "mighty",
+              "count": 2
+            },
+            {
+              "gloss": "force",
+              "count": 1
+            },
+            {
+              "gloss": "mastery",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "strength, might strength might, valour, bravery might, mighty deeds (of God)",
+            "strength",
+            "might, valour, bravery",
+            "might, mighty deeds (of God)"
+          ],
+          "text_start": 7,
+          "text_end": 30,
+          "token_id": "Ps.150.2#t0001"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 26242,
+          "html_end": 26304,
+          "vhtml_start": 275,
+          "vhtml_end": 337,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 32,
+          "text_end": 38,
+          "token_id": "Ps.150.2#t0002"
+        },
+        {
+          "text": "him according to his excellent",
+          "strong_norm": "H7230",
+          "strong_raw": "H7230",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26305,
+          "html_end": 26363,
+          "vhtml_start": 338,
+          "vhtml_end": 396,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֹב",
+          "transliteration": "rōḇ",
+          "pronunciation": "robe",
+          "pos": "masculine noun",
+          "definition": "רֹב rôb, robe; from H7231 ; abundance (in any respect):—abundance(-antly), all, × common (sort), excellent, great(-ly, -ness, number), huge, be increased, long, many, more in number, most, much, multitude, plenty(-ifully), × very (age).",
+          "kjv_translation_count": "multitude (70x), abundance (35x), great (9x), greatness (8x), much (8x), abundantly (4x), plenty (3x), many (3x), long (2x), excellent (1x), miscellaneous (12x).",
+          "kjv_counts": [
+            {
+              "gloss": "multitude",
+              "count": 70
+            },
+            {
+              "gloss": "abundance",
+              "count": 35
+            },
+            {
+              "gloss": "great",
+              "count": 9
+            },
+            {
+              "gloss": "greatness",
+              "count": 8
+            },
+            {
+              "gloss": "much",
+              "count": 8
+            },
+            {
+              "gloss": "abundantly",
+              "count": 4
+            },
+            {
+              "gloss": "plenty",
+              "count": 3
+            },
+            {
+              "gloss": "many",
+              "count": 3
+            },
+            {
+              "gloss": "long",
+              "count": 2
+            },
+            {
+              "gloss": "excellent",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 12
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "multitude, abundance, greatness multitude abundance, abundantly numerous greatness",
+            "multitude abundance, abundantly numerous",
+            "abundance, abundantly",
+            "numerous",
+            "greatness"
+          ],
+          "text_start": 39,
+          "text_end": 69,
+          "token_id": "Ps.150.2#t0003"
+        },
+        {
+          "text": "greatness",
+          "strong_norm": "H1433",
+          "strong_raw": "H1433",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26364,
+          "html_end": 26401,
+          "vhtml_start": 397,
+          "vhtml_end": 434,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "גֹּדֶל",
+          "transliteration": "gōḏel",
+          "pronunciation": "go'-del",
+          "pos": "masculine noun",
+          "definition": "גֹּדֶל gôdel, go'-del; from H1431 ; magnitude (literally or figuratively):—greatness, stout(-ness).",
+          "kjv_translation_count": "greatness (11x), stout (1x), stoutness (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "greatness",
+              "count": 11
+            },
+            {
+              "gloss": "stout",
+              "count": 1
+            },
+            {
+              "gloss": "stoutness",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "greatness greatness, magnitude magnificence pride, insolence (bad sense)",
+            "greatness, magnitude",
+            "magnificence",
+            "pride, insolence (bad sense)"
+          ],
+          "text_start": 70,
+          "text_end": 79,
+          "token_id": "Ps.150.2#t0004"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.150.3",
+      "verse_num": 3,
+      "text_plain": "Praise him with the sound of the trumpet: praise him with the psaltery and harp.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.3\" class=\"verseLink\"><span class=\"verseNumber\">3</span></a><a name=\"Ps.150.3\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H8629\">him with the sound</span> <span strong=\"H7782\">of the trumpet</span>: <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">praise</span> <span strong=\"H5035B\">him with the psaltery</span> <span strong=\"H3658\">and harp</span>. <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10075\"><strong>▼</strong></a><span class=\"bold\">&nbsp;trumpet</span>: or, cornet</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 26569,
+          "html_end": 26631,
+          "vhtml_start": 159,
+          "vhtml_end": 221,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 0,
+          "text_end": 6,
+          "token_id": "Ps.150.3#t0000"
+        },
+        {
+          "text": "him with the sound",
+          "strong_norm": "H8629",
+          "strong_raw": "H8629",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26632,
+          "html_end": 26678,
+          "vhtml_start": 222,
+          "vhtml_end": 268,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "תֵּקַע",
+          "transliteration": "tēqaʿ",
+          "pronunciation": "tay-kah'",
+          "pos": "masculine noun",
+          "definition": "תֵּקַע têqaʻ, tay-kah'; from H8628 ; a blast of a trumpet:—sound.",
+          "kjv_translation_count": "sound (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "sound",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "sound, blast (of horn), trumpet blast"
+          ],
+          "text_start": 7,
+          "text_end": 25,
+          "token_id": "Ps.150.3#t0001"
+        },
+        {
+          "text": "of the trumpet",
+          "strong_norm": "H7782",
+          "strong_raw": "H7782",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26679,
+          "html_end": 26721,
+          "vhtml_start": 269,
+          "vhtml_end": 311,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שׁוֹפָר",
+          "transliteration": "šôp̄ār",
+          "pronunciation": "sho-far'",
+          "pos": "masculine noun",
+          "definition": "שׁוֹפָר shôwphâr, sho-far'; or שֹׁפָר shôphâr; from H8231 in the original sense of incising; a cornet (as giving a clear sound) or curved horn:—cornet, trumpet.",
+          "kjv_translation_count": "trumpet (68x), cornet (4x).",
+          "kjv_counts": [
+            {
+              "gloss": "trumpet",
+              "count": 68
+            },
+            {
+              "gloss": "cornet",
+              "count": 4
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "horn, ram's horn"
+          ],
+          "text_start": 26,
+          "text_end": 40,
+          "token_id": "Ps.150.3#t0002"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 26723,
+          "html_end": 26785,
+          "vhtml_start": 313,
+          "vhtml_end": 375,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 42,
+          "text_end": 48,
+          "token_id": "Ps.150.3#t0003"
+        },
+        {
+          "text": "him with the psaltery",
+          "strong_norm": "H5035",
+          "strong_raw": "H5035B",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26786,
+          "html_end": 26836,
+          "vhtml_start": 376,
+          "vhtml_end": 426,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נֶבֶל",
+          "transliteration": "neḇel",
+          "pronunciation": "neh'-bel",
+          "pos": "masculine noun",
+          "definition": "נֶבֶל nebel, neh'-bel; or נֵבֶל nêbel; from H5034 ; a skin-bag for liquids (from collapsing when empty); hence, a vase (as similar in shape when full); also a lyre (as having a body of like form):—bottle, pitcher, psaltery, vessel, viol.",
+          "kjv_translation_count": "psalteries (22x), bottle (8x), viol (4x), flagons (1x), pitchers (1x), vessel (1x), variant (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "psalteries",
+              "count": 22
+            },
+            {
+              "gloss": "bottle",
+              "count": 8
+            },
+            {
+              "gloss": "viol",
+              "count": 4
+            },
+            {
+              "gloss": "flagons",
+              "count": 1
+            },
+            {
+              "gloss": "pitchers",
+              "count": 1
+            },
+            {
+              "gloss": "vessel",
+              "count": 1
+            },
+            {
+              "gloss": "variant",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a skin-bag, jar, pitcher skin-bottle, skin jar, pitcher (earthen)",
+            "skin-bottle, skin",
+            "jar, pitcher (earthen)",
+            "harp, lute, guitar, musical instrument"
+          ],
+          "text_start": 49,
+          "text_end": 70,
+          "token_id": "Ps.150.3#t0004"
+        },
+        {
+          "text": "and harp",
+          "strong_norm": "H3658",
+          "strong_raw": "H3658",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26837,
+          "html_end": 26873,
+          "vhtml_start": 427,
+          "vhtml_end": 463,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "כִּנּוֹר",
+          "transliteration": "kinnôr",
+          "pronunciation": "kin-nore'",
+          "pos": "masculine noun",
+          "definition": "כִּנּוֹר kinnôwr, kin-nore'; from a unused root meaning to twang; a harp:—harp.",
+          "kjv_translation_count": "harp (42x).",
+          "kjv_counts": [
+            {
+              "gloss": "harp",
+              "count": 42
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "lyre, harp"
+          ],
+          "text_start": 71,
+          "text_end": 79,
+          "token_id": "Ps.150.3#t0005"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ trumpet: or, cornet",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10075\"><strong>▼</strong></a><span class=\"bold\">&nbsp;trumpet</span>: or, cornet</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.150.4",
+      "verse_num": 4,
+      "text_plain": "Praise him with the timbrel and dance: praise him with stringed instruments and organs.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.4\" class=\"verseLink\"><span class=\"verseNumber\">4</span></a><a name=\"Ps.150.4\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H8596\">him with the timbrel</span> <span strong=\"H4234\">and dance</span>: <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">praise</span> <span strong=\"H4482\">him with stringed instruments</span> <span strong=\"H5748\">and organs</span>. <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10099\"><strong>▼</strong></a><span class=\"bold\">&nbsp;dance</span>: or, pipe</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 27261,
+          "html_end": 27323,
+          "vhtml_start": 159,
+          "vhtml_end": 221,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 0,
+          "text_end": 6,
+          "token_id": "Ps.150.4#t0000"
+        },
+        {
+          "text": "him with the timbrel",
+          "strong_norm": "H8596",
+          "strong_raw": "H8596",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27324,
+          "html_end": 27372,
+          "vhtml_start": 222,
+          "vhtml_end": 270,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "תֹּף",
+          "transliteration": "tōp̄",
+          "pronunciation": "tofe",
+          "pos": "masculine noun",
+          "definition": "תֹּף tôph, tofe; from H8608 contracted; a tambourine:—tabret, timbrel.",
+          "kjv_translation_count": "timbrel (9x), tabret (8x).",
+          "kjv_counts": [
+            {
+              "gloss": "timbrel",
+              "count": 9
+            },
+            {
+              "gloss": "tabret",
+              "count": 8
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "timbrel, tambourine"
+          ],
+          "text_start": 7,
+          "text_end": 27,
+          "token_id": "Ps.150.4#t0001"
+        },
+        {
+          "text": "and dance",
+          "strong_norm": "H4234",
+          "strong_raw": "H4234",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27373,
+          "html_end": 27410,
+          "vhtml_start": 271,
+          "vhtml_end": 308,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מָחוֹל",
+          "transliteration": "māḥôl",
+          "pronunciation": "maw-khole'",
+          "pos": "masculine noun",
+          "definition": "מָחוֹל mâchôwl, maw-khole'; from H2342 ; a (round) dance:—dance(-cing).",
+          "kjv_translation_count": "dance (5x), dancing (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "dance",
+              "count": 5
+            },
+            {
+              "gloss": "dancing",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "dance, dancing"
+          ],
+          "text_start": 28,
+          "text_end": 37,
+          "token_id": "Ps.150.4#t0002"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 27412,
+          "html_end": 27474,
+          "vhtml_start": 310,
+          "vhtml_end": 372,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 39,
+          "text_end": 45,
+          "token_id": "Ps.150.4#t0003"
+        },
+        {
+          "text": "him with stringed instruments",
+          "strong_norm": "H4482",
+          "strong_raw": "H4482",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27475,
+          "html_end": 27532,
+          "vhtml_start": 373,
+          "vhtml_end": 430,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מֵן",
+          "transliteration": "mēn",
+          "pronunciation": "mane",
+          "pos": "masculine noun",
+          "definition": "מֵן mên, mane; from an unused root meaning to apportion; a part; hence, a musical chord (as parted into strings):—in [the same] (Psalm 68:23), stringed instrument (Psalm 150:4), whereby (Psalm 45:8 [defective plural]).",
+          "kjv_translation_count": "stringed instrument (1x), whereby (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "stringed instrument",
+              "count": 1
+            },
+            {
+              "gloss": "whereby",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "string (of harp)",
+            "(BDB) portion"
+          ],
+          "text_start": 46,
+          "text_end": 75,
+          "token_id": "Ps.150.4#t0004"
+        },
+        {
+          "text": "and organs",
+          "strong_norm": "H5748",
+          "strong_raw": "H5748",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27533,
+          "html_end": 27571,
+          "vhtml_start": 431,
+          "vhtml_end": 469,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עוּגָב",
+          "transliteration": "ʿûḡāḇ",
+          "pronunciation": "oo-gawb'",
+          "pos": "masculine noun",
+          "definition": "עוּגָב ʻûwgâb, oo-gawb'; or עֻגָּב ʻuggâb; from H5689 in the original sense of breathing; a reed-instrument of music:—organ.",
+          "kjv_translation_count": "organ (2x), flute (1x), pipe (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "organ",
+              "count": 2
+            },
+            {
+              "gloss": "flute",
+              "count": 1
+            },
+            {
+              "gloss": "pipe",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a musical instrument perhaps a flute, reed-pipe, or panpipes",
+            "perhaps a flute, reed-pipe, or panpipes"
+          ],
+          "text_start": 76,
+          "text_end": 86,
+          "token_id": "Ps.150.4#t0005"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ dance: or, pipe",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10099\"><strong>▼</strong></a><span class=\"bold\">&nbsp;dance</span>: or, pipe</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.150.5",
+      "verse_num": 5,
+      "text_plain": "Praise him upon the loud cymbals: praise him upon the high sounding cymbals.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.5\" class=\"verseLink\"><span class=\"verseNumber\">5</span></a><a name=\"Ps.150.5\" class=\"verseLink\"></a><span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H8088A\">him upon the loud</span> <span strong=\"H6767D\">cymbals</span>: <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">praise</span> <span strong=\"H8643\">him upon the high sounding</span> <span strong=\"H6767D\">cymbals</span>.</span>",
+      "tokens": [
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 27955,
+          "html_end": 28017,
+          "vhtml_start": 159,
+          "vhtml_end": 221,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 0,
+          "text_end": 6,
+          "token_id": "Ps.150.5#t0000"
+        },
+        {
+          "text": "him upon the loud",
+          "strong_norm": "H8088",
+          "strong_raw": "H8088A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28018,
+          "html_end": 28064,
+          "vhtml_start": 222,
+          "vhtml_end": 268,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שֵׁמַע",
+          "transliteration": "šēmaʿ",
+          "pronunciation": "shay'-mah",
+          "pos": "masculine noun",
+          "definition": "שֵׁמַע shêmaʻ, shay'-mah; from H8085 ; something heard, i.e. a sound, rumor, announcement; abstractly, audience:—bruit, fame, hear(-ing), loud, report, speech, tidings.",
+          "kjv_translation_count": "fame (5x), report (5x), hear (3x), tidings (2x), bruit (1x), loud (1x), speech (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "fame",
+              "count": 5
+            },
+            {
+              "gloss": "report",
+              "count": 5
+            },
+            {
+              "gloss": "hear",
+              "count": 3
+            },
+            {
+              "gloss": "tidings",
+              "count": 2
+            },
+            {
+              "gloss": "bruit",
+              "count": 1
+            },
+            {
+              "gloss": "loud",
+              "count": 1
+            },
+            {
+              "gloss": "speech",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "report, a hearing"
+          ],
+          "text_start": 7,
+          "text_end": 24,
+          "token_id": "Ps.150.5#t0001"
+        },
+        {
+          "text": "cymbals",
+          "strong_norm": "H6767",
+          "strong_raw": "H6767D",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28065,
+          "html_end": 28101,
+          "vhtml_start": 269,
+          "vhtml_end": 305,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "צְלָצַל",
+          "transliteration": "ṣᵊlāṣal",
+          "pronunciation": "tsel-aw-tsal'",
+          "pos": "masculine noun",
+          "definition": "צְלָצַל tsᵉlâtsal, tsel-aw-tsal'; from H6750 reduplicated; a clatter, i.e. (abstractly) whirring (of wings); (concretely) a cricket; also a harpoon (as rattling),a cymbal (as clanging):—cymbal, locust, shadowing, spear.",
+          "kjv_translation_count": "cymbal (3x), locust (1x), spear (1x), shadowing (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "cymbal",
+              "count": 3
+            },
+            {
+              "gloss": "locust",
+              "count": 1
+            },
+            {
+              "gloss": "spear",
+              "count": 1
+            },
+            {
+              "gloss": "shadowing",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "whirring, buzzing",
+            "spear",
+            "whirring locust"
+          ],
+          "text_start": 25,
+          "text_end": 32,
+          "token_id": "Ps.150.5#t0002"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 28103,
+          "html_end": 28165,
+          "vhtml_start": 307,
+          "vhtml_end": 369,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 34,
+          "text_end": 40,
+          "token_id": "Ps.150.5#t0003"
+        },
+        {
+          "text": "him upon the high sounding",
+          "strong_norm": "H8643",
+          "strong_raw": "H8643",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28166,
+          "html_end": 28220,
+          "vhtml_start": 370,
+          "vhtml_end": 424,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "תְּרוּעָה",
+          "transliteration": "tᵊrûʿâ",
+          "pronunciation": "ter-oo-aw'",
+          "pos": "feminine noun",
+          "definition": "תְּרוּעָה tᵉrûwʻâh, ter-oo-aw'; from H7321 ; clamor, i.e. acclamation of joy or a battle-cry; especially clangor of trumpets, as an alarum:—alarm, blow(-ing) (of, the) (trumpets), joy, jubile, loud noise, rejoicing, shout(-ing), (high, joyful) sound(-ing).",
+          "kjv_translation_count": "shout (11x), shouting (8x), alarm (6x), sound (3x), blowing (2x), joy (2x), miscellaneous (4x).",
+          "kjv_counts": [
+            {
+              "gloss": "shout",
+              "count": 11
+            },
+            {
+              "gloss": "shouting",
+              "count": 8
+            },
+            {
+              "gloss": "alarm",
+              "count": 6
+            },
+            {
+              "gloss": "sound",
+              "count": 3
+            },
+            {
+              "gloss": "blowing",
+              "count": 2
+            },
+            {
+              "gloss": "joy",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 4
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "alarm, signal, sound of tempest, shout, shout or blast of war or alarm or joy alarm of war, war-cry, battle-cry blast (for march) shout of joy (with religious impulse) shout of joy (in general)",
+            "alarm of war, war-cry, battle-cry",
+            "blast (for march)",
+            "shout of joy (with religious impulse)",
+            "shout of joy (in general)"
+          ],
+          "text_start": 41,
+          "text_end": 67,
+          "token_id": "Ps.150.5#t0004"
+        },
+        {
+          "text": "cymbals",
+          "strong_norm": "H6767",
+          "strong_raw": "H6767D",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28221,
+          "html_end": 28257,
+          "vhtml_start": 425,
+          "vhtml_end": 461,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "צְלָצַל",
+          "transliteration": "ṣᵊlāṣal",
+          "pronunciation": "tsel-aw-tsal'",
+          "pos": "masculine noun",
+          "definition": "צְלָצַל tsᵉlâtsal, tsel-aw-tsal'; from H6750 reduplicated; a clatter, i.e. (abstractly) whirring (of wings); (concretely) a cricket; also a harpoon (as rattling),a cymbal (as clanging):—cymbal, locust, shadowing, spear.",
+          "kjv_translation_count": "cymbal (3x), locust (1x), spear (1x), shadowing (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "cymbal",
+              "count": 3
+            },
+            {
+              "gloss": "locust",
+              "count": 1
+            },
+            {
+              "gloss": "spear",
+              "count": 1
+            },
+            {
+              "gloss": "shadowing",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "whirring, buzzing",
+            "spear",
+            "whirring locust"
+          ],
+          "text_start": 68,
+          "text_end": 75,
+          "token_id": "Ps.150.5#t0005"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.150.6",
+      "verse_num": 6,
+      "text_plain": "Let every thing that hath breath praise the Lord. Praise ye the Lord.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.150.6\" class=\"verseLink\"><span class=\"verseNumber\">6</span></a><a name=\"Ps.150.6\" class=\"verseLink\"></a><span strong=\"H5397\">Let every thing that hath breath</span> <span morph=\"strongMorph:TH8762\" strong=\"H1984B\">praise</span> <span strong=\"H3050\">the <span class=\"small-caps\">Lord</span></span>. <span morph=\"strongMorph:TH8761\" strong=\"H1984B\">Praise</span> <span strong=\"H3050\">ye the <span class=\"small-caps\">Lord</span></span>.  </span>",
+      "tokens": [
+        {
+          "text": "Let every thing that hath breath",
+          "strong_norm": "H5397",
+          "strong_raw": "H5397",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28425,
+          "html_end": 28485,
+          "vhtml_start": 159,
+          "vhtml_end": 219,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נְשָׁמָה",
+          "transliteration": "nᵊšāmâ",
+          "pronunciation": "nesh-aw-maw'",
+          "pos": "feminine noun",
+          "definition": "נְשָׁמָה nᵉshâmâh, nesh-aw-maw'; from H5395 ; a puff, i.e. wind, angry or vital breath, divine inspiration, intellect. or (concretely) an animal:—blast, (that) breath(-eth), inspiration, soul, spirit.",
+          "kjv_translation_count": "breath (17x), blast (3x), spirit (2x), inspiration (1x), souls (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "breath",
+              "count": 17
+            },
+            {
+              "gloss": "blast",
+              "count": 3
+            },
+            {
+              "gloss": "spirit",
+              "count": 2
+            },
+            {
+              "gloss": "inspiration",
+              "count": 1
+            },
+            {
+              "gloss": "souls",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "breath, spirit breath (of God) breath (of man) every breathing thing spirit (of man)",
+            "breath (of God)",
+            "breath (of man)",
+            "every breathing thing",
+            "spirit (of man)"
+          ],
+          "text_start": 0,
+          "text_end": 32,
+          "token_id": "Ps.150.6#t0000"
+        },
+        {
+          "text": "praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8762",
+          "morph_raw": "strongMorph:TH8762",
+          "italics": false,
+          "html_start": 28486,
+          "html_end": 28548,
+          "vhtml_start": 220,
+          "vhtml_end": 282,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 33,
+          "text_end": 39,
+          "token_id": "Ps.150.6#t0001"
+        },
+        {
+          "text": "the Lord",
+          "strong_norm": "H3050",
+          "strong_raw": "H3050",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28549,
+          "html_end": 28617,
+          "vhtml_start": 283,
+          "vhtml_end": 351,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָהּ",
+          "transliteration": "yâ",
+          "pronunciation": "yaw",
+          "pos": "proper noun with reference to deity",
+          "definition": "יָהּ Yâhh, yaw; contraction for H3068 , and meaning the same; Jah, the sacred name:—Jah, the Lord, most vehement. Compare names in '-iah,' '-jah.'",
+          "kjv_translation_count": "LORD (48x), JAH (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 48
+            },
+            {
+              "gloss": "JAH",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jah (Jehovah in the shortened form) the proper name of the one true God used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "the proper name of the one true God",
+            "used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "names beginning with the letters 'Je'",
+            "names ending with 'iah' or 'jah'"
+          ],
+          "text_start": 40,
+          "text_end": 48,
+          "token_id": "Ps.150.6#t0002"
+        },
+        {
+          "text": "Praise",
+          "strong_norm": "H1984",
+          "strong_raw": "H1984B",
+          "morph_norm": "TH8761",
+          "morph_raw": "strongMorph:TH8761",
+          "italics": false,
+          "html_start": 28619,
+          "html_end": 28681,
+          "vhtml_start": 353,
+          "vhtml_end": 415,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הָלַל",
+          "transliteration": "hālal",
+          "pronunciation": "haw-lal'",
+          "pos": "verb",
+          "definition": "הָלַל hâlal, haw-lal'; a primitive root; to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify:—(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "kjv_translation_count": "praise (117x), glory (14x), boast (10x), mad (8x), shine (3x), foolish (3x), fools (2x), commended (2x), rage (2x), celebrate (1x), give (1x), marriage (1x), renowned (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "praise",
+              "count": 117
+            },
+            {
+              "gloss": "glory",
+              "count": 14
+            },
+            {
+              "gloss": "boast",
+              "count": 10
+            },
+            {
+              "gloss": "mad",
+              "count": 8
+            },
+            {
+              "gloss": "shine",
+              "count": 3
+            },
+            {
+              "gloss": "foolish",
+              "count": 3
+            },
+            {
+              "gloss": "fools",
+              "count": 2
+            },
+            {
+              "gloss": "commended",
+              "count": 2
+            },
+            {
+              "gloss": "rage",
+              "count": 2
+            },
+            {
+              "gloss": "celebrate",
+              "count": 1
+            },
+            {
+              "gloss": "give",
+              "count": 1
+            },
+            {
+              "gloss": "marriage",
+              "count": 1
+            },
+            {
+              "gloss": "renowned",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to shine (Qal) to shine (fig. of God's favour) (Hiphil) to flash forth light",
+            "(Qal) to shine (fig. of God's favour)",
+            "(Hiphil) to flash forth light",
+            "to praise, boast, be boastful (Qal) to be boastful boastful ones, boasters (participle) (Piel) to praise to boast, make a boast (Pual) to be praised, be made praiseworthy, be commended, be worthy of praise (Hithpael) to boast, glory, make one's boast (Poel) to make a fool of, make into a fool (Hithpoel) to act madly, act like a madman",
+            "(Qal) to be boastful boastful ones, boasters (participle)",
+            "to be boastful",
+            "boastful ones, boasters (participle)",
+            "(Piel) to praise to boast, make a boast",
+            "to praise",
+            "to boast, make a boast",
+            "(Pual) to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "to be praised, be made praiseworthy, be commended, be worthy of praise",
+            "(Hithpael) to boast, glory, make one's boast",
+            "(Poel) to make a fool of, make into a fool",
+            "(Hithpoel) to act madly, act like a madman"
+          ],
+          "text_start": 50,
+          "text_end": 56,
+          "token_id": "Ps.150.6#t0003"
+        },
+        {
+          "text": "ye the Lord",
+          "strong_norm": "H3050",
+          "strong_raw": "H3050",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 28682,
+          "html_end": 28753,
+          "vhtml_start": 416,
+          "vhtml_end": 487,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָהּ",
+          "transliteration": "yâ",
+          "pronunciation": "yaw",
+          "pos": "proper noun with reference to deity",
+          "definition": "יָהּ Yâhh, yaw; contraction for H3068 , and meaning the same; Jah, the sacred name:—Jah, the Lord, most vehement. Compare names in '-iah,' '-jah.'",
+          "kjv_translation_count": "LORD (48x), JAH (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 48
+            },
+            {
+              "gloss": "JAH",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jah (Jehovah in the shortened form) the proper name of the one true God used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "the proper name of the one true God",
+            "used in many compounds names beginning with the letters 'Je' names ending with 'iah' or 'jah'",
+            "names beginning with the letters 'Je'",
+            "names ending with 'iah' or 'jah'"
+          ],
+          "text_start": 57,
+          "text_end": 68,
+          "token_id": "Ps.150.6#t0004"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}

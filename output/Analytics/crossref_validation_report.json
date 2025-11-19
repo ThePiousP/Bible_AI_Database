@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "investigation_date": "2025-11-06T10:59:39.110878",
+    "database": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db"
+  },
+  "summary": {
+    "raw_total": 614180,
+    "duplicates": 0,
+    "self_references": 67,
+    "clean_directional": 614113,
+    "unique_logical_connections": 555490,
+    "bidirectional_percentage": 19.12
+  },
+  "quality_assessment": {
+    "status": "YELLOW",
+    "assessment": "Higher than expected (555,490 vs 340k-382k range)",
+    "storage_method": "Primarily unidirectional",
+    "ratio_to_crosswire": 1.54,
+    "clean_connection_count": 614113,
+    "unique_logical_connections": 555490,
+    "recommendations": [
+      "Remove 67 self-references"
+    ]
+  },
+  "detailed_metrics": {
+    "schema": {
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "source_verse_id",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "related_verse_id",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "sample_records": [
+        [
+          1,
+          1,
+          27106
+        ],
+        [
+          2,
+          1,
+          14065
+        ],
+        [
+          3,
+          1,
+          24796
+        ],
+        [
+          4,
+          1,
+          2439
+        ],
+        [
+          5,
+          1,
+          16402
+        ]
+      ],
+      "total_raw_count": 614180
+    },
+    "bidirectional": {
+      "bidirectional_count": 117447,
+      "total_count": 614180,
+      "bidirectional_percentage": 19.12,
+      "estimated_unique_if_all_bidirectional": 58723
+    },
+    "duplicates": {
+      "total_duplicate_records": 0,
+      "unique_duplicate_pairs": 0,
+      "sample_duplicates": []
+    },
+    "self_references": {
+      "self_reference_count": 67,
+      "sample_self_references": [
+        [
+          2785,
+          2785
+        ],
+        [
+          2791,
+          2791
+        ],
+        [
+          2820,
+          2820
+        ],
+        [
+          3924,
+          3924
+        ],
+        [
+          7243,
+          7243
+        ],
+        [
+          8617,
+          8617
+        ],
+        [
+          9542,
+          9542
+        ],
+        [
+          10508,
+          10508
+        ],
+        [
+          10878,
+          10878
+        ],
+        [
+          16387,
+          16387
+        ]
+      ]
+    },
+    "distribution": {
+      "top_connected_verses": [
+        {
+          "verse_id": 1034,
+          "reference": "Genesis 35:22",
+          "connection_count": 422
+        },
+        {
+          "verse_id": 26095,
+          "reference": "Luke 24:44",
+          "connection_count": 352
+        },
+        {
+          "verse_id": 17710,
+          "reference": "Isaiah 1:1",
+          "connection_count": 321
+        },
+        {
+          "verse_id": 27212,
+          "reference": "Acts 7:36",
+          "connection_count": 296
+        },
+        {
+          "verse_id": 1266,
+          "reference": "Genesis 42:13",
+          "connection_count": 263
+        },
+        {
+          "verse_id": 27109,
+          "reference": "Acts 4:27",
+          "connection_count": 257
+        },
+        {
+          "verse_id": 27075,
+          "reference": "Acts 3:19",
+          "connection_count": 255
+        },
+        {
+          "verse_id": 12571,
+          "reference": "Nehemiah 9:10",
+          "connection_count": 253
+        },
+        {
+          "verse_id": 19703,
+          "reference": "Jeremiah 29:11",
+          "connection_count": 253
+        },
+        {
+          "verse_id": 20552,
+          "reference": "Ezekiel 2:3",
+          "connection_count": 242
+        }
+      ],
+      "connection_distribution": {
+        "422": 1,
+        "352": 1,
+        "321": 1,
+        "296": 1,
+        "263": 1,
+        "257": 1,
+        "255": 1,
+        "253": 2,
+        "242": 1,
+        "235": 2,
+        "233": 1,
+        "232": 1,
+        "223": 1,
+        "220": 1,
+        "219": 1,
+        "218": 1,
+        "217": 3,
+        "216": 1,
+        "213": 3,
+        "204": 1
+      },
+      "avg_connections_per_verse": 0.0,
+      "distinct_source_verses": 29363,
+      "distinct_target_verses": 30997
+    },
+    "unique_connections": {
+      "raw_distinct_directional": 614180,
+      "unique_logical_connections": 555490
+    }
+  }
+}

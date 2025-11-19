@@ -1,0 +1,4775 @@
+{
+  "metadata": {
+    "generated": "2025-11-06T10:39:32.410287",
+    "version": "1.0",
+    "analyses_included": 8,
+    "total_analyses": 8
+  },
+  "summary_stats": {
+    "confidence_score": 95.8,
+    "ai_readiness": "READY",
+    "total_unique_words": 119721,
+    "average_word_length": 12.08,
+    "hebrew_coverage": 99.27,
+    "greek_coverage": 88.18,
+    "total_cross_references": 614180,
+    "avg_connections_per_verse": 39.56,
+    "clue_coverage": 100.0,
+    "average_clues_per_word": 3.0,
+    "average_query_time_ms": 3.72,
+    "health_score": 85,
+    "health_status": "Good"
+  },
+  "charts": {
+    "word_length_distribution": {
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "51",
+        "55",
+        "56",
+        "59"
+      ],
+      "values": [
+        4,
+        111,
+        658,
+        2370,
+        4280,
+        6554,
+        8551,
+        9547,
+        10347,
+        10334,
+        9748,
+        9041,
+        8284,
+        7147,
+        6146,
+        5225,
+        4256,
+        3552,
+        2894,
+        2329,
+        1817,
+        1403,
+        1114,
+        939,
+        750,
+        504,
+        424,
+        318,
+        253,
+        202,
+        149,
+        101,
+        99,
+        67,
+        43,
+        43,
+        27,
+        23,
+        14,
+        13,
+        5,
+        5,
+        5,
+        6,
+        6,
+        2,
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "type": "bar",
+      "title": "Word Length Distribution"
+    },
+    "letter_frequency": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "values": [
+        122388,
+        23811,
+        27372,
+        63914,
+        188124,
+        30706,
+        23735,
+        126963,
+        86935,
+        2830,
+        10079,
+        63936,
+        36350,
+        96631,
+        99299,
+        21911,
+        645,
+        77261,
+        85671,
+        141842,
+        40726,
+        14301,
+        30530,
+        967,
+        27322,
+        1946
+      ],
+      "type": "bar",
+      "title": "Letter Frequency Distribution"
+    },
+    "testament_balance": {
+      "labels": [
+        "Old Testament",
+        "New Testament"
+      ],
+      "values": [
+        23145,
+        7957
+      ],
+      "type": "pie",
+      "title": "Old Testament vs New Testament (Verses)"
+    },
+    "strongs_coverage": {
+      "hebrew": 99.27,
+      "greek": 88.18,
+      "type": "progress",
+      "title": "Strong's Number Coverage"
+    },
+    "clue_distribution": {
+      "labels": [
+        "0 Clues",
+        "1 Clue",
+        "2 Clues",
+        "3 Clues",
+        "4+ Clues"
+      ],
+      "values": [
+        0,
+        0,
+        2,
+        15832,
+        0
+      ],
+      "type": "bar",
+      "title": "Clues per Word Distribution"
+    },
+    "difficulty_distribution": {
+      "labels": [
+        "Common Words",
+        "Uncommon Words",
+        "Rare Words"
+      ],
+      "values": [
+        2660,
+        4612,
+        5768
+      ],
+      "type": "pie",
+      "title": "Word Difficulty Distribution"
+    },
+    "connection_distribution": {
+      "labels": [
+        "1 connections",
+        "2 connections",
+        "3 connections",
+        "4 connections",
+        "5 connections",
+        "6 connections",
+        "7 connections",
+        "8 connections",
+        "9 connections",
+        "10 connections"
+      ],
+      "values": [
+        111,
+        162,
+        206,
+        235,
+        278,
+        343,
+        380,
+        428,
+        442,
+        523
+      ],
+      "type": "bar",
+      "title": "Cross-Reference Connection Distribution"
+    }
+  },
+  "tables": {
+    "most_connected_verses": [
+      {
+        "verse_id": 1034,
+        "reference": "Genesis 35:22",
+        "connection_count": 448,
+        "text_preview": "And it happened, when Israel dwelt in that land, that Reuben went and lay with Bilhah his father’s c"
+      },
+      {
+        "verse_id": 26095,
+        "reference": "Luke 24:44",
+        "connection_count": 430,
+        "text_preview": "Then He said to them, “These are the words which I spoke to you while I was still with you, that all"
+      },
+      {
+        "verse_id": 27109,
+        "reference": "Acts 4:27",
+        "connection_count": 363,
+        "text_preview": "“For truly against Your holy Servant Jesus, whom You anointed, both Herod and Pontius Pilate, with t"
+      },
+      {
+        "verse_id": 17710,
+        "reference": "Isaiah 1:1",
+        "connection_count": 344,
+        "text_preview": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzz"
+      },
+      {
+        "verse_id": 27212,
+        "reference": "Acts 7:36",
+        "connection_count": 327,
+        "text_preview": "He brought them out, after he had shown wonders and signs in the land of Egypt, and in the Red Sea, "
+      },
+      {
+        "verse_id": 27075,
+        "reference": "Acts 3:19",
+        "connection_count": 318,
+        "text_preview": "Repent therefore and be converted, that your sins may be blotted out, so that times of refreshing ma"
+      },
+      {
+        "verse_id": 12571,
+        "reference": "Nehemiah 9:10",
+        "connection_count": 295,
+        "text_preview": "You showed signs and wonders against Pharaoh, Against all his servants, And against all the people o"
+      },
+      {
+        "verse_id": 12060,
+        "reference": "2 Chronicles 36:17",
+        "connection_count": 291,
+        "text_preview": "Therefore He brought against them the king of the Chaldeans, who killed their young men with the swo"
+      },
+      {
+        "verse_id": 24275,
+        "reference": "Matthew 28:20",
+        "connection_count": 282,
+        "text_preview": "teaching them to observe all things that I have commanded you; and lo, I am with you always, even to"
+      },
+      {
+        "verse_id": 17890,
+        "reference": "Isaiah 9:6",
+        "connection_count": 282,
+        "text_preview": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. A"
+      },
+      {
+        "verse_id": 22072,
+        "reference": "Daniel 9:27",
+        "connection_count": 282,
+        "text_preview": "Then he shall confirm a covenant with many for one week; But in the middle of the week He shall brin"
+      },
+      {
+        "verse_id": 19703,
+        "reference": "Jeremiah 29:11",
+        "connection_count": 276,
+        "text_preview": "For I know the thoughts that I think toward you, says the Lord , thoughts of peace and not of evil, "
+      },
+      {
+        "verse_id": 18598,
+        "reference": "Isaiah 44:8",
+        "connection_count": 274,
+        "text_preview": "Do not fear, nor be afraid; Have I not told you from that time, and declared it? You are My witnesse"
+      },
+      {
+        "verse_id": 1266,
+        "reference": "Genesis 42:13",
+        "connection_count": 274,
+        "text_preview": "And they said, “Your servants are twelve brothers, the sons of one man in the land of Canaan; and in"
+      },
+      {
+        "verse_id": 17950,
+        "reference": "Isaiah 11:11",
+        "connection_count": 267,
+        "text_preview": "It shall come to pass in that day That the Lord shall set His hand again the second time To recover "
+      },
+      {
+        "verse_id": 27907,
+        "reference": "Acts 26:18",
+        "connection_count": 263,
+        "text_preview": "to open their eyes, in order to turn them from darkness to light, and from the power of Satan to God"
+      },
+      {
+        "verse_id": 20552,
+        "reference": "Ezekiel 2:3",
+        "connection_count": 261,
+        "text_preview": "And He said to me: “Son of man, I am sending you to the children of Israel, to a rebellious nation t"
+      },
+      {
+        "verse_id": 29576,
+        "reference": "Colossians 2:16",
+        "connection_count": 260,
+        "text_preview": "So let no one judge you in food or in drink, or regarding a festival or a new moon or sabbaths,"
+      },
+      {
+        "verse_id": 30303,
+        "reference": "Hebrews 12:2",
+        "connection_count": 258,
+        "text_preview": "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him en"
+      },
+      {
+        "verse_id": 29250,
+        "reference": "Galatians 5:22",
+        "connection_count": 257,
+        "text_preview": "But the fruit of the Spirit is love, joy, peace, longsuffering, kindness, goodness, faithfulness,"
+      }
+    ],
+    "underrepresented_books": [
+      {
+        "book": "1 Chronicles",
+        "chapters": 29,
+        "verses": 942,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Corinthians",
+        "chapters": 16,
+        "verses": 437,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 John",
+        "chapters": 5,
+        "verses": 105,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Kings",
+        "chapters": 22,
+        "verses": 816,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Peter",
+        "chapters": 5,
+        "verses": 105,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Samuel",
+        "chapters": 31,
+        "verses": 810,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Thessalonians",
+        "chapters": 5,
+        "verses": 89,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "1 Timothy",
+        "chapters": 6,
+        "verses": 113,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapters": 36,
+        "verses": 822,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Corinthians",
+        "chapters": 13,
+        "verses": 257,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 John",
+        "chapters": 1,
+        "verses": 13,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Kings",
+        "chapters": 25,
+        "verses": 719,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Peter",
+        "chapters": 3,
+        "verses": 61,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Samuel",
+        "chapters": 24,
+        "verses": 695,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Thessalonians",
+        "chapters": 3,
+        "verses": 47,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "2 Timothy",
+        "chapters": 4,
+        "verses": 83,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "3 John",
+        "chapters": 1,
+        "verses": 14,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Acts",
+        "chapters": 28,
+        "verses": 1007,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Amos",
+        "chapters": 9,
+        "verses": 146,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Colossians",
+        "chapters": 4,
+        "verses": 95,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Daniel",
+        "chapters": 12,
+        "verses": 357,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapters": 34,
+        "verses": 959,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Ecclesiastes",
+        "chapters": 12,
+        "verses": 222,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Ephesians",
+        "chapters": 6,
+        "verses": 155,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Esther",
+        "chapters": 10,
+        "verses": 167,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Exodus",
+        "chapters": 40,
+        "verses": 1213,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Ezekiel",
+        "chapters": 48,
+        "verses": 1273,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Ezra",
+        "chapters": 10,
+        "verses": 280,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Galatians",
+        "chapters": 6,
+        "verses": 149,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Genesis",
+        "chapters": 50,
+        "verses": 1533,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Habakkuk",
+        "chapters": 3,
+        "verses": 56,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Haggai",
+        "chapters": 2,
+        "verses": 38,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Hebrews",
+        "chapters": 13,
+        "verses": 303,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Hosea",
+        "chapters": 14,
+        "verses": 197,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Isaiah",
+        "chapters": 66,
+        "verses": 1292,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "James",
+        "chapters": 5,
+        "verses": 108,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Jeremiah",
+        "chapters": 52,
+        "verses": 1364,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Job",
+        "chapters": 42,
+        "verses": 1070,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Joel",
+        "chapters": 3,
+        "verses": 73,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "John",
+        "chapters": 21,
+        "verses": 879,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Jonah",
+        "chapters": 4,
+        "verses": 48,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Joshua",
+        "chapters": 24,
+        "verses": 658,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Jude",
+        "chapters": 1,
+        "verses": 25,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Judges",
+        "chapters": 21,
+        "verses": 618,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Lamentations",
+        "chapters": 5,
+        "verses": 154,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Leviticus",
+        "chapters": 27,
+        "verses": 859,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Luke",
+        "chapters": 24,
+        "verses": 1151,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Malachi",
+        "chapters": 4,
+        "verses": 55,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Mark",
+        "chapters": 16,
+        "verses": 678,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Matthew",
+        "chapters": 28,
+        "verses": 1071,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Micah",
+        "chapters": 7,
+        "verses": 105,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Nahum",
+        "chapters": 3,
+        "verses": 47,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Nehemiah",
+        "chapters": 13,
+        "verses": 406,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Numbers",
+        "chapters": 36,
+        "verses": 1288,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Obadiah",
+        "chapters": 1,
+        "verses": 21,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Philemon",
+        "chapters": 1,
+        "verses": 25,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Philippians",
+        "chapters": 4,
+        "verses": 104,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Proverbs",
+        "chapters": 31,
+        "verses": 915,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Psalms",
+        "chapters": 150,
+        "verses": 2461,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Revelation",
+        "chapters": 22,
+        "verses": 404,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Romans",
+        "chapters": 16,
+        "verses": 433,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Ruth",
+        "chapters": 4,
+        "verses": 85,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Song of Solomon",
+        "chapters": 8,
+        "verses": 117,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Titus",
+        "chapters": 3,
+        "verses": 46,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Zechariah",
+        "chapters": 14,
+        "verses": 211,
+        "words": 0,
+        "issue": "Very low data count"
+      },
+      {
+        "book": "Zephaniah",
+        "chapters": 3,
+        "verses": 53,
+        "words": 0,
+        "issue": "Very low data count"
+      }
+    ],
+    "theological_concepts": [
+      {
+        "concept": "sin",
+        "count": 1504
+      },
+      {
+        "concept": "spirit",
+        "count": 613
+      },
+      {
+        "concept": "love",
+        "count": 612
+      },
+      {
+        "concept": "law",
+        "count": 586
+      },
+      {
+        "concept": "holy",
+        "count": 576
+      },
+      {
+        "concept": "faith",
+        "count": 405
+      },
+      {
+        "concept": "righteousness",
+        "count": 313
+      },
+      {
+        "concept": "sacrifice",
+        "count": 308
+      },
+      {
+        "concept": "covenant",
+        "count": 307
+      },
+      {
+        "concept": "mercy",
+        "count": 274
+      }
+    ],
+    "performance_benchmarks": [
+      {
+        "description": "Simple book lookup by name",
+        "query": "SELECT * FROM books WHERE book_name = 'Genesis'",
+        "iterations": 5,
+        "average_ms": 0.199,
+        "min_ms": 0.0,
+        "max_ms": 0.995
+      },
+      {
+        "description": "Fetch 100 verses",
+        "query": "SELECT v.text FROM verses v LIMIT 100",
+        "iterations": 5,
+        "average_ms": 0.2,
+        "min_ms": 0.0,
+        "max_ms": 0.999
+      },
+      {
+        "description": "Join books, chapters, verses (1000 rows)",
+        "query": "\n        SELECT b.book_name, c.chapter_number, v.verse_number, v.text\n        FROM books b\n        J...",
+        "iterations": 5,
+        "average_ms": 1.0,
+        "min_ms": 0.994,
+        "max_ms": 1.007
+      },
+      {
+        "description": "Count all cross-references",
+        "query": "SELECT COUNT(*) FROM cross_references",
+        "iterations": 5,
+        "average_ms": 3.502,
+        "min_ms": 2.99,
+        "max_ms": 4.51
+      },
+      {
+        "description": "Fetch 100 Greek lexical words",
+        "query": "SELECT * FROM lexical_words WHERE language = 'Greek' LIMIT 100",
+        "iterations": 5,
+        "average_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.0
+      },
+      {
+        "description": "Text search for 'Jesus' (LIKE query)",
+        "query": "SELECT * FROM verses WHERE text LIKE '%Jesus%' LIMIT 50",
+        "iterations": 5,
+        "average_ms": 8.001,
+        "min_ms": 7.005,
+        "max_ms": 9.001
+      },
+      {
+        "description": "Count verses per book (aggregate)",
+        "query": "\n        SELECT b.book_name, COUNT(v.id) as verse_count\n        FROM books b\n        LEFT JOIN chapt...",
+        "iterations": 5,
+        "average_ms": 3.001,
+        "min_ms": 2.005,
+        "max_ms": 3.995
+      },
+      {
+        "description": "Fetch 100 Greek tokens",
+        "query": "SELECT * FROM tokens WHERE strong_norm LIKE 'G%' LIMIT 100",
+        "iterations": 5,
+        "average_ms": 24.0,
+        "min_ms": 21.999,
+        "max_ms": 25.992
+      },
+      {
+        "description": "Lookup specific Strong's number",
+        "query": "SELECT * FROM strongs_lexicon WHERE strong_norm = 'G2424'",
+        "iterations": 5,
+        "average_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.0
+      },
+      {
+        "description": "Full-text search for 'love'",
+        "query": "SELECT * FROM verses_fts WHERE text MATCH 'love' LIMIT 50",
+        "iterations": 5,
+        "average_ms": 0.198,
+        "min_ms": 0.0,
+        "max_ms": 0.992
+      },
+      {
+        "description": "Join tokens with Strong's lexicon (500 rows)",
+        "query": "\n        SELECT t.text, l.definition\n        FROM tokens t\n        LEFT JOIN strongs_lexicon l ON t....",
+        "iterations": 5,
+        "average_ms": 0.8,
+        "min_ms": 0.0,
+        "max_ms": 1.008
+      }
+    ]
+  },
+  "raw_analyses": {
+    "executive_summary": {
+      "metadata": {
+        "report_generated": "2025-11-06T10:39:31.244964",
+        "analyses_included": 7,
+        "total_analyses": 7
+      },
+      "confidence_score": {
+        "overall": 95.8,
+        "category_scores": {
+          "content": 100,
+          "theology": 100,
+          "crossrefs": 100,
+          "difficulty": 80,
+          "clues": 100,
+          "completeness": 85,
+          "performance": 100
+        },
+        "weights": {
+          "content": 10,
+          "theology": 25,
+          "crossrefs": 15,
+          "difficulty": 10,
+          "clues": 20,
+          "completeness": 15,
+          "performance": 5
+        }
+      },
+      "strengths": [
+        {
+          "category": "Content Distribution",
+          "score": 100,
+          "description": "Excellent word coverage with 119,721 unique words"
+        },
+        {
+          "category": "Theological Coverage",
+          "score": 100,
+          "description": "Strong Strong's coverage: Hebrew 99.27%, Greek 88.18%"
+        },
+        {
+          "category": "Cross-References",
+          "score": 100,
+          "description": "Comprehensive cross-reference network with 614,180 connections"
+        },
+        {
+          "category": "Clue Quality",
+          "score": 100,
+          "description": "High clue coverage at 100.0%"
+        },
+        {
+          "category": "Query Performance",
+          "score": 100,
+          "description": "Excellent query performance: 3.7ms average"
+        }
+      ],
+      "gaps": [],
+      "ai_readiness": {
+        "readiness": "READY",
+        "status_color": "green",
+        "recommendation": "Database is excellent for AI/NLP development. All critical metrics are strong.",
+        "critical_actions": []
+      },
+      "detailed_results": {
+        "content_distribution": true,
+        "theological_coverage": true,
+        "cross_references": true,
+        "difficulty_profile": true,
+        "clue_quality": true,
+        "completeness": true,
+        "performance": true
+      }
+    },
+    "content_distribution": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:38:50.779365",
+        "total_unique_words": 119721,
+        "sources": {
+          "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+          "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db",
+          "clues_file": "D:\\Project_PP\\projects\\bible\\dev\\Complete_bible_list.txt"
+        }
+      },
+      "word_length_distribution": {
+        "distribution": {
+          "1": 4,
+          "2": 111,
+          "3": 658,
+          "4": 2370,
+          "5": 4280,
+          "6": 6554,
+          "7": 8551,
+          "8": 9547,
+          "9": 10347,
+          "10": 10334,
+          "11": 9748,
+          "12": 9041,
+          "13": 8284,
+          "14": 7147,
+          "15": 6146,
+          "16": 5225,
+          "17": 4256,
+          "18": 3552,
+          "19": 2894,
+          "20": 2329,
+          "21": 1817,
+          "22": 1403,
+          "23": 1114,
+          "24": 939,
+          "25": 750,
+          "26": 504,
+          "27": 424,
+          "28": 318,
+          "29": 253,
+          "30": 202,
+          "31": 149,
+          "32": 101,
+          "33": 99,
+          "34": 67,
+          "35": 43,
+          "36": 43,
+          "37": 27,
+          "38": 23,
+          "39": 14,
+          "40": 13,
+          "41": 5,
+          "42": 5,
+          "43": 5,
+          "44": 6,
+          "45": 6,
+          "46": 2,
+          "47": 5,
+          "48": 1,
+          "49": 1,
+          "51": 1,
+          "55": 1,
+          "56": 1,
+          "59": 1
+        },
+        "average_length": 12.08,
+        "min_length": 1,
+        "max_length": 59,
+        "total_words": 119721
+      },
+      "letter_frequency": {
+        "frequencies": {
+          "A": {
+            "count": 122388,
+            "percentage": 8.46
+          },
+          "B": {
+            "count": 23811,
+            "percentage": 1.65
+          },
+          "C": {
+            "count": 27372,
+            "percentage": 1.89
+          },
+          "D": {
+            "count": 63914,
+            "percentage": 4.42
+          },
+          "E": {
+            "count": 188124,
+            "percentage": 13.01
+          },
+          "F": {
+            "count": 30706,
+            "percentage": 2.12
+          },
+          "G": {
+            "count": 23735,
+            "percentage": 1.64
+          },
+          "H": {
+            "count": 126963,
+            "percentage": 8.78
+          },
+          "I": {
+            "count": 86935,
+            "percentage": 6.01
+          },
+          "J": {
+            "count": 2830,
+            "percentage": 0.2
+          },
+          "K": {
+            "count": 10079,
+            "percentage": 0.7
+          },
+          "L": {
+            "count": 63936,
+            "percentage": 4.42
+          },
+          "M": {
+            "count": 36350,
+            "percentage": 2.51
+          },
+          "N": {
+            "count": 96631,
+            "percentage": 6.68
+          },
+          "O": {
+            "count": 99299,
+            "percentage": 6.87
+          },
+          "P": {
+            "count": 21911,
+            "percentage": 1.52
+          },
+          "Q": {
+            "count": 645,
+            "percentage": 0.04
+          },
+          "R": {
+            "count": 77261,
+            "percentage": 5.34
+          },
+          "S": {
+            "count": 85671,
+            "percentage": 5.92
+          },
+          "T": {
+            "count": 141842,
+            "percentage": 9.81
+          },
+          "U": {
+            "count": 40726,
+            "percentage": 2.82
+          },
+          "V": {
+            "count": 14301,
+            "percentage": 0.99
+          },
+          "W": {
+            "count": 30530,
+            "percentage": 2.11
+          },
+          "X": {
+            "count": 967,
+            "percentage": 0.07
+          },
+          "Y": {
+            "count": 27322,
+            "percentage": 1.89
+          },
+          "Z": {
+            "count": 1946,
+            "percentage": 0.13
+          }
+        },
+        "total_letters": 1446195,
+        "most_common": [
+          [
+            "E",
+            188124
+          ],
+          [
+            "T",
+            141842
+          ],
+          [
+            "H",
+            126963
+          ],
+          [
+            "A",
+            122388
+          ],
+          [
+            "O",
+            99299
+          ]
+        ],
+        "least_common": [
+          [
+            "K",
+            10079
+          ],
+          [
+            "J",
+            2830
+          ],
+          [
+            "Z",
+            1946
+          ],
+          [
+            "X",
+            967
+          ],
+          [
+            "Q",
+            645
+          ]
+        ]
+      },
+      "vowel_consonant_ratio": {
+        "vowels": 537472,
+        "consonants": 908724,
+        "total_letters": 1446196,
+        "vowel_percentage": 37.16,
+        "consonant_percentage": 62.84
+      },
+      "bigrams": {
+        "total_bigrams": 1326474,
+        "unique_bigrams": 557,
+        "most_common": [
+          [
+            "TH",
+            68308
+          ],
+          [
+            "HE",
+            52671
+          ],
+          [
+            "AN",
+            29320
+          ],
+          [
+            "HA",
+            25568
+          ],
+          [
+            "ND",
+            24302
+          ],
+          [
+            "ER",
+            22945
+          ],
+          [
+            "IN",
+            20902
+          ],
+          [
+            "RE",
+            19426
+          ],
+          [
+            "ES",
+            18447
+          ],
+          [
+            "OU",
+            15664
+          ],
+          [
+            "ED",
+            15347
+          ],
+          [
+            "AT",
+            15295
+          ],
+          [
+            "AL",
+            14842
+          ],
+          [
+            "EN",
+            14745
+          ],
+          [
+            "LL",
+            14634
+          ],
+          [
+            "NT",
+            13983
+          ],
+          [
+            "ET",
+            13852
+          ],
+          [
+            "OR",
+            13825
+          ],
+          [
+            "HI",
+            13734
+          ],
+          [
+            "TO",
+            13210
+          ]
+        ],
+        "least_common": [
+          [
+            "ZG",
+            3
+          ],
+          [
+            "ZJ",
+            2
+          ],
+          [
+            "WZ",
+            2
+          ],
+          [
+            "XW",
+            2
+          ],
+          [
+            "CN",
+            2
+          ],
+          [
+            "MQ",
+            2
+          ],
+          [
+            "VS",
+            2
+          ],
+          [
+            "ZT",
+            2
+          ],
+          [
+            "XD",
+            1
+          ],
+          [
+            "XQ",
+            1
+          ],
+          [
+            "CZ",
+            1
+          ],
+          [
+            "BW",
+            1
+          ],
+          [
+            "XR",
+            1
+          ],
+          [
+            "ZY",
+            1
+          ],
+          [
+            "CW",
+            1
+          ],
+          [
+            "QO",
+            1
+          ],
+          [
+            "PJ",
+            1
+          ],
+          [
+            "PV",
+            1
+          ],
+          [
+            "XF",
+            1
+          ],
+          [
+            "KG",
+            1
+          ]
+        ]
+      },
+      "rare_combinations": {
+        "total_trigrams": 1206757,
+        "unique_trigrams": 6180,
+        "rare_trigrams_count": 685,
+        "rare_examples": [
+          [
+            "AJI",
+            2
+          ],
+          [
+            "AMV",
+            2
+          ],
+          [
+            "COI",
+            2
+          ],
+          [
+            "DYW",
+            2
+          ],
+          [
+            "EIU",
+            1
+          ],
+          [
+            "EKH",
+            1
+          ],
+          [
+            "EKY",
+            2
+          ],
+          [
+            "ELW",
+            1
+          ],
+          [
+            "ESQ",
+            2
+          ],
+          [
+            "FAY",
+            2
+          ],
+          [
+            "FEH",
+            1
+          ],
+          [
+            "FRY",
+            2
+          ],
+          [
+            "GYI",
+            1
+          ],
+          [
+            "HSY",
+            1
+          ],
+          [
+            "HUG",
+            2
+          ],
+          [
+            "ICY",
+            2
+          ],
+          [
+            "IUT",
+            1
+          ],
+          [
+            "IVU",
+            1
+          ],
+          [
+            "IZJ",
+            2
+          ],
+          [
+            "KEJ",
+            2
+          ],
+          [
+            "KOL",
+            2
+          ],
+          [
+            "KOT",
+            2
+          ],
+          [
+            "LAE",
+            2
+          ],
+          [
+            "LKT",
+            2
+          ],
+          [
+            "MGU",
+            2
+          ],
+          [
+            "MTY",
+            2
+          ],
+          [
+            "MUD",
+            2
+          ],
+          [
+            "NEJ",
+            2
+          ],
+          [
+            "NYQ",
+            1
+          ],
+          [
+            "PBA",
+            2
+          ],
+          [
+            "PCH",
+            1
+          ],
+          [
+            "PEU",
+            2
+          ],
+          [
+            "RKC",
+            1
+          ],
+          [
+            "RKW",
+            1
+          ],
+          [
+            "SIU",
+            2
+          ],
+          [
+            "SSR",
+            1
+          ],
+          [
+            "TIQ",
+            2
+          ],
+          [
+            "UEW",
+            2
+          ],
+          [
+            "UOJ",
+            2
+          ],
+          [
+            "UPC",
+            1
+          ],
+          [
+            "VYO",
+            1
+          ],
+          [
+            "WFL",
+            1
+          ],
+          [
+            "WOG",
+            2
+          ],
+          [
+            "WTR",
+            1
+          ],
+          [
+            "WUS",
+            1
+          ],
+          [
+            "XEH",
+            1
+          ],
+          [
+            "YGU",
+            2
+          ],
+          [
+            "YOG",
+            1
+          ],
+          [
+            "YTT",
+            2
+          ],
+          [
+            "ZJO",
+            2
+          ]
+        ]
+      }
+    },
+    "theology_coverage": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:38:58.440385",
+        "databases_analyzed": {
+          "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+          "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+        }
+      },
+      "book_distribution": {
+        "1 Chronicles": {
+          "verses": 942,
+          "words": 9355,
+          "chapters": 29
+        },
+        "1 Corinthians": {
+          "verses": 437,
+          "words": 6749,
+          "chapters": 16
+        },
+        "1 John": {
+          "verses": 105,
+          "words": 1937,
+          "chapters": 5
+        },
+        "1 Kings": {
+          "verses": 816,
+          "words": 10196,
+          "chapters": 22
+        },
+        "1 Peter": {
+          "verses": 105,
+          "words": 1711,
+          "chapters": 5
+        },
+        "1 Samuel": {
+          "verses": 810,
+          "words": 10150,
+          "chapters": 31
+        },
+        "1 Thessalonians": {
+          "verses": 89,
+          "words": 1434,
+          "chapters": 5
+        },
+        "1 Timothy": {
+          "verses": 113,
+          "words": 1619,
+          "chapters": 6
+        },
+        "2 Chronicles": {
+          "verses": 822,
+          "words": 10754,
+          "chapters": 36
+        },
+        "2 Corinthians": {
+          "verses": 257,
+          "words": 4410,
+          "chapters": 13
+        },
+        "2 John": {
+          "verses": 13,
+          "words": 22,
+          "chapters": 1
+        },
+        "2 Kings": {
+          "verses": 719,
+          "words": 9524,
+          "chapters": 25
+        },
+        "2 Peter": {
+          "verses": 61,
+          "words": 1093,
+          "chapters": 3
+        },
+        "2 Samuel": {
+          "verses": 695,
+          "words": 8490,
+          "chapters": 24
+        },
+        "2 Thessalonians": {
+          "verses": 47,
+          "words": 792,
+          "chapters": 3
+        },
+        "2 Timothy": {
+          "verses": 83,
+          "words": 1226,
+          "chapters": 4
+        },
+        "3 John": {
+          "verses": 14,
+          "words": 10,
+          "chapters": 1
+        },
+        "Acts": {
+          "verses": 1007,
+          "words": 17412,
+          "chapters": 28
+        },
+        "Amos": {
+          "verses": 146,
+          "words": 1625,
+          "chapters": 9
+        },
+        "Colossians": {
+          "verses": 95,
+          "words": 1493,
+          "chapters": 4
+        },
+        "Daniel": {
+          "verses": 357,
+          "words": 5253,
+          "chapters": 12
+        },
+        "Deuteronomy": {
+          "verses": 959,
+          "words": 10460,
+          "chapters": 34
+        },
+        "Ecclesiastes": {
+          "verses": 222,
+          "words": 2269,
+          "chapters": 12
+        },
+        "Ephesians": {
+          "verses": 155,
+          "words": 2227,
+          "chapters": 6
+        },
+        "Esther": {
+          "verses": 167,
+          "words": 2390,
+          "chapters": 10
+        },
+        "Exodus": {
+          "verses": 1213,
+          "words": 12966,
+          "chapters": 40
+        },
+        "Ezekiel": {
+          "verses": 1273,
+          "words": 14759,
+          "chapters": 48
+        },
+        "Ezra": {
+          "verses": 280,
+          "words": 3403,
+          "chapters": 10
+        },
+        "Galatians": {
+          "verses": 149,
+          "words": 2208,
+          "chapters": 6
+        },
+        "Genesis": {
+          "verses": 1533,
+          "words": 15896,
+          "chapters": 50
+        },
+        "Habakkuk": {
+          "verses": 56,
+          "words": 581,
+          "chapters": 3
+        },
+        "Haggai": {
+          "verses": 38,
+          "words": 473,
+          "chapters": 2
+        },
+        "Hebrews": {
+          "verses": 303,
+          "words": 4873,
+          "chapters": 13
+        },
+        "Hosea": {
+          "verses": 197,
+          "words": 1933,
+          "chapters": 14
+        },
+        "Isaiah": {
+          "verses": 1292,
+          "words": 14066,
+          "chapters": 66
+        },
+        "James": {
+          "verses": 108,
+          "words": 1669,
+          "chapters": 5
+        },
+        "Jeremiah": {
+          "verses": 1364,
+          "words": 16198,
+          "chapters": 52
+        },
+        "Job": {
+          "verses": 1070,
+          "words": 6983,
+          "chapters": 42
+        },
+        "Joel": {
+          "verses": 73,
+          "words": 789,
+          "chapters": 3
+        },
+        "John": {
+          "verses": 879,
+          "words": 14653,
+          "chapters": 21
+        },
+        "Jonah": {
+          "verses": 48,
+          "words": 516,
+          "chapters": 4
+        },
+        "Joshua": {
+          "verses": 658,
+          "words": 7628,
+          "chapters": 24
+        },
+        "Jude": {
+          "verses": 25,
+          "words": 18,
+          "chapters": 1
+        },
+        "Judges": {
+          "verses": 618,
+          "words": 7556,
+          "chapters": 21
+        },
+        "Lamentations": {
+          "verses": 154,
+          "words": 1348,
+          "chapters": 5
+        },
+        "Leviticus": {
+          "verses": 859,
+          "words": 9054,
+          "chapters": 27
+        },
+        "Luke": {
+          "verses": 1151,
+          "words": 18776,
+          "chapters": 24
+        },
+        "Malachi": {
+          "verses": 55,
+          "words": 670,
+          "chapters": 4
+        },
+        "Mark": {
+          "verses": 678,
+          "words": 10837,
+          "chapters": 16
+        },
+        "Matthew": {
+          "verses": 1071,
+          "words": 17478,
+          "chapters": 28
+        },
+        "Micah": {
+          "verses": 105,
+          "words": 1149,
+          "chapters": 7
+        },
+        "Nahum": {
+          "verses": 47,
+          "words": 498,
+          "chapters": 3
+        },
+        "Nehemiah": {
+          "verses": 406,
+          "words": 4465,
+          "chapters": 13
+        },
+        "Numbers": {
+          "verses": 1288,
+          "words": 13319,
+          "chapters": 36
+        },
+        "Obadiah": {
+          "verses": 21,
+          "words": 15,
+          "chapters": 1
+        },
+        "Philemon": {
+          "verses": 25,
+          "words": 14,
+          "chapters": 1
+        },
+        "Philippians": {
+          "verses": 104,
+          "words": 1620,
+          "chapters": 4
+        },
+        "Proverbs": {
+          "verses": 915,
+          "words": 6630,
+          "chapters": 31
+        },
+        "Psalms": {
+          "verses": 2461,
+          "words": 17069,
+          "chapters": 150
+        },
+        "Revelation": {
+          "verses": 404,
+          "words": 8695,
+          "chapters": 22
+        },
+        "Romans": {
+          "verses": 433,
+          "words": 6850,
+          "chapters": 16
+        },
+        "Ruth": {
+          "verses": 85,
+          "words": 962,
+          "chapters": 4
+        },
+        "Song of Solomon": {
+          "verses": 117,
+          "words": 1137,
+          "chapters": 8
+        },
+        "Titus": {
+          "verses": 46,
+          "words": 675,
+          "chapters": 3
+        },
+        "Zechariah": {
+          "verses": 211,
+          "words": 2422,
+          "chapters": 14
+        },
+        "Zephaniah": {
+          "verses": 53,
+          "words": 627,
+          "chapters": 3
+        }
+      },
+      "testament_balance": {
+        "old_testament": {
+          "books": 39,
+          "verses": 23145,
+          "words": 243578,
+          "chapters": 929,
+          "verse_percentage": 74.42,
+          "word_percentage": 65.11
+        },
+        "new_testament": {
+          "books": 27,
+          "verses": 7957,
+          "words": 130501,
+          "chapters": 260,
+          "verse_percentage": 25.58,
+          "word_percentage": 34.89
+        },
+        "unknown": null
+      },
+      "strongs_coverage": {
+        "total_strongs_numbers": 13570,
+        "hebrew": {
+          "count": 8611,
+          "expected": 8674,
+          "coverage_percentage": 99.27,
+          "gaps_count": 63,
+          "sample_gaps": [
+            "H0015",
+            "H0071",
+            "H0156",
+            "H0334",
+            "H0417",
+            "H0516",
+            "H0704",
+            "H0760",
+            "H0798",
+            "H0799",
+            "H0800",
+            "H1056",
+            "H1128",
+            "H1136",
+            "H1169",
+            "H1208",
+            "H1223",
+            "H1665",
+            "H1686",
+            "H1729"
+          ]
+        },
+        "greek": {
+          "count": 4959,
+          "expected": 5624,
+          "coverage_percentage": 88.18,
+          "gaps_count": 665,
+          "sample_gaps": [
+            "G0009",
+            "G0012",
+            "G0031",
+            "G0033",
+            "G0039",
+            "G0041",
+            "G0043",
+            "G0049",
+            "G0072",
+            "G0078",
+            "G0099",
+            "G0100",
+            "G0145",
+            "G0149",
+            "G0155",
+            "G0158",
+            "G0196",
+            "G0197",
+            "G0201",
+            "G0205"
+          ]
+        }
+      },
+      "entity_types": {
+        "BIBLE_FLORA": {
+          "count": 1,
+          "file": "BIBLE_FLORA.json"
+        },
+        "BIBLE_NATIONS": {
+          "count": 1,
+          "file": "BIBLE_NATIONS.json"
+        },
+        "DEITY": {
+          "count": 1,
+          "file": "DEITY.json"
+        },
+        "DEITY_with_multilabel_context": {
+          "count": 1,
+          "file": "DEITY_with_multilabel_context.json"
+        },
+        "DIVINE_TITLE": {
+          "count": 1,
+          "file": "DIVINE_TITLE.json"
+        },
+        "LOCATION": {
+          "count": 1,
+          "file": "LOCATION.json"
+        },
+        "PERSON": {
+          "count": 1,
+          "file": "PERSON.json"
+        },
+        "TIME": {
+          "count": 1,
+          "file": "TIME.json"
+        },
+        "TITLE": {
+          "count": 1,
+          "file": "TITLE.json"
+        },
+        "TOOLS_MEASUREMENTS": {
+          "count": 4,
+          "file": "TOOLS_MEASUREMENTS.json"
+        }
+      },
+      "theological_concepts": {
+        "concepts": {
+          "grace": 161,
+          "mercy": 274,
+          "love": 612,
+          "faith": 405,
+          "hope": 147,
+          "redemption": 25,
+          "salvation": 157,
+          "covenant": 307,
+          "righteousness": 313,
+          "sin": 1504,
+          "forgiveness": 9,
+          "sacrifice": 308,
+          "prayer": 152,
+          "worship": 193,
+          "holy": 576,
+          "spirit": 613,
+          "law": 586,
+          "gospel": 100
+        },
+        "most_frequent": [
+          [
+            "sin",
+            1504
+          ],
+          [
+            "spirit",
+            613
+          ],
+          [
+            "love",
+            612
+          ],
+          [
+            "law",
+            586
+          ],
+          [
+            "holy",
+            576
+          ],
+          [
+            "faith",
+            405
+          ],
+          [
+            "righteousness",
+            313
+          ],
+          [
+            "sacrifice",
+            308
+          ],
+          [
+            "covenant",
+            307
+          ],
+          [
+            "mercy",
+            274
+          ]
+        ],
+        "least_frequent": [
+          [
+            "covenant",
+            307
+          ],
+          [
+            "mercy",
+            274
+          ],
+          [
+            "worship",
+            193
+          ],
+          [
+            "grace",
+            161
+          ],
+          [
+            "salvation",
+            157
+          ],
+          [
+            "prayer",
+            152
+          ],
+          [
+            "hope",
+            147
+          ],
+          [
+            "gospel",
+            100
+          ],
+          [
+            "redemption",
+            25
+          ],
+          [
+            "forgiveness",
+            9
+          ]
+        ]
+      }
+    },
+    "crossref_network": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:39:19.718607",
+        "database": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db"
+      },
+      "summary": {
+        "total_cross_references": 614180,
+        "total_verses_with_references": 31049,
+        "average_connections_per_verse": 39.56,
+        "max_connections": 448,
+        "min_connections": 1
+      },
+      "connection_distribution": {
+        "112": 36,
+        "61": 204,
+        "48": 312,
+        "40": 434,
+        "46": 335,
+        "82": 97,
+        "62": 179,
+        "117": 26,
+        "22": 578,
+        "36": 479,
+        "72": 153,
+        "41": 436,
+        "84": 90,
+        "28": 551,
+        "27": 565,
+        "59": 199,
+        "90": 74,
+        "150": 12,
+        "98": 53,
+        "18": 616,
+        "80": 94,
+        "148": 17,
+        "75": 120,
+        "57": 230,
+        "51": 250,
+        "182": 6,
+        "39": 432,
+        "87": 64,
+        "24": 520,
+        "30": 548,
+        "23": 630,
+        "89": 68,
+        "69": 150,
+        "26": 584,
+        "95": 52,
+        "106": 47,
+        "37": 437,
+        "25": 594,
+        "52": 266,
+        "79": 115,
+        "33": 547,
+        "100": 44,
+        "49": 293,
+        "58": 224,
+        "38": 452,
+        "31": 542,
+        "56": 232,
+        "88": 81,
+        "54": 229,
+        "134": 20,
+        "91": 59,
+        "99": 52,
+        "68": 165,
+        "64": 159,
+        "94": 59,
+        "29": 551,
+        "60": 202,
+        "47": 335,
+        "71": 129,
+        "35": 470,
+        "63": 163,
+        "171": 8,
+        "42": 379,
+        "131": 13,
+        "78": 111,
+        "109": 29,
+        "83": 100,
+        "45": 328,
+        "85": 56,
+        "21": 617,
+        "20": 611,
+        "14": 620,
+        "32": 531,
+        "10": 523,
+        "8": 428,
+        "66": 155,
+        "44": 368,
+        "81": 111,
+        "128": 17,
+        "19": 601,
+        "43": 389,
+        "13": 605,
+        "34": 461,
+        "65": 136,
+        "120": 19,
+        "67": 167,
+        "118": 28,
+        "16": 618,
+        "15": 610,
+        "50": 268,
+        "70": 168,
+        "86": 78,
+        "76": 113,
+        "11": 544,
+        "17": 600,
+        "111": 34,
+        "123": 27,
+        "12": 534,
+        "3": 206,
+        "55": 248,
+        "107": 35,
+        "157": 11,
+        "9": 442,
+        "7": 380,
+        "93": 65,
+        "101": 50,
+        "73": 115,
+        "152": 7,
+        "53": 267,
+        "74": 127,
+        "105": 36,
+        "144": 7,
+        "102": 48,
+        "185": 5,
+        "96": 64,
+        "175": 4,
+        "6": 343,
+        "125": 17,
+        "97": 52,
+        "104": 45,
+        "110": 29,
+        "267": 1,
+        "230": 3,
+        "159": 8,
+        "108": 44,
+        "180": 7,
+        "121": 17,
+        "149": 10,
+        "190": 3,
+        "116": 24,
+        "103": 46,
+        "113": 23,
+        "138": 16,
+        "179": 3,
+        "187": 3,
+        "139": 11,
+        "263": 1,
+        "92": 57,
+        "126": 22,
+        "114": 27,
+        "151": 7,
+        "135": 12,
+        "213": 2,
+        "161": 6,
+        "166": 10,
+        "163": 6,
+        "77": 114,
+        "119": 34,
+        "129": 22,
+        "186": 3,
+        "165": 5,
+        "122": 27,
+        "154": 5,
+        "176": 5,
+        "195": 2,
+        "172": 6,
+        "177": 6,
+        "130": 16,
+        "215": 2,
+        "167": 7,
+        "127": 22,
+        "155": 12,
+        "141": 12,
+        "115": 20,
+        "225": 1,
+        "5": 278,
+        "4": 235,
+        "146": 9,
+        "188": 4,
+        "257": 1,
+        "156": 7,
+        "170": 5,
+        "201": 4,
+        "145": 7,
+        "142": 9,
+        "194": 3,
+        "212": 2,
+        "140": 10,
+        "2": 162,
+        "133": 17,
+        "1": 111,
+        "160": 7,
+        "238": 1,
+        "173": 3,
+        "164": 12,
+        "260": 1,
+        "124": 22,
+        "136": 17,
+        "235": 1,
+        "169": 3,
+        "153": 5,
+        "250": 2,
+        "168": 5,
+        "220": 2,
+        "203": 2,
+        "202": 2,
+        "229": 1,
+        "191": 5,
+        "162": 5,
+        "189": 2,
+        "274": 2,
+        "295": 1,
+        "448": 1,
+        "327": 1,
+        "143": 12,
+        "228": 1,
+        "147": 11,
+        "192": 4,
+        "226": 1,
+        "137": 6,
+        "158": 8,
+        "196": 3,
+        "132": 11,
+        "210": 3,
+        "178": 5,
+        "193": 2,
+        "211": 1,
+        "218": 2,
+        "219": 1,
+        "363": 1,
+        "248": 1,
+        "199": 2,
+        "282": 3,
+        "198": 1,
+        "174": 5,
+        "206": 2,
+        "181": 3,
+        "184": 5,
+        "183": 1,
+        "237": 1,
+        "224": 3,
+        "231": 2,
+        "236": 2,
+        "234": 1,
+        "208": 1,
+        "239": 2,
+        "204": 1,
+        "318": 1,
+        "258": 1,
+        "242": 2,
+        "221": 1,
+        "291": 1,
+        "243": 1,
+        "246": 1,
+        "209": 1,
+        "430": 1,
+        "276": 1,
+        "344": 1,
+        "261": 1,
+        "254": 1,
+        "200": 1
+      },
+      "most_connected_verses": [
+        {
+          "verse_id": 1034,
+          "reference": "Genesis 35:22",
+          "connection_count": 448,
+          "text_preview": "And it happened, when Israel dwelt in that land, that Reuben went and lay with Bilhah his father’s c"
+        },
+        {
+          "verse_id": 26095,
+          "reference": "Luke 24:44",
+          "connection_count": 430,
+          "text_preview": "Then He said to them, “These are the words which I spoke to you while I was still with you, that all"
+        },
+        {
+          "verse_id": 27109,
+          "reference": "Acts 4:27",
+          "connection_count": 363,
+          "text_preview": "“For truly against Your holy Servant Jesus, whom You anointed, both Herod and Pontius Pilate, with t"
+        },
+        {
+          "verse_id": 17710,
+          "reference": "Isaiah 1:1",
+          "connection_count": 344,
+          "text_preview": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzz"
+        },
+        {
+          "verse_id": 27212,
+          "reference": "Acts 7:36",
+          "connection_count": 327,
+          "text_preview": "He brought them out, after he had shown wonders and signs in the land of Egypt, and in the Red Sea, "
+        },
+        {
+          "verse_id": 27075,
+          "reference": "Acts 3:19",
+          "connection_count": 318,
+          "text_preview": "Repent therefore and be converted, that your sins may be blotted out, so that times of refreshing ma"
+        },
+        {
+          "verse_id": 12571,
+          "reference": "Nehemiah 9:10",
+          "connection_count": 295,
+          "text_preview": "You showed signs and wonders against Pharaoh, Against all his servants, And against all the people o"
+        },
+        {
+          "verse_id": 12060,
+          "reference": "2 Chronicles 36:17",
+          "connection_count": 291,
+          "text_preview": "Therefore He brought against them the king of the Chaldeans, who killed their young men with the swo"
+        },
+        {
+          "verse_id": 24275,
+          "reference": "Matthew 28:20",
+          "connection_count": 282,
+          "text_preview": "teaching them to observe all things that I have commanded you; and lo, I am with you always, even to"
+        },
+        {
+          "verse_id": 17890,
+          "reference": "Isaiah 9:6",
+          "connection_count": 282,
+          "text_preview": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. A"
+        },
+        {
+          "verse_id": 22072,
+          "reference": "Daniel 9:27",
+          "connection_count": 282,
+          "text_preview": "Then he shall confirm a covenant with many for one week; But in the middle of the week He shall brin"
+        },
+        {
+          "verse_id": 19703,
+          "reference": "Jeremiah 29:11",
+          "connection_count": 276,
+          "text_preview": "For I know the thoughts that I think toward you, says the Lord , thoughts of peace and not of evil, "
+        },
+        {
+          "verse_id": 18598,
+          "reference": "Isaiah 44:8",
+          "connection_count": 274,
+          "text_preview": "Do not fear, nor be afraid; Have I not told you from that time, and declared it? You are My witnesse"
+        },
+        {
+          "verse_id": 1266,
+          "reference": "Genesis 42:13",
+          "connection_count": 274,
+          "text_preview": "And they said, “Your servants are twelve brothers, the sons of one man in the land of Canaan; and in"
+        },
+        {
+          "verse_id": 17950,
+          "reference": "Isaiah 11:11",
+          "connection_count": 267,
+          "text_preview": "It shall come to pass in that day That the Lord shall set His hand again the second time To recover "
+        },
+        {
+          "verse_id": 27907,
+          "reference": "Acts 26:18",
+          "connection_count": 263,
+          "text_preview": "to open their eyes, in order to turn them from darkness to light, and from the power of Satan to God"
+        },
+        {
+          "verse_id": 20552,
+          "reference": "Ezekiel 2:3",
+          "connection_count": 261,
+          "text_preview": "And He said to me: “Son of man, I am sending you to the children of Israel, to a rebellious nation t"
+        },
+        {
+          "verse_id": 29576,
+          "reference": "Colossians 2:16",
+          "connection_count": 260,
+          "text_preview": "So let no one judge you in food or in drink, or regarding a festival or a new moon or sabbaths,"
+        },
+        {
+          "verse_id": 30303,
+          "reference": "Hebrews 12:2",
+          "connection_count": 258,
+          "text_preview": "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him en"
+        },
+        {
+          "verse_id": 29250,
+          "reference": "Galatians 5:22",
+          "connection_count": 257,
+          "text_preview": "But the fruit of the Spirit is love, joy, peace, longsuffering, kindness, goodness, faithfulness,"
+        },
+        {
+          "verse_id": 19739,
+          "reference": "Jeremiah 30:15",
+          "connection_count": 254,
+          "text_preview": "Why do you cry about your affliction? Your sorrow is incurable. Because of the multitude of your ini"
+        },
+        {
+          "verse_id": 17964,
+          "reference": "Isaiah 13:1",
+          "connection_count": 250,
+          "text_preview": "The burden against Babylon which Isaiah the son of Amoz saw."
+        },
+        {
+          "verse_id": 19683,
+          "reference": "Jeremiah 28:8",
+          "connection_count": 250,
+          "text_preview": "The prophets who have been before me and before you of old prophesied against many countries and gre"
+        },
+        {
+          "verse_id": 17891,
+          "reference": "Isaiah 9:7",
+          "connection_count": 248,
+          "text_preview": "Of the increase of His government and peace There will be no end, Upon the throne of David and over "
+        },
+        {
+          "verse_id": 27860,
+          "reference": "Acts 24:25",
+          "connection_count": 246,
+          "text_preview": "Now as he reasoned about righteousness, self-control, and the judgment to come, Felix was afraid and"
+        },
+        {
+          "verse_id": 15358,
+          "reference": "Psalms 87:3",
+          "connection_count": 243,
+          "text_preview": "Glorious things are spoken of you, O city of God! Selah"
+        },
+        {
+          "verse_id": 16285,
+          "reference": "Psalms 137:8",
+          "connection_count": 242,
+          "text_preview": "O daughter of Babylon, who are to be destroyed, Happy the one who repays you as you have served us!"
+        },
+        {
+          "verse_id": 19499,
+          "reference": "Jeremiah 21:2",
+          "connection_count": 242,
+          "text_preview": "“Please inquire of the Lord for us, for Nebuchadnezzar king of Babylon makes war against us. Perhaps"
+        },
+        {
+          "verse_id": 27909,
+          "reference": "Acts 26:20",
+          "connection_count": 239,
+          "text_preview": "but declared first to those in Damascus and in Jerusalem, and throughout all the region of Judea, an"
+        },
+        {
+          "verse_id": 19603,
+          "reference": "Jeremiah 25:12",
+          "connection_count": 239,
+          "text_preview": "‘Then it will come to pass, when seventy years are completed, that I will punish the king of Babylon"
+        },
+        {
+          "verse_id": 30497,
+          "reference": "1 Peter 2:9",
+          "connection_count": 238,
+          "text_preview": "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you"
+        },
+        {
+          "verse_id": 30011,
+          "reference": "Titus 2:14",
+          "connection_count": 237,
+          "text_preview": "who gave Himself for us, that He might redeem us from every lawless deed and purify for Himself His "
+        },
+        {
+          "verse_id": 30590,
+          "reference": "2 Peter 2:1",
+          "connection_count": 236,
+          "text_preview": "But there were also false prophets among the people, even as there will be false teachers among you,"
+        },
+        {
+          "verse_id": 15179,
+          "reference": "Psalms 78:12",
+          "connection_count": 236,
+          "text_preview": "Marvelous things He did in the sight of their fathers, In the land of Egypt, in the field of Zoan."
+        },
+        {
+          "verse_id": 22176,
+          "reference": "Hosea 2:14",
+          "connection_count": 235,
+          "text_preview": "“Therefore, behold, I will allure her, Will bring her into the wilderness, And speak comfort to her."
+        },
+        {
+          "verse_id": 22056,
+          "reference": "Daniel 9:11",
+          "connection_count": 234,
+          "text_preview": "Yes, all Israel has transgressed Your law, and has departed so as not to obey Your voice; therefore "
+        },
+        {
+          "verse_id": 31126,
+          "reference": "Revelation 19:20",
+          "connection_count": 231,
+          "text_preview": "Then the beast was captured, and with him the false prophet who worked signs in his presence, by whi"
+        },
+        {
+          "verse_id": 20988,
+          "reference": "Ezekiel 20:36",
+          "connection_count": 231,
+          "text_preview": "Just as I pleaded My case with your fathers in the wilderness of the land of Egypt, so I will plead "
+        },
+        {
+          "verse_id": 379,
+          "reference": "Genesis 15:18",
+          "connection_count": 230,
+          "text_preview": "On the same day the Lord made a covenant with Abram, saying: “To your descendants I have given this "
+        },
+        {
+          "verse_id": 18933,
+          "reference": "Isaiah 63:10",
+          "connection_count": 230,
+          "text_preview": "But they rebelled and grieved His Holy Spirit; So He turned Himself against them as an enemy, And He"
+        },
+        {
+          "verse_id": 18930,
+          "reference": "Isaiah 63:7",
+          "connection_count": 230,
+          "text_preview": "I will mention the lovingkindnesses of the Lord And the praises of the Lord , According to all that "
+        },
+        {
+          "verse_id": 1402,
+          "reference": "Genesis 46:15",
+          "connection_count": 229,
+          "text_preview": "These were the sons of Leah, whom she bore to Jacob in Padan Aram, with his daughter Dinah. All the "
+        },
+        {
+          "verse_id": 3652,
+          "reference": "Numbers 1:47",
+          "connection_count": 228,
+          "text_preview": "But the Levites were not numbered among them by their fathers’ tribe;"
+        },
+        {
+          "verse_id": 30459,
+          "reference": "James 5:16",
+          "connection_count": 226,
+          "text_preview": "Confess your trespasses to one another, and pray for one another, that you may be healed. The effect"
+        },
+        {
+          "verse_id": 24109,
+          "reference": "Matthew 25:41",
+          "connection_count": 225,
+          "text_preview": "“Then He will also say to those on the left hand, ‘Depart from Me, you cursed, into the everlasting "
+        },
+        {
+          "verse_id": 23123,
+          "reference": "Zechariah 13:7",
+          "connection_count": 224,
+          "text_preview": "“Awake, O sword, against My Shepherd, Against the Man who is My Companion,” Says the Lord of hosts. "
+        },
+        {
+          "verse_id": 18804,
+          "reference": "Isaiah 55:7",
+          "connection_count": 224,
+          "text_preview": "Let the wicked forsake his way, And the unrighteous man his thoughts; Let him return to the Lord , A"
+        },
+        {
+          "verse_id": 19006,
+          "reference": "Jeremiah 1:3",
+          "connection_count": 224,
+          "text_preview": "It came also in the days of Jehoiakim the son of Josiah, king of Judah, until the end of the elevent"
+        },
+        {
+          "verse_id": 12587,
+          "reference": "Nehemiah 9:26",
+          "connection_count": 221,
+          "text_preview": "“Nevertheless they were disobedient And rebelled against You, Cast Your law behind their backs And k"
+        },
+        {
+          "verse_id": 20240,
+          "reference": "Jeremiah 50:17",
+          "connection_count": 220,
+          "text_preview": "“Israel is like scattered sheep; The lions have driven him away. First the king of Assyria devoured "
+        }
+      ],
+      "isolated_verses_sample": [
+        {
+          "verse_id": 504,
+          "reference": "Genesis 20:8"
+        },
+        {
+          "verse_id": 1308,
+          "reference": "Genesis 43:17"
+        },
+        {
+          "verse_id": 1384,
+          "reference": "Genesis 45:25"
+        },
+        {
+          "verse_id": 2986,
+          "reference": "Leviticus 10:8"
+        },
+        {
+          "verse_id": 3145,
+          "reference": "Leviticus 14:33"
+        },
+        {
+          "verse_id": 3237,
+          "reference": "Leviticus 17:1"
+        },
+        {
+          "verse_id": 3253,
+          "reference": "Leviticus 18:1"
+        },
+        {
+          "verse_id": 3283,
+          "reference": "Leviticus 19:1"
+        },
+        {
+          "verse_id": 3798,
+          "reference": "Numbers 5:5"
+        },
+        {
+          "verse_id": 4292,
+          "reference": "Numbers 19:1"
+        },
+        {
+          "verse_id": 4691,
+          "reference": "Numbers 31:25"
+        },
+        {
+          "verse_id": 5438,
+          "reference": "Deuteronomy 20:9"
+        },
+        {
+          "verse_id": 5487,
+          "reference": "Deuteronomy 22:15"
+        },
+        {
+          "verse_id": 5488,
+          "reference": "Deuteronomy 22:16"
+        },
+        {
+          "verse_id": 5492,
+          "reference": "Deuteronomy 22:20"
+        },
+        {
+          "verse_id": 5514,
+          "reference": "Deuteronomy 23:12"
+        },
+        {
+          "verse_id": 5731,
+          "reference": "Deuteronomy 31:1"
+        },
+        {
+          "verse_id": 6297,
+          "reference": "Joshua 18:2"
+        },
+        {
+          "verse_id": 6882,
+          "reference": "Judges 12:11"
+        },
+        {
+          "verse_id": 6941,
+          "reference": "Judges 15:10"
+        },
+        {
+          "verse_id": 6991,
+          "reference": "Judges 17:9"
+        },
+        {
+          "verse_id": 7182,
+          "reference": "Ruth 3:8"
+        },
+        {
+          "verse_id": 7190,
+          "reference": "Ruth 3:16"
+        },
+        {
+          "verse_id": 7191,
+          "reference": "Ruth 3:17"
+        },
+        {
+          "verse_id": 7407,
+          "reference": "1 Samuel 9:14"
+        },
+        {
+          "verse_id": 7411,
+          "reference": "1 Samuel 9:18"
+        },
+        {
+          "verse_id": 7736,
+          "reference": "1 Samuel 20:4"
+        },
+        {
+          "verse_id": 9668,
+          "reference": "2 Kings 4:15"
+        },
+        {
+          "verse_id": 10441,
+          "reference": "1 Chronicles 4:6"
+        },
+        {
+          "verse_id": 10442,
+          "reference": "1 Chronicles 4:7"
+        },
+        {
+          "verse_id": 10443,
+          "reference": "1 Chronicles 4:8"
+        },
+        {
+          "verse_id": 10446,
+          "reference": "1 Chronicles 4:11"
+        },
+        {
+          "verse_id": 10447,
+          "reference": "1 Chronicles 4:12"
+        },
+        {
+          "verse_id": 10451,
+          "reference": "1 Chronicles 4:16"
+        },
+        {
+          "verse_id": 10455,
+          "reference": "1 Chronicles 4:20"
+        },
+        {
+          "verse_id": 10457,
+          "reference": "1 Chronicles 4:22"
+        },
+        {
+          "verse_id": 12836,
+          "reference": "Esther 5:7"
+        },
+        {
+          "verse_id": 13102,
+          "reference": "Job 9:1"
+        },
+        {
+          "verse_id": 13289,
+          "reference": "Job 16:1"
+        },
+        {
+          "verse_id": 13348,
+          "reference": "Job 19:1"
+        },
+        {
+          "verse_id": 13406,
+          "reference": "Job 21:1"
+        },
+        {
+          "verse_id": 13470,
+          "reference": "Job 23:1"
+        },
+        {
+          "verse_id": 13734,
+          "reference": "Job 34:1"
+        },
+        {
+          "verse_id": 13771,
+          "reference": "Job 35:1"
+        },
+        {
+          "verse_id": 13787,
+          "reference": "Job 36:1"
+        },
+        {
+          "verse_id": 17334,
+          "reference": "Proverbs 30:28"
+        },
+        {
+          "verse_id": 19728,
+          "reference": "Jeremiah 30:4"
+        },
+        {
+          "verse_id": 20726,
+          "reference": "Ezekiel 11:14"
+        },
+        {
+          "verse_id": 20883,
+          "reference": "Ezekiel 17:1"
+        },
+        {
+          "verse_id": 20907,
+          "reference": "Ezekiel 18:1"
+        },
+        {
+          "verse_id": 21338,
+          "reference": "Ezekiel 33:1"
+        },
+        {
+          "verse_id": 23781,
+          "reference": "Matthew 17:21"
+        },
+        {
+          "verse_id": 24726,
+          "reference": "Mark 11:26"
+        },
+        {
+          "verse_id": 28426,
+          "reference": "Romans 16:24"
+        },
+        {
+          "verse_id": 31191,
+          "reference": "Psalms 47:1"
+        },
+        {
+          "verse_id": 31193,
+          "reference": "Isaiah 12:1"
+        },
+        {
+          "verse_id": 31194,
+          "reference": "Malachi 4:2"
+        },
+        {
+          "verse_id": 31195,
+          "reference": "Acts 11:4"
+        }
+      ],
+      "testament_connections": {
+        "old_to_old": {
+          "count": 0,
+          "percentage": 0
+        },
+        "new_to_new": {
+          "count": 0,
+          "percentage": 0
+        },
+        "old_to_new": {
+          "count": 0,
+          "percentage": 0
+        },
+        "new_to_old": {
+          "count": 0,
+          "percentage": 0
+        },
+        "unknown": 614180
+      },
+      "network_density": {
+        "network_density": 0.001274,
+        "total_possible_connections": 482004676,
+        "actual_connections": 614180,
+        "sparsity": 0.998726
+      }
+    },
+    "difficulty_profile": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:39:03.142292",
+        "databases_analyzed": {
+          "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+          "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+        }
+      },
+      "word_frequency_classification": {
+        "common": {
+          "count": 2660,
+          "percentage": 20.4,
+          "examples": [
+            {
+              "word": "the",
+              "frequency": 62656
+            },
+            {
+              "word": "and",
+              "frequency": 38398
+            },
+            {
+              "word": "of",
+              "frequency": 31957
+            },
+            {
+              "word": "to",
+              "frequency": 20865
+            },
+            {
+              "word": "you",
+              "frequency": 14482
+            },
+            {
+              "word": "in",
+              "frequency": 12415
+            },
+            {
+              "word": "he",
+              "frequency": 10421
+            },
+            {
+              "word": "for",
+              "frequency": 8955
+            },
+            {
+              "word": "i",
+              "frequency": 8697
+            },
+            {
+              "word": "a",
+              "frequency": 8682
+            },
+            {
+              "word": "his",
+              "frequency": 7993
+            },
+            {
+              "word": "lord",
+              "frequency": 7943
+            },
+            {
+              "word": "that",
+              "frequency": 7383
+            },
+            {
+              "word": "shall",
+              "frequency": 7231
+            },
+            {
+              "word": "your",
+              "frequency": 7205
+            },
+            {
+              "word": "is",
+              "frequency": 6994
+            },
+            {
+              "word": "they",
+              "frequency": 6961
+            },
+            {
+              "word": "not",
+              "frequency": 6488
+            },
+            {
+              "word": "will",
+              "frequency": 6421
+            },
+            {
+              "word": "him",
+              "frequency": 6284
+            }
+          ]
+        },
+        "uncommon": {
+          "count": 4612,
+          "percentage": 35.37,
+          "examples": [
+            {
+              "word": "bone",
+              "frequency": 16
+            },
+            {
+              "word": "ham",
+              "frequency": 16
+            },
+            {
+              "word": "upward",
+              "frequency": 16
+            },
+            {
+              "word": "resting",
+              "frequency": 16
+            },
+            {
+              "word": "jebusite",
+              "frequency": 16
+            },
+            {
+              "word": "eber",
+              "frequency": 16
+            },
+            {
+              "word": "aram",
+              "frequency": 16
+            },
+            {
+              "word": "baked",
+              "frequency": 16
+            },
+            {
+              "word": "wander",
+              "frequency": 16
+            },
+            {
+              "word": "clear",
+              "frequency": 16
+            },
+            {
+              "word": "kindly",
+              "frequency": 16
+            },
+            {
+              "word": "pleaded",
+              "frequency": 16
+            },
+            {
+              "word": "previously",
+              "frequency": 16
+            },
+            {
+              "word": "handed",
+              "frequency": 16
+            },
+            {
+              "word": "preserved",
+              "frequency": 16
+            },
+            {
+              "word": "below",
+              "frequency": 16
+            },
+            {
+              "word": "explain",
+              "frequency": 16
+            },
+            {
+              "word": "spies",
+              "frequency": 16
+            },
+            {
+              "word": "steward",
+              "frequency": 16
+            },
+            {
+              "word": "goshen",
+              "frequency": 16
+            }
+          ]
+        },
+        "rare": {
+          "count": 5768,
+          "percentage": 44.23,
+          "examples": [
+            {
+              "word": "hovering",
+              "frequency": 1
+            },
+            {
+              "word": "riverheads",
+              "frequency": 1
+            },
+            {
+              "word": "pishon",
+              "frequency": 1
+            },
+            {
+              "word": "hiddekel",
+              "frequency": 1
+            },
+            {
+              "word": "sewed",
+              "frequency": 1
+            },
+            {
+              "word": "tiller",
+              "frequency": 1
+            },
+            {
+              "word": "nod",
+              "frequency": 1
+            },
+            {
+              "word": "jabal",
+              "frequency": 1
+            },
+            {
+              "word": "jubal",
+              "frequency": 1
+            },
+            {
+              "word": "wounding",
+              "frequency": 1
+            },
+            {
+              "word": "gopherwood",
+              "frequency": 1
+            },
+            {
+              "word": "species",
+              "frequency": 1
+            },
+            {
+              "word": "freshly",
+              "frequency": 1
+            },
+            {
+              "word": "soothing",
+              "frequency": 1
+            },
+            {
+              "word": "seedtime",
+              "frequency": 1
+            },
+            {
+              "word": "lifeblood",
+              "frequency": 1
+            },
+            {
+              "word": "populated",
+              "frequency": 1
+            },
+            {
+              "word": "riphath",
+              "frequency": 1
+            },
+            {
+              "word": "dodanim",
+              "frequency": 1
+            },
+            {
+              "word": "sabtah",
+              "frequency": 1
+            }
+          ]
+        }
+      },
+      "reading_level": {
+        "estimated_grade_level": 4.8,
+        "average_words_per_sentence": 11.0,
+        "average_syllables_per_word": 1.37,
+        "sample_size": 1000
+      },
+      "greek_hebrew_terms": {
+        "hebrew_terms": 8611,
+        "greek_terms": 4959,
+        "total_original_language_terms": 13570,
+        "sample_transliterations": []
+      },
+      "seminary_terminology": {
+        "total_seminary_terms_found": 6,
+        "terms_by_frequency": [
+          [
+            "atonement",
+            88
+          ],
+          [
+            "sanctification",
+            5
+          ],
+          [
+            "election",
+            5
+          ],
+          [
+            "propitiation",
+            4
+          ],
+          [
+            "justification",
+            3
+          ],
+          [
+            "regeneration",
+            2
+          ]
+        ],
+        "all_terms_searched": [
+          "atonement",
+          "propitiation",
+          "justification",
+          "sanctification",
+          "regeneration",
+          "glorification",
+          "eschatology",
+          "christology",
+          "soteriology",
+          "pneumatology",
+          "ecclesiology",
+          "anthropology",
+          "predestination",
+          "election",
+          "reprobation",
+          "imputation",
+          "transubstantiation",
+          "consubstantiation",
+          "incarnation",
+          "theophany",
+          "epiphany",
+          "exegesis",
+          "hermeneutics",
+          "typology",
+          "allegory",
+          "apocalyptic",
+          "messianic"
+        ]
+      },
+      "difficulty_distribution": {
+        "easy_percentage": 20.4,
+        "medium_percentage": 35.37,
+        "hard_percentage": 44.23,
+        "overall_difficulty": "Hard"
+      }
+    },
+    "clue_quality": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:38:10.847987",
+        "clue_file": "D:\\Project_PP\\projects\\bible\\dev\\Complete_bible_list.txt"
+      },
+      "coverage": {
+        "total_words": 15834,
+        "total_clues": 47500,
+        "average_clues_per_word": 3.0,
+        "min_clues": 2,
+        "max_clues": 3,
+        "coverage_percentage": 100.0,
+        "distribution": {
+          "words_with_0_clues": 0,
+          "words_with_1_clue": 0,
+          "words_with_2_clues": 2,
+          "words_with_3_clues": 15832,
+          "words_with_4plus_clues": 0
+        }
+      },
+      "clue_lengths": {
+        "average_character_length": 64.1,
+        "average_word_count": 11.4,
+        "min_character_length": 5,
+        "max_character_length": 464,
+        "length_distribution": {
+          "0-20": 12977,
+          "21-40": 18751,
+          "41-60": 265,
+          "61-80": 1061,
+          "81-100": 1900,
+          "100+": 12546
+        }
+      },
+      "duplicates": {
+        "total_unique_clues": 44895,
+        "duplicate_clues_count": 1207,
+        "duplicate_percentage": 2.69,
+        "top_duplicates": [
+          {
+            "clue": "person in genealogical line",
+            "word_count": 105,
+            "words": [
+              "AZAREEL",
+              "HAROEH",
+              "HELEB",
+              "HELEM",
+              "HEMAM",
+              "HEMDAN",
+              "HEZRON",
+              "HIZKI",
+              "HOD",
+              "HOMAM"
+            ]
+          },
+          {
+            "clue": "old testament figure",
+            "word_count": 100,
+            "words": [
+              "BUKKI",
+              "BUNNI",
+              "CALCOL",
+              "CAREAH",
+              "CHALCOL",
+              "CHELAL",
+              "CHELUB",
+              "CHELUBAI",
+              "CHELUH",
+              "CHENAANAH"
+            ]
+          },
+          {
+            "clue": "member of family line",
+            "word_count": 84,
+            "words": [
+              "CHELLUH",
+              "DALAIAH",
+              "ELIHOENAI",
+              "GABER",
+              "GINNETHO",
+              "GISPA",
+              "HAAMMONAI",
+              "HADDON",
+              "HAGGERI",
+              "HALOHESH"
+            ]
+          },
+          {
+            "clue": "genealogical figure",
+            "word_count": 84,
+            "words": [
+              "DALAIAH",
+              "ELIHOENAI",
+              "ESROM",
+              "GABER",
+              "GINNETHO",
+              "GISPA",
+              "HAAMMONAI",
+              "HADDON",
+              "HAGGERI",
+              "HALOHESH"
+            ]
+          },
+          {
+            "clue": "descendant in genealogical records",
+            "word_count": 66,
+            "words": [
+              "NEPHEG",
+              "OBAL",
+              "ONAM",
+              "OTHNI",
+              "OZEM",
+              "PASACH",
+              "PELAIAH",
+              "PELET",
+              "PERESH",
+              "PEULTHAI"
+            ]
+          },
+          {
+            "clue": "biblical location",
+            "word_count": 47,
+            "words": [
+              "CALAH",
+              "CALNEH",
+              "CALNO",
+              "CAMON",
+              "CANNEH",
+              "CARCHEMISH",
+              "CARMEL",
+              "CASIPHIA",
+              "CHEPHAR",
+              "CHESED"
+            ]
+          },
+          {
+            "clue": "settlement location name",
+            "word_count": 47,
+            "words": [
+              "HEPHER",
+              "IR",
+              "IRPEEL",
+              "ITHNAN",
+              "JABNEEL",
+              "JAGUR",
+              "JANOAH",
+              "JANUM",
+              "JARMUTH",
+              "JATTIR"
+            ]
+          },
+          {
+            "clue": "israelite genealogy",
+            "word_count": 35,
+            "words": [
+              "SHUPHAM",
+              "SISMAI",
+              "TAHREA",
+              "TAREA",
+              "TEHINNAH",
+              "TELAH",
+              "TEMENI",
+              "TIRHANAH",
+              "TIRIA",
+              "UEL"
+            ]
+          },
+          {
+            "clue": "parent in genealogical line",
+            "word_count": 29,
+            "words": [
+              "HAKKATAN",
+              "HAMUEL",
+              "HARUZ",
+              "HAZAIAH",
+              "HESED",
+              "HOSHAIAH",
+              "HOTHAM",
+              "HURI",
+              "IBNEIAH",
+              "IBNIJAH"
+            ]
+          },
+          {
+            "clue": "new testament figure",
+            "word_count": 28,
+            "words": [
+              "CARPUS",
+              "CHLOE",
+              "CLAUDIA",
+              "CLEOPAS",
+              "CLOPAS",
+              "CRESCENS",
+              "CRISPUS",
+              "DAMARIS",
+              "DEMAS",
+              "DEMETRIUS"
+            ]
+          },
+          {
+            "clue": "multiple biblical persons",
+            "word_count": 25,
+            "words": [
+              "HANANIAH",
+              "HASHABIAH",
+              "HATTUSH",
+              "IDDO",
+              "IRA",
+              "ISHI",
+              "ISHIAH",
+              "ISSHIAH",
+              "JAHATH",
+              "JAHAZIEL"
+            ]
+          },
+          {
+            "clue": "name of various individuals",
+            "word_count": 25,
+            "words": [
+              "HANANIAH",
+              "HATTUSH",
+              "HODAVIAH",
+              "IDDO",
+              "IRA",
+              "ISHI",
+              "ISHIAH",
+              "ISSHIAH",
+              "JAHATH",
+              "JAHAZIEL"
+            ]
+          },
+          {
+            "clue": "town in judah territory",
+            "word_count": 20,
+            "words": [
+              "ITHNAN",
+              "JABNEEL",
+              "JAGUR",
+              "JANUM",
+              "JATTIR",
+              "JEKABZEEL",
+              "JESHANAH",
+              "JIPHTAH",
+              "JOKDEAM",
+              "JOKMEAM"
+            ]
+          },
+          {
+            "clue": "descendant of judah",
+            "word_count": 19,
+            "words": [
+              "HAAHASHTARI",
+              "HAROEH",
+              "HEZRON",
+              "HOD",
+              "IRU",
+              "ISHMA",
+              "JADA",
+              "JAHDAI",
+              "JAHLEEL",
+              "JALON"
+            ]
+          },
+          {
+            "clue": "descendant of benjamin",
+            "word_count": 18,
+            "words": [
+              "AHOHITE",
+              "IPHDEIAH",
+              "IRI",
+              "ISHMERAI",
+              "ISHPAN",
+              "ISPAH",
+              "JAARESHIAH",
+              "JAHZERAH",
+              "JAKIM",
+              "JEUEL"
+            ]
+          },
+          {
+            "clue": "place name designation",
+            "word_count": 18,
+            "words": [
+              "EBEN",
+              "HADADRIMMON",
+              "HAZAR",
+              "IIM",
+              "JOTBATH",
+              "LAHMAM",
+              "LAKUM",
+              "MEGIDDON",
+              "MEKONAH",
+              "MICHMETHAH"
+            ]
+          },
+          {
+            "clue": "descendant in genealogical line",
+            "word_count": 18,
+            "words": [
+              "HARNEPHER",
+              "HAZARMAVETH",
+              "HORI",
+              "HUL",
+              "HUZ",
+              "IDBASH",
+              "IMRAH",
+              "ISH",
+              "ISHBAH",
+              "JOKTAN"
+            ]
+          },
+          {
+            "clue": "biblical place name",
+            "word_count": 17,
+            "words": [
+              "CHESIL",
+              "CHESULLOTH",
+              "CHIDON",
+              "CHISLOTH",
+              "CUTHAH",
+              "DABBASHETH",
+              "DALMANUTHA",
+              "DAMMIM",
+              "DANNAH",
+              "DIBLATHAIM"
+            ]
+          },
+          {
+            "clue": "descendant of asher",
+            "word_count": 16,
+            "words": [
+              "AHISHAHAR",
+              "AMAL",
+              "ARA",
+              "ARAH",
+              "ASHVATH",
+              "BERI",
+              "BIMHAL",
+              "HELEM",
+              "ISHUAH",
+              "ISHVAH"
+            ]
+          },
+          {
+            "clue": "town in judah",
+            "word_count": 15,
+            "words": [
+              "APHEKAH",
+              "ASHNAH",
+              "BEALOTH",
+              "BEROTHAH",
+              "BIRZAITH",
+              "BIZJOTHJAH",
+              "RACHAL",
+              "SANNAH",
+              "SANSANNAH",
+              "SECACAH"
+            ]
+          }
+        ]
+      },
+      "clue_types": {
+        "counts": {
+          "definition": 28165,
+          "biblical_reference": 15725,
+          "relationship": 973,
+          "location": 1564,
+          "occupation": 604,
+          "description": 469,
+          "other": 0
+        },
+        "percentages": {
+          "definition": 59.29,
+          "biblical_reference": 33.11,
+          "relationship": 2.05,
+          "location": 3.29,
+          "occupation": 1.27,
+          "description": 0.99,
+          "other": 0.0
+        }
+      },
+      "words_needing_clues": {
+        "summary": {
+          "high_priority_count": 0,
+          "medium_priority_count": 0,
+          "total_needing_improvement": 0
+        },
+        "high_priority_sample": [],
+        "medium_priority_sample": []
+      }
+    },
+    "completeness_report": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:39:21.352694",
+        "databases_analyzed": {
+          "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+          "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+        }
+      },
+      "health_score": 85,
+      "health_status": "Good",
+      "total_issues_found": 2,
+      "strongs_gaps": {
+        "hebrew": {
+          "total_present": 8611,
+          "expected_max": 8674,
+          "gaps_count": 63,
+          "sample_gaps": [
+            "H0015",
+            "H0071",
+            "H0156",
+            "H0334",
+            "H0417",
+            "H0516",
+            "H0704",
+            "H0760",
+            "H0798",
+            "H0799",
+            "H0800",
+            "H1056",
+            "H1128",
+            "H1136",
+            "H1169",
+            "H1208",
+            "H1223",
+            "H1665",
+            "H1686",
+            "H1729",
+            "H1895",
+            "H2051",
+            "H2072",
+            "H2402",
+            "H2661",
+            "H2716",
+            "H2909",
+            "H3019",
+            "H3125",
+            "H3128",
+            "H3175",
+            "H3657",
+            "H3889",
+            "H4067",
+            "H4078",
+            "H4087",
+            "H4096",
+            "H4204",
+            "H4210",
+            "H4257",
+            "H4379",
+            "H4387",
+            "H4415",
+            "H4710",
+            "H4827",
+            "H4874",
+            "H4905",
+            "H5155",
+            "H5300",
+            "H5395"
+          ]
+        },
+        "greek": {
+          "total_present": 4959,
+          "expected_max": 5624,
+          "gaps_count": 665,
+          "sample_gaps": [
+            "G0009",
+            "G0012",
+            "G0031",
+            "G0033",
+            "G0039",
+            "G0041",
+            "G0043",
+            "G0049",
+            "G0072",
+            "G0078",
+            "G0099",
+            "G0100",
+            "G0145",
+            "G0149",
+            "G0155",
+            "G0158",
+            "G0196",
+            "G0197",
+            "G0201",
+            "G0205",
+            "G0212",
+            "G0234",
+            "G0257",
+            "G0258",
+            "G0289",
+            "G0295",
+            "G0296",
+            "G0301",
+            "G0304",
+            "G0320",
+            "G0335",
+            "G0336",
+            "G0351",
+            "G0354",
+            "G0356",
+            "G0358",
+            "G0382",
+            "G0431",
+            "G0432",
+            "G0463",
+            "G0469",
+            "G0471",
+            "G0476",
+            "G0494",
+            "G0513",
+            "G0542",
+            "G0555",
+            "G0566",
+            "G0567",
+            "G0582"
+          ]
+        }
+      },
+      "underrepresented_books": [
+        {
+          "book": "1 Chronicles",
+          "chapters": 29,
+          "verses": 942,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Corinthians",
+          "chapters": 16,
+          "verses": 437,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 John",
+          "chapters": 5,
+          "verses": 105,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Kings",
+          "chapters": 22,
+          "verses": 816,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Peter",
+          "chapters": 5,
+          "verses": 105,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Samuel",
+          "chapters": 31,
+          "verses": 810,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Thessalonians",
+          "chapters": 5,
+          "verses": 89,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "1 Timothy",
+          "chapters": 6,
+          "verses": 113,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapters": 36,
+          "verses": 822,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Corinthians",
+          "chapters": 13,
+          "verses": 257,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 John",
+          "chapters": 1,
+          "verses": 13,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Kings",
+          "chapters": 25,
+          "verses": 719,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Peter",
+          "chapters": 3,
+          "verses": 61,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Samuel",
+          "chapters": 24,
+          "verses": 695,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Thessalonians",
+          "chapters": 3,
+          "verses": 47,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "2 Timothy",
+          "chapters": 4,
+          "verses": 83,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "3 John",
+          "chapters": 1,
+          "verses": 14,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Acts",
+          "chapters": 28,
+          "verses": 1007,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Amos",
+          "chapters": 9,
+          "verses": 146,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Colossians",
+          "chapters": 4,
+          "verses": 95,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Daniel",
+          "chapters": 12,
+          "verses": 357,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Deuteronomy",
+          "chapters": 34,
+          "verses": 959,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Ecclesiastes",
+          "chapters": 12,
+          "verses": 222,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Ephesians",
+          "chapters": 6,
+          "verses": 155,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Esther",
+          "chapters": 10,
+          "verses": 167,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Exodus",
+          "chapters": 40,
+          "verses": 1213,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Ezekiel",
+          "chapters": 48,
+          "verses": 1273,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Ezra",
+          "chapters": 10,
+          "verses": 280,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Galatians",
+          "chapters": 6,
+          "verses": 149,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Genesis",
+          "chapters": 50,
+          "verses": 1533,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Habakkuk",
+          "chapters": 3,
+          "verses": 56,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Haggai",
+          "chapters": 2,
+          "verses": 38,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Hebrews",
+          "chapters": 13,
+          "verses": 303,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Hosea",
+          "chapters": 14,
+          "verses": 197,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Isaiah",
+          "chapters": 66,
+          "verses": 1292,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "James",
+          "chapters": 5,
+          "verses": 108,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Jeremiah",
+          "chapters": 52,
+          "verses": 1364,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Job",
+          "chapters": 42,
+          "verses": 1070,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Joel",
+          "chapters": 3,
+          "verses": 73,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "John",
+          "chapters": 21,
+          "verses": 879,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Jonah",
+          "chapters": 4,
+          "verses": 48,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Joshua",
+          "chapters": 24,
+          "verses": 658,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Jude",
+          "chapters": 1,
+          "verses": 25,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Judges",
+          "chapters": 21,
+          "verses": 618,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Lamentations",
+          "chapters": 5,
+          "verses": 154,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Leviticus",
+          "chapters": 27,
+          "verses": 859,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Luke",
+          "chapters": 24,
+          "verses": 1151,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Malachi",
+          "chapters": 4,
+          "verses": 55,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Mark",
+          "chapters": 16,
+          "verses": 678,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Matthew",
+          "chapters": 28,
+          "verses": 1071,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Micah",
+          "chapters": 7,
+          "verses": 105,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Nahum",
+          "chapters": 3,
+          "verses": 47,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Nehemiah",
+          "chapters": 13,
+          "verses": 406,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Numbers",
+          "chapters": 36,
+          "verses": 1288,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Obadiah",
+          "chapters": 1,
+          "verses": 21,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Philemon",
+          "chapters": 1,
+          "verses": 25,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Philippians",
+          "chapters": 4,
+          "verses": 104,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Proverbs",
+          "chapters": 31,
+          "verses": 915,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Psalms",
+          "chapters": 150,
+          "verses": 2461,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Revelation",
+          "chapters": 22,
+          "verses": 404,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Romans",
+          "chapters": 16,
+          "verses": 433,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Ruth",
+          "chapters": 4,
+          "verses": 85,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Song of Solomon",
+          "chapters": 8,
+          "verses": 117,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Titus",
+          "chapters": 3,
+          "verses": 46,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Zechariah",
+          "chapters": 14,
+          "verses": 211,
+          "words": 0,
+          "issue": "Very low data count"
+        },
+        {
+          "book": "Zephaniah",
+          "chapters": 3,
+          "verses": 53,
+          "words": 0,
+          "issue": "Very low data count"
+        }
+      ],
+      "empty_fields": [
+        {
+          "table": "books",
+          "field": "testament",
+          "count": 66,
+          "severity": "medium"
+        }
+      ],
+      "duplicate_entries": [],
+      "consistency_issues": [
+        {
+          "issue": "Invalid cross-references (pointing to non-existent verses)",
+          "count": 403,
+          "severity": "medium"
+        }
+      ],
+      "format_issues": [],
+      "coverage": {
+        "books": {
+          "current": 66,
+          "expected": 66,
+          "percentage": 100.0
+        },
+        "verses": {
+          "current": 31102,
+          "expected": 31102,
+          "percentage": 100.0
+        },
+        "cross_references": {
+          "current": 614180,
+          "average_per_verse": 19.75
+        }
+      }
+    },
+    "performance_metrics": {
+      "metadata": {
+        "analysis_date": "2025-11-06T10:39:22.989186",
+        "databases_analyzed": {
+          "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+          "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+        }
+      },
+      "database_sizes": {
+        "goodbook": {
+          "bytes": 68521984,
+          "megabytes": 65.35,
+          "gigabytes": 0.0638,
+          "human_readable": "65.35 MB"
+        },
+        "concordance": {
+          "bytes": 119640064,
+          "megabytes": 114.1,
+          "gigabytes": 0.1114,
+          "human_readable": "114.10 MB"
+        }
+      },
+      "query_benchmarks": {
+        "goodbook": [
+          {
+            "description": "Simple book lookup by name",
+            "query": "SELECT * FROM books WHERE book_name = 'Genesis'",
+            "iterations": 5,
+            "average_ms": 0.199,
+            "min_ms": 0.0,
+            "max_ms": 0.995
+          },
+          {
+            "description": "Fetch 100 verses",
+            "query": "SELECT v.text FROM verses v LIMIT 100",
+            "iterations": 5,
+            "average_ms": 0.2,
+            "min_ms": 0.0,
+            "max_ms": 0.999
+          },
+          {
+            "description": "Join books, chapters, verses (1000 rows)",
+            "query": "\n        SELECT b.book_name, c.chapter_number, v.verse_number, v.text\n        FROM books b\n        J...",
+            "iterations": 5,
+            "average_ms": 1.0,
+            "min_ms": 0.994,
+            "max_ms": 1.007
+          },
+          {
+            "description": "Count all cross-references",
+            "query": "SELECT COUNT(*) FROM cross_references",
+            "iterations": 5,
+            "average_ms": 3.502,
+            "min_ms": 2.99,
+            "max_ms": 4.51
+          },
+          {
+            "description": "Fetch 100 Greek lexical words",
+            "query": "SELECT * FROM lexical_words WHERE language = 'Greek' LIMIT 100",
+            "iterations": 5,
+            "average_ms": 0.0,
+            "min_ms": 0.0,
+            "max_ms": 0.0
+          },
+          {
+            "description": "Text search for 'Jesus' (LIKE query)",
+            "query": "SELECT * FROM verses WHERE text LIKE '%Jesus%' LIMIT 50",
+            "iterations": 5,
+            "average_ms": 8.001,
+            "min_ms": 7.005,
+            "max_ms": 9.001
+          },
+          {
+            "description": "Count verses per book (aggregate)",
+            "query": "\n        SELECT b.book_name, COUNT(v.id) as verse_count\n        FROM books b\n        LEFT JOIN chapt...",
+            "iterations": 5,
+            "average_ms": 3.001,
+            "min_ms": 2.005,
+            "max_ms": 3.995
+          }
+        ],
+        "concordance": [
+          {
+            "description": "Fetch 100 Greek tokens",
+            "query": "SELECT * FROM tokens WHERE strong_norm LIKE 'G%' LIMIT 100",
+            "iterations": 5,
+            "average_ms": 24.0,
+            "min_ms": 21.999,
+            "max_ms": 25.992
+          },
+          {
+            "description": "Lookup specific Strong's number",
+            "query": "SELECT * FROM strongs_lexicon WHERE strong_norm = 'G2424'",
+            "iterations": 5,
+            "average_ms": 0.0,
+            "min_ms": 0.0,
+            "max_ms": 0.0
+          },
+          {
+            "description": "Full-text search for 'love'",
+            "query": "SELECT * FROM verses_fts WHERE text MATCH 'love' LIMIT 50",
+            "iterations": 5,
+            "average_ms": 0.198,
+            "min_ms": 0.0,
+            "max_ms": 0.992
+          },
+          {
+            "description": "Join tokens with Strong's lexicon (500 rows)",
+            "query": "\n        SELECT t.text, l.definition\n        FROM tokens t\n        LEFT JOIN strongs_lexicon l ON t....",
+            "iterations": 5,
+            "average_ms": 0.8,
+            "min_ms": 0.0,
+            "max_ms": 1.008
+          }
+        ]
+      },
+      "record_counts": {
+        "goodbook": {
+          "books": 66,
+          "chapters": 1189,
+          "verses": 31102,
+          "cross_references": 614180,
+          "lexical_words": 0,
+          "verse_words": 0,
+          "morphology": 0
+        },
+        "concordance": {
+          "books": 66,
+          "chapters": 1189,
+          "verses": 31009,
+          "tokens": 374079,
+          "strongs_lexicon": 13570,
+          "footnotes": 6947
+        }
+      },
+      "indexes": {
+        "goodbook": [
+          {
+            "name": "sqlite_autoindex_testaments_1",
+            "table": "testaments"
+          },
+          {
+            "name": "sqlite_autoindex_historical_context_1",
+            "table": "historical_context"
+          },
+          {
+            "name": "sqlite_autoindex_thematic_categories_1",
+            "table": "thematic_categories"
+          },
+          {
+            "name": "sqlite_autoindex_literary_genres_1",
+            "table": "literary_genres"
+          },
+          {
+            "name": "sqlite_autoindex_lexical_words_1",
+            "table": "lexical_words"
+          },
+          {
+            "name": "idx_testament_canon",
+            "table": "testaments"
+          },
+          {
+            "name": "idx_cross_reference_source",
+            "table": "cross_references"
+          },
+          {
+            "name": "idx_cross_reference_target",
+            "table": "cross_references"
+          },
+          {
+            "name": "idx_book_context",
+            "table": "book_historical_context"
+          },
+          {
+            "name": "idx_chapter_category",
+            "table": "chapter_thematic_category"
+          },
+          {
+            "name": "idx_verse_genre",
+            "table": "verse_literary_genre"
+          },
+          {
+            "name": "idx_strongs_number",
+            "table": "lexical_words"
+          },
+          {
+            "name": "idx_lexical_language",
+            "table": "lexical_words"
+          },
+          {
+            "name": "idx_lexical_word",
+            "table": "lexical_words"
+          },
+          {
+            "name": "idx_verse_word",
+            "table": "verse_words"
+          },
+          {
+            "name": "idx_word_verse",
+            "table": "verse_words"
+          },
+          {
+            "name": "idx_word_position",
+            "table": "verse_words"
+          },
+          {
+            "name": "idx_morphology_strongs",
+            "table": "morphology"
+          },
+          {
+            "name": "idx_morphology_part_of_speech",
+            "table": "morphology"
+          },
+          {
+            "name": "idx_cross_reference_unique",
+            "table": "cross_references"
+          },
+          {
+            "name": "sqlite_autoindex_books_1",
+            "table": "books"
+          },
+          {
+            "name": "idx_books_book_name",
+            "table": "books"
+          },
+          {
+            "name": "idx_chapters_book_id_chapter_number",
+            "table": "chapters"
+          },
+          {
+            "name": "sqlite_autoindex_verse_footnote_tags_1",
+            "table": "verse_footnote_tags"
+          },
+          {
+            "name": "ix_verses_book_chapter_verse",
+            "table": "verses"
+          },
+          {
+            "name": "ix_chapters_book_chapter",
+            "table": "chapters"
+          },
+          {
+            "name": "ix_xref_source",
+            "table": "cross_references"
+          },
+          {
+            "name": "ix_xref_related",
+            "table": "cross_references"
+          },
+          {
+            "name": "ix_books_name",
+            "table": "books"
+          },
+          {
+            "name": "ix_chapters_book",
+            "table": "chapters"
+          },
+          {
+            "name": "ix_verses_chapter",
+            "table": "verses"
+          }
+        ],
+        "concordance": [
+          {
+            "name": "sqlite_autoindex_books_1",
+            "table": "books"
+          },
+          {
+            "name": "sqlite_autoindex_chapters_1",
+            "table": "chapters"
+          },
+          {
+            "name": "sqlite_autoindex_verses_1",
+            "table": "verses"
+          },
+          {
+            "name": "sqlite_autoindex_tokens_1",
+            "table": "tokens"
+          },
+          {
+            "name": "sqlite_autoindex_strongs_lexicon_1",
+            "table": "strongs_lexicon"
+          },
+          {
+            "name": "ix_books_name",
+            "table": "books"
+          },
+          {
+            "name": "ix_chapters_book",
+            "table": "chapters"
+          },
+          {
+            "name": "ix_verses_bookchap",
+            "table": "verses"
+          },
+          {
+            "name": "ix_tokens_strong",
+            "table": "tokens"
+          },
+          {
+            "name": "ix_tokens_verse",
+            "table": "tokens"
+          },
+          {
+            "name": "ix_tokens_verse_offsets",
+            "table": "tokens"
+          },
+          {
+            "name": "ix_lexicon_key",
+            "table": "strongs_lexicon"
+          },
+          {
+            "name": "ix_tokens_verse_textspan",
+            "table": "tokens"
+          },
+          {
+            "name": "ux_strongs_lexicon_strong_norm",
+            "table": "strongs_lexicon"
+          }
+        ]
+      },
+      "optimization_suggestions": [],
+      "performance_summary": {
+        "total_benchmarks": 11,
+        "average_query_time_ms": 3.72,
+        "slowest_query": {
+          "description": "Fetch 100 Greek tokens",
+          "query": "SELECT * FROM tokens WHERE strong_norm LIKE 'G%' LIMIT 100",
+          "iterations": 5,
+          "average_ms": 24.0,
+          "min_ms": 21.999,
+          "max_ms": 25.992
+        },
+        "fastest_query": {
+          "description": "Fetch 100 Greek lexical words",
+          "query": "SELECT * FROM lexical_words WHERE language = 'Greek' LIMIT 100",
+          "iterations": 5,
+          "average_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        }
+      }
+    }
+  }
+}

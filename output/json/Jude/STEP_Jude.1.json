@@ -1,0 +1,945 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=Jude.1&options=NHVUG",
+  "verse_count": 1,
+  "verses": [
+    {
+      "ref": "Jude.1.1",
+      "verse_num": 1,
+      "text_plain": "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called:",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Jude.1.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"Jude.1.1\" class=\"verseLink\"></a><span morph=\"robinson:N-NSM\" strong=\"G2455I lemma.TR:ιουδας\">Jude</span>, <span morph=\"robinson:N-NSM\" strong=\"G1401 lemma.TR:δουλος\">the servant</span> <span morph=\"robinson:N-GSM\" strong=\"G2424G lemma.TR:ιησου\">of Jesus</span> <span morph=\"robinson:N-GSM\" strong=\"G5547 lemma.TR:χριστου\">Christ</span>, <span morph=\"robinson:CONJ\" strong=\"G1161 lemma.TR:δε\">and</span> <span morph=\"robinson:N-NSM\" strong=\"G0080 lemma.TR:αδελφος\">brother</span> <span morph=\"robinson:N-GSM\" strong=\"G2385I lemma.TR:ιακωβου\">of James</span>, <span morph=\"robinson:V-RPP-DPM\" strong=\"G0037 lemma.TR:ηγιασμενοις\">to them that are sanctified</span> <span morph=\"robinson:PREP\" strong=\"G1722 lemma.TR:εν\">by</span> <span morph=\"robinson:N-DSM\" strong=\"G2316 lemma.TR:θεω\">God</span> <span morph=\"robinson:N-DSM\" strong=\"G3962 lemma.TR:πατρι\">the Father</span>, <span morph=\"robinson:CONJ\" strong=\"G2532 lemma.TR:και\">and</span> <span morph=\"robinson:V-RPP-DPM\" strong=\"G5083I lemma.TR:τετηρημενοις\">preserved</span> <span morph=\"robinson:N-DSM\" strong=\"G2424G lemma.TR:ιησου\">in Jesus</span> <span morph=\"robinson:N-DSM\" strong=\"G5547 lemma.TR:χριστω\">Christ</span>, <span><em>and</em></span> <span morph=\"robinson:A-DPM\" strong=\"G2822 lemma.TR:κλητοις\">called</span>:<span morph=\"robinson:T-DPM\" strong=\"G3588 lemma.TR:τοις\"></span></span>",
+      "tokens": [
+        {
+          "text": "Jude",
+          "strong_norm": "G2455",
+          "strong_raw": "G2455I lemma.TR:ιουδας",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25253,
+          "html_end": 25325,
+          "vhtml_start": 159,
+          "vhtml_end": 231,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Ἰούδας",
+          "transliteration": "ioudas",
+          "pronunciation": "ee-oo-das'",
+          "pos": "masculine noun",
+          "definition": "Ἰούδας Ioúdas, ee-oo-das'; of Hebrew origin ( H3063 ); Judas (i.e. Jehudah), the name of ten Israelites; also of the posterity of one of them and its region:—Juda(-h, -s); Jude.",
+          "kjv_translation_count": "Judas (Iscariot) (22x), Juda (Son of Jacob) (7x), Judah (Son of Jacob) (1x), Judas (Son of Jacob) (2x), Judas (Brother of James) (3x), Jude (Brother of James) (1x), Judas Barsabas (3x), Juda (Ancestors of Jesus) (2x), miscellaneous (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Judas",
+              "count": 22
+            },
+            {
+              "gloss": "Juda",
+              "count": 7
+            },
+            {
+              "gloss": "Judah",
+              "count": 1
+            },
+            {
+              "gloss": "Judas",
+              "count": 2
+            },
+            {
+              "gloss": "Judas",
+              "count": 3
+            },
+            {
+              "gloss": "Jude",
+              "count": 1
+            },
+            {
+              "gloss": "Judas Barsabas",
+              "count": 3
+            },
+            {
+              "gloss": "Juda",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Judah or Judas = \"he shall be praised\" the fourth son of Jacob an unknown ancestor of Christ a man surnamed the Galilean, who at the time of the census of Quirinus, excited the revolt in Galilee, Acts 5:: 37 a certain Jew of Damascus, Acts 9:: 11 a prophet surnamed Barsabas, of the church at Jerusalem, Acts 15:: 22,: 27,: 32 the apostle, Jn 14:: 22, who was surnamed Lebbaeus or Thaddaeus, and according to opinion wrote the Epistle of Jude. the half-brother of Jesus, Mt. 13:: 55 Judas Iscariot, the apostle who betrayed Jesus",
+            "the fourth son of Jacob",
+            "an unknown ancestor of Christ",
+            "a man surnamed the Galilean, who at the time of the census of Quirinus, excited the revolt in Galilee, Acts 5:: 37",
+            "a certain Jew of Damascus, Acts 9:: 11",
+            "a prophet surnamed Barsabas, of the church at Jerusalem, Acts 15:: 22,: 27,: 32",
+            "the apostle, Jn 14:: 22, who was surnamed Lebbaeus or Thaddaeus, and according to opinion wrote the Epistle of Jude.",
+            "the half-brother of Jesus, Mt. 13:: 55",
+            "Judas Iscariot, the apostle who betrayed Jesus"
+          ],
+          "text_start": 0,
+          "text_end": 4,
+          "token_id": "Jude.1.1#t0000"
+        },
+        {
+          "text": "the servant",
+          "strong_norm": "G1401",
+          "strong_raw": "G1401 lemma.TR:δουλος",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25327,
+          "html_end": 25405,
+          "vhtml_start": 233,
+          "vhtml_end": 311,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "δοῦλος",
+          "transliteration": "doulos",
+          "pronunciation": "doo'-los",
+          "pos": "masculine noun",
+          "definition": "† δοῦλος doûlos, doo'-los; from G1210 ; a slave (literal or figurative, involuntary or voluntary; frequently, therefore in a qualified sense of subjection or subserviency):—bond(-man), servant.",
+          "kjv_translation_count": "servant (120x), bond (6x), bondman (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "servant",
+              "count": 120
+            },
+            {
+              "gloss": "bond",
+              "count": 6
+            },
+            {
+              "gloss": "bondman",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a slave, bondman, man of servile condition a slave metaph., one who gives himself up to another's will those whose service is used by Christ in extending and advancing his cause among men devoted to another to the disregard of one's own interests",
+            "a slave",
+            "metaph., one who gives himself up to another's will those whose service is used by Christ in extending and advancing his cause among men",
+            "devoted to another to the disregard of one's own interests",
+            "a servant, attendant"
+          ],
+          "text_start": 6,
+          "text_end": 17,
+          "token_id": "Jude.1.1#t0001"
+        },
+        {
+          "text": "of Jesus",
+          "strong_norm": "G2424",
+          "strong_raw": "G2424G lemma.TR:ιησου",
+          "morph_norm": "robinson:N-GSM",
+          "morph_raw": "robinson:N-GSM",
+          "italics": false,
+          "html_start": 25406,
+          "html_end": 25481,
+          "vhtml_start": 312,
+          "vhtml_end": 387,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Ἰησοῦς",
+          "transliteration": "iēsous",
+          "pronunciation": "ee-ay-sooce'",
+          "pos": "proper masculine noun",
+          "definition": "Ἰησοῦς Iēsoûs, ee-ay-sooce'; of Hebrew origin ( H3091 ); Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites:—Jesus.",
+          "kjv_translation_count": "Jesus (972x), Jesus (Joshua) (2x), Jesus (Justus) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Jesus",
+              "count": 972
+            },
+            {
+              "gloss": "Jesus",
+              "count": 2
+            },
+            {
+              "gloss": "Jesus",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jesus = \"Jehovah is salvation\" Jesus, the Son of God, the Saviour of mankind, God incarnate Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 ) Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 ) Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )",
+            "Jesus, the Son of God, the Saviour of mankind, God incarnate",
+            "Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ",
+            "Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 )",
+            "Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 )",
+            "Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )"
+          ],
+          "text_start": 18,
+          "text_end": 26,
+          "token_id": "Jude.1.1#t0002"
+        },
+        {
+          "text": "Christ",
+          "strong_norm": "G5547",
+          "strong_raw": "G5547 lemma.TR:χριστου",
+          "morph_norm": "robinson:N-GSM",
+          "morph_raw": "robinson:N-GSM",
+          "italics": false,
+          "html_start": 25482,
+          "html_end": 25556,
+          "vhtml_start": 388,
+          "vhtml_end": 462,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Χριστός",
+          "transliteration": "christos",
+          "pronunciation": "khris-tos'",
+          "pos": "masculine noun",
+          "definition": "Χριστός Christós, khris-tos'; from G5548 ; anointed, i.e. the Messiah, an epithet of Jesus:—Christ.",
+          "kjv_translation_count": "Christ (569x).",
+          "kjv_counts": [
+            {
+              "gloss": "Christ",
+              "count": 569
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Christ = \"anointed\" Christ was [and is] 1 the Messiah, the Son of God anointed",
+            "Christ was [and is] 1 the Messiah, the Son of God",
+            "anointed"
+          ],
+          "text_start": 27,
+          "text_end": 33,
+          "token_id": "Jude.1.1#t0003"
+        },
+        {
+          "text": "and",
+          "strong_norm": "G1161",
+          "strong_raw": "G1161 lemma.TR:δε",
+          "morph_norm": "robinson:CONJ",
+          "morph_raw": "robinson:CONJ",
+          "italics": false,
+          "html_start": 25558,
+          "html_end": 25623,
+          "vhtml_start": 464,
+          "vhtml_end": 529,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "δέ",
+          "transliteration": "de",
+          "pronunciation": "deh",
+          "pos": "conjunction",
+          "definition": "δέ dé, deh; a primary particle (adversative or continuative); but, and, etc.:—also, and, but, moreover, now (often unexpressed in English).",
+          "kjv_translation_count": "but (1,: 237x), and (934x), now (166x), then (132x), also (18x), yet (16x), yea (13x), so (13x), moreover (13x), nevertheless (11x), for (4x), even (3x), miscellaneous (10x), not translated (300x).",
+          "kjv_counts": [
+            {
+              "gloss": "but",
+              "count": 237
+            },
+            {
+              "gloss": "and",
+              "count": 934
+            },
+            {
+              "gloss": "now",
+              "count": 166
+            },
+            {
+              "gloss": "then",
+              "count": 132
+            },
+            {
+              "gloss": "also",
+              "count": 18
+            },
+            {
+              "gloss": "yet",
+              "count": 16
+            },
+            {
+              "gloss": "yea",
+              "count": 13
+            },
+            {
+              "gloss": "so",
+              "count": 13
+            },
+            {
+              "gloss": "moreover",
+              "count": 13
+            },
+            {
+              "gloss": "nevertheless",
+              "count": 11
+            },
+            {
+              "gloss": "for",
+              "count": 4
+            },
+            {
+              "gloss": "even",
+              "count": 3
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 10
+            },
+            {
+              "gloss": "not translated",
+              "count": 300
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "but, moreover, and, etc."
+          ],
+          "text_start": 35,
+          "text_end": 38,
+          "token_id": "Jude.1.1#t0004"
+        },
+        {
+          "text": "brother",
+          "strong_norm": "G0080",
+          "strong_raw": "G0080 lemma.TR:αδελφος",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25624,
+          "html_end": 25699,
+          "vhtml_start": 530,
+          "vhtml_end": 605,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἀδελφός",
+          "transliteration": "adelphos",
+          "pronunciation": "ad-el-fos'",
+          "pos": "masculine noun",
+          "definition": "ἀδελφός adelphós, ad-el-fos'; from G1 (as a connective particle) and δελφύς delphýs (the womb); a brother (literally or figuratively) near or remote (much like G1 ):—brother.",
+          "kjv_translation_count": "brethren (226x), brother (113x), brother's (6x), brother's way (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "brethren",
+              "count": 226
+            },
+            {
+              "gloss": "brother",
+              "count": 113
+            },
+            {
+              "gloss": "brother's",
+              "count": 6
+            },
+            {
+              "gloss": "brother's way",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a brother, whether born of the same two parents or only of the same father or mother",
+            "having the same national ancestor, belonging to the same people, or countryman",
+            "any fellow or man",
+            "a fellow believer, united to another by the bond of affection",
+            "an associate in employment or office",
+            "brethren in Christ his brothers by blood all men apostles Christians, as those who are exalted to the same heavenly place",
+            "his brothers by blood",
+            "all men",
+            "apostles",
+            "Christians, as those who are exalted to the same heavenly place"
+          ],
+          "text_start": 39,
+          "text_end": 46,
+          "token_id": "Jude.1.1#t0005"
+        },
+        {
+          "text": "of James",
+          "strong_norm": "G2385",
+          "strong_raw": "G2385I lemma.TR:ιακωβου",
+          "morph_norm": "robinson:N-GSM",
+          "morph_raw": "robinson:N-GSM",
+          "italics": false,
+          "html_start": 25700,
+          "html_end": 25777,
+          "vhtml_start": 606,
+          "vhtml_end": 683,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Ἰάκωβος",
+          "transliteration": "iakōbos",
+          "pronunciation": "ee-ak'-o-bos",
+          "pos": "proper masculine noun",
+          "definition": "Ἰάκωβος Iákōbos, ee-ak'-o-bos; the same as G2384 Græcized; Jacobus, the name of three Israelites:—James.",
+          "kjv_translation_count": "James (son of Zebedee) (21x), James (son of Alphaeus) (16x), James (half-brother of Jesus) (5x).",
+          "kjv_counts": [
+            {
+              "gloss": "James",
+              "count": 21
+            },
+            {
+              "gloss": "James",
+              "count": 16
+            },
+            {
+              "gloss": "James",
+              "count": 5
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "James = \"supplanter\" son of Zebedee, an apostle and brother of the apostle John, commonly called James the greater or elder, slain by Herod, Acts 12 an apostle, son of Alphaeus, called the less James the half-brother of Christ an unknown James, father of the apostle Judas (?)",
+            "son of Zebedee, an apostle and brother of the apostle John, commonly called James the greater or elder, slain by Herod, Acts 12",
+            "an apostle, son of Alphaeus, called the less",
+            "James the half-brother of Christ",
+            "an unknown James, father of the apostle Judas (?)"
+          ],
+          "text_start": 47,
+          "text_end": 55,
+          "token_id": "Jude.1.1#t0006"
+        },
+        {
+          "text": "to them that are sanctified",
+          "strong_norm": "G0037",
+          "strong_raw": "G0037 lemma.TR:ηγιασμενοις",
+          "morph_norm": "robinson:V-RPP-DPM",
+          "morph_raw": "robinson:V-RPP-DPM",
+          "italics": false,
+          "html_start": 25779,
+          "html_end": 25882,
+          "vhtml_start": 685,
+          "vhtml_end": 788,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἁγιάζω",
+          "transliteration": "hagiazō",
+          "pronunciation": "hag-ee-ad'-zo",
+          "pos": "verb",
+          "definition": "ἁγιάζω hagiázō, hag-ee-ad'-zo; from G40 ; to make holy, i.e. (ceremonially) purify or consecrate; (mentally) to venerate:—hallow, be holy, sanctify.",
+          "kjv_translation_count": "sanctify (26x), hallow (2x), be holy (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "sanctify",
+              "count": 26
+            },
+            {
+              "gloss": "hallow",
+              "count": 2
+            },
+            {
+              "gloss": "be holy",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to render or acknowledge, or to be venerable or hallow",
+            "to separate from profane things and dedicate to God consecrate things to God dedicate people to God",
+            "consecrate things to God",
+            "dedicate people to God",
+            "to purify to cleanse externally to purify by expiation: free from the guilt of sin to purify internally by renewing of the soul",
+            "to cleanse externally",
+            "to purify by expiation: free from the guilt of sin",
+            "to purify internally by renewing of the soul"
+          ],
+          "text_start": 57,
+          "text_end": 84,
+          "token_id": "Jude.1.1#t0007"
+        },
+        {
+          "text": "by",
+          "strong_norm": "G1722",
+          "strong_raw": "G1722 lemma.TR:εν",
+          "morph_norm": "robinson:PREP",
+          "morph_raw": "robinson:PREP",
+          "italics": false,
+          "html_start": 25883,
+          "html_end": 25947,
+          "vhtml_start": 789,
+          "vhtml_end": 853,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "pronunciation": "en",
+          "pos": "preposition",
+          "definition": "ἐν en, en; a primary preposition denoting (fixed) position (in place, time or state), and (by implication) instrumentality (medially or constructively), i.e. a relation of rest (intermediate between G1519 and G1537 ); \"in,\" at, (up-)on, by, etc.:—about, after, against, + almost, × altogether, among, × as, at, before, between, (here-)by ( + all means), for (… sake of), + give self wholly to, (here-)in(-to, -wardly), × mightily, (because) of, (up-)on, (open-)ly, × outwardly, one, × quickly, × shortly, (speedi-)ly, × that, × there(-in, -on), through(-out), (un-)to(-ward), under, when, where(-with), while, with(-in). Often used in compounds, with substantially the same import; rarely with verbs of motion, and then not to indicate direction, except (elliptically) by a separate (and different) preposition.",
+          "kjv_translation_count": "in (1,: 902x), by (163x), with (140x), among (117x), at (113x), on (62x), through (39x), miscellaneous (264x).",
+          "kjv_counts": [
+            {
+              "gloss": "in",
+              "count": 902
+            },
+            {
+              "gloss": "by",
+              "count": 163
+            },
+            {
+              "gloss": "with",
+              "count": 140
+            },
+            {
+              "gloss": "among",
+              "count": 117
+            },
+            {
+              "gloss": "at",
+              "count": 113
+            },
+            {
+              "gloss": "on",
+              "count": 62
+            },
+            {
+              "gloss": "through",
+              "count": 39
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 264
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "in, by, with etc."
+          ],
+          "text_start": 85,
+          "text_end": 87,
+          "token_id": "Jude.1.1#t0008"
+        },
+        {
+          "text": "God",
+          "strong_norm": "G2316",
+          "strong_raw": "G2316 lemma.TR:θεω",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 25948,
+          "html_end": 26015,
+          "vhtml_start": 854,
+          "vhtml_end": 921,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "θεός",
+          "transliteration": "theos",
+          "pronunciation": "theh'-os",
+          "pos": "masculine noun",
+          "definition": "θεός theós, theh'-os; of uncertain affinity; a deity, especially (with G3588 ) the supreme Divinity; figuratively, a magistrate; by Hebraism, very:—X exceeding, God, god(-ly, -ward).",
+          "kjv_translation_count": "God (1,: 320x), god (13x), godly (3x), God-ward (with G 4214) (2x), miscellaneous (5x).",
+          "kjv_counts": [
+            {
+              "gloss": "God",
+              "count": 320
+            },
+            {
+              "gloss": "god",
+              "count": 13
+            },
+            {
+              "gloss": "godly",
+              "count": 3
+            },
+            {
+              "gloss": "God-ward",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 5
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a god or goddess, a general name of deities or divinities",
+            "the Godhead, trinity God the Father, the first person in the trinity Christ, the second person of the trinity Holy Spirit, the third person in the trinity",
+            "God the Father, the first person in the trinity",
+            "Christ, the second person of the trinity",
+            "Holy Spirit, the third person in the trinity",
+            "spoken of the only and true God refers to the things of God his counsels, interests, things due to him",
+            "refers to the things of God",
+            "his counsels, interests, things due to him",
+            "whatever can in any respect be likened unto God, or resemble him in any way God's representative or viceregent of magistrates and judges",
+            "God's representative or viceregent of magistrates and judges",
+            "of magistrates and judges"
+          ],
+          "text_start": 88,
+          "text_end": 91,
+          "token_id": "Jude.1.1#t0009"
+        },
+        {
+          "text": "the Father",
+          "strong_norm": "G3962",
+          "strong_raw": "G3962 lemma.TR:πατρι",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 26016,
+          "html_end": 26092,
+          "vhtml_start": 922,
+          "vhtml_end": 998,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "πατήρ",
+          "transliteration": "patēr",
+          "pronunciation": "pat-ayr'",
+          "pos": "masculine noun",
+          "definition": "† πατήρ patḗr, pat-ayr'; apparently a primary word; a \"father\" (literally or figuratively, near or more remote):—father, parent.",
+          "kjv_translation_count": "Father (268x), father (150x).",
+          "kjv_counts": [
+            {
+              "gloss": "Father",
+              "count": 268
+            },
+            {
+              "gloss": "father",
+              "count": 150
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "generator or male ancestor either the nearest ancestor: father of the corporeal nature, natural fathers, both parents a more remote ancestor, the founder of a family or tribe, progenitor of a people, forefather: so Abraham is called, Jacob and David fathers i.e. ancestors, forefathers, founders of a nation one advanced in years, a senior",
+            "either the nearest ancestor: father of the corporeal nature, natural fathers, both parents",
+            "a more remote ancestor, the founder of a family or tribe, progenitor of a people, forefather: so Abraham is called, Jacob and David fathers i.e. ancestors, forefathers, founders of a nation",
+            "fathers i.e. ancestors, forefathers, founders of a nation",
+            "one advanced in years, a senior",
+            "metaph. the originator and transmitter of anything the authors of a family or society of persons animated by the same spirit as himself one who has infused his own spirit into others, who actuates and governs their minds one who stands in a father's place and looks after another in a paternal way a title of honour teachers, as those to whom pupils trace back the knowledge and training they have received the members of the Sanhedrin, whose prerogative it was by virtue of the wisdom and experience in which they excelled, to take charge of the interests of others",
+            "the originator and transmitter of anything the authors of a family or society of persons animated by the same spirit as himself one who has infused his own spirit into others, who actuates and governs their minds",
+            "the authors of a family or society of persons animated by the same spirit as himself",
+            "one who has infused his own spirit into others, who actuates and governs their minds",
+            "one who stands in a father's place and looks after another in a paternal way",
+            "a title of honour teachers, as those to whom pupils trace back the knowledge and training they have received the members of the Sanhedrin, whose prerogative it was by virtue of the wisdom and experience in which they excelled, to take charge of the interests of others",
+            "teachers, as those to whom pupils trace back the knowledge and training they have received",
+            "the members of the Sanhedrin, whose prerogative it was by virtue of the wisdom and experience in which they excelled, to take charge of the interests of others",
+            "God is called the Father of the stars, the heavenly luminaries, because he is their creator, upholder, ruler of all rational and intelligent beings, whether angels or men, because he is their creator, preserver, guardian and protector of spiritual beings and of all men of Christians, as those who through Christ have been exalted to a specially close and intimate relationship with God, and who no longer dread him as a stern judge of sinners, but revere him as their reconciled and loving Father the Father of Jesus Christ, as one whom God has united to himself in the closest bond of love and intimacy, made acquainted with his purposes, appointed to explain and carry out among men the plan of salvation, and made to share also in his own divine nature by Jesus Christ himself by the apostles",
+            "of the stars, the heavenly luminaries, because he is their creator, upholder, ruler",
+            "of all rational and intelligent beings, whether angels or men, because he is their creator, preserver, guardian and protector of spiritual beings and of all men",
+            "of spiritual beings and of all men",
+            "of Christians, as those who through Christ have been exalted to a specially close and intimate relationship with God, and who no longer dread him as a stern judge of sinners, but revere him as their reconciled and loving Father",
+            "the Father of Jesus Christ, as one whom God has united to himself in the closest bond of love and intimacy, made acquainted with his purposes, appointed to explain and carry out among men the plan of salvation, and made to share also in his own divine nature by Jesus Christ himself by the apostles",
+            "by Jesus Christ himself",
+            "by the apostles"
+          ],
+          "text_start": 92,
+          "text_end": 102,
+          "token_id": "Jude.1.1#t0010"
+        },
+        {
+          "text": "and",
+          "strong_norm": "G2532",
+          "strong_raw": "G2532 lemma.TR:και",
+          "morph_norm": "robinson:CONJ",
+          "morph_raw": "robinson:CONJ",
+          "italics": false,
+          "html_start": 26094,
+          "html_end": 26160,
+          "vhtml_start": 1000,
+          "vhtml_end": 1066,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "καί",
+          "transliteration": "kai",
+          "pronunciation": "kahee",
+          "pos": "conjunction",
+          "definition": "καί kaí, kahee; apparently, a primary particle, having a copulative and sometimes also a cumulative force; and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words:—and, also, both, but, even, for, if, or, so, that, then, therefore, when, yet.",
+          "kjv_translation_count": "and (8,: 173x), also (514x), even (108x), both (43x), then (20x), so (18x), likewise (13x), not tr. (350x), miscellaneous (31x), variations of 'and' (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "and",
+              "count": 173
+            },
+            {
+              "gloss": "also",
+              "count": 514
+            },
+            {
+              "gloss": "even",
+              "count": 108
+            },
+            {
+              "gloss": "both",
+              "count": 43
+            },
+            {
+              "gloss": "then",
+              "count": 20
+            },
+            {
+              "gloss": "so",
+              "count": 18
+            },
+            {
+              "gloss": "likewise",
+              "count": 13
+            },
+            {
+              "gloss": "not tr.",
+              "count": 350
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 31
+            },
+            {
+              "gloss": "variations of 'and'",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "and, also, even, indeed, but"
+          ],
+          "text_start": 104,
+          "text_end": 107,
+          "token_id": "Jude.1.1#t0011"
+        },
+        {
+          "text": "preserved",
+          "strong_norm": "G5083",
+          "strong_raw": "G5083I lemma.TR:τετηρημενοις",
+          "morph_norm": "robinson:V-RPP-DPM",
+          "morph_raw": "robinson:V-RPP-DPM",
+          "italics": false,
+          "html_start": 26161,
+          "html_end": 26248,
+          "vhtml_start": 1067,
+          "vhtml_end": 1154,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "τηρέω",
+          "transliteration": "tēreō",
+          "pronunciation": "tay-reh'-o",
+          "pos": "verb",
+          "definition": "τηρέω tēréō, tay-reh'-o; from τερός terós (a watch; perhaps akin to G2334 ); to guard (from loss or injury, properly, by keeping the eye upon; and thus differing from G5442 , which is properly to prevent escaping; and from G2892 , which implies a fortress or full military lines of apparatus), i.e. to note (a prophecy; figuratively, to fulfil a command); by implication, to detain (in custody; figuratively, to maintain); by extension, to withhold (for personal ends; figuratively, to keep unmarried); by extension, to withhold (for personal ends; figuratively, to keep unmarried):—hold fast, keep(- er), (pre-, re-)serve, watch.",
+          "kjv_translation_count": "keep (57x), reserve (8x), observe (4x), watch (2x), preserve (2x), keeper (1x), hold fast (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "keep",
+              "count": 57
+            },
+            {
+              "gloss": "reserve",
+              "count": 8
+            },
+            {
+              "gloss": "observe",
+              "count": 4
+            },
+            {
+              "gloss": "watch",
+              "count": 2
+            },
+            {
+              "gloss": "preserve",
+              "count": 2
+            },
+            {
+              "gloss": "keeper",
+              "count": 1
+            },
+            {
+              "gloss": "hold fast",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to attend to carefully, take care of to guard metaph. to keep, one in the state in which he is to observe to reserve: to undergo something",
+            "to guard",
+            "metaph. to keep, one in the state in which he is",
+            "to observe",
+            "to reserve: to undergo something"
+          ],
+          "text_start": 108,
+          "text_end": 117,
+          "token_id": "Jude.1.1#t0012"
+        },
+        {
+          "text": "in Jesus",
+          "strong_norm": "G2424",
+          "strong_raw": "G2424G lemma.TR:ιησου",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 26249,
+          "html_end": 26324,
+          "vhtml_start": 1155,
+          "vhtml_end": 1230,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Ἰησοῦς",
+          "transliteration": "iēsous",
+          "pronunciation": "ee-ay-sooce'",
+          "pos": "proper masculine noun",
+          "definition": "Ἰησοῦς Iēsoûs, ee-ay-sooce'; of Hebrew origin ( H3091 ); Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites:—Jesus.",
+          "kjv_translation_count": "Jesus (972x), Jesus (Joshua) (2x), Jesus (Justus) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Jesus",
+              "count": 972
+            },
+            {
+              "gloss": "Jesus",
+              "count": 2
+            },
+            {
+              "gloss": "Jesus",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jesus = \"Jehovah is salvation\" Jesus, the Son of God, the Saviour of mankind, God incarnate Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 ) Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 ) Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )",
+            "Jesus, the Son of God, the Saviour of mankind, God incarnate",
+            "Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ",
+            "Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 )",
+            "Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 )",
+            "Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )"
+          ],
+          "text_start": 118,
+          "text_end": 126,
+          "token_id": "Jude.1.1#t0013"
+        },
+        {
+          "text": "Christ",
+          "strong_norm": "G5547",
+          "strong_raw": "G5547 lemma.TR:χριστω",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 26325,
+          "html_end": 26398,
+          "vhtml_start": 1231,
+          "vhtml_end": 1304,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Χριστός",
+          "transliteration": "christos",
+          "pronunciation": "khris-tos'",
+          "pos": "masculine noun",
+          "definition": "Χριστός Christós, khris-tos'; from G5548 ; anointed, i.e. the Messiah, an epithet of Jesus:—Christ.",
+          "kjv_translation_count": "Christ (569x).",
+          "kjv_counts": [
+            {
+              "gloss": "Christ",
+              "count": 569
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Christ = \"anointed\" Christ was [and is] 1 the Messiah, the Son of God anointed",
+            "Christ was [and is] 1 the Messiah, the Son of God",
+            "anointed"
+          ],
+          "text_start": 127,
+          "text_end": 133,
+          "token_id": "Jude.1.1#t0014"
+        },
+        {
+          "text": "and",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 26406,
+          "html_end": 26418,
+          "vhtml_start": 1312,
+          "vhtml_end": 1324,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 135,
+          "text_end": 138,
+          "token_id": "Jude.1.1#t0017"
+        },
+        {
+          "text": "called",
+          "strong_norm": "G2822",
+          "strong_raw": "G2822 lemma.TR:κλητοις",
+          "morph_norm": "robinson:A-DPM",
+          "morph_raw": "robinson:A-DPM",
+          "italics": false,
+          "html_start": 26426,
+          "html_end": 26500,
+          "vhtml_start": 1332,
+          "vhtml_end": 1406,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "κλητός",
+          "transliteration": "klētos",
+          "pronunciation": "klay-tos'",
+          "pos": "adjective",
+          "definition": "κλητός klētós, klay-tos'; from the same as G2821 ; invited, i.e. appointed, or (specially), a saint:—called.",
+          "kjv_translation_count": "called (11x).",
+          "kjv_counts": [
+            {
+              "gloss": "called",
+              "count": 11
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "called, invited (to a banquet) invited (by God in the proclamation of the Gospel) to obtain eternal salvation in the kingdom through Christ called to (the discharge of) some office divinely selected and appointed",
+            "invited (by God in the proclamation of the Gospel) to obtain eternal salvation in the kingdom through Christ",
+            "called to (the discharge of) some office divinely selected and appointed",
+            "divinely selected and appointed"
+          ],
+          "text_start": 139,
+          "text_end": 145,
+          "token_id": "Jude.1.1#t0015"
+        },
+        {
+          "text": "",
+          "strong_norm": "G3588",
+          "strong_raw": "G3588 lemma.TR:τοις",
+          "morph_norm": "robinson:T-DPM",
+          "morph_raw": "robinson:T-DPM",
+          "italics": false,
+          "html_start": 26501,
+          "html_end": 26566,
+          "vhtml_start": 1407,
+          "vhtml_end": 1472,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "pronunciation": "ho",
+          "pos": "article",
+          "definition": "ὁ ho, ho; the definite article; the (sometimes to be supplied, at others omitted, in English idiom):—the, this, that, one, he, she, it, etc.",
+          "kjv_translation_count": "which (413x), who (79x), the things (11x), the son (8x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 413
+            },
+            {
+              "gloss": "who",
+              "count": 79
+            },
+            {
+              "gloss": "the things",
+              "count": 11
+            },
+            {
+              "gloss": "the son",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "the, this, that, these, etc. Only significant renderings other than \"the, this, that, these\" are counted in the KJV Translation Count above"
+          ],
+          "text_start": null,
+          "text_end": null,
+          "token_id": "Jude.1.1#t0016"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}
