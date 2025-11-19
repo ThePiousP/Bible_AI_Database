@@ -1,0 +1,48 @@
+# Manifest file for package distribution
+# Specifies which additional files to include in the distribution
+
+# Include configuration files
+include config.yaml
+include label_rules.yml
+include pytest.ini
+
+# Include documentation
+include README.md
+include LICENSE
+include CONFIGURATION_MIGRATION.md
+include IMPROVEMENTS_SUMMARY.md
+include PROJECT_STATUS.md
+
+# Include requirements
+include requirements.txt
+include requirements-test.txt
+
+# Include gazetteers
+recursive-include gazetteers *.txt
+
+# Include documentation directory
+recursive-include DOCUMENTATION *.md
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude unwanted files
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude *.swp
+global-exclude *.swo
+
+# Exclude deprecated configs
+exclude *.deprecated
+
+# Exclude archived files
+prune .archived
+
+# Exclude cache and output
+prune cache
+prune output
+
+# Exclude development files
+exclude .gitignore
+prune .git
