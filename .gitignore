@@ -62,6 +62,9 @@ data/*.db-journal
 # Prodigy database
 prodigy.db
 
+# Exception: Include essential database files
+!data/GoodBook.db
+
 # Cache directories
 # cache/
 *.cache
