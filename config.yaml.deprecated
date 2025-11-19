@@ -1,0 +1,100 @@
+project:
+  name: Bible NER Pipeline
+  version: '0.983'
+paths:
+  data_dir: data
+  cache_dir: cache
+  output_dir: output/data
+  gazetteers_dir: gazetteers
+  entity_dir: bible_entities
+  log_dir: output/LOGS
+  json_output_dir: output/json
+  cleaned_dir: output/cleaned
+  html_cache_dir: cache/html
+database:
+  goodbook:
+    path: GoodBook.db
+    schema_version: 1
+    expected_verses: 31102
+    expected_books: 66
+  concordance:
+    path: data/GoodBook.db
+    schema_version: 1
+    expected_tokens: 400000
+silver_export:
+  text_prefer: auto
+  seed: 13
+  ratios:
+    train: 0.8
+    dev: 0.1
+    test: 0.1
+  holdout_books: []
+  holdout_name: domain_holdout
+  require_clean: false
+  align_report: false
+  label_on_miss: null
+  output_dir: ./silver_out
+logging:
+  level: INFO
+  format: '%(asctime)s | %(levelname)-8s | %(name)s | %(message)s'
+  date_format: '%Y-%m-%d %H:%M:%S'
+  file_logging:
+    enabled: true
+    directory: output/LOGS
+    max_bytes: 10485760
+    backup_count: 5
+  console:
+    enabled: true
+    colored: true
+profiles:
+  default:
+    outdir: output/silver_out
+    silver_export:
+      outdir: ./silver_out
+      text_prefer: clean
+  gospels_holdout:
+    outdir: output/silver_out_gospels
+    holdout_books:
+    - Matthew
+    - Mark
+    - Luke
+    - John
+    holdout_name: gospels_eval
+    silver_export:
+      holdout_books:
+      - Matthew
+      - Mark
+      - Luke
+      - John
+      holdout_name: gospels_eval
+      outdir: ./silver_out_gospels
+  ot_only:
+    outdir: output/silver_out_ot
+    silver_export:
+      outdir: ./silver_out_ot
+scraper:
+  bible_version: NKJV
+  save_html_copy: true
+  cache_enabled: true
+nlp:
+  spacy_model: en_core_web_lg
+  entity_ruler_config:
+    overwrite_ents: false
+labels:
+  rules_file: label_rules.yml
+  num_labels: 65
+  gazetteers_required: true
+advanced:
+  alignment:
+    fallback_window: 200
+    whitespace_tolerance: true
+  strongs:
+    hebrew_range:
+    - 1
+    - 8674
+    greek_range:
+    - 1
+    - 5624
+  performance:
+    batch_size: 5000
+    cache_verse_lookups: true

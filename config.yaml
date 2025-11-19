@@ -1,100 +1,284 @@
+# ============================================================================
+# Bible AI Database - Unified Configuration
+# ============================================================================
+# Version: 1.0.0
+# Created: 2025-11-19
+# Description: Consolidated configuration from config.yaml, config.json,
+#              step_config.json, menu_master_CFG.json, and prodigy.json
+# ============================================================================
+
+# Project Metadata
+# ============================================================================
 project:
-  name: Bible NER Pipeline
-  version: '0.983'
+  name: Bible AI Database & NER Pipeline
+  version: '1.0.0'
+  description: Complete Bible NLP pipeline with NER, embeddings, and RAG
+  author: ThePiousP
+  repository: https://github.com/ThePiousP/Bible_AI_Database
+
+# File Paths
+# ============================================================================
 paths:
+  # Data directories
   data_dir: data
   cache_dir: cache
   output_dir: output/data
   gazetteers_dir: gazetteers
   entity_dir: bible_entities
+
+  # Logging
   log_dir: output/LOGS
+
+  # Output subdirectories
   json_output_dir: output/json
   cleaned_dir: output/cleaned
   html_cache_dir: cache/html
+
+  # Silver dataset export
+  silver_out_dir: ./silver_out
+
+# Database Configuration
+# ============================================================================
 database:
+  # Main Bible database
   goodbook:
-    path: GoodBook.db
+    path: data/GoodBook.db
     schema_version: 1
     expected_verses: 31102
     expected_books: 66
+
+  # Concordance database (same as goodbook for now)
   concordance:
     path: data/GoodBook.db
     schema_version: 1
     expected_tokens: 400000
+
+# Bible Scraper Configuration
+# ============================================================================
+scraper:
+  bible_version: NKJV  # Options: NKJV, ESV, KJV, etc.
+  save_html_copy: true
+  save_cleaned_text: true
+  cache_enabled: true
+  print_passage_text: false
+  print_footnotes: false
+  cleanup_mode: true
+  debug_mode: false  # Set to true for verbose output
+
+# STEP Bible Integration
+# ============================================================================
+step:
+  # Parser settings
+  parser_default: auto  # auto, lexicon, morphology
+  include_italics_default: true
+  version_default: ESV
+  options_default: NHVUG  # N=verse numbers, H=headings, V=verse per line, U=unicode, G=Greek/Hebrew
+
+  # Batch processing
+  batch_defaults:
+    start_chapter: 1
+    end_chapter: 50
+
+  # Output
+  output_dir: cache
+  log_dir: output/logs
+  continue_on_error: true
+
+  # Menu/UI settings
+  base_url: http://localhost:8989
+  step_options: NHVUG
+  step_include_italics: true
+
+# Interactive Menu Configuration
+# ============================================================================
+menu:
+  output_folder: data
+  overwrite_existing: ask  # ask, always, never
+  last_scraper_used: bible
+
+# NLP & NER Configuration
+# ============================================================================
+nlp:
+  # spaCy model
+  spacy_model: en_core_web_lg
+
+  # Entity ruler configuration
+  entity_ruler_config:
+    overwrite_ents: false
+
+  # Labels
+  labels:
+    rules_file: label_rules.yml
+    num_labels: 65
+    gazetteers_required: true
+
+# Silver Dataset Export
+# ============================================================================
 silver_export:
-  text_prefer: auto
+  # Text preference
+  text_prefer: auto  # auto, clean, original
+
+  # Random seed for reproducibility
   seed: 13
+
+  # Train/dev/test split ratios
   ratios:
     train: 0.8
     dev: 0.1
     test: 0.1
-  holdout_books: []
+
+  # Holdout books for domain evaluation
+  holdout_books: []  # e.g., [Matthew, Mark, Luke, John]
   holdout_name: domain_holdout
+
+  # Export options
   require_clean: false
   align_report: false
   label_on_miss: null
   output_dir: ./silver_out
+
+# Prodigy Annotation Tool
+# ============================================================================
+prodigy:
+  # Keyboard shortcuts for entity labels
+  keymap_by_label:
+    DIVINE_ACTION: "1"
+    DIVINE_PRONOUN: "2"
+    HUMAN_ACTION: "3"
+    HUMAN_PRONOUN: "4"
+    TIME: "5"
+    TOOLS_MEASUREMENT: "6"
+    BIBLE_FLORA: "7"
+    THEMES: "8"
+    PROPHET: "9"
+    FALSE_GOD: "0"
+    OBJECTS_NATURAL: "="
+    OBJECTS_MANMADE: "-"
+    BIBLE_ANIMALS: "]"
+    CONCEPT: "c"
+    BIBLE_NATIONS: "["
+    DEITY: "d"
+    SPIRITUAL_ENTITY: "e"
+    FOOD: "f"
+    LOCATION: "l"
+    OTHER: "?"
+    PERSON: "p"
+    TITLE: "t"
+    VERB: "v"
+
+  # Prodigy settings (reference - actual config in prodigy.json)
+  port: 8001
+  dataset: bible_v1
+  input_file: output/silver_out/train.jsonl
+  patterns_path: output/prodigy_patterns.jsonl
+
+# AI Training Configuration
+# ============================================================================
+ai_training:
+  # Embeddings
+  embeddings:
+    model_name: all-mpnet-base-v2  # Options: all-mpnet-base-v2, all-MiniLM-L6-v2
+    embedding_dim: 768
+    batch_size: 32
+    include_context: true
+    output_dir: embeddings
+    output_file: bible_embeddings.pkl
+
+  # RAG (Retrieval-Augmented Generation)
+  rag:
+    top_k: 10  # Number of verses to retrieve
+    similarity_threshold: 0.3
+    use_reranking: false
+
+  # Chat Interface
+  chat:
+    llm_provider: openai  # openai, anthropic, local
+    model: gpt-4  # gpt-4, gpt-3.5-turbo, claude-3-opus, etc.
+    temperature: 0.7
+    max_tokens: 500
+    system_prompt: |
+      You are a knowledgeable Bible scholar assistant. Answer questions about
+      the Bible using the provided verse context. Be accurate, respectful, and
+      cite specific verses when possible.
+
+# Logging Configuration
+# ============================================================================
 logging:
-  level: INFO
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
   format: '%(asctime)s | %(levelname)-8s | %(name)s | %(message)s'
   date_format: '%Y-%m-%d %H:%M:%S'
+
+  # File logging
   file_logging:
     enabled: true
     directory: output/LOGS
-    max_bytes: 10485760
+    max_bytes: 10485760  # 10 MB
     backup_count: 5
+
+  # Console logging
   console:
     enabled: true
     colored: true
+
+# Advanced Settings
+# ============================================================================
+advanced:
+  # Token alignment
+  alignment:
+    fallback_window: 200
+    whitespace_tolerance: true
+
+  # Strong's concordance ranges
+  strongs:
+    hebrew_range: [1, 8674]  # H1-H8674
+    greek_range: [1, 5624]   # G1-G5624
+
+  # Performance optimization
+  performance:
+    batch_size: 5000
+    cache_verse_lookups: true
+    use_multiprocessing: false
+    max_workers: 4
+
+# Profiles (Preset Configurations)
+# ============================================================================
 profiles:
+  # Default profile
   default:
     outdir: output/silver_out
     silver_export:
       outdir: ./silver_out
       text_prefer: clean
+
+  # Gospels holdout evaluation
   gospels_holdout:
     outdir: output/silver_out_gospels
-    holdout_books:
-    - Matthew
-    - Mark
-    - Luke
-    - John
+    holdout_books: [Matthew, Mark, Luke, John]
     holdout_name: gospels_eval
     silver_export:
-      holdout_books:
-      - Matthew
-      - Mark
-      - Luke
-      - John
+      holdout_books: [Matthew, Mark, Luke, John]
       holdout_name: gospels_eval
       outdir: ./silver_out_gospels
+
+  # Old Testament only
   ot_only:
     outdir: output/silver_out_ot
     silver_export:
       outdir: ./silver_out_ot
-scraper:
-  bible_version: NKJV
-  save_html_copy: true
-  cache_enabled: true
-nlp:
-  spacy_model: en_core_web_lg
-  entity_ruler_config:
-    overwrite_ents: false
-labels:
-  rules_file: label_rules.yml
-  num_labels: 65
-  gazetteers_required: true
-advanced:
-  alignment:
-    fallback_window: 200
-    whitespace_tolerance: true
-  strongs:
-    hebrew_range:
-    - 1
-    - 8674
-    greek_range:
-    - 1
-    - 5624
-  performance:
-    batch_size: 5000
-    cache_verse_lookups: true
+
+# Development Settings
+# ============================================================================
+development:
+  debug_mode: false
+  verbose_logging: false
+  save_intermediate_files: false
+  profile_performance: false
+
+# Deprecated Settings (Keep for backward compatibility)
+# ============================================================================
+# The following fields are deprecated and will be removed in v2.0.0
+# Use the unified paths above instead
+deprecated:
+  output_dir: output/data  # Use paths.output_dir
+  logging_dir: output/LOGS  # Use paths.log_dir
+  db_path: data/GoodBook.db  # Use database.goodbook.path
