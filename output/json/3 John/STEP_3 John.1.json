@@ -1,0 +1,527 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=3John.1&options=NHVUG",
+  "verse_count": 1,
+  "verses": [
+    {
+      "ref": "3John.1.1",
+      "verse_num": 1,
+      "text_plain": "The elder unto the wellbeloved Gaius, whom I love in the truth.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"3John.1.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"3John.1.1\" class=\"verseLink\"></a><span morph=\"robinson:T-NSM\" strong=\"G3588 lemma.TR:ο\"></span><span morph=\"robinson:T-DSM\" strong=\"G3588 lemma.TR:τω\"></span><span morph=\"robinson:A-NSM-C\" strong=\"G4245G lemma.TR:πρεσβυτερος\">The elder</span> <span morph=\"robinson:A-DSM\" strong=\"G0027 lemma.TR:αγαπητω\">unto the wellbeloved</span> <span morph=\"robinson:N-DSM\" strong=\"G1050J lemma.TR:γαιω\">Gaius</span>, <span morph=\"robinson:R-ASM\" strong=\"G3739 lemma.TR:ον\">whom</span> <span morph=\"robinson:P-1NS\" strong=\"G1473 lemma.TR:εγω\">I</span> <span morph=\"robinson:V-PAI-1S\" strong=\"G0025 lemma.TR:αγαπω\">love</span> <span morph=\"robinson:PREP\" strong=\"G1722 lemma.TR:εν\">in</span> <span morph=\"robinson:N-DSF\" strong=\"G0225 lemma.TR:αληθεια\">the truth</span>.</span>",
+      "tokens": [
+        {
+          "text": "",
+          "strong_norm": "G3588",
+          "strong_raw": "G3588 lemma.TR:ο",
+          "morph_norm": "robinson:T-NSM",
+          "morph_raw": "robinson:T-NSM",
+          "italics": false,
+          "html_start": 25172,
+          "html_end": 25234,
+          "vhtml_start": 161,
+          "vhtml_end": 223,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "pronunciation": "ho",
+          "pos": "article",
+          "definition": "ὁ ho, ho; the definite article; the (sometimes to be supplied, at others omitted, in English idiom):—the, this, that, one, he, she, it, etc.",
+          "kjv_translation_count": "which (413x), who (79x), the things (11x), the son (8x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 413
+            },
+            {
+              "gloss": "who",
+              "count": 79
+            },
+            {
+              "gloss": "the things",
+              "count": 11
+            },
+            {
+              "gloss": "the son",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "the, this, that, these, etc. Only significant renderings other than \"the, this, that, these\" are counted in the KJV Translation Count above"
+          ],
+          "text_start": null,
+          "text_end": null,
+          "token_id": "3John.1.1#t0000"
+        },
+        {
+          "text": "",
+          "strong_norm": "G3588",
+          "strong_raw": "G3588 lemma.TR:τω",
+          "morph_norm": "robinson:T-DSM",
+          "morph_raw": "robinson:T-DSM",
+          "italics": false,
+          "html_start": 25234,
+          "html_end": 25297,
+          "vhtml_start": 223,
+          "vhtml_end": 286,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "pronunciation": "ho",
+          "pos": "article",
+          "definition": "ὁ ho, ho; the definite article; the (sometimes to be supplied, at others omitted, in English idiom):—the, this, that, one, he, she, it, etc.",
+          "kjv_translation_count": "which (413x), who (79x), the things (11x), the son (8x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 413
+            },
+            {
+              "gloss": "who",
+              "count": 79
+            },
+            {
+              "gloss": "the things",
+              "count": 11
+            },
+            {
+              "gloss": "the son",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "the, this, that, these, etc. Only significant renderings other than \"the, this, that, these\" are counted in the KJV Translation Count above"
+          ],
+          "text_start": null,
+          "text_end": null,
+          "token_id": "3John.1.1#t0001"
+        },
+        {
+          "text": "The elder",
+          "strong_norm": "G4245",
+          "strong_raw": "G4245G lemma.TR:πρεσβυτερος",
+          "morph_norm": "robinson:A-NSM-C",
+          "morph_raw": "robinson:A-NSM-C",
+          "italics": false,
+          "html_start": 25297,
+          "html_end": 25381,
+          "vhtml_start": 286,
+          "vhtml_end": 370,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "πρεσβύτερος",
+          "transliteration": "presbyteros",
+          "pronunciation": "pres-boo'-ter-os",
+          "pos": "adjective",
+          "definition": "πρεσβύτερος presbýteros, pres-boo'-ter-os; comparative of πρέσβυς présbys (elderly); older; as noun, a senior; specially, an Israelite Sanhedrist (also figuratively, member of the celestial council) or Christian \"presbyter\":—elder(-est), old.",
+          "kjv_translation_count": "elder (64x), old man (1x), eldest (1x), elder woman (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "elder",
+              "count": 64
+            },
+            {
+              "gloss": "old man",
+              "count": 1
+            },
+            {
+              "gloss": "eldest",
+              "count": 1
+            },
+            {
+              "gloss": "elder woman",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "elder, of age, the elder of two people advanced in life, an elder, a senior forefathers",
+            "the elder of two people",
+            "advanced in life, an elder, a senior forefathers",
+            "forefathers",
+            "a term of rank or office among the Jews members of the great council or Sanhedrin (because in early times the rulers of the people, judges, etc., were selected from elderly men) of those who in separate cities managed public affairs and administered justice among the Christians, those who presided over the assemblies (or churches) The NT uses the term bishop, elders, and presbyters interchangeably the twenty four members of the heavenly Sanhedrin or court seated on thrones around the throne of God",
+            "among the Jews members of the great council or Sanhedrin (because in early times the rulers of the people, judges, etc., were selected from elderly men) of those who in separate cities managed public affairs and administered justice",
+            "members of the great council or Sanhedrin (because in early times the rulers of the people, judges, etc., were selected from elderly men)",
+            "of those who in separate cities managed public affairs and administered justice",
+            "among the Christians, those who presided over the assemblies (or churches) The NT uses the term bishop, elders, and presbyters interchangeably",
+            "the twenty four members of the heavenly Sanhedrin or court seated on thrones around the throne of God"
+          ],
+          "text_start": 0,
+          "text_end": 9,
+          "token_id": "3John.1.1#t0002"
+        },
+        {
+          "text": "unto the wellbeloved",
+          "strong_norm": "G0027",
+          "strong_raw": "G0027 lemma.TR:αγαπητω",
+          "morph_norm": "robinson:A-DSM",
+          "morph_raw": "robinson:A-DSM",
+          "italics": false,
+          "html_start": 25382,
+          "html_end": 25470,
+          "vhtml_start": 371,
+          "vhtml_end": 459,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἀγαπητός",
+          "transliteration": "agapētos",
+          "pronunciation": "ag-ap-ay-tos'",
+          "pos": "adjective",
+          "definition": "ἀγαπητός agapētós, ag-ap-ay-tos'; from G25 ; beloved:—(dearly, well) beloved, dear.",
+          "kjv_translation_count": "beloved (47x), dearly beloved (9x), well beloved (3x), dear (3x).",
+          "kjv_counts": [
+            {
+              "gloss": "beloved",
+              "count": 47
+            },
+            {
+              "gloss": "dearly beloved",
+              "count": 9
+            },
+            {
+              "gloss": "well beloved",
+              "count": 3
+            },
+            {
+              "gloss": "dear",
+              "count": 3
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "beloved, esteemed, dear, favourite, worthy of love"
+          ],
+          "text_start": 10,
+          "text_end": 30,
+          "token_id": "3John.1.1#t0003"
+        },
+        {
+          "text": "Gaius",
+          "strong_norm": "G1050",
+          "strong_raw": "G1050J lemma.TR:γαιω",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 25471,
+          "html_end": 25542,
+          "vhtml_start": 460,
+          "vhtml_end": 531,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Γάϊος",
+          "transliteration": "gaios",
+          "pronunciation": "gah'-ee-os",
+          "pos": "proper masculine noun",
+          "definition": "Γάϊος Gáïos, gah'-ee-os; of Latin origin; Gaius (i.e. Caius), a Christian:—Gaius.",
+          "kjv_translation_count": "Gaius (of Corinth) (2x), Gaius (of Macedonia) (1x), Gaius (of Derbe) (1x), Gaius (a Christian) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Gaius",
+              "count": 2
+            },
+            {
+              "gloss": "Gaius",
+              "count": 1
+            },
+            {
+              "gloss": "Gaius",
+              "count": 1
+            },
+            {
+              "gloss": "Gaius",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Gaius = \"lord\" a Macedonian who accompanied Paul in his travels a man from Derbe who went with Paul from Corinth in his last journey to Jerusalem a man of Corinth who was his host in his second sojourn in that city an unknown Christian to whom John's third epistle is addressed",
+            "a Macedonian who accompanied Paul in his travels",
+            "a man from Derbe who went with Paul from Corinth in his last journey to Jerusalem",
+            "a man of Corinth who was his host in his second sojourn in that city",
+            "an unknown Christian to whom John's third epistle is addressed"
+          ],
+          "text_start": 31,
+          "text_end": 36,
+          "token_id": "3John.1.1#t0004"
+        },
+        {
+          "text": "whom",
+          "strong_norm": "G3739",
+          "strong_raw": "G3739 lemma.TR:ον",
+          "morph_norm": "robinson:R-ASM",
+          "morph_raw": "robinson:R-ASM",
+          "italics": false,
+          "html_start": 25544,
+          "html_end": 25611,
+          "vhtml_start": 533,
+          "vhtml_end": 600,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὅς",
+          "transliteration": "hos",
+          "pronunciation": "hos",
+          "pos": "pronoun",
+          "definition": "ὅς hós, hos; probably a primary word (or perhaps a form of the article G3588 ); the relatively (sometimes demonstrative) pronoun, who, which, what, that:—one, (an-, the) other, some, that, what, which, who(-m, -se), etc. See also G3757 .",
+          "kjv_translation_count": "which (418x), whom (270x), that (139x), who (87x), whose (52x), what (40x), that which (20x), whereof (17x), miscellaneous (346x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 418
+            },
+            {
+              "gloss": "whom",
+              "count": 270
+            },
+            {
+              "gloss": "that",
+              "count": 139
+            },
+            {
+              "gloss": "who",
+              "count": 87
+            },
+            {
+              "gloss": "whose",
+              "count": 52
+            },
+            {
+              "gloss": "what",
+              "count": 40
+            },
+            {
+              "gloss": "that which",
+              "count": 20
+            },
+            {
+              "gloss": "whereof",
+              "count": 17
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 346
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "who, which, what, that"
+          ],
+          "text_start": 38,
+          "text_end": 42,
+          "token_id": "3John.1.1#t0005"
+        },
+        {
+          "text": "I",
+          "strong_norm": "G1473",
+          "strong_raw": "G1473 lemma.TR:εγω",
+          "morph_norm": "robinson:P-1NS",
+          "morph_raw": "robinson:P-1NS",
+          "italics": false,
+          "html_start": 25612,
+          "html_end": 25677,
+          "vhtml_start": 601,
+          "vhtml_end": 666,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἐγώ",
+          "transliteration": "egō",
+          "pronunciation": "eg-o'",
+          "pos": "pronoun",
+          "definition": "ἐγώ egṓ, eg-o'; a primary pronoun of the first person I (only expressed when emphatic):—I, me. For the other cases and the plural see G1691 , G1698 , G1700 , G2248 , G2249 , G2254 , G2257 , etc.",
+          "kjv_translation_count": "I (365x), my (2x), me (2x), not translated (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "I",
+              "count": 365
+            },
+            {
+              "gloss": "my",
+              "count": 2
+            },
+            {
+              "gloss": "me",
+              "count": 2
+            },
+            {
+              "gloss": "not translated",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "I, me, my"
+          ],
+          "text_start": 43,
+          "text_end": 44,
+          "token_id": "3John.1.1#t0006"
+        },
+        {
+          "text": "love",
+          "strong_norm": "G0025",
+          "strong_raw": "G0025 lemma.TR:αγαπω",
+          "morph_norm": "robinson:V-PAI-1S",
+          "morph_raw": "robinson:V-PAI-1S",
+          "italics": false,
+          "html_start": 25678,
+          "html_end": 25751,
+          "vhtml_start": 667,
+          "vhtml_end": 740,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἀγαπάω",
+          "transliteration": "agapaō",
+          "pronunciation": "ag-ap-ah'-o",
+          "pos": "verb",
+          "definition": "ἀγαπάω agapáō, ag-ap-ah'-o; perhaps from ἄγαν ágan (much) (or compare H5689 ); to love (in a social or moral sense):—(be-)love(-ed). Compare G5368 .",
+          "kjv_translation_count": "love (135x), beloved (7x).",
+          "kjv_counts": [
+            {
+              "gloss": "love",
+              "count": 135
+            },
+            {
+              "gloss": "beloved",
+              "count": 7
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "of persons to welcome, to entertain, to be fond of, to love dearly",
+            "to welcome, to entertain, to be fond of, to love dearly",
+            "of things to be well pleased, to be contented at or with a thing",
+            "to be well pleased, to be contented at or with a thing"
+          ],
+          "text_start": 45,
+          "text_end": 49,
+          "token_id": "3John.1.1#t0007"
+        },
+        {
+          "text": "in",
+          "strong_norm": "G1722",
+          "strong_raw": "G1722 lemma.TR:εν",
+          "morph_norm": "robinson:PREP",
+          "morph_raw": "robinson:PREP",
+          "italics": false,
+          "html_start": 25752,
+          "html_end": 25816,
+          "vhtml_start": 741,
+          "vhtml_end": 805,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἐν",
+          "transliteration": "en",
+          "pronunciation": "en",
+          "pos": "preposition",
+          "definition": "ἐν en, en; a primary preposition denoting (fixed) position (in place, time or state), and (by implication) instrumentality (medially or constructively), i.e. a relation of rest (intermediate between G1519 and G1537 ); \"in,\" at, (up-)on, by, etc.:—about, after, against, + almost, × altogether, among, × as, at, before, between, (here-)by ( + all means), for (… sake of), + give self wholly to, (here-)in(-to, -wardly), × mightily, (because) of, (up-)on, (open-)ly, × outwardly, one, × quickly, × shortly, (speedi-)ly, × that, × there(-in, -on), through(-out), (un-)to(-ward), under, when, where(-with), while, with(-in). Often used in compounds, with substantially the same import; rarely with verbs of motion, and then not to indicate direction, except (elliptically) by a separate (and different) preposition.",
+          "kjv_translation_count": "in (1,: 902x), by (163x), with (140x), among (117x), at (113x), on (62x), through (39x), miscellaneous (264x).",
+          "kjv_counts": [
+            {
+              "gloss": "in",
+              "count": 902
+            },
+            {
+              "gloss": "by",
+              "count": 163
+            },
+            {
+              "gloss": "with",
+              "count": 140
+            },
+            {
+              "gloss": "among",
+              "count": 117
+            },
+            {
+              "gloss": "at",
+              "count": 113
+            },
+            {
+              "gloss": "on",
+              "count": 62
+            },
+            {
+              "gloss": "through",
+              "count": 39
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 264
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "in, by, with etc."
+          ],
+          "text_start": 50,
+          "text_end": 52,
+          "token_id": "3John.1.1#t0008"
+        },
+        {
+          "text": "the truth",
+          "strong_norm": "G0225",
+          "strong_raw": "G0225 lemma.TR:αληθεια",
+          "morph_norm": "robinson:N-DSF",
+          "morph_raw": "robinson:N-DSF",
+          "italics": false,
+          "html_start": 25817,
+          "html_end": 25894,
+          "vhtml_start": 806,
+          "vhtml_end": 883,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἀλήθεια",
+          "transliteration": "alētheia",
+          "pronunciation": "al-ay'-thi-a",
+          "pos": "feminine noun",
+          "definition": "ἀλήθεια alḗtheia, al-ay'-thi-a; from G227 ; truth:—true, × truly, truth, verity.",
+          "kjv_translation_count": "truth (107x), truly (with G 1909) (1x), true (1x), verity (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "truth",
+              "count": 107
+            },
+            {
+              "gloss": "truly",
+              "count": 1
+            },
+            {
+              "gloss": "true",
+              "count": 1
+            },
+            {
+              "gloss": "verity",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "objectively what is true in any matter under consideration truly, in truth, according to truth of a truth, in reality, in fact, certainly what is true in things appertaining to God and the duties of man, moral and religious truth in the greatest latitude the true notions of God which are open to human reason without his supernatural intervention the truth as taught in the Christian religion, respecting God and the execution of his purposes through Christ, and respecting the duties of man, opposing alike to the superstitions of the Gentiles and the inventions of the Jews, and the corrupt opinions and precepts of false teachers even among Christians",
+            "what is true in any matter under consideration truly, in truth, according to truth of a truth, in reality, in fact, certainly",
+            "truly, in truth, according to truth",
+            "of a truth, in reality, in fact, certainly",
+            "what is true in things appertaining to God and the duties of man, moral and religious truth in the greatest latitude the true notions of God which are open to human reason without his supernatural intervention",
+            "in the greatest latitude",
+            "the true notions of God which are open to human reason without his supernatural intervention",
+            "the truth as taught in the Christian religion, respecting God and the execution of his purposes through Christ, and respecting the duties of man, opposing alike to the superstitions of the Gentiles and the inventions of the Jews, and the corrupt opinions and precepts of false teachers even among Christians",
+            "subjectively truth as a personal excellence that candour of mind which is free from affection, pretence, simulation, falsehood, deceit",
+            "truth as a personal excellence that candour of mind which is free from affection, pretence, simulation, falsehood, deceit",
+            "that candour of mind which is free from affection, pretence, simulation, falsehood, deceit"
+          ],
+          "text_start": 53,
+          "text_end": 62,
+          "token_id": "3John.1.1#t0009"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}

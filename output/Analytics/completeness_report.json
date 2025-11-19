@@ -1,0 +1,625 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:39:21.352694",
+    "databases_analyzed": {
+      "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+      "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+    }
+  },
+  "health_score": 85,
+  "health_status": "Good",
+  "total_issues_found": 2,
+  "strongs_gaps": {
+    "hebrew": {
+      "total_present": 8611,
+      "expected_max": 8674,
+      "gaps_count": 63,
+      "sample_gaps": [
+        "H0015",
+        "H0071",
+        "H0156",
+        "H0334",
+        "H0417",
+        "H0516",
+        "H0704",
+        "H0760",
+        "H0798",
+        "H0799",
+        "H0800",
+        "H1056",
+        "H1128",
+        "H1136",
+        "H1169",
+        "H1208",
+        "H1223",
+        "H1665",
+        "H1686",
+        "H1729",
+        "H1895",
+        "H2051",
+        "H2072",
+        "H2402",
+        "H2661",
+        "H2716",
+        "H2909",
+        "H3019",
+        "H3125",
+        "H3128",
+        "H3175",
+        "H3657",
+        "H3889",
+        "H4067",
+        "H4078",
+        "H4087",
+        "H4096",
+        "H4204",
+        "H4210",
+        "H4257",
+        "H4379",
+        "H4387",
+        "H4415",
+        "H4710",
+        "H4827",
+        "H4874",
+        "H4905",
+        "H5155",
+        "H5300",
+        "H5395"
+      ]
+    },
+    "greek": {
+      "total_present": 4959,
+      "expected_max": 5624,
+      "gaps_count": 665,
+      "sample_gaps": [
+        "G0009",
+        "G0012",
+        "G0031",
+        "G0033",
+        "G0039",
+        "G0041",
+        "G0043",
+        "G0049",
+        "G0072",
+        "G0078",
+        "G0099",
+        "G0100",
+        "G0145",
+        "G0149",
+        "G0155",
+        "G0158",
+        "G0196",
+        "G0197",
+        "G0201",
+        "G0205",
+        "G0212",
+        "G0234",
+        "G0257",
+        "G0258",
+        "G0289",
+        "G0295",
+        "G0296",
+        "G0301",
+        "G0304",
+        "G0320",
+        "G0335",
+        "G0336",
+        "G0351",
+        "G0354",
+        "G0356",
+        "G0358",
+        "G0382",
+        "G0431",
+        "G0432",
+        "G0463",
+        "G0469",
+        "G0471",
+        "G0476",
+        "G0494",
+        "G0513",
+        "G0542",
+        "G0555",
+        "G0566",
+        "G0567",
+        "G0582"
+      ]
+    }
+  },
+  "underrepresented_books": [
+    {
+      "book": "1 Chronicles",
+      "chapters": 29,
+      "verses": 942,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapters": 16,
+      "verses": 437,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 John",
+      "chapters": 5,
+      "verses": 105,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Kings",
+      "chapters": 22,
+      "verses": 816,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Peter",
+      "chapters": 5,
+      "verses": 105,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Samuel",
+      "chapters": 31,
+      "verses": 810,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapters": 5,
+      "verses": 89,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "1 Timothy",
+      "chapters": 6,
+      "verses": 113,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapters": 36,
+      "verses": 822,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapters": 13,
+      "verses": 257,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 John",
+      "chapters": 1,
+      "verses": 13,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Kings",
+      "chapters": 25,
+      "verses": 719,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Peter",
+      "chapters": 3,
+      "verses": 61,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Samuel",
+      "chapters": 24,
+      "verses": 695,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapters": 3,
+      "verses": 47,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "2 Timothy",
+      "chapters": 4,
+      "verses": 83,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "3 John",
+      "chapters": 1,
+      "verses": 14,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Acts",
+      "chapters": 28,
+      "verses": 1007,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Amos",
+      "chapters": 9,
+      "verses": 146,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Colossians",
+      "chapters": 4,
+      "verses": 95,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Daniel",
+      "chapters": 12,
+      "verses": 357,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapters": 34,
+      "verses": 959,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapters": 12,
+      "verses": 222,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Ephesians",
+      "chapters": 6,
+      "verses": 155,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Esther",
+      "chapters": 10,
+      "verses": 167,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Exodus",
+      "chapters": 40,
+      "verses": 1213,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Ezekiel",
+      "chapters": 48,
+      "verses": 1273,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Ezra",
+      "chapters": 10,
+      "verses": 280,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Galatians",
+      "chapters": 6,
+      "verses": 149,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Genesis",
+      "chapters": 50,
+      "verses": 1533,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Habakkuk",
+      "chapters": 3,
+      "verses": 56,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Haggai",
+      "chapters": 2,
+      "verses": 38,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Hebrews",
+      "chapters": 13,
+      "verses": 303,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Hosea",
+      "chapters": 14,
+      "verses": 197,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Isaiah",
+      "chapters": 66,
+      "verses": 1292,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "James",
+      "chapters": 5,
+      "verses": 108,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Jeremiah",
+      "chapters": 52,
+      "verses": 1364,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Job",
+      "chapters": 42,
+      "verses": 1070,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Joel",
+      "chapters": 3,
+      "verses": 73,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "John",
+      "chapters": 21,
+      "verses": 879,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Jonah",
+      "chapters": 4,
+      "verses": 48,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Joshua",
+      "chapters": 24,
+      "verses": 658,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Jude",
+      "chapters": 1,
+      "verses": 25,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Judges",
+      "chapters": 21,
+      "verses": 618,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Lamentations",
+      "chapters": 5,
+      "verses": 154,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Leviticus",
+      "chapters": 27,
+      "verses": 859,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Luke",
+      "chapters": 24,
+      "verses": 1151,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Malachi",
+      "chapters": 4,
+      "verses": 55,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Mark",
+      "chapters": 16,
+      "verses": 678,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Matthew",
+      "chapters": 28,
+      "verses": 1071,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Micah",
+      "chapters": 7,
+      "verses": 105,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Nahum",
+      "chapters": 3,
+      "verses": 47,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Nehemiah",
+      "chapters": 13,
+      "verses": 406,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Numbers",
+      "chapters": 36,
+      "verses": 1288,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Obadiah",
+      "chapters": 1,
+      "verses": 21,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Philemon",
+      "chapters": 1,
+      "verses": 25,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Philippians",
+      "chapters": 4,
+      "verses": 104,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Proverbs",
+      "chapters": 31,
+      "verses": 915,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Psalms",
+      "chapters": 150,
+      "verses": 2461,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Revelation",
+      "chapters": 22,
+      "verses": 404,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Romans",
+      "chapters": 16,
+      "verses": 433,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Ruth",
+      "chapters": 4,
+      "verses": 85,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapters": 8,
+      "verses": 117,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Titus",
+      "chapters": 3,
+      "verses": 46,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Zechariah",
+      "chapters": 14,
+      "verses": 211,
+      "words": 0,
+      "issue": "Very low data count"
+    },
+    {
+      "book": "Zephaniah",
+      "chapters": 3,
+      "verses": 53,
+      "words": 0,
+      "issue": "Very low data count"
+    }
+  ],
+  "empty_fields": [
+    {
+      "table": "books",
+      "field": "testament",
+      "count": 66,
+      "severity": "medium"
+    }
+  ],
+  "duplicate_entries": [],
+  "consistency_issues": [
+    {
+      "issue": "Invalid cross-references (pointing to non-existent verses)",
+      "count": 403,
+      "severity": "medium"
+    }
+  ],
+  "format_issues": [],
+  "coverage": {
+    "books": {
+      "current": 66,
+      "expected": 66,
+      "percentage": 100.0
+    },
+    "verses": {
+      "current": 31102,
+      "expected": 31102,
+      "percentage": 100.0
+    },
+    "cross_references": {
+      "current": 614180,
+      "average_per_verse": 19.75
+    }
+  }
+}

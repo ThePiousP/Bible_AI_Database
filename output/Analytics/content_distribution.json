@@ -1,0 +1,607 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:38:50.779365",
+    "total_unique_words": 119721,
+    "sources": {
+      "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+      "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db",
+      "clues_file": "D:\\Project_PP\\projects\\bible\\dev\\Complete_bible_list.txt"
+    }
+  },
+  "word_length_distribution": {
+    "distribution": {
+      "1": 4,
+      "2": 111,
+      "3": 658,
+      "4": 2370,
+      "5": 4280,
+      "6": 6554,
+      "7": 8551,
+      "8": 9547,
+      "9": 10347,
+      "10": 10334,
+      "11": 9748,
+      "12": 9041,
+      "13": 8284,
+      "14": 7147,
+      "15": 6146,
+      "16": 5225,
+      "17": 4256,
+      "18": 3552,
+      "19": 2894,
+      "20": 2329,
+      "21": 1817,
+      "22": 1403,
+      "23": 1114,
+      "24": 939,
+      "25": 750,
+      "26": 504,
+      "27": 424,
+      "28": 318,
+      "29": 253,
+      "30": 202,
+      "31": 149,
+      "32": 101,
+      "33": 99,
+      "34": 67,
+      "35": 43,
+      "36": 43,
+      "37": 27,
+      "38": 23,
+      "39": 14,
+      "40": 13,
+      "41": 5,
+      "42": 5,
+      "43": 5,
+      "44": 6,
+      "45": 6,
+      "46": 2,
+      "47": 5,
+      "48": 1,
+      "49": 1,
+      "51": 1,
+      "55": 1,
+      "56": 1,
+      "59": 1
+    },
+    "average_length": 12.08,
+    "min_length": 1,
+    "max_length": 59,
+    "total_words": 119721
+  },
+  "letter_frequency": {
+    "frequencies": {
+      "A": {
+        "count": 122388,
+        "percentage": 8.46
+      },
+      "B": {
+        "count": 23811,
+        "percentage": 1.65
+      },
+      "C": {
+        "count": 27372,
+        "percentage": 1.89
+      },
+      "D": {
+        "count": 63914,
+        "percentage": 4.42
+      },
+      "E": {
+        "count": 188124,
+        "percentage": 13.01
+      },
+      "F": {
+        "count": 30706,
+        "percentage": 2.12
+      },
+      "G": {
+        "count": 23735,
+        "percentage": 1.64
+      },
+      "H": {
+        "count": 126963,
+        "percentage": 8.78
+      },
+      "I": {
+        "count": 86935,
+        "percentage": 6.01
+      },
+      "J": {
+        "count": 2830,
+        "percentage": 0.2
+      },
+      "K": {
+        "count": 10079,
+        "percentage": 0.7
+      },
+      "L": {
+        "count": 63936,
+        "percentage": 4.42
+      },
+      "M": {
+        "count": 36350,
+        "percentage": 2.51
+      },
+      "N": {
+        "count": 96631,
+        "percentage": 6.68
+      },
+      "O": {
+        "count": 99299,
+        "percentage": 6.87
+      },
+      "P": {
+        "count": 21911,
+        "percentage": 1.52
+      },
+      "Q": {
+        "count": 645,
+        "percentage": 0.04
+      },
+      "R": {
+        "count": 77261,
+        "percentage": 5.34
+      },
+      "S": {
+        "count": 85671,
+        "percentage": 5.92
+      },
+      "T": {
+        "count": 141842,
+        "percentage": 9.81
+      },
+      "U": {
+        "count": 40726,
+        "percentage": 2.82
+      },
+      "V": {
+        "count": 14301,
+        "percentage": 0.99
+      },
+      "W": {
+        "count": 30530,
+        "percentage": 2.11
+      },
+      "X": {
+        "count": 967,
+        "percentage": 0.07
+      },
+      "Y": {
+        "count": 27322,
+        "percentage": 1.89
+      },
+      "Z": {
+        "count": 1946,
+        "percentage": 0.13
+      }
+    },
+    "total_letters": 1446195,
+    "most_common": [
+      [
+        "E",
+        188124
+      ],
+      [
+        "T",
+        141842
+      ],
+      [
+        "H",
+        126963
+      ],
+      [
+        "A",
+        122388
+      ],
+      [
+        "O",
+        99299
+      ]
+    ],
+    "least_common": [
+      [
+        "K",
+        10079
+      ],
+      [
+        "J",
+        2830
+      ],
+      [
+        "Z",
+        1946
+      ],
+      [
+        "X",
+        967
+      ],
+      [
+        "Q",
+        645
+      ]
+    ]
+  },
+  "vowel_consonant_ratio": {
+    "vowels": 537472,
+    "consonants": 908724,
+    "total_letters": 1446196,
+    "vowel_percentage": 37.16,
+    "consonant_percentage": 62.84
+  },
+  "bigrams": {
+    "total_bigrams": 1326474,
+    "unique_bigrams": 557,
+    "most_common": [
+      [
+        "TH",
+        68308
+      ],
+      [
+        "HE",
+        52671
+      ],
+      [
+        "AN",
+        29320
+      ],
+      [
+        "HA",
+        25568
+      ],
+      [
+        "ND",
+        24302
+      ],
+      [
+        "ER",
+        22945
+      ],
+      [
+        "IN",
+        20902
+      ],
+      [
+        "RE",
+        19426
+      ],
+      [
+        "ES",
+        18447
+      ],
+      [
+        "OU",
+        15664
+      ],
+      [
+        "ED",
+        15347
+      ],
+      [
+        "AT",
+        15295
+      ],
+      [
+        "AL",
+        14842
+      ],
+      [
+        "EN",
+        14745
+      ],
+      [
+        "LL",
+        14634
+      ],
+      [
+        "NT",
+        13983
+      ],
+      [
+        "ET",
+        13852
+      ],
+      [
+        "OR",
+        13825
+      ],
+      [
+        "HI",
+        13734
+      ],
+      [
+        "TO",
+        13210
+      ]
+    ],
+    "least_common": [
+      [
+        "ZG",
+        3
+      ],
+      [
+        "ZJ",
+        2
+      ],
+      [
+        "WZ",
+        2
+      ],
+      [
+        "XW",
+        2
+      ],
+      [
+        "CN",
+        2
+      ],
+      [
+        "MQ",
+        2
+      ],
+      [
+        "VS",
+        2
+      ],
+      [
+        "ZT",
+        2
+      ],
+      [
+        "XD",
+        1
+      ],
+      [
+        "XQ",
+        1
+      ],
+      [
+        "CZ",
+        1
+      ],
+      [
+        "BW",
+        1
+      ],
+      [
+        "XR",
+        1
+      ],
+      [
+        "ZY",
+        1
+      ],
+      [
+        "CW",
+        1
+      ],
+      [
+        "QO",
+        1
+      ],
+      [
+        "PJ",
+        1
+      ],
+      [
+        "PV",
+        1
+      ],
+      [
+        "XF",
+        1
+      ],
+      [
+        "KG",
+        1
+      ]
+    ]
+  },
+  "rare_combinations": {
+    "total_trigrams": 1206757,
+    "unique_trigrams": 6180,
+    "rare_trigrams_count": 685,
+    "rare_examples": [
+      [
+        "AJI",
+        2
+      ],
+      [
+        "AMV",
+        2
+      ],
+      [
+        "COI",
+        2
+      ],
+      [
+        "DYW",
+        2
+      ],
+      [
+        "EIU",
+        1
+      ],
+      [
+        "EKH",
+        1
+      ],
+      [
+        "EKY",
+        2
+      ],
+      [
+        "ELW",
+        1
+      ],
+      [
+        "ESQ",
+        2
+      ],
+      [
+        "FAY",
+        2
+      ],
+      [
+        "FEH",
+        1
+      ],
+      [
+        "FRY",
+        2
+      ],
+      [
+        "GYI",
+        1
+      ],
+      [
+        "HSY",
+        1
+      ],
+      [
+        "HUG",
+        2
+      ],
+      [
+        "ICY",
+        2
+      ],
+      [
+        "IUT",
+        1
+      ],
+      [
+        "IVU",
+        1
+      ],
+      [
+        "IZJ",
+        2
+      ],
+      [
+        "KEJ",
+        2
+      ],
+      [
+        "KOL",
+        2
+      ],
+      [
+        "KOT",
+        2
+      ],
+      [
+        "LAE",
+        2
+      ],
+      [
+        "LKT",
+        2
+      ],
+      [
+        "MGU",
+        2
+      ],
+      [
+        "MTY",
+        2
+      ],
+      [
+        "MUD",
+        2
+      ],
+      [
+        "NEJ",
+        2
+      ],
+      [
+        "NYQ",
+        1
+      ],
+      [
+        "PBA",
+        2
+      ],
+      [
+        "PCH",
+        1
+      ],
+      [
+        "PEU",
+        2
+      ],
+      [
+        "RKC",
+        1
+      ],
+      [
+        "RKW",
+        1
+      ],
+      [
+        "SIU",
+        2
+      ],
+      [
+        "SSR",
+        1
+      ],
+      [
+        "TIQ",
+        2
+      ],
+      [
+        "UEW",
+        2
+      ],
+      [
+        "UOJ",
+        2
+      ],
+      [
+        "UPC",
+        1
+      ],
+      [
+        "VYO",
+        1
+      ],
+      [
+        "WFL",
+        1
+      ],
+      [
+        "WOG",
+        2
+      ],
+      [
+        "WTR",
+        1
+      ],
+      [
+        "WUS",
+        1
+      ],
+      [
+        "XEH",
+        1
+      ],
+      [
+        "YGU",
+        2
+      ],
+      [
+        "YOG",
+        1
+      ],
+      [
+        "YTT",
+        2
+      ],
+      [
+        "ZJO",
+        2
+      ]
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "report_generated": "2025-11-06T10:39:31.244964",
+    "analyses_included": 7,
+    "total_analyses": 7
+  },
+  "confidence_score": {
+    "overall": 95.8,
+    "category_scores": {
+      "content": 100,
+      "theology": 100,
+      "crossrefs": 100,
+      "difficulty": 80,
+      "clues": 100,
+      "completeness": 85,
+      "performance": 100
+    },
+    "weights": {
+      "content": 10,
+      "theology": 25,
+      "crossrefs": 15,
+      "difficulty": 10,
+      "clues": 20,
+      "completeness": 15,
+      "performance": 5
+    }
+  },
+  "strengths": [
+    {
+      "category": "Content Distribution",
+      "score": 100,
+      "description": "Excellent word coverage with 119,721 unique words"
+    },
+    {
+      "category": "Theological Coverage",
+      "score": 100,
+      "description": "Strong Strong's coverage: Hebrew 99.27%, Greek 88.18%"
+    },
+    {
+      "category": "Cross-References",
+      "score": 100,
+      "description": "Comprehensive cross-reference network with 614,180 connections"
+    },
+    {
+      "category": "Clue Quality",
+      "score": 100,
+      "description": "High clue coverage at 100.0%"
+    },
+    {
+      "category": "Query Performance",
+      "score": 100,
+      "description": "Excellent query performance: 3.7ms average"
+    }
+  ],
+  "gaps": [],
+  "ai_readiness": {
+    "readiness": "READY",
+    "status_color": "green",
+    "recommendation": "Database is excellent for AI/NLP development. All critical metrics are strong.",
+    "critical_actions": []
+  },
+  "detailed_results": {
+    "content_distribution": true,
+    "theological_coverage": true,
+    "cross_references": true,
+    "difficulty_profile": true,
+    "clue_quality": true,
+    "completeness": true,
+    "performance": true
+  }
+}

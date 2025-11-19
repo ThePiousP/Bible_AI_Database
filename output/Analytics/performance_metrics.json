@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:39:22.989186",
+    "databases_analyzed": {
+      "goodbook_db": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db",
+      "concordance_db": "D:\\Project_PP\\projects\\bible\\Folders\\REFACTOR_BACKUPS\\backup_2025-10-29_18-08-33\\data\\concordance.db"
+    }
+  },
+  "database_sizes": {
+    "goodbook": {
+      "bytes": 68521984,
+      "megabytes": 65.35,
+      "gigabytes": 0.0638,
+      "human_readable": "65.35 MB"
+    },
+    "concordance": {
+      "bytes": 119640064,
+      "megabytes": 114.1,
+      "gigabytes": 0.1114,
+      "human_readable": "114.10 MB"
+    }
+  },
+  "query_benchmarks": {
+    "goodbook": [
+      {
+        "description": "Simple book lookup by name",
+        "query": "SELECT * FROM books WHERE book_name = 'Genesis'",
+        "iterations": 5,
+        "average_ms": 0.199,
+        "min_ms": 0.0,
+        "max_ms": 0.995
+      },
+      {
+        "description": "Fetch 100 verses",
+        "query": "SELECT v.text FROM verses v LIMIT 100",
+        "iterations": 5,
+        "average_ms": 0.2,
+        "min_ms": 0.0,
+        "max_ms": 0.999
+      },
+      {
+        "description": "Join books, chapters, verses (1000 rows)",
+        "query": "\n        SELECT b.book_name, c.chapter_number, v.verse_number, v.text\n        FROM books b\n        J...",
+        "iterations": 5,
+        "average_ms": 1.0,
+        "min_ms": 0.994,
+        "max_ms": 1.007
+      },
+      {
+        "description": "Count all cross-references",
+        "query": "SELECT COUNT(*) FROM cross_references",
+        "iterations": 5,
+        "average_ms": 3.502,
+        "min_ms": 2.99,
+        "max_ms": 4.51
+      },
+      {
+        "description": "Fetch 100 Greek lexical words",
+        "query": "SELECT * FROM lexical_words WHERE language = 'Greek' LIMIT 100",
+        "iterations": 5,
+        "average_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.0
+      },
+      {
+        "description": "Text search for 'Jesus' (LIKE query)",
+        "query": "SELECT * FROM verses WHERE text LIKE '%Jesus%' LIMIT 50",
+        "iterations": 5,
+        "average_ms": 8.001,
+        "min_ms": 7.005,
+        "max_ms": 9.001
+      },
+      {
+        "description": "Count verses per book (aggregate)",
+        "query": "\n        SELECT b.book_name, COUNT(v.id) as verse_count\n        FROM books b\n        LEFT JOIN chapt...",
+        "iterations": 5,
+        "average_ms": 3.001,
+        "min_ms": 2.005,
+        "max_ms": 3.995
+      }
+    ],
+    "concordance": [
+      {
+        "description": "Fetch 100 Greek tokens",
+        "query": "SELECT * FROM tokens WHERE strong_norm LIKE 'G%' LIMIT 100",
+        "iterations": 5,
+        "average_ms": 24.0,
+        "min_ms": 21.999,
+        "max_ms": 25.992
+      },
+      {
+        "description": "Lookup specific Strong's number",
+        "query": "SELECT * FROM strongs_lexicon WHERE strong_norm = 'G2424'",
+        "iterations": 5,
+        "average_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.0
+      },
+      {
+        "description": "Full-text search for 'love'",
+        "query": "SELECT * FROM verses_fts WHERE text MATCH 'love' LIMIT 50",
+        "iterations": 5,
+        "average_ms": 0.198,
+        "min_ms": 0.0,
+        "max_ms": 0.992
+      },
+      {
+        "description": "Join tokens with Strong's lexicon (500 rows)",
+        "query": "\n        SELECT t.text, l.definition\n        FROM tokens t\n        LEFT JOIN strongs_lexicon l ON t....",
+        "iterations": 5,
+        "average_ms": 0.8,
+        "min_ms": 0.0,
+        "max_ms": 1.008
+      }
+    ]
+  },
+  "record_counts": {
+    "goodbook": {
+      "books": 66,
+      "chapters": 1189,
+      "verses": 31102,
+      "cross_references": 614180,
+      "lexical_words": 0,
+      "verse_words": 0,
+      "morphology": 0
+    },
+    "concordance": {
+      "books": 66,
+      "chapters": 1189,
+      "verses": 31009,
+      "tokens": 374079,
+      "strongs_lexicon": 13570,
+      "footnotes": 6947
+    }
+  },
+  "indexes": {
+    "goodbook": [
+      {
+        "name": "sqlite_autoindex_testaments_1",
+        "table": "testaments"
+      },
+      {
+        "name": "sqlite_autoindex_historical_context_1",
+        "table": "historical_context"
+      },
+      {
+        "name": "sqlite_autoindex_thematic_categories_1",
+        "table": "thematic_categories"
+      },
+      {
+        "name": "sqlite_autoindex_literary_genres_1",
+        "table": "literary_genres"
+      },
+      {
+        "name": "sqlite_autoindex_lexical_words_1",
+        "table": "lexical_words"
+      },
+      {
+        "name": "idx_testament_canon",
+        "table": "testaments"
+      },
+      {
+        "name": "idx_cross_reference_source",
+        "table": "cross_references"
+      },
+      {
+        "name": "idx_cross_reference_target",
+        "table": "cross_references"
+      },
+      {
+        "name": "idx_book_context",
+        "table": "book_historical_context"
+      },
+      {
+        "name": "idx_chapter_category",
+        "table": "chapter_thematic_category"
+      },
+      {
+        "name": "idx_verse_genre",
+        "table": "verse_literary_genre"
+      },
+      {
+        "name": "idx_strongs_number",
+        "table": "lexical_words"
+      },
+      {
+        "name": "idx_lexical_language",
+        "table": "lexical_words"
+      },
+      {
+        "name": "idx_lexical_word",
+        "table": "lexical_words"
+      },
+      {
+        "name": "idx_verse_word",
+        "table": "verse_words"
+      },
+      {
+        "name": "idx_word_verse",
+        "table": "verse_words"
+      },
+      {
+        "name": "idx_word_position",
+        "table": "verse_words"
+      },
+      {
+        "name": "idx_morphology_strongs",
+        "table": "morphology"
+      },
+      {
+        "name": "idx_morphology_part_of_speech",
+        "table": "morphology"
+      },
+      {
+        "name": "idx_cross_reference_unique",
+        "table": "cross_references"
+      },
+      {
+        "name": "sqlite_autoindex_books_1",
+        "table": "books"
+      },
+      {
+        "name": "idx_books_book_name",
+        "table": "books"
+      },
+      {
+        "name": "idx_chapters_book_id_chapter_number",
+        "table": "chapters"
+      },
+      {
+        "name": "sqlite_autoindex_verse_footnote_tags_1",
+        "table": "verse_footnote_tags"
+      },
+      {
+        "name": "ix_verses_book_chapter_verse",
+        "table": "verses"
+      },
+      {
+        "name": "ix_chapters_book_chapter",
+        "table": "chapters"
+      },
+      {
+        "name": "ix_xref_source",
+        "table": "cross_references"
+      },
+      {
+        "name": "ix_xref_related",
+        "table": "cross_references"
+      },
+      {
+        "name": "ix_books_name",
+        "table": "books"
+      },
+      {
+        "name": "ix_chapters_book",
+        "table": "chapters"
+      },
+      {
+        "name": "ix_verses_chapter",
+        "table": "verses"
+      }
+    ],
+    "concordance": [
+      {
+        "name": "sqlite_autoindex_books_1",
+        "table": "books"
+      },
+      {
+        "name": "sqlite_autoindex_chapters_1",
+        "table": "chapters"
+      },
+      {
+        "name": "sqlite_autoindex_verses_1",
+        "table": "verses"
+      },
+      {
+        "name": "sqlite_autoindex_tokens_1",
+        "table": "tokens"
+      },
+      {
+        "name": "sqlite_autoindex_strongs_lexicon_1",
+        "table": "strongs_lexicon"
+      },
+      {
+        "name": "ix_books_name",
+        "table": "books"
+      },
+      {
+        "name": "ix_chapters_book",
+        "table": "chapters"
+      },
+      {
+        "name": "ix_verses_bookchap",
+        "table": "verses"
+      },
+      {
+        "name": "ix_tokens_strong",
+        "table": "tokens"
+      },
+      {
+        "name": "ix_tokens_verse",
+        "table": "tokens"
+      },
+      {
+        "name": "ix_tokens_verse_offsets",
+        "table": "tokens"
+      },
+      {
+        "name": "ix_lexicon_key",
+        "table": "strongs_lexicon"
+      },
+      {
+        "name": "ix_tokens_verse_textspan",
+        "table": "tokens"
+      },
+      {
+        "name": "ux_strongs_lexicon_strong_norm",
+        "table": "strongs_lexicon"
+      }
+    ]
+  },
+  "optimization_suggestions": [],
+  "performance_summary": {
+    "total_benchmarks": 11,
+    "average_query_time_ms": 3.72,
+    "slowest_query": {
+      "description": "Fetch 100 Greek tokens",
+      "query": "SELECT * FROM tokens WHERE strong_norm LIKE 'G%' LIMIT 100",
+      "iterations": 5,
+      "average_ms": 24.0,
+      "min_ms": 21.999,
+      "max_ms": 25.992
+    },
+    "fastest_query": {
+      "description": "Fetch 100 Greek lexical words",
+      "query": "SELECT * FROM lexical_words WHERE language = 'Greek' LIMIT 100",
+      "iterations": 5,
+      "average_ms": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.0
+    }
+  }
+}

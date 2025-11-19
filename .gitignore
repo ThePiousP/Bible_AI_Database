@@ -28,7 +28,7 @@ MANIFEST
 .pytest_cache/
 .mypy_cache/
 .coverage
-htmlcov/
+# htmlcov/
 *.cover
 
 # ============================================================================
@@ -62,14 +62,17 @@ data/*.db-journal
 # Prodigy database
 prodigy.db
 
+# Exception: Include essential database files
+!data/GoodBook.db
+
 # Cache directories
-cache/
+# cache/
 *.cache
 
 # Output directories
-output/
-silver_out/
-gold_out/
+# output/
+# silver_out/
+# gold_out/
 
 # ============================================================================
 # Gazetteers (Optional - comment out if you want to version these)

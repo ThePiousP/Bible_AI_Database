@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "verification_date": "2025-11-06T11:13:37.765941",
+    "database": "D:\\Project_PP\\projects\\bible\\data\\GoodBook.db"
+  },
+  "coverage_analysis": {
+    "total_bible_verses": 31102,
+    "verses_with_outgoing": 29363,
+    "verses_with_incoming": 30997,
+    "verses_with_any_connections": 31049,
+    "coverage_percentage": 99.83,
+    "verses_without_connections": 53
+  },
+  "high_value_verses": [
+    {
+      "reference": "Genesis 1:1",
+      "theme": "Creation",
+      "verse_id": 1,
+      "outgoing_connections": 76,
+      "incoming_connections": 36,
+      "total_connections": 112,
+      "sample_connections": [
+        "Exodus 20:11",
+        "Exodus 31:18",
+        "1 Chronicles 16:26",
+        "Nehemiah 9:6",
+        "Job 26:13"
+      ]
+    },
+    {
+      "reference": "Genesis 3:15",
+      "theme": "Protoevangelium",
+      "verse_id": 71,
+      "outgoing_connections": 88,
+      "incoming_connections": 91,
+      "total_connections": 179,
+      "sample_connections": [
+        "Genesis 49:17",
+        "Numbers 21:6",
+        "Numbers 21:7",
+        "Psalms 132:11",
+        "Isaiah 7:14"
+      ]
+    },
+    {
+      "reference": "Psalm 22:1",
+      "theme": "Messianic suffering",
+      "verse_id": 14256,
+      "outgoing_connections": 30,
+      "incoming_connections": 51,
+      "total_connections": 81,
+      "sample_connections": [
+        "1 Samuel 12:22",
+        "Job 3:24",
+        "Psalms 10:1",
+        "Psalms 16:1",
+        "Psalms 22:11"
+      ]
+    },
+    {
+      "reference": "Isaiah 53:5",
+      "theme": "Suffering Servant",
+      "verse_id": 18773,
+      "outgoing_connections": 39,
+      "incoming_connections": 69,
+      "total_connections": 108,
+      "sample_connections": [
+        "Genesis 3:15",
+        "Isaiah 53:6",
+        "Isaiah 53:7",
+        "Isaiah 53:8",
+        "Isaiah 53:10"
+      ]
+    },
+    {
+      "reference": "Isaiah 7:14",
+      "theme": "Virgin birth prophecy",
+      "verse_id": 17851,
+      "outgoing_connections": 22,
+      "incoming_connections": 78,
+      "total_connections": 100,
+      "sample_connections": [
+        "Genesis 3:15",
+        "Genesis 4:1",
+        "Genesis 4:2",
+        "Genesis 4:25",
+        "Genesis 16:11"
+      ]
+    },
+    {
+      "reference": "Micah 5:2",
+      "theme": "Bethlehem prophecy",
+      "verse_id": 22692,
+      "outgoing_connections": 83,
+      "incoming_connections": 79,
+      "total_connections": 162,
+      "sample_connections": [
+        "Genesis 35:19",
+        "Genesis 48:7",
+        "Genesis 49:10",
+        "Exodus 18:21",
+        "Exodus 18:25"
+      ]
+    },
+    {
+      "reference": "Matthew 1:1",
+      "theme": "Jesus' genealogy",
+      "verse_id": 23205,
+      "outgoing_connections": 66,
+      "incoming_connections": 25,
+      "total_connections": 91,
+      "sample_connections": [
+        "Genesis 2:4",
+        "Genesis 5:1",
+        "Genesis 12:3",
+        "Genesis 22:18",
+        "Genesis 26:3"
+      ]
+    },
+    {
+      "reference": "John 1:1",
+      "theme": "Divine Word",
+      "verse_id": 26105,
+      "outgoing_connections": 56,
+      "incoming_connections": 50,
+      "total_connections": 106,
+      "sample_connections": [
+        "Genesis 1:1",
+        "Psalms 45:6",
+        "Proverbs 8:22",
+        "Proverbs 8:23",
+        "Proverbs 8:24"
+      ]
+    },
+    {
+      "reference": "John 3:16",
+      "theme": "Gospel core",
+      "verse_id": 26196,
+      "outgoing_connections": 28,
+      "incoming_connections": 104,
+      "total_connections": 132,
+      "sample_connections": [
+        "Genesis 22:12",
+        "Matthew 9:13",
+        "Mark 12:6",
+        "Luke 2:14",
+        "John 1:14"
+      ]
+    },
+    {
+      "reference": "Romans 3:23",
+      "theme": "Universal sin",
+      "verse_id": 28080,
+      "outgoing_connections": 36,
+      "incoming_connections": 50,
+      "total_connections": 86,
+      "sample_connections": [
+        "Ecclesiastes 7:20",
+        "Romans 1:28",
+        "Romans 1:29",
+        "Romans 1:30",
+        "Romans 1:31"
+      ]
+    },
+    {
+      "reference": "Romans 6:23",
+      "theme": "Wages of sin",
+      "verse_id": 28157,
+      "outgoing_connections": 49,
+      "incoming_connections": 59,
+      "total_connections": 108,
+      "sample_connections": [
+        "Genesis 2:17",
+        "Genesis 3:19",
+        "Isaiah 3:11",
+        "Ezekiel 18:4",
+        "Ezekiel 18:20"
+      ]
+    },
+    {
+      "reference": "Ephesians 2:8",
+      "theme": "Salvation by grace",
+      "verse_id": 29303,
+      "outgoing_connections": 54,
+      "incoming_connections": 69,
+      "total_connections": 123,
+      "sample_connections": [
+        "Matthew 16:17",
+        "Mark 16:16",
+        "Luke 7:50",
+        "John 1:12",
+        "John 1:13"
+      ]
+    },
+    {
+      "reference": "Philippians 2:10",
+      "theme": "Every knee bows",
+      "verse_id": 29467,
+      "outgoing_connections": 20,
+      "incoming_connections": 117,
+      "total_connections": 137,
+      "sample_connections": [
+        "Genesis 41:43",
+        "Isaiah 45:23",
+        "Isaiah 45:24",
+        "Isaiah 45:25",
+        "Matthew 12:40"
+      ]
+    },
+    {
+      "reference": "Revelation 22:20",
+      "theme": "Christ's return",
+      "verse_id": 31189,
+      "outgoing_connections": 15,
+      "incoming_connections": 33,
+      "total_connections": 48,
+      "sample_connections": [
+        "Song of Solomon 8:14",
+        "Isaiah 25:9",
+        "John 21:25",
+        "1 Corinthians 16:22",
+        "2 Timothy 4:8"
+      ]
+    }
+  ],
+  "bidirectional_examples": [
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 8:3",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 146:6",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Hebrews 11:3",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 89:11",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 102:25",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Isaiah 37:16",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 90:2",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Acts 14:15",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "Psalms 33:6",
+      "relationship": "bidirectional"
+    },
+    {
+      "verse_a": "Genesis 1:1",
+      "verse_b": "John 1:1",
+      "relationship": "bidirectional"
+    }
+  ],
+  "unidirectional_examples": [
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Acts 4:24",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Mark 13:19",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Exodus 31:18",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Isaiah 51:13",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Psalms 89:12",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Romans 1:19",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Romans 1:20",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Proverbs 16:4",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "Psalms 134:3",
+      "relationship": "unidirectional (one-way)"
+    },
+    {
+      "from_verse": "Genesis 1:1",
+      "to_verse": "1 Corinthians 8:6",
+      "relationship": "unidirectional (one-way)"
+    }
+  ],
+  "theological_validation": [
+    {
+      "test": "Isaiah 53 → Gospel Accounts",
+      "description": "Suffering Servant prophecy to fulfillment",
+      "connections_found": 1,
+      "status": "PASS",
+      "examples": [
+        "Matthew 20:28"
+      ]
+    },
+    {
+      "test": "Genesis 3:15 → Revelation",
+      "description": "Protoevangelium to final victory",
+      "connections_found": 22,
+      "status": "PASS",
+      "examples": [
+        "Revelation 2:10",
+        "Revelation 12:7",
+        "Revelation 12:8",
+        "Revelation 12:9",
+        "Revelation 12:10"
+      ]
+    },
+    {
+      "test": "Micah 5:2 → Matthew 2",
+      "description": "Bethlehem birth prophecy to fulfillment",
+      "connections_found": 1,
+      "status": "PASS",
+      "examples": [
+        "Matthew 2:6"
+      ]
+    },
+    {
+      "test": "Psalm 22 → Crucifixion Accounts",
+      "description": "Prophetic suffering to fulfillment",
+      "connections_found": 1,
+      "status": "PASS",
+      "examples": [
+        "Matthew 27:46"
+      ]
+    },
+    {
+      "test": "OT Law → Gospel Teaching",
+      "description": "Mosaic Law to Jesus' interpretation",
+      "connections_found": 2415,
+      "status": "PASS",
+      "examples": []
+    }
+  ],
+  "overall_assessment": {
+    "coverage_grade": "A",
+    "theological_validity": "PASS",
+    "data_richness": "HIGH"
+  }
+}

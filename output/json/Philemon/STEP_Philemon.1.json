@@ -1,0 +1,657 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=Phlm.1&options=NHVUG",
+  "verse_count": 1,
+  "verses": [
+    {
+      "ref": "Phlm.1.1",
+      "verse_num": 1,
+      "text_plain": "Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer,",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Phlm.1.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"Phlm.1.1\" class=\"verseLink\"></a><span morph=\"robinson:T-DSM\" strong=\"G3588 lemma.TR:τω\"></span><span morph=\"robinson:N-NSM\" strong=\"G3972G lemma.TR:παυλος\">Paul</span>, <span morph=\"robinson:N-NSM\" strong=\"G1198 lemma.TR:δεσμιος\">a prisoner</span> <span morph=\"robinson:N-GSM\" strong=\"G2424G lemma.TR:ιησου\">of Jesus</span> <span morph=\"robinson:N-GSM\" strong=\"G5547 lemma.TR:χριστου\">Christ</span>, <span morph=\"robinson:CONJ\" strong=\"G2532 lemma.TR:και\">and</span> <span morph=\"robinson:N-NSM\" strong=\"G5095 lemma.TR:τιμοθεος\">Timothy</span> <span><em>our</em></span> <span morph=\"robinson:T-NSM robinson:N-NSM\" strong=\"G3588 G0080 lemma.TR:ο lemma.TR:αδελφος\">brother</span>, <span morph=\"robinson:N-DSM\" strong=\"G5371 lemma.TR:φιλημονι\">unto Philemon</span> <span morph=\"robinson:P-1GP\" strong=\"G1473 lemma.TR:ημων\">our</span> <span morph=\"robinson:A-DSM\" strong=\"G0027 lemma.TR:αγαπητω\">dearly beloved</span>, <span morph=\"robinson:CONJ\" strong=\"G2532 lemma.TR:και\">and</span> <span morph=\"robinson:A-DSM\" strong=\"G4904 lemma.TR:συνεργω\">fellowlabourer</span>,</span>",
+      "tokens": [
+        {
+          "text": "",
+          "strong_norm": "G3588",
+          "strong_raw": "G3588 lemma.TR:τω",
+          "morph_norm": "robinson:T-DSM",
+          "morph_raw": "robinson:T-DSM",
+          "italics": false,
+          "html_start": 25229,
+          "html_end": 25292,
+          "vhtml_start": 159,
+          "vhtml_end": 222,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "pronunciation": "ho",
+          "pos": "article",
+          "definition": "ὁ ho, ho; the definite article; the (sometimes to be supplied, at others omitted, in English idiom):—the, this, that, one, he, she, it, etc.",
+          "kjv_translation_count": "which (413x), who (79x), the things (11x), the son (8x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 413
+            },
+            {
+              "gloss": "who",
+              "count": 79
+            },
+            {
+              "gloss": "the things",
+              "count": 11
+            },
+            {
+              "gloss": "the son",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "the, this, that, these, etc. Only significant renderings other than \"the, this, that, these\" are counted in the KJV Translation Count above"
+          ],
+          "text_start": null,
+          "text_end": null,
+          "token_id": "Phlm.1.1#t0000"
+        },
+        {
+          "text": "Paul",
+          "strong_norm": "G3972",
+          "strong_raw": "G3972G lemma.TR:παυλος",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25292,
+          "html_end": 25364,
+          "vhtml_start": 222,
+          "vhtml_end": 294,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Παῦλος",
+          "transliteration": "paulos",
+          "pronunciation": "pow'-los",
+          "pos": "proper masculine noun",
+          "definition": "Παῦλος Paûlos, pow'-los; of Latin origin; (little; but remotely from a derivative of G3973 , meaning the same); Paulus, the name of a Roman and of an apostle:—Paul, Paulus.",
+          "kjv_translation_count": "Paul (163x), Paulus (the deputy) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Paul",
+              "count": 163
+            },
+            {
+              "gloss": "Paulus",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Paul or Paulus = \"small or little\" Paul was the most famous of the apostles and wrote a good part of the NT, the 14 Pauline epistles 1 Paulus was a deputy or pro-consul of Cyprus and is said to be a prudent man, in the management of affairs, as a governor",
+            "Paul was the most famous of the apostles and wrote a good part of the NT, the 14 Pauline epistles 1",
+            "Paulus was a deputy or pro-consul of Cyprus and is said to be a prudent man, in the management of affairs, as a governor"
+          ],
+          "text_start": 0,
+          "text_end": 4,
+          "token_id": "Phlm.1.1#t0001"
+        },
+        {
+          "text": "a prisoner",
+          "strong_norm": "G1198",
+          "strong_raw": "G1198 lemma.TR:δεσμιος",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25366,
+          "html_end": 25444,
+          "vhtml_start": 296,
+          "vhtml_end": 374,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "δέσμιος",
+          "transliteration": "desmios",
+          "pronunciation": "des'-mee-os",
+          "pos": "adjective",
+          "definition": "δέσμιος désmios, des'-mee-os; from G1199 ; a captive (as bound):—in bonds, prisoner.",
+          "kjv_translation_count": "prisoner (14x), be in bonds (1x), in bonds (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "prisoner",
+              "count": 14
+            },
+            {
+              "gloss": "be in bonds",
+              "count": 1
+            },
+            {
+              "gloss": "in bonds",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "bound, in bonds, a captive, a prisoner"
+          ],
+          "text_start": 6,
+          "text_end": 16,
+          "token_id": "Phlm.1.1#t0002"
+        },
+        {
+          "text": "of Jesus",
+          "strong_norm": "G2424",
+          "strong_raw": "G2424G lemma.TR:ιησου",
+          "morph_norm": "robinson:N-GSM",
+          "morph_raw": "robinson:N-GSM",
+          "italics": false,
+          "html_start": 25445,
+          "html_end": 25520,
+          "vhtml_start": 375,
+          "vhtml_end": 450,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Ἰησοῦς",
+          "transliteration": "iēsous",
+          "pronunciation": "ee-ay-sooce'",
+          "pos": "proper masculine noun",
+          "definition": "Ἰησοῦς Iēsoûs, ee-ay-sooce'; of Hebrew origin ( H3091 ); Jesus (i.e. Jehoshua), the name of our Lord and two (three) other Israelites:—Jesus.",
+          "kjv_translation_count": "Jesus (972x), Jesus (Joshua) (2x), Jesus (Justus) (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Jesus",
+              "count": 972
+            },
+            {
+              "gloss": "Jesus",
+              "count": 2
+            },
+            {
+              "gloss": "Jesus",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jesus = \"Jehovah is salvation\" Jesus, the Son of God, the Saviour of mankind, God incarnate Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 ) Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 ) Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )",
+            "Jesus, the Son of God, the Saviour of mankind, God incarnate",
+            "Jesus Barabbas was the captive robber whom the Jews begged Pilate to release instead of Christ",
+            "Joshua was the famous captain of the Israelites, Moses' successor ( Ac. 7:: 45 , Heb. 4:: 8 )",
+            "Jesus, son of Eliezer, one of the ancestors of Christ ( Lu. 3:: 29 )",
+            "Jesus, surnamed Justus, a Jewish Christian, an associate with Paul in the preaching of the gospel ( Col. 4:: 11 )"
+          ],
+          "text_start": 17,
+          "text_end": 25,
+          "token_id": "Phlm.1.1#t0003"
+        },
+        {
+          "text": "Christ",
+          "strong_norm": "G5547",
+          "strong_raw": "G5547 lemma.TR:χριστου",
+          "morph_norm": "robinson:N-GSM",
+          "morph_raw": "robinson:N-GSM",
+          "italics": false,
+          "html_start": 25521,
+          "html_end": 25595,
+          "vhtml_start": 451,
+          "vhtml_end": 525,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Χριστός",
+          "transliteration": "christos",
+          "pronunciation": "khris-tos'",
+          "pos": "masculine noun",
+          "definition": "Χριστός Christós, khris-tos'; from G5548 ; anointed, i.e. the Messiah, an epithet of Jesus:—Christ.",
+          "kjv_translation_count": "Christ (569x).",
+          "kjv_counts": [
+            {
+              "gloss": "Christ",
+              "count": 569
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Christ = \"anointed\" Christ was [and is] 1 the Messiah, the Son of God anointed",
+            "Christ was [and is] 1 the Messiah, the Son of God",
+            "anointed"
+          ],
+          "text_start": 26,
+          "text_end": 32,
+          "token_id": "Phlm.1.1#t0004"
+        },
+        {
+          "text": "and",
+          "strong_norm": "G2532",
+          "strong_raw": "G2532 lemma.TR:και",
+          "morph_norm": "robinson:CONJ",
+          "morph_raw": "robinson:CONJ",
+          "italics": false,
+          "html_start": 25597,
+          "html_end": 25663,
+          "vhtml_start": 527,
+          "vhtml_end": 593,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "καί",
+          "transliteration": "kai",
+          "pronunciation": "kahee",
+          "pos": "conjunction",
+          "definition": "καί kaí, kahee; apparently, a primary particle, having a copulative and sometimes also a cumulative force; and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words:—and, also, both, but, even, for, if, or, so, that, then, therefore, when, yet.",
+          "kjv_translation_count": "and (8,: 173x), also (514x), even (108x), both (43x), then (20x), so (18x), likewise (13x), not tr. (350x), miscellaneous (31x), variations of 'and' (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "and",
+              "count": 173
+            },
+            {
+              "gloss": "also",
+              "count": 514
+            },
+            {
+              "gloss": "even",
+              "count": 108
+            },
+            {
+              "gloss": "both",
+              "count": 43
+            },
+            {
+              "gloss": "then",
+              "count": 20
+            },
+            {
+              "gloss": "so",
+              "count": 18
+            },
+            {
+              "gloss": "likewise",
+              "count": 13
+            },
+            {
+              "gloss": "not tr.",
+              "count": 350
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 31
+            },
+            {
+              "gloss": "variations of 'and'",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "and, also, even, indeed, but"
+          ],
+          "text_start": 34,
+          "text_end": 37,
+          "token_id": "Phlm.1.1#t0005"
+        },
+        {
+          "text": "Timothy",
+          "strong_norm": "G5095",
+          "strong_raw": "G5095 lemma.TR:τιμοθεος",
+          "morph_norm": "robinson:N-NSM",
+          "morph_raw": "robinson:N-NSM",
+          "italics": false,
+          "html_start": 25664,
+          "html_end": 25740,
+          "vhtml_start": 594,
+          "vhtml_end": 670,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Τιμόθεος",
+          "transliteration": "timotheos",
+          "pronunciation": "tee-moth'-eh-os",
+          "pos": "proper masculine noun",
+          "definition": "Τιμόθεος Timótheos, tee-moth'-eh-os; from G5092 and G2316 ; dear to God; Timotheus, a Christian:—Timotheus, Timothy.",
+          "kjv_translation_count": "Timotheus (19x), Timothy (9x).",
+          "kjv_counts": [
+            {
+              "gloss": "Timotheus",
+              "count": 19
+            },
+            {
+              "gloss": "Timothy",
+              "count": 9
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Timothy = \"honouring God\" a resident of Lystra, apparently, whose father was a Greek and mother a Jewess; he was Paul's travelling companion and fellow labourer",
+            "a resident of Lystra, apparently, whose father was a Greek and mother a Jewess; he was Paul's travelling companion and fellow labourer"
+          ],
+          "text_start": 38,
+          "text_end": 45,
+          "token_id": "Phlm.1.1#t0006"
+        },
+        {
+          "text": "our",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 25747,
+          "html_end": 25759,
+          "vhtml_start": 677,
+          "vhtml_end": 689,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 46,
+          "text_end": 49,
+          "token_id": "Phlm.1.1#t0013"
+        },
+        {
+          "text": "brother",
+          "strong_norm": "G3588",
+          "strong_raw": "G3588 G0080 lemma.TR:ο lemma.TR:αδελφος",
+          "morph_norm": "robinson:T-NSM robinson:N-NSM",
+          "morph_raw": "robinson:T-NSM robinson:N-NSM",
+          "italics": false,
+          "html_start": 25767,
+          "html_end": 25874,
+          "vhtml_start": 697,
+          "vhtml_end": 804,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ὁ",
+          "transliteration": "ho",
+          "pronunciation": "ho",
+          "pos": "article",
+          "definition": "ὁ ho, ho; the definite article; the (sometimes to be supplied, at others omitted, in English idiom):—the, this, that, one, he, she, it, etc.",
+          "kjv_translation_count": "which (413x), who (79x), the things (11x), the son (8x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "which",
+              "count": 413
+            },
+            {
+              "gloss": "who",
+              "count": 79
+            },
+            {
+              "gloss": "the things",
+              "count": 11
+            },
+            {
+              "gloss": "the son",
+              "count": 8
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "the, this, that, these, etc. Only significant renderings other than \"the, this, that, these\" are counted in the KJV Translation Count above"
+          ],
+          "text_start": 50,
+          "text_end": 57,
+          "token_id": "Phlm.1.1#t0007"
+        },
+        {
+          "text": "unto Philemon",
+          "strong_norm": "G5371",
+          "strong_raw": "G5371 lemma.TR:φιλημονι",
+          "morph_norm": "robinson:N-DSM",
+          "morph_raw": "robinson:N-DSM",
+          "italics": false,
+          "html_start": 25876,
+          "html_end": 25958,
+          "vhtml_start": 806,
+          "vhtml_end": 888,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "Φιλήμων",
+          "transliteration": "philēmōn",
+          "pronunciation": "fil-ay'-mone",
+          "pos": "proper masculine noun",
+          "definition": "Φιλήμων Philḗmōn, fil-ay'-mone; from G5368 ; friendly; Philemon, a Christian:—Philemon.",
+          "kjv_translation_count": "Philemon (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "Philemon",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Philemon = \"one who kisses\" a resident of Colosse, converted to Christianity by Paul, and the recipient of the letter bearing his name",
+            "a resident of Colosse, converted to Christianity by Paul, and the recipient of the letter bearing his name"
+          ],
+          "text_start": 59,
+          "text_end": 72,
+          "token_id": "Phlm.1.1#t0008"
+        },
+        {
+          "text": "our",
+          "strong_norm": "G1473",
+          "strong_raw": "G1473 lemma.TR:ημων",
+          "morph_norm": "robinson:P-1GP",
+          "morph_raw": "robinson:P-1GP",
+          "italics": false,
+          "html_start": 25959,
+          "html_end": 26027,
+          "vhtml_start": 889,
+          "vhtml_end": 957,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἐγώ",
+          "transliteration": "egō",
+          "pronunciation": "eg-o'",
+          "pos": "pronoun",
+          "definition": "ἐγώ egṓ, eg-o'; a primary pronoun of the first person I (only expressed when emphatic):—I, me. For the other cases and the plural see G1691 , G1698 , G1700 , G2248 , G2249 , G2254 , G2257 , etc.",
+          "kjv_translation_count": "I (365x), my (2x), me (2x), not translated (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "I",
+              "count": 365
+            },
+            {
+              "gloss": "my",
+              "count": 2
+            },
+            {
+              "gloss": "me",
+              "count": 2
+            },
+            {
+              "gloss": "not translated",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "I, me, my"
+          ],
+          "text_start": 73,
+          "text_end": 76,
+          "token_id": "Phlm.1.1#t0009"
+        },
+        {
+          "text": "dearly beloved",
+          "strong_norm": "G0027",
+          "strong_raw": "G0027 lemma.TR:αγαπητω",
+          "morph_norm": "robinson:A-DSM",
+          "morph_raw": "robinson:A-DSM",
+          "italics": false,
+          "html_start": 26028,
+          "html_end": 26110,
+          "vhtml_start": 958,
+          "vhtml_end": 1040,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "ἀγαπητός",
+          "transliteration": "agapētos",
+          "pronunciation": "ag-ap-ay-tos'",
+          "pos": "adjective",
+          "definition": "ἀγαπητός agapētós, ag-ap-ay-tos'; from G25 ; beloved:—(dearly, well) beloved, dear.",
+          "kjv_translation_count": "beloved (47x), dearly beloved (9x), well beloved (3x), dear (3x).",
+          "kjv_counts": [
+            {
+              "gloss": "beloved",
+              "count": 47
+            },
+            {
+              "gloss": "dearly beloved",
+              "count": 9
+            },
+            {
+              "gloss": "well beloved",
+              "count": 3
+            },
+            {
+              "gloss": "dear",
+              "count": 3
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "beloved, esteemed, dear, favourite, worthy of love"
+          ],
+          "text_start": 77,
+          "text_end": 91,
+          "token_id": "Phlm.1.1#t0010"
+        },
+        {
+          "text": "and",
+          "strong_norm": "G2532",
+          "strong_raw": "G2532 lemma.TR:και",
+          "morph_norm": "robinson:CONJ",
+          "morph_raw": "robinson:CONJ",
+          "italics": false,
+          "html_start": 26112,
+          "html_end": 26178,
+          "vhtml_start": 1042,
+          "vhtml_end": 1108,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "καί",
+          "transliteration": "kai",
+          "pronunciation": "kahee",
+          "pos": "conjunction",
+          "definition": "καί kaí, kahee; apparently, a primary particle, having a copulative and sometimes also a cumulative force; and, also, even, so then, too, etc.; often used in connection (or composition) with other particles or small words:—and, also, both, but, even, for, if, or, so, that, then, therefore, when, yet.",
+          "kjv_translation_count": "and (8,: 173x), also (514x), even (108x), both (43x), then (20x), so (18x), likewise (13x), not tr. (350x), miscellaneous (31x), variations of 'and' (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "and",
+              "count": 173
+            },
+            {
+              "gloss": "also",
+              "count": 514
+            },
+            {
+              "gloss": "even",
+              "count": 108
+            },
+            {
+              "gloss": "both",
+              "count": 43
+            },
+            {
+              "gloss": "then",
+              "count": 20
+            },
+            {
+              "gloss": "so",
+              "count": 18
+            },
+            {
+              "gloss": "likewise",
+              "count": 13
+            },
+            {
+              "gloss": "not tr.",
+              "count": 350
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 31
+            },
+            {
+              "gloss": "variations of 'and'",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "and, also, even, indeed, but"
+          ],
+          "text_start": 93,
+          "text_end": 96,
+          "token_id": "Phlm.1.1#t0011"
+        },
+        {
+          "text": "fellowlabourer",
+          "strong_norm": "G4904",
+          "strong_raw": "G4904 lemma.TR:συνεργω",
+          "morph_norm": "robinson:A-DSM",
+          "morph_raw": "robinson:A-DSM",
+          "italics": false,
+          "html_start": 26179,
+          "html_end": 26261,
+          "vhtml_start": 1109,
+          "vhtml_end": 1191,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "συνεργός",
+          "transliteration": "synergos",
+          "pronunciation": "soon-er-gos'",
+          "pos": "adjective",
+          "definition": "συνεργός synergós, soon-er-gos'; from a presumed compound of G4862 and the base of G2041 ; a co-laborer, i.e. coadjutor:—companion in labour, (fellow-)helper(-labourer, -worker), labourer together with, workfellow.",
+          "kjv_translation_count": "fellowlabourer (4x), helper (3x), fellowhelper (2x), fellowworkers (1x), workfellow (1x), labourer together with (1x), companion in labour (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "fellowlabourer",
+              "count": 4
+            },
+            {
+              "gloss": "helper",
+              "count": 3
+            },
+            {
+              "gloss": "fellowhelper",
+              "count": 2
+            },
+            {
+              "gloss": "fellowworkers",
+              "count": 1
+            },
+            {
+              "gloss": "workfellow",
+              "count": 1
+            },
+            {
+              "gloss": "labourer together with",
+              "count": 1
+            },
+            {
+              "gloss": "companion in labour",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "a companion in work, fellow worker"
+          ],
+          "text_start": 97,
+          "text_end": 111,
+          "token_id": "Phlm.1.1#t0012"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}

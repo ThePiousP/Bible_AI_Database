@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-06T10:38:10.847987",
+    "clue_file": "D:\\Project_PP\\projects\\bible\\dev\\Complete_bible_list.txt"
+  },
+  "coverage": {
+    "total_words": 15834,
+    "total_clues": 47500,
+    "average_clues_per_word": 3.0,
+    "min_clues": 2,
+    "max_clues": 3,
+    "coverage_percentage": 100.0,
+    "distribution": {
+      "words_with_0_clues": 0,
+      "words_with_1_clue": 0,
+      "words_with_2_clues": 2,
+      "words_with_3_clues": 15832,
+      "words_with_4plus_clues": 0
+    }
+  },
+  "clue_lengths": {
+    "average_character_length": 64.1,
+    "average_word_count": 11.4,
+    "min_character_length": 5,
+    "max_character_length": 464,
+    "length_distribution": {
+      "0-20": 12977,
+      "21-40": 18751,
+      "41-60": 265,
+      "61-80": 1061,
+      "81-100": 1900,
+      "100+": 12546
+    }
+  },
+  "duplicates": {
+    "total_unique_clues": 44895,
+    "duplicate_clues_count": 1207,
+    "duplicate_percentage": 2.69,
+    "top_duplicates": [
+      {
+        "clue": "person in genealogical line",
+        "word_count": 105,
+        "words": [
+          "AZAREEL",
+          "HAROEH",
+          "HELEB",
+          "HELEM",
+          "HEMAM",
+          "HEMDAN",
+          "HEZRON",
+          "HIZKI",
+          "HOD",
+          "HOMAM"
+        ]
+      },
+      {
+        "clue": "old testament figure",
+        "word_count": 100,
+        "words": [
+          "BUKKI",
+          "BUNNI",
+          "CALCOL",
+          "CAREAH",
+          "CHALCOL",
+          "CHELAL",
+          "CHELUB",
+          "CHELUBAI",
+          "CHELUH",
+          "CHENAANAH"
+        ]
+      },
+      {
+        "clue": "member of family line",
+        "word_count": 84,
+        "words": [
+          "CHELLUH",
+          "DALAIAH",
+          "ELIHOENAI",
+          "GABER",
+          "GINNETHO",
+          "GISPA",
+          "HAAMMONAI",
+          "HADDON",
+          "HAGGERI",
+          "HALOHESH"
+        ]
+      },
+      {
+        "clue": "genealogical figure",
+        "word_count": 84,
+        "words": [
+          "DALAIAH",
+          "ELIHOENAI",
+          "ESROM",
+          "GABER",
+          "GINNETHO",
+          "GISPA",
+          "HAAMMONAI",
+          "HADDON",
+          "HAGGERI",
+          "HALOHESH"
+        ]
+      },
+      {
+        "clue": "descendant in genealogical records",
+        "word_count": 66,
+        "words": [
+          "NEPHEG",
+          "OBAL",
+          "ONAM",
+          "OTHNI",
+          "OZEM",
+          "PASACH",
+          "PELAIAH",
+          "PELET",
+          "PERESH",
+          "PEULTHAI"
+        ]
+      },
+      {
+        "clue": "biblical location",
+        "word_count": 47,
+        "words": [
+          "CALAH",
+          "CALNEH",
+          "CALNO",
+          "CAMON",
+          "CANNEH",
+          "CARCHEMISH",
+          "CARMEL",
+          "CASIPHIA",
+          "CHEPHAR",
+          "CHESED"
+        ]
+      },
+      {
+        "clue": "settlement location name",
+        "word_count": 47,
+        "words": [
+          "HEPHER",
+          "IR",
+          "IRPEEL",
+          "ITHNAN",
+          "JABNEEL",
+          "JAGUR",
+          "JANOAH",
+          "JANUM",
+          "JARMUTH",
+          "JATTIR"
+        ]
+      },
+      {
+        "clue": "israelite genealogy",
+        "word_count": 35,
+        "words": [
+          "SHUPHAM",
+          "SISMAI",
+          "TAHREA",
+          "TAREA",
+          "TEHINNAH",
+          "TELAH",
+          "TEMENI",
+          "TIRHANAH",
+          "TIRIA",
+          "UEL"
+        ]
+      },
+      {
+        "clue": "parent in genealogical line",
+        "word_count": 29,
+        "words": [
+          "HAKKATAN",
+          "HAMUEL",
+          "HARUZ",
+          "HAZAIAH",
+          "HESED",
+          "HOSHAIAH",
+          "HOTHAM",
+          "HURI",
+          "IBNEIAH",
+          "IBNIJAH"
+        ]
+      },
+      {
+        "clue": "new testament figure",
+        "word_count": 28,
+        "words": [
+          "CARPUS",
+          "CHLOE",
+          "CLAUDIA",
+          "CLEOPAS",
+          "CLOPAS",
+          "CRESCENS",
+          "CRISPUS",
+          "DAMARIS",
+          "DEMAS",
+          "DEMETRIUS"
+        ]
+      },
+      {
+        "clue": "multiple biblical persons",
+        "word_count": 25,
+        "words": [
+          "HANANIAH",
+          "HASHABIAH",
+          "HATTUSH",
+          "IDDO",
+          "IRA",
+          "ISHI",
+          "ISHIAH",
+          "ISSHIAH",
+          "JAHATH",
+          "JAHAZIEL"
+        ]
+      },
+      {
+        "clue": "name of various individuals",
+        "word_count": 25,
+        "words": [
+          "HANANIAH",
+          "HATTUSH",
+          "HODAVIAH",
+          "IDDO",
+          "IRA",
+          "ISHI",
+          "ISHIAH",
+          "ISSHIAH",
+          "JAHATH",
+          "JAHAZIEL"
+        ]
+      },
+      {
+        "clue": "town in judah territory",
+        "word_count": 20,
+        "words": [
+          "ITHNAN",
+          "JABNEEL",
+          "JAGUR",
+          "JANUM",
+          "JATTIR",
+          "JEKABZEEL",
+          "JESHANAH",
+          "JIPHTAH",
+          "JOKDEAM",
+          "JOKMEAM"
+        ]
+      },
+      {
+        "clue": "descendant of judah",
+        "word_count": 19,
+        "words": [
+          "HAAHASHTARI",
+          "HAROEH",
+          "HEZRON",
+          "HOD",
+          "IRU",
+          "ISHMA",
+          "JADA",
+          "JAHDAI",
+          "JAHLEEL",
+          "JALON"
+        ]
+      },
+      {
+        "clue": "descendant of benjamin",
+        "word_count": 18,
+        "words": [
+          "AHOHITE",
+          "IPHDEIAH",
+          "IRI",
+          "ISHMERAI",
+          "ISHPAN",
+          "ISPAH",
+          "JAARESHIAH",
+          "JAHZERAH",
+          "JAKIM",
+          "JEUEL"
+        ]
+      },
+      {
+        "clue": "place name designation",
+        "word_count": 18,
+        "words": [
+          "EBEN",
+          "HADADRIMMON",
+          "HAZAR",
+          "IIM",
+          "JOTBATH",
+          "LAHMAM",
+          "LAKUM",
+          "MEGIDDON",
+          "MEKONAH",
+          "MICHMETHAH"
+        ]
+      },
+      {
+        "clue": "descendant in genealogical line",
+        "word_count": 18,
+        "words": [
+          "HARNEPHER",
+          "HAZARMAVETH",
+          "HORI",
+          "HUL",
+          "HUZ",
+          "IDBASH",
+          "IMRAH",
+          "ISH",
+          "ISHBAH",
+          "JOKTAN"
+        ]
+      },
+      {
+        "clue": "biblical place name",
+        "word_count": 17,
+        "words": [
+          "CHESIL",
+          "CHESULLOTH",
+          "CHIDON",
+          "CHISLOTH",
+          "CUTHAH",
+          "DABBASHETH",
+          "DALMANUTHA",
+          "DAMMIM",
+          "DANNAH",
+          "DIBLATHAIM"
+        ]
+      },
+      {
+        "clue": "descendant of asher",
+        "word_count": 16,
+        "words": [
+          "AHISHAHAR",
+          "AMAL",
+          "ARA",
+          "ARAH",
+          "ASHVATH",
+          "BERI",
+          "BIMHAL",
+          "HELEM",
+          "ISHUAH",
+          "ISHVAH"
+        ]
+      },
+      {
+        "clue": "town in judah",
+        "word_count": 15,
+        "words": [
+          "APHEKAH",
+          "ASHNAH",
+          "BEALOTH",
+          "BEROTHAH",
+          "BIRZAITH",
+          "BIZJOTHJAH",
+          "RACHAL",
+          "SANNAH",
+          "SANSANNAH",
+          "SECACAH"
+        ]
+      }
+    ]
+  },
+  "clue_types": {
+    "counts": {
+      "definition": 28165,
+      "biblical_reference": 15725,
+      "relationship": 973,
+      "location": 1564,
+      "occupation": 604,
+      "description": 469,
+      "other": 0
+    },
+    "percentages": {
+      "definition": 59.29,
+      "biblical_reference": 33.11,
+      "relationship": 2.05,
+      "location": 3.29,
+      "occupation": 1.27,
+      "description": 0.99,
+      "other": 0.0
+    }
+  },
+  "words_needing_clues": {
+    "summary": {
+      "high_priority_count": 0,
+      "medium_priority_count": 0,
+      "total_needing_improvement": 0
+    },
+    "high_priority_sample": [],
+    "medium_priority_sample": []
+  }
+}

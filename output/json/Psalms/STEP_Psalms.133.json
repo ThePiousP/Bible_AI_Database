@@ -1,0 +1,1923 @@
+{
+  "source": "http://localhost:8989/?q=version=KJV@reference=Psa.133&options=NHVUG",
+  "verse_count": 3,
+  "verses": [
+    {
+      "ref": "Ps.133.1",
+      "verse_num": 1,
+      "text_plain": "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.133.1\" class=\"verseLink\"><span class=\"verseNumber\">1</span></a><a name=\"Ps.133.1\" class=\"verseLink\"></a><span strong=\"H2896A\">Behold, how good</span> <span strong=\"H5273A\">and how pleasant</span> <span><em>it is</em></span> <span strong=\"H0251G\">for brethren</span> <span morph=\"strongMorph:TH8800\" strong=\"H3427\">to dwell</span> <span strong=\"H3162A\">together</span> <span strong=\"H3162A\">in unity</span>! <sup class=\"note\"><a ref=\"\" xref=\"\" notetype=\"study\">▼</a><span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10049\"><strong>▼</strong></a><span class=\"bold\">&nbsp;together…</span>: Heb. even together</div></span></sup></span>",
+      "tokens": [
+        {
+          "text": "Behold, how good",
+          "strong_norm": "H2896",
+          "strong_raw": "H2896A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25432,
+          "html_end": 25477,
+          "vhtml_start": 159,
+          "vhtml_end": 204,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "טוֹב",
+          "transliteration": "ṭôḇ",
+          "pronunciation": "tobe",
+          "pos": "adjective, feminine noun, masculine noun",
+          "definition": "טוֹב ṭôwb, tobe; from H2895 ; good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well):—beautiful, best, better, bountiful, cheerful, at ease, × fair (word), (be in) favour, fine, glad, good (deed, -lier, -liest, -ly, -ness, -s), graciously, joyful, kindly, kindness, liketh (best), loving, merry, × most, pleasant, pleaseth, pleasure, precious, prosperity, ready, sweet, wealth, welfare, (be) well(-favoured).",
+          "kjv_translation_count": "good (361x), better (72x), well (20x), goodness (16x), goodly (9x), best (8x), merry (7x), fair (7x), prosperity (6x), precious (4x), fine (3x), wealth (3x), beautiful (2x), fairer (2x), favour (2x), glad (2x), miscellaneous (35x).",
+          "kjv_counts": [
+            {
+              "gloss": "good",
+              "count": 361
+            },
+            {
+              "gloss": "better",
+              "count": 72
+            },
+            {
+              "gloss": "well",
+              "count": 20
+            },
+            {
+              "gloss": "goodness",
+              "count": 16
+            },
+            {
+              "gloss": "goodly",
+              "count": 9
+            },
+            {
+              "gloss": "best",
+              "count": 8
+            },
+            {
+              "gloss": "merry",
+              "count": 7
+            },
+            {
+              "gloss": "fair",
+              "count": 7
+            },
+            {
+              "gloss": "prosperity",
+              "count": 6
+            },
+            {
+              "gloss": "precious",
+              "count": 4
+            },
+            {
+              "gloss": "fine",
+              "count": 3
+            },
+            {
+              "gloss": "wealth",
+              "count": 3
+            },
+            {
+              "gloss": "beautiful",
+              "count": 2
+            },
+            {
+              "gloss": "fairer",
+              "count": 2
+            },
+            {
+              "gloss": "favour",
+              "count": 2
+            },
+            {
+              "gloss": "glad",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 35
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "good, pleasant, agreeable pleasant, agreeable (to the senses) pleasant (to the higher nature) good, excellent (of its kind) good, rich, valuable in estimation good, appropriate, becoming better (comparative) glad, happy, prosperous (of man's sensuous nature) good understanding (of man's intellectual nature) good, kind, benign good, right (ethical) masculine noun",
+            "pleasant, agreeable (to the senses)",
+            "pleasant (to the higher nature)",
+            "good, excellent (of its kind)",
+            "good, rich, valuable in estimation",
+            "good, appropriate, becoming",
+            "better (comparative)",
+            "glad, happy, prosperous (of man's sensuous nature)",
+            "good understanding (of man's intellectual nature)",
+            "good, kind, benign",
+            "good, right (ethical) masculine noun",
+            "a good thing, benefit, welfare welfare, prosperity, happiness good things (collective) good, benefit moral good feminine noun",
+            "welfare, prosperity, happiness",
+            "good things (collective)",
+            "good, benefit",
+            "moral good feminine noun",
+            "welfare, benefit, good things welfare, prosperity, happiness good things (collective) bounty",
+            "welfare, prosperity, happiness",
+            "good things (collective)",
+            "bounty"
+          ],
+          "text_start": 0,
+          "text_end": 16,
+          "token_id": "Ps.133.1#t0000"
+        },
+        {
+          "text": "and how pleasant",
+          "strong_norm": "H5273",
+          "strong_raw": "H5273A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25478,
+          "html_end": 25523,
+          "vhtml_start": 205,
+          "vhtml_end": 250,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "נָעִים",
+          "transliteration": "nāʿîm",
+          "pronunciation": "naw-eem'",
+          "pos": "adjective",
+          "definition": "נָעִים nâʻîym, naw-eem'; from H5276 ; delightful (objective or subjective, literal or figurative):—pleasant(-ure), sweet.",
+          "kjv_translation_count": "pleasant (8x), pleasures (2x), sweet (2x), sweet thing (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "pleasant",
+              "count": 8
+            },
+            {
+              "gloss": "pleasures",
+              "count": 2
+            },
+            {
+              "gloss": "sweet",
+              "count": 2
+            },
+            {
+              "gloss": "sweet thing",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "pleasant, delightful, sweet, lovely, agreeable delightful lovely, beautiful (physical)",
+            "delightful",
+            "lovely, beautiful (physical)",
+            "singing, sweetly sounding, musical"
+          ],
+          "text_start": 17,
+          "text_end": 33,
+          "token_id": "Ps.133.1#t0001"
+        },
+        {
+          "text": "it is",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 25530,
+          "html_end": 25544,
+          "vhtml_start": 257,
+          "vhtml_end": 271,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 34,
+          "text_end": 39,
+          "token_id": "Ps.133.1#t0006"
+        },
+        {
+          "text": "for brethren",
+          "strong_norm": "H0251",
+          "strong_raw": "H0251G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25552,
+          "html_end": 25593,
+          "vhtml_start": 279,
+          "vhtml_end": 320,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אָח",
+          "transliteration": "'āḥ",
+          "pronunciation": "awkh",
+          "pos": "masculine noun",
+          "definition": "אָח ʼâch, awkh; a primitive word; a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance [like H1 ]):—another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
+          "kjv_translation_count": "brethren (332x), brother (269x), another (23x), brotherly (1x), kindred (1x), like (1x), another (1x), other (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "brethren",
+              "count": 332
+            },
+            {
+              "gloss": "brother",
+              "count": 269
+            },
+            {
+              "gloss": "another",
+              "count": 23
+            },
+            {
+              "gloss": "brotherly",
+              "count": 1
+            },
+            {
+              "gloss": "kindred",
+              "count": 1
+            },
+            {
+              "gloss": "like",
+              "count": 1
+            },
+            {
+              "gloss": "another",
+              "count": 1
+            },
+            {
+              "gloss": "other",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "brother brother of same parents half-brother (same father) relative, kinship, same tribe each to the other (reciprocal relationship) (fig.) of resemblance",
+            "brother of same parents",
+            "half-brother (same father)",
+            "relative, kinship, same tribe",
+            "each to the other (reciprocal relationship)",
+            "(fig.) of resemblance"
+          ],
+          "text_start": 40,
+          "text_end": 52,
+          "token_id": "Ps.133.1#t0002"
+        },
+        {
+          "text": "to dwell",
+          "strong_norm": "H3427",
+          "strong_raw": "H3427",
+          "morph_norm": "TH8800",
+          "morph_raw": "strongMorph:TH8800",
+          "italics": false,
+          "html_start": 25594,
+          "html_end": 25657,
+          "vhtml_start": 321,
+          "vhtml_end": 384,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָשַׁב",
+          "transliteration": "yāšaḇ",
+          "pronunciation": "yaw-shav'",
+          "pos": "verb",
+          "definition": "יָשַׁב yâshab, yaw-shab'; a primitive root; properly, to sit down (specifically as judge. in ambush, in quiet); by implication, to dwell, to remain; causatively, to settle, to marry:—(make to) abide(-ing), continue, (cause to, make to) dwell(-ing), ease self, endure, establish, × fail, habitation, haunt, (make to) inhabit(-ant), make to keep (house), lurking, × marry(-ing), (bring again to) place, remain, return, seat, set(-tle), (down-) sit(-down, still, -ting down, -ting (place) -uate), take, tarry.",
+          "kjv_translation_count": "dwell (437x), inhabitant (221x), sit (172x), abide (70x), inhabit (39x), down (26x), remain (23x), in (22x), tarry (19x), set (14x), continue (5x), place (7x), still (5x), taken (5x), miscellaneous (23x).",
+          "kjv_counts": [
+            {
+              "gloss": "dwell",
+              "count": 437
+            },
+            {
+              "gloss": "inhabitant",
+              "count": 221
+            },
+            {
+              "gloss": "sit",
+              "count": 172
+            },
+            {
+              "gloss": "abide",
+              "count": 70
+            },
+            {
+              "gloss": "inhabit",
+              "count": 39
+            },
+            {
+              "gloss": "down",
+              "count": 26
+            },
+            {
+              "gloss": "remain",
+              "count": 23
+            },
+            {
+              "gloss": "in",
+              "count": 22
+            },
+            {
+              "gloss": "tarry",
+              "count": 19
+            },
+            {
+              "gloss": "set",
+              "count": 14
+            },
+            {
+              "gloss": "continue",
+              "count": 5
+            },
+            {
+              "gloss": "place",
+              "count": 7
+            },
+            {
+              "gloss": "still",
+              "count": 5
+            },
+            {
+              "gloss": "taken",
+              "count": 5
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 23
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to dwell, remain, sit, abide (Qal) to sit, sit down to be set to remain, stay to dwell, have one's abode (Niphal) to be inhabited (Piel) to set, place (Hiphil) to cause to sit to cause to abide, set to cause to dwell to cause (cities) to be inhabited to marry (give an dwelling to) (Hophal) to be inhabited to make to dwell",
+            "(Qal) to sit, sit down to be set to remain, stay to dwell, have one's abode",
+            "to sit, sit down",
+            "to be set",
+            "to remain, stay",
+            "to dwell, have one's abode",
+            "(Niphal) to be inhabited",
+            "(Piel) to set, place",
+            "(Hiphil) to cause to sit to cause to abide, set to cause to dwell to cause (cities) to be inhabited to marry (give an dwelling to)",
+            "to cause to sit",
+            "to cause to abide, set",
+            "to cause to dwell",
+            "to cause (cities) to be inhabited",
+            "to marry (give an dwelling to)",
+            "(Hophal) to be inhabited to make to dwell",
+            "to be inhabited",
+            "to make to dwell"
+          ],
+          "text_start": 53,
+          "text_end": 61,
+          "token_id": "Ps.133.1#t0003"
+        },
+        {
+          "text": "together",
+          "strong_norm": "H3162",
+          "strong_raw": "H3162A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25658,
+          "html_end": 25695,
+          "vhtml_start": 385,
+          "vhtml_end": 422,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יַחַד",
+          "transliteration": "yaḥaḏ",
+          "pronunciation": "yakh'-ad",
+          "pos": "adverb, masculine noun",
+          "definition": "יַחַד yachad, yakh'-ad; from H3161 ; properly, a unit, i.e. (adverb) unitedly:—alike, at all (once), both, likewise, only, (al-) together, withal.",
+          "kjv_translation_count": "together (120x), altogether (5x), alike (5x), likewise (2x), withal (2x), miscellaneous (8x).",
+          "kjv_counts": [
+            {
+              "gloss": "together",
+              "count": 120
+            },
+            {
+              "gloss": "altogether",
+              "count": 5
+            },
+            {
+              "gloss": "alike",
+              "count": 5
+            },
+            {
+              "gloss": "likewise",
+              "count": 2
+            },
+            {
+              "gloss": "withal",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 8
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "union, unitedness adverb",
+            "together, altogether, all together, alike"
+          ],
+          "text_start": 62,
+          "text_end": 70,
+          "token_id": "Ps.133.1#t0004"
+        },
+        {
+          "text": "in unity",
+          "strong_norm": "H3162",
+          "strong_raw": "H3162A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 25696,
+          "html_end": 25733,
+          "vhtml_start": 423,
+          "vhtml_end": 460,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יַחַד",
+          "transliteration": "yaḥaḏ",
+          "pronunciation": "yakh'-ad",
+          "pos": "adverb, masculine noun",
+          "definition": "יַחַד yachad, yakh'-ad; from H3161 ; properly, a unit, i.e. (adverb) unitedly:—alike, at all (once), both, likewise, only, (al-) together, withal.",
+          "kjv_translation_count": "together (120x), altogether (5x), alike (5x), likewise (2x), withal (2x), miscellaneous (8x).",
+          "kjv_counts": [
+            {
+              "gloss": "together",
+              "count": 120
+            },
+            {
+              "gloss": "altogether",
+              "count": 5
+            },
+            {
+              "gloss": "alike",
+              "count": 5
+            },
+            {
+              "gloss": "likewise",
+              "count": 2
+            },
+            {
+              "gloss": "withal",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 8
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "union, unitedness adverb",
+            "together, altogether, all together, alike"
+          ],
+          "text_start": 71,
+          "text_end": 79,
+          "token_id": "Ps.133.1#t0005"
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "▼",
+          "notetype": "study",
+          "ref_attr": null,
+          "xref_attr": null,
+          "body_text": "▼ together…: Heb. even together",
+          "body_html": "<span class=\"inlineNote\"><div><a class=\"sideNote\" name=\"note-N10049\"><strong>▼</strong></a><span class=\"bold\">&nbsp;together…</span>: Heb. even together</div></span>"
+        }
+      ]
+    },
+    {
+      "ref": "Ps.133.2",
+      "verse_num": 2,
+      "text_plain": "It is like the precious ointment upon the head, that ran down upon the beard, even Aaron’s beard: that went down to the skirts of his garments;",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.133.2\" class=\"verseLink\"><span class=\"verseNumber\">2</span></a><a name=\"Ps.133.2\" class=\"verseLink\"></a><span><em>It is</em></span> <span strong=\"H2896A\">like the precious</span> <span strong=\"H8081\">ointment</span> <span strong=\"H7218A\">upon the head</span>, <span morph=\"strongMorph:TH8802\" strong=\"H3381\">that ran down</span> <span strong=\"H2206\">upon the beard</span>, <span><em>even</em></span> <span strong=\"H0175\">Aaron’s</span> <span strong=\"H2206\">beard</span>: <span morph=\"strongMorph:TH8802\" strong=\"H3381\">that went down</span> <span strong=\"H6310H\">to the skirts</span> <span strong=\"H4060A\">of his garments</span>;</span>",
+      "tokens": [
+        {
+          "text": "It is",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 26137,
+          "html_end": 26151,
+          "vhtml_start": 165,
+          "vhtml_end": 179,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 0,
+          "text_end": 5,
+          "token_id": "Ps.133.2#t0010"
+        },
+        {
+          "text": "like the precious",
+          "strong_norm": "H2896",
+          "strong_raw": "H2896A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26159,
+          "html_end": 26205,
+          "vhtml_start": 187,
+          "vhtml_end": 233,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "טוֹב",
+          "transliteration": "ṭôḇ",
+          "pronunciation": "tobe",
+          "pos": "adjective, feminine noun, masculine noun",
+          "definition": "טוֹב ṭôwb, tobe; from H2895 ; good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well):—beautiful, best, better, bountiful, cheerful, at ease, × fair (word), (be in) favour, fine, glad, good (deed, -lier, -liest, -ly, -ness, -s), graciously, joyful, kindly, kindness, liketh (best), loving, merry, × most, pleasant, pleaseth, pleasure, precious, prosperity, ready, sweet, wealth, welfare, (be) well(-favoured).",
+          "kjv_translation_count": "good (361x), better (72x), well (20x), goodness (16x), goodly (9x), best (8x), merry (7x), fair (7x), prosperity (6x), precious (4x), fine (3x), wealth (3x), beautiful (2x), fairer (2x), favour (2x), glad (2x), miscellaneous (35x).",
+          "kjv_counts": [
+            {
+              "gloss": "good",
+              "count": 361
+            },
+            {
+              "gloss": "better",
+              "count": 72
+            },
+            {
+              "gloss": "well",
+              "count": 20
+            },
+            {
+              "gloss": "goodness",
+              "count": 16
+            },
+            {
+              "gloss": "goodly",
+              "count": 9
+            },
+            {
+              "gloss": "best",
+              "count": 8
+            },
+            {
+              "gloss": "merry",
+              "count": 7
+            },
+            {
+              "gloss": "fair",
+              "count": 7
+            },
+            {
+              "gloss": "prosperity",
+              "count": 6
+            },
+            {
+              "gloss": "precious",
+              "count": 4
+            },
+            {
+              "gloss": "fine",
+              "count": 3
+            },
+            {
+              "gloss": "wealth",
+              "count": 3
+            },
+            {
+              "gloss": "beautiful",
+              "count": 2
+            },
+            {
+              "gloss": "fairer",
+              "count": 2
+            },
+            {
+              "gloss": "favour",
+              "count": 2
+            },
+            {
+              "gloss": "glad",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 35
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "good, pleasant, agreeable pleasant, agreeable (to the senses) pleasant (to the higher nature) good, excellent (of its kind) good, rich, valuable in estimation good, appropriate, becoming better (comparative) glad, happy, prosperous (of man's sensuous nature) good understanding (of man's intellectual nature) good, kind, benign good, right (ethical) masculine noun",
+            "pleasant, agreeable (to the senses)",
+            "pleasant (to the higher nature)",
+            "good, excellent (of its kind)",
+            "good, rich, valuable in estimation",
+            "good, appropriate, becoming",
+            "better (comparative)",
+            "glad, happy, prosperous (of man's sensuous nature)",
+            "good understanding (of man's intellectual nature)",
+            "good, kind, benign",
+            "good, right (ethical) masculine noun",
+            "a good thing, benefit, welfare welfare, prosperity, happiness good things (collective) good, benefit moral good feminine noun",
+            "welfare, prosperity, happiness",
+            "good things (collective)",
+            "good, benefit",
+            "moral good feminine noun",
+            "welfare, benefit, good things welfare, prosperity, happiness good things (collective) bounty",
+            "welfare, prosperity, happiness",
+            "good things (collective)",
+            "bounty"
+          ],
+          "text_start": 6,
+          "text_end": 23,
+          "token_id": "Ps.133.2#t0000"
+        },
+        {
+          "text": "ointment",
+          "strong_norm": "H8081",
+          "strong_raw": "H8081",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26206,
+          "html_end": 26242,
+          "vhtml_start": 234,
+          "vhtml_end": 270,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "שֶׁמֶן",
+          "transliteration": "šemen",
+          "pronunciation": "sheh'-men",
+          "pos": "masculine noun",
+          "definition": "שֶׁמֶן shemen, sheh'-men; from H8080 ; grease, especially liquid (as from the olive, often perfumed); figuratively, richness:—anointing, × fat (things), × fruitful, oil(-ed), ointment, olive, pine.",
+          "kjv_translation_count": "oil (165x), ointment (14x), olive (4x), oiled (2x), fat (2x), things (2x), miscellaneous (4x).",
+          "kjv_counts": [
+            {
+              "gloss": "oil",
+              "count": 165
+            },
+            {
+              "gloss": "ointment",
+              "count": 14
+            },
+            {
+              "gloss": "olive",
+              "count": 4
+            },
+            {
+              "gloss": "oiled",
+              "count": 2
+            },
+            {
+              "gloss": "fat",
+              "count": 2
+            },
+            {
+              "gloss": "things",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 4
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "fat, oil fat, fatness oil, olive oil as staple, medicament or unguent for anointing fat (of fruitful land, valleys) (metaph)",
+            "fat, fatness",
+            "oil, olive oil as staple, medicament or unguent for anointing",
+            "as staple, medicament or unguent",
+            "for anointing",
+            "fat (of fruitful land, valleys) (metaph)"
+          ],
+          "text_start": 24,
+          "text_end": 32,
+          "token_id": "Ps.133.2#t0001"
+        },
+        {
+          "text": "upon the head",
+          "strong_norm": "H7218",
+          "strong_raw": "H7218A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26243,
+          "html_end": 26285,
+          "vhtml_start": 271,
+          "vhtml_end": 313,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "רֹאשׁ",
+          "transliteration": "rō'š",
+          "pronunciation": "roshe",
+          "pos": "masculine noun",
+          "definition": "רֹאשׁ rôʼsh, roshe; from an unused root apparently meaning to shake; the head (as most easily shaken), whether literal or figurative (in many applications, of place, time, rank, etc.):—band, beginning, captain, chapiter, chief(-est place, man, things), company, end, × every (man), excellent, first, forefront, (be-)head, height, (on) high(-est part, (priest)), × lead, × poor, principal, ruler, sum, top.",
+          "kjv_translation_count": "head (349x), chief (91x), top (73x), beginning (14x), company (12x), captain (10x), sum (9x), first (6x), principal (5x), chapiters (4x), rulers (2x), miscellaneous (23x).",
+          "kjv_counts": [
+            {
+              "gloss": "head",
+              "count": 349
+            },
+            {
+              "gloss": "chief",
+              "count": 91
+            },
+            {
+              "gloss": "top",
+              "count": 73
+            },
+            {
+              "gloss": "beginning",
+              "count": 14
+            },
+            {
+              "gloss": "company",
+              "count": 12
+            },
+            {
+              "gloss": "captain",
+              "count": 10
+            },
+            {
+              "gloss": "sum",
+              "count": 9
+            },
+            {
+              "gloss": "first",
+              "count": 6
+            },
+            {
+              "gloss": "principal",
+              "count": 5
+            },
+            {
+              "gloss": "chapiters",
+              "count": 4
+            },
+            {
+              "gloss": "rulers",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 23
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "head, top, summit, upper part, chief, total, sum, height, front, beginning head (of man, animals) top, tip (of mountain) height (of stars) chief, head (of man, city, nation, place, family, priest) head, front, beginning chief, choicest, best head, division, company, band sum",
+            "head (of man, animals)",
+            "top, tip (of mountain)",
+            "height (of stars)",
+            "chief, head (of man, city, nation, place, family, priest)",
+            "head, front, beginning",
+            "chief, choicest, best",
+            "head, division, company, band",
+            "sum"
+          ],
+          "text_start": 33,
+          "text_end": 46,
+          "token_id": "Ps.133.2#t0002"
+        },
+        {
+          "text": "that ran down",
+          "strong_norm": "H3381",
+          "strong_raw": "H3381",
+          "morph_norm": "TH8802",
+          "morph_raw": "strongMorph:TH8802",
+          "italics": false,
+          "html_start": 26287,
+          "html_end": 26355,
+          "vhtml_start": 315,
+          "vhtml_end": 383,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָרַד",
+          "transliteration": "yāraḏ",
+          "pronunciation": "yaw-rad'",
+          "pos": "verb",
+          "definition": "יָרַד yârad, yaw-rad'; a primitive root; to descend (literally, to go downwards; or conventionally to a lower region, as the shore, a boundary, the enemy, etc.; or figuratively, to fall); causatively, to bring down (in all the above applications):— × abundantly, bring down, carry down, cast down, (cause to) come(-ing) down, fall (down), get down, go(-ing) down(-ward), hang down, × indeed, let down, light (down), put down (off), (cause to, let) run down, sink, subdue, take down.",
+          "kjv_translation_count": "(come , go , etc) down (340x), descend (18x), variant (2x), fell (2x), let (1x), abundantly (1x), down by (1x), indeed (1x), put off (1x), light off (1x), out (1x), sank (1x), subdued (1x), take (1x).",
+          "kjv_counts": [
+            {
+              "gloss": null,
+              "count": 340
+            },
+            {
+              "gloss": "descend",
+              "count": 18
+            },
+            {
+              "gloss": "variant",
+              "count": 2
+            },
+            {
+              "gloss": "fell",
+              "count": 2
+            },
+            {
+              "gloss": "let",
+              "count": 1
+            },
+            {
+              "gloss": "abundantly",
+              "count": 1
+            },
+            {
+              "gloss": "down by",
+              "count": 1
+            },
+            {
+              "gloss": "indeed",
+              "count": 1
+            },
+            {
+              "gloss": "put off",
+              "count": 1
+            },
+            {
+              "gloss": "light off",
+              "count": 1
+            },
+            {
+              "gloss": "out",
+              "count": 1
+            },
+            {
+              "gloss": "sank",
+              "count": 1
+            },
+            {
+              "gloss": "subdued",
+              "count": 1
+            },
+            {
+              "gloss": "take",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to go down, descend, decline, march down, sink down (Qal) to go or come down to sink to be prostrated to come down (of revelation) (Hiphil) to bring down to send down to take down to lay prostrate to let down (Hophal) to be brought down to be taken down",
+            "(Qal) to go or come down to sink to be prostrated to come down (of revelation)",
+            "to go or come down",
+            "to sink",
+            "to be prostrated",
+            "to come down (of revelation)",
+            "(Hiphil) to bring down to send down to take down to lay prostrate to let down",
+            "to bring down",
+            "to send down",
+            "to take down",
+            "to lay prostrate",
+            "to let down",
+            "(Hophal) to be brought down to be taken down",
+            "to be brought down",
+            "to be taken down"
+          ],
+          "text_start": 48,
+          "text_end": 61,
+          "token_id": "Ps.133.2#t0003"
+        },
+        {
+          "text": "upon the beard",
+          "strong_norm": "H2206",
+          "strong_raw": "H2206",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26356,
+          "html_end": 26398,
+          "vhtml_start": 384,
+          "vhtml_end": 426,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "זָקָן",
+          "transliteration": "zāqān",
+          "pronunciation": "zaw-kawn'",
+          "pos": "masculine noun",
+          "definition": "זָקָן zâqân, zaw-kawn'; from H2204 ; the beard (as indicating age):—beard.",
+          "kjv_translation_count": "beard (19x).",
+          "kjv_counts": [
+            {
+              "gloss": "beard",
+              "count": 19
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "beard, chin beard chin",
+            "beard",
+            "chin"
+          ],
+          "text_start": 62,
+          "text_end": 76,
+          "token_id": "Ps.133.2#t0004"
+        },
+        {
+          "text": "even",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 26406,
+          "html_end": 26419,
+          "vhtml_start": 434,
+          "vhtml_end": 447,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 78,
+          "text_end": 82,
+          "token_id": "Ps.133.2#t0011"
+        },
+        {
+          "text": "Aaron’s",
+          "strong_norm": "H0175",
+          "strong_raw": "H0175",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26427,
+          "html_end": 26462,
+          "vhtml_start": 455,
+          "vhtml_end": 490,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "אַהֲרוֹן",
+          "transliteration": "'ahărôn",
+          "pronunciation": "a-har-one'",
+          "pos": "proper masculine noun",
+          "definition": "אַהֲרוֹן ʼAhărôwn, a-har-one'; of uncertain derivation; Aharon, the brother of Moses:—Aaron.",
+          "kjv_translation_count": "Aaron (345x), Aaronites (2x).",
+          "kjv_counts": [
+            {
+              "gloss": "Aaron",
+              "count": 345
+            },
+            {
+              "gloss": "Aaronites",
+              "count": 2
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Aaron = \"light bringer\" brother of Moses, a Levite and the first high priest",
+            "brother of Moses, a Levite and the first high priest"
+          ],
+          "text_start": 83,
+          "text_end": 90,
+          "token_id": "Ps.133.2#t0005"
+        },
+        {
+          "text": "beard",
+          "strong_norm": "H2206",
+          "strong_raw": "H2206",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26463,
+          "html_end": 26496,
+          "vhtml_start": 491,
+          "vhtml_end": 524,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "זָקָן",
+          "transliteration": "zāqān",
+          "pronunciation": "zaw-kawn'",
+          "pos": "masculine noun",
+          "definition": "זָקָן zâqân, zaw-kawn'; from H2204 ; the beard (as indicating age):—beard.",
+          "kjv_translation_count": "beard (19x).",
+          "kjv_counts": [
+            {
+              "gloss": "beard",
+              "count": 19
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "beard, chin beard chin",
+            "beard",
+            "chin"
+          ],
+          "text_start": 91,
+          "text_end": 96,
+          "token_id": "Ps.133.2#t0006"
+        },
+        {
+          "text": "that went down",
+          "strong_norm": "H3381",
+          "strong_raw": "H3381",
+          "morph_norm": "TH8802",
+          "morph_raw": "strongMorph:TH8802",
+          "italics": false,
+          "html_start": 26498,
+          "html_end": 26567,
+          "vhtml_start": 526,
+          "vhtml_end": 595,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָרַד",
+          "transliteration": "yāraḏ",
+          "pronunciation": "yaw-rad'",
+          "pos": "verb",
+          "definition": "יָרַד yârad, yaw-rad'; a primitive root; to descend (literally, to go downwards; or conventionally to a lower region, as the shore, a boundary, the enemy, etc.; or figuratively, to fall); causatively, to bring down (in all the above applications):— × abundantly, bring down, carry down, cast down, (cause to) come(-ing) down, fall (down), get down, go(-ing) down(-ward), hang down, × indeed, let down, light (down), put down (off), (cause to, let) run down, sink, subdue, take down.",
+          "kjv_translation_count": "(come , go , etc) down (340x), descend (18x), variant (2x), fell (2x), let (1x), abundantly (1x), down by (1x), indeed (1x), put off (1x), light off (1x), out (1x), sank (1x), subdued (1x), take (1x).",
+          "kjv_counts": [
+            {
+              "gloss": null,
+              "count": 340
+            },
+            {
+              "gloss": "descend",
+              "count": 18
+            },
+            {
+              "gloss": "variant",
+              "count": 2
+            },
+            {
+              "gloss": "fell",
+              "count": 2
+            },
+            {
+              "gloss": "let",
+              "count": 1
+            },
+            {
+              "gloss": "abundantly",
+              "count": 1
+            },
+            {
+              "gloss": "down by",
+              "count": 1
+            },
+            {
+              "gloss": "indeed",
+              "count": 1
+            },
+            {
+              "gloss": "put off",
+              "count": 1
+            },
+            {
+              "gloss": "light off",
+              "count": 1
+            },
+            {
+              "gloss": "out",
+              "count": 1
+            },
+            {
+              "gloss": "sank",
+              "count": 1
+            },
+            {
+              "gloss": "subdued",
+              "count": 1
+            },
+            {
+              "gloss": "take",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to go down, descend, decline, march down, sink down (Qal) to go or come down to sink to be prostrated to come down (of revelation) (Hiphil) to bring down to send down to take down to lay prostrate to let down (Hophal) to be brought down to be taken down",
+            "(Qal) to go or come down to sink to be prostrated to come down (of revelation)",
+            "to go or come down",
+            "to sink",
+            "to be prostrated",
+            "to come down (of revelation)",
+            "(Hiphil) to bring down to send down to take down to lay prostrate to let down",
+            "to bring down",
+            "to send down",
+            "to take down",
+            "to lay prostrate",
+            "to let down",
+            "(Hophal) to be brought down to be taken down",
+            "to be brought down",
+            "to be taken down"
+          ],
+          "text_start": 98,
+          "text_end": 112,
+          "token_id": "Ps.133.2#t0007"
+        },
+        {
+          "text": "to the skirts",
+          "strong_norm": "H6310",
+          "strong_raw": "H6310H",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26568,
+          "html_end": 26610,
+          "vhtml_start": 596,
+          "vhtml_end": 638,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "פֶּה",
+          "transliteration": "pê",
+          "pronunciation": "peh",
+          "pos": "masculine noun",
+          "definition": "פֶּה peh, peh; from H6284 ; the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to:—accord(-ing as, -ing to), after, appointment, assent, collar, command(-ment), × eat, edge, end, entry, file, hole, × in, mind, mouth, part, portion, × (should) say(-ing), sentence, skirt, sound, speech, × spoken, talk, tenor, × to, two-edged, wish, word.",
+          "kjv_translation_count": "mouth (340x), commandment (37x), edge (35x), according (22x), word (15x), hole (6x), end (3x), appointment (2x), portion (2x), tenor (2x), sentence (2x), miscellaneous (32x).",
+          "kjv_counts": [
+            {
+              "gloss": "mouth",
+              "count": 340
+            },
+            {
+              "gloss": "commandment",
+              "count": 37
+            },
+            {
+              "gloss": "edge",
+              "count": 35
+            },
+            {
+              "gloss": "according",
+              "count": 22
+            },
+            {
+              "gloss": "word",
+              "count": 15
+            },
+            {
+              "gloss": "hole",
+              "count": 6
+            },
+            {
+              "gloss": "end",
+              "count": 3
+            },
+            {
+              "gloss": "appointment",
+              "count": 2
+            },
+            {
+              "gloss": "portion",
+              "count": 2
+            },
+            {
+              "gloss": "tenor",
+              "count": 2
+            },
+            {
+              "gloss": "sentence",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 32
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "(peh) mouth mouth (of man) mouth (as organ of speech) mouth (of animals) mouth, opening, orifice (of a well, river, etc) extremity, end",
+            "mouth (of man)",
+            "mouth (as organ of speech)",
+            "mouth (of animals)",
+            "mouth, opening, orifice (of a well, river, etc)",
+            "extremity, end",
+            "(pim) a weight equal to one third of a shekel, occurs only in 1 Sa. 13:: 21"
+          ],
+          "text_start": 113,
+          "text_end": 126,
+          "token_id": "Ps.133.2#t0008"
+        },
+        {
+          "text": "of his garments",
+          "strong_norm": "H4060",
+          "strong_raw": "H4060A",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26611,
+          "html_end": 26655,
+          "vhtml_start": 639,
+          "vhtml_end": 683,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "מִדָּה",
+          "transliteration": "midâ",
+          "pronunciation": "mid-daw'",
+          "pos": "feminine noun",
+          "definition": "מִדָּה middâh, mid-daw'; feminine of H4055 ; properly, extension, i.e. height or breadth; also a measure (including its standard); hence a portion (as measured) or a vestment; specifically, tribute (as measured):—garment, measure(-ing), meteyard, piece, size, (great) stature, tribute, wide.",
+          "kjv_translation_count": "measure (37x), piece (7x), stature (4x), size (3x), meteyard (1x), garments (1x), tribute (1x), wide (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "measure",
+              "count": 37
+            },
+            {
+              "gloss": "piece",
+              "count": 7
+            },
+            {
+              "gloss": "stature",
+              "count": 4
+            },
+            {
+              "gloss": "size",
+              "count": 3
+            },
+            {
+              "gloss": "meteyard",
+              "count": 1
+            },
+            {
+              "gloss": "garments",
+              "count": 1
+            },
+            {
+              "gloss": "tribute",
+              "count": 1
+            },
+            {
+              "gloss": "wide",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "measure, measurement, stature, size, garment measure, act of measurement measurement, size measured portion, extent garment",
+            "measure, act of measurement",
+            "measurement, size",
+            "measured portion, extent",
+            "garment",
+            "(BDB) tribute"
+          ],
+          "text_start": 127,
+          "text_end": 142,
+          "token_id": "Ps.133.2#t0009"
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "ref": "Ps.133.3",
+      "verse_num": 3,
+      "text_plain": "As the dew of Hermon, and as the dew that descended upon the mountains of Zion: for there the Lord commanded the blessing, even life for evermore.",
+      "verse_html": "<span dir=\"ltr\" class=\"verse ltrDirection\"><a name=\"Ps.133.3\" class=\"verseLink\"><span class=\"verseNumber\">3</span></a><a name=\"Ps.133.3\" class=\"verseLink\"></a><span strong=\"H2919\">As the dew</span> <span strong=\"H2768\">of Hermon</span>, <span><em>and as the dew</em></span> <span morph=\"strongMorph:TH8802\" strong=\"H3381\">that descended</span> <span strong=\"H2042\">upon the mountains</span> <span strong=\"H6726\">of Zion</span>: <span strong=\"H3068G\">for there the <span class=\"small-caps\">Lord</span></span> <span morph=\"strongMorph:TH8765\" strong=\"H6680\">commanded</span> <span strong=\"H1293\">the blessing</span>, <span><em>even</em></span> <span strong=\"H2416E\">life</span> <span strong=\"H5769G\">for evermore</span>. </span>",
+      "tokens": [
+        {
+          "text": "As the dew",
+          "strong_norm": "H2919",
+          "strong_raw": "H2919",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26823,
+          "html_end": 26861,
+          "vhtml_start": 159,
+          "vhtml_end": 197,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "טַל",
+          "transliteration": "ṭal",
+          "pronunciation": "tal",
+          "pos": "masculine noun",
+          "definition": "טַל ṭal, tal; from H2926 ; dew (as covering vegetation):—dew.",
+          "kjv_translation_count": "dew (31x).",
+          "kjv_counts": [
+            {
+              "gloss": "dew",
+              "count": 31
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "dew, night mist"
+          ],
+          "text_start": 0,
+          "text_end": 10,
+          "token_id": "Ps.133.3#t0000"
+        },
+        {
+          "text": "of Hermon",
+          "strong_norm": "H2768",
+          "strong_raw": "H2768",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 26862,
+          "html_end": 26899,
+          "vhtml_start": 198,
+          "vhtml_end": 235,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "חֶרְמוֹן",
+          "transliteration": "ḥermôn",
+          "pronunciation": "kher-mone'",
+          "pos": "proper masculine noun",
+          "definition": "חֶרְמוֹן Chermôwn, kher-mone'; from H2763 ; abrupt; Chermon, a mount of Palestine:—Hermon.",
+          "kjv_translation_count": "Hermon (13x).",
+          "kjv_counts": [
+            {
+              "gloss": "Hermon",
+              "count": 13
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Hermon = \"a sanctuary\" a mountain on the northeastern border of Palestine and Lebanon and overlooking the border city of Dan",
+            "a mountain on the northeastern border of Palestine and Lebanon and overlooking the border city of Dan"
+          ],
+          "text_start": 11,
+          "text_end": 20,
+          "token_id": "Ps.133.3#t0001"
+        },
+        {
+          "text": "and as the dew",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 26907,
+          "html_end": 26930,
+          "vhtml_start": 243,
+          "vhtml_end": 266,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 22,
+          "text_end": 36,
+          "token_id": "Ps.133.3#t0010"
+        },
+        {
+          "text": "that descended",
+          "strong_norm": "H3381",
+          "strong_raw": "H3381",
+          "morph_norm": "TH8802",
+          "morph_raw": "strongMorph:TH8802",
+          "italics": false,
+          "html_start": 26938,
+          "html_end": 27007,
+          "vhtml_start": 274,
+          "vhtml_end": 343,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יָרַד",
+          "transliteration": "yāraḏ",
+          "pronunciation": "yaw-rad'",
+          "pos": "verb",
+          "definition": "יָרַד yârad, yaw-rad'; a primitive root; to descend (literally, to go downwards; or conventionally to a lower region, as the shore, a boundary, the enemy, etc.; or figuratively, to fall); causatively, to bring down (in all the above applications):— × abundantly, bring down, carry down, cast down, (cause to) come(-ing) down, fall (down), get down, go(-ing) down(-ward), hang down, × indeed, let down, light (down), put down (off), (cause to, let) run down, sink, subdue, take down.",
+          "kjv_translation_count": "(come , go , etc) down (340x), descend (18x), variant (2x), fell (2x), let (1x), abundantly (1x), down by (1x), indeed (1x), put off (1x), light off (1x), out (1x), sank (1x), subdued (1x), take (1x).",
+          "kjv_counts": [
+            {
+              "gloss": null,
+              "count": 340
+            },
+            {
+              "gloss": "descend",
+              "count": 18
+            },
+            {
+              "gloss": "variant",
+              "count": 2
+            },
+            {
+              "gloss": "fell",
+              "count": 2
+            },
+            {
+              "gloss": "let",
+              "count": 1
+            },
+            {
+              "gloss": "abundantly",
+              "count": 1
+            },
+            {
+              "gloss": "down by",
+              "count": 1
+            },
+            {
+              "gloss": "indeed",
+              "count": 1
+            },
+            {
+              "gloss": "put off",
+              "count": 1
+            },
+            {
+              "gloss": "light off",
+              "count": 1
+            },
+            {
+              "gloss": "out",
+              "count": 1
+            },
+            {
+              "gloss": "sank",
+              "count": 1
+            },
+            {
+              "gloss": "subdued",
+              "count": 1
+            },
+            {
+              "gloss": "take",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to go down, descend, decline, march down, sink down (Qal) to go or come down to sink to be prostrated to come down (of revelation) (Hiphil) to bring down to send down to take down to lay prostrate to let down (Hophal) to be brought down to be taken down",
+            "(Qal) to go or come down to sink to be prostrated to come down (of revelation)",
+            "to go or come down",
+            "to sink",
+            "to be prostrated",
+            "to come down (of revelation)",
+            "(Hiphil) to bring down to send down to take down to lay prostrate to let down",
+            "to bring down",
+            "to send down",
+            "to take down",
+            "to lay prostrate",
+            "to let down",
+            "(Hophal) to be brought down to be taken down",
+            "to be brought down",
+            "to be taken down"
+          ],
+          "text_start": 37,
+          "text_end": 51,
+          "token_id": "Ps.133.3#t0002"
+        },
+        {
+          "text": "upon the mountains",
+          "strong_norm": "H2042",
+          "strong_raw": "H2042",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27008,
+          "html_end": 27054,
+          "vhtml_start": 344,
+          "vhtml_end": 390,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "הרָר",
+          "transliteration": "hrār",
+          "pronunciation": "haw-rawr'",
+          "pos": "masculine noun",
+          "definition": "הרָר hârâr, haw-rawr'; from an unused root meaning to loom up; a mountain:—hill, mount(-ain).",
+          "kjv_translation_count": "mountain (10x), hill (2x), mount (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "mountain",
+              "count": 10
+            },
+            {
+              "gloss": "hill",
+              "count": 2
+            },
+            {
+              "gloss": "mount",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "mountain, hill, hill country, mount"
+          ],
+          "text_start": 52,
+          "text_end": 70,
+          "token_id": "Ps.133.3#t0003"
+        },
+        {
+          "text": "of Zion",
+          "strong_norm": "H6726",
+          "strong_raw": "H6726",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27055,
+          "html_end": 27090,
+          "vhtml_start": 391,
+          "vhtml_end": 426,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "צִיּוֹן",
+          "transliteration": "ṣîyôn",
+          "pronunciation": "tsee-yone'",
+          "pos": "proper locative noun",
+          "definition": "צִיּוֹן Tsîyôwn, tsee-yone'; the same (regularly) as H6725 ; Tsijon (as a permanent capital), a mountain of Jerusalem:—Zion.",
+          "kjv_translation_count": "Zion (153x), Sion (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "Zion",
+              "count": 153
+            },
+            {
+              "gloss": "Sion",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Zion = \"parched place\" another name for Jerusalem especially in the prophetic books",
+            "another name for Jerusalem especially in the prophetic books"
+          ],
+          "text_start": 71,
+          "text_end": 78,
+          "token_id": "Ps.133.3#t0004"
+        },
+        {
+          "text": "for there the Lord",
+          "strong_norm": "H3068",
+          "strong_raw": "H3068G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27092,
+          "html_end": 27171,
+          "vhtml_start": 428,
+          "vhtml_end": 507,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "יְהֹוָה",
+          "transliteration": "Yᵊhōvâ",
+          "pronunciation": "yeh-ho-vaw'",
+          "pos": "proper noun with reference to deity",
+          "definition": "יְהֹוָה Yᵉhôvâh, yeh-ho-vaw'; from H1961 ; (the) self-Existent or Eternal; Jeho-vah, Jewish national name of God:—Jehovah, the Lord. Compare H3050 , H3069 .",
+          "kjv_translation_count": "LORD (6,: 510x), GOD (4x), JEHOVAH (4x), variant (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "LORD",
+              "count": 510
+            },
+            {
+              "gloss": "GOD",
+              "count": 4
+            },
+            {
+              "gloss": "JEHOVAH",
+              "count": 4
+            },
+            {
+              "gloss": "variant",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "Jehovah = \"the existing One\" the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "the proper name of the one true God unpronounced except with the vowel pointings of H 136",
+            "unpronounced except with the vowel pointings of H 136"
+          ],
+          "text_start": 80,
+          "text_end": 98,
+          "token_id": "Ps.133.3#t0005"
+        },
+        {
+          "text": "commanded",
+          "strong_norm": "H6680",
+          "strong_raw": "H6680",
+          "morph_norm": "TH8765",
+          "morph_raw": "strongMorph:TH8765",
+          "italics": false,
+          "html_start": 27172,
+          "html_end": 27236,
+          "vhtml_start": 508,
+          "vhtml_end": 572,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "צָוָה",
+          "transliteration": "ṣāvâ",
+          "pronunciation": "tsaw-vaw'",
+          "pos": "verb",
+          "definition": "צָוָה tsâvâh, tsaw-vaw'; a primitive root; (intensively) to constitute, enjoin:—appoint, (for-) bid, (give a) charge, (give a, give in, send with) command(-er, -ment), send a messenger, put, (set) in order.",
+          "kjv_translation_count": "command (430x), charge (39x), commandment (9x), appoint (5x), bade (3x), order (3x), commander (1x), miscellaneous (4x).",
+          "kjv_counts": [
+            {
+              "gloss": "command",
+              "count": 430
+            },
+            {
+              "gloss": "charge",
+              "count": 39
+            },
+            {
+              "gloss": "commandment",
+              "count": 9
+            },
+            {
+              "gloss": "appoint",
+              "count": 5
+            },
+            {
+              "gloss": "bade",
+              "count": 3
+            },
+            {
+              "gloss": "order",
+              "count": 3
+            },
+            {
+              "gloss": "commander",
+              "count": 1
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 4
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "to command, charge, give orders, lay charge, give charge to, order (Piel) to lay charge upon to give charge to, give command to to give charge unto to give charge over, appoint to give charge, command to charge, command to charge, commission to command, appoint, ordain (of divine act) (Pual) to be commanded",
+            "(Piel) to lay charge upon to give charge to, give command to to give charge unto to give charge over, appoint to give charge, command to charge, command to charge, commission to command, appoint, ordain (of divine act)",
+            "to lay charge upon",
+            "to give charge to, give command to",
+            "to give charge unto",
+            "to give charge over, appoint",
+            "to give charge, command",
+            "to charge, command",
+            "to charge, commission",
+            "to command, appoint, ordain (of divine act)",
+            "(Pual) to be commanded"
+          ],
+          "text_start": 99,
+          "text_end": 108,
+          "token_id": "Ps.133.3#t0006"
+        },
+        {
+          "text": "the blessing",
+          "strong_norm": "H1293",
+          "strong_raw": "H1293",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27237,
+          "html_end": 27277,
+          "vhtml_start": 573,
+          "vhtml_end": 613,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "בְּרָכָה",
+          "transliteration": "bᵊrāḵâ",
+          "pronunciation": "ber-aw-kaw'",
+          "pos": "feminine noun",
+          "definition": "בְּרָכָה Bᵉrâkâh, ber-aw-kaw'; from H1288 ; benediction; by implication prosperity:—blessing, liberal, pool, present.",
+          "kjv_translation_count": "blessing (61x), blessed (3x), present (3x), liberal (1x), pools (1x).",
+          "kjv_counts": [
+            {
+              "gloss": "blessing",
+              "count": 61
+            },
+            {
+              "gloss": "blessed",
+              "count": 3
+            },
+            {
+              "gloss": "present",
+              "count": 3
+            },
+            {
+              "gloss": "liberal",
+              "count": 1
+            },
+            {
+              "gloss": "pools",
+              "count": 1
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "blessing",
+            "(source of) blessing",
+            "blessing, prosperity",
+            "blessing, praise of God",
+            "a gift, present",
+            "treaty of peace"
+          ],
+          "text_start": 109,
+          "text_end": 121,
+          "token_id": "Ps.133.3#t0007"
+        },
+        {
+          "text": "even",
+          "strong_norm": null,
+          "strong_raw": null,
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": true,
+          "html_start": 27285,
+          "html_end": 27298,
+          "vhtml_start": 621,
+          "vhtml_end": 634,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": null,
+          "transliteration": null,
+          "pronunciation": null,
+          "pos": null,
+          "definition": null,
+          "kjv_translation_count": null,
+          "kjv_counts": null,
+          "etymology": null,
+          "outline": null,
+          "text_start": 123,
+          "text_end": 127,
+          "token_id": "Ps.133.3#t0011"
+        },
+        {
+          "text": "life",
+          "strong_norm": "H2416",
+          "strong_raw": "H2416E",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27306,
+          "html_end": 27339,
+          "vhtml_start": 642,
+          "vhtml_end": 675,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "חַי",
+          "transliteration": "ḥay",
+          "pronunciation": "khah'-ee",
+          "pos": "adjective, feminine noun, masculine noun",
+          "definition": "חַי chay, khah'-ee; from H2421 ; alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun, especially in the feminine singular and masculine plural) life (or living thing), whether literally or figuratively:— age, alive, appetite, (wild) beast, company, congregation, life(-time), live(-ly), living (creature, thing), maintenance, merry, multitude, (be) old, quick, raw, running, springing, troop.",
+          "kjv_translation_count": "live (197x), life (144x), beast (76x), alive (31x), creature (15x), running (7x), living thing (6x), raw (6x), miscellaneous (19x).",
+          "kjv_counts": [
+            {
+              "gloss": "live",
+              "count": 197
+            },
+            {
+              "gloss": "life",
+              "count": 144
+            },
+            {
+              "gloss": "beast",
+              "count": 76
+            },
+            {
+              "gloss": "alive",
+              "count": 31
+            },
+            {
+              "gloss": "creature",
+              "count": 15
+            },
+            {
+              "gloss": "running",
+              "count": 7
+            },
+            {
+              "gloss": "living thing",
+              "count": 6
+            },
+            {
+              "gloss": "raw",
+              "count": 6
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 19
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "living, alive green (of vegetation) flowing, fresh (of water) lively, active (of man) reviving (of the springtime) masculine noun",
+            "green (of vegetation)",
+            "flowing, fresh (of water)",
+            "lively, active (of man)",
+            "reviving (of the springtime) masculine noun",
+            "relatives",
+            "life (abstract emphatic) life sustenance, maintenance feminine noun",
+            "life",
+            "sustenance, maintenance feminine noun",
+            "living thing, animal animal life appetite revival, renewal",
+            "animal",
+            "life",
+            "appetite",
+            "revival, renewal",
+            "community"
+          ],
+          "text_start": 128,
+          "text_end": 132,
+          "token_id": "Ps.133.3#t0008"
+        },
+        {
+          "text": "for evermore",
+          "strong_norm": "H5769",
+          "strong_raw": "H5769G",
+          "morph_norm": null,
+          "morph_raw": null,
+          "italics": false,
+          "html_start": 27340,
+          "html_end": 27381,
+          "vhtml_start": 676,
+          "vhtml_end": 717,
+          "morph_gloss": null,
+          "morph_features": null,
+          "lemma": "עוֹלָם",
+          "transliteration": "ʿôlām",
+          "pronunciation": "o-lawm'",
+          "pos": "masculine noun",
+          "definition": "עוֹלָם ʻôwlâm, o-lawm'; or עֹלָם ʻôlâm; from H5956 ; properly, concealed, i.e. the vanishing point; generally, time out of mind (past or future), i.e. (practically) eternity; frequentatively, adverbial (especially with prepositional prefix) always:—alway(-s), ancient (time), any more, continuance, eternal, (for, (n-)) ever(-lasting, -more, of old), lasting, long (time), (of) old (time), perpetual, at any time, (beginning of the) world ( + without end). Compare H5331 , H5703 .",
+          "kjv_translation_count": "ever (272x), everlasting (63x), old (22x), perpetual (22x), evermore (15x), never (13x), time (6x), ancient (5x), world (4x), always (3x), alway (2x), long (2x), more (2x), never (with H 408) (2x), miscellaneous (6x).",
+          "kjv_counts": [
+            {
+              "gloss": "ever",
+              "count": 272
+            },
+            {
+              "gloss": "everlasting",
+              "count": 63
+            },
+            {
+              "gloss": "old",
+              "count": 22
+            },
+            {
+              "gloss": "perpetual",
+              "count": 22
+            },
+            {
+              "gloss": "evermore",
+              "count": 15
+            },
+            {
+              "gloss": "never",
+              "count": 13
+            },
+            {
+              "gloss": "time",
+              "count": 6
+            },
+            {
+              "gloss": "ancient",
+              "count": 5
+            },
+            {
+              "gloss": "world",
+              "count": 4
+            },
+            {
+              "gloss": "always",
+              "count": 3
+            },
+            {
+              "gloss": "alway",
+              "count": 2
+            },
+            {
+              "gloss": "long",
+              "count": 2
+            },
+            {
+              "gloss": "more",
+              "count": 2
+            },
+            {
+              "gloss": "never",
+              "count": 2
+            },
+            {
+              "gloss": "miscellaneous",
+              "count": 6
+            }
+          ],
+          "etymology": null,
+          "outline": [
+            "long duration, antiquity, futurity, for ever, ever, everlasting, evermore, perpetual, old, ancient, world ancient time, long time (of past) (of future) for ever, always continuous existence, perpetual everlasting, indefinite or unending future, eternity",
+            "ancient time, long time (of past)",
+            "(of future) for ever, always continuous existence, perpetual everlasting, indefinite or unending future, eternity",
+            "for ever, always",
+            "continuous existence, perpetual",
+            "everlasting, indefinite or unending future, eternity"
+          ],
+          "text_start": 133,
+          "text_end": 145,
+          "token_id": "Ps.133.3#t0009"
+        }
+      ],
+      "footnotes": []
+    }
+  ]
+}
