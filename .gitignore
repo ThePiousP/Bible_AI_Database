@@ -82,9 +82,11 @@ prodigy.db
 # ============================================================================
 # Configuration (Sensitive - add specific files if needed)
 # ============================================================================
-# Uncomment to ignore local config overrides:
-# config.local.json
-# .env
+# Local config overrides and environment variables
+config.local.json
+.env
+.env.*
+!.env.example
 
 # ============================================================================
 # Logs
@@ -131,6 +133,13 @@ output/data/*.json
 # Model Outputs (if training spaCy models)
 # ============================================================================
 models/
+
+# ============================================================================
+# API & Embeddings
+# ============================================================================
+embeddings/*.pkl
+embeddings/*.npy
+embeddings/*.bin
 
 # ============================================================================
 # Windows Specific

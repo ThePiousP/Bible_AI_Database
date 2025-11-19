@@ -47,6 +47,22 @@ ai_requirements = [
     'tqdm>=4.66.0',
 ]
 
+# API requirements
+api_requirements_file = Path(__file__).parent / 'requirements-api.txt'
+api_requirements = []
+if api_requirements_file.exists():
+    with open(api_requirements_file, 'r') as f:
+        for line in f:
+            # Remove inline comments
+            line = line.split('#')[0].strip()
+            # Skip empty lines, pip directives, and relative imports
+            if not line or line.startswith('-'):
+                continue
+            # Skip base requirements (already in requirements.txt)
+            if 'pyyaml' in line.lower() or 'requests' in line.lower() or 'tqdm' in line.lower():
+                continue
+            api_requirements.append(line)
+
 setup(
     name='bible-ai-database',
     version='1.0.0',
@@ -75,7 +91,10 @@ setup(
     extras_require={
         'dev': dev_requirements if dev_requirements else [],
         'ai': ai_requirements if ai_requirements else [],
-        'all': (dev_requirements if dev_requirements else []) + (ai_requirements if ai_requirements else []),
+        'api': api_requirements if api_requirements else [],
+        'all': (dev_requirements if dev_requirements else []) +
+               (ai_requirements if ai_requirements else []) +
+               (api_requirements if api_requirements else []),
     },
 
     # Entry points for CLI commands
@@ -88,6 +107,7 @@ setup(
             'bible-embeddings=code.ai_training.create_embeddings:main',
             'bible-rag=code.ai_training.rag_system:main',
             'bible-chat=code.ai_training.chat_interface:main',
+            'bible-api=code.api.main:main',  # API server
         ],
     },
 
