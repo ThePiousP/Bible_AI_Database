@@ -1,0 +1,81 @@
+# Bible AI Training - Additional Dependencies
+# These are ON TOP OF the base requirements.txt in project root
+
+# Install base dependencies first:
+#   pip install -r ../../requirements.txt
+
+# ============================================================================
+# Semantic Embeddings (Layer 2)
+# ============================================================================
+sentence-transformers>=2.2.2    # Semantic embeddings for verses
+faiss-cpu>=1.7.4                # Vector similarity search (CPU version)
+# faiss-gpu>=1.7.4              # Use this if you have NVIDIA GPU
+
+# ============================================================================
+# LLM & Fine-Tuning (Layer 4 - Optional)
+# ============================================================================
+transformers>=4.35.0            # Hugging Face transformers
+accelerate>=0.25.0              # Training acceleration
+peft>=0.7.0                     # LoRA fine-tuning
+bitsandbytes>=0.41.0            # 8-bit quantization
+datasets>=2.15.0                # Dataset handling
+
+# PyTorch (choose ONE based on your system)
+torch>=2.1.0                    # CPU version
+# torch>=2.1.0+cu118            # CUDA 11.8 version (for NVIDIA GPU)
+# Install GPU version with: pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# ============================================================================
+# LLM APIs (Alternative to Fine-Tuning)
+# ============================================================================
+openai>=1.3.0                   # OpenAI GPT-4 API
+anthropic>=0.7.0                # Anthropic Claude API (alternative)
+
+# ============================================================================
+# Vector Databases (Advanced - Optional)
+# ============================================================================
+chromadb>=0.4.18                # Vector database for embeddings
+qdrant-client>=1.7.0            # Alternative vector DB
+pinecone-client>=2.2.4          # Cloud vector DB (requires account)
+
+# ============================================================================
+# Utilities
+# ============================================================================
+tqdm>=4.66.0                    # Progress bars (already in base requirements)
+numpy>=1.24.0                   # Numerical operations
+pandas>=2.1.0                   # Data manipulation
+
+# ============================================================================
+# Development & Testing
+# ============================================================================
+jupyter>=1.0.0                  # Jupyter notebooks for experimentation
+ipython>=8.17.0                 # Enhanced Python shell
+matplotlib>=3.8.0               # Visualization
+seaborn>=0.13.0                 # Statistical visualization
+
+# ============================================================================
+# Installation Instructions
+# ============================================================================
+# Full installation (CPU only):
+#   pip install -r requirements.txt
+#
+# With GPU support (NVIDIA CUDA):
+#   pip install -r requirements.txt
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+#   pip install faiss-gpu
+#
+# Minimal (RAG only, no LLM fine-tuning):
+#   pip install sentence-transformers faiss-cpu openai
+#
+# Verify installation:
+#   python -c "import sentence_transformers; print('✅ Ready!')"
+
+# ============================================================================
+# Estimated Sizes
+# ============================================================================
+# sentence-transformers: ~1.5 GB (includes models)
+# torch (CPU): ~200 MB
+# torch (GPU): ~2 GB
+# transformers: ~500 MB
+# Total (CPU): ~2.5 GB
+# Total (GPU): ~4.5 GB
